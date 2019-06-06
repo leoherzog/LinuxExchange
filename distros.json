@@ -68,11 +68,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2019.05.02",
+          "version": "2019.06.01",
           "desktop-environment": "No Desktop Environment",
           "download-page-url": "https://www.archlinux.org/download/",
-          "magnet-url": "magnet:?xt=urn:btih:f42055fd45cf195cac68f242d1177c5a5b6162d5&dn=archlinux-2019.05.02-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.05.02/archlinux-2019.05.02-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:336165b4134e3754fa6996d881a7e7b55a40eb68&dn=archlinux-2019.06.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.06.01/archlinux-2019.06.01-x86_64.iso"
         }
       ]
     },
@@ -453,6 +453,7 @@
     "udp://tracker.openbittorrent.com:80/announce",
     "udp://tracker.publicbt.com:80/announce",
     "udp://mirror.strits.dk:6969",
+    "udp://tracker.archlinux.org:6969",
     "http://tracker.archlinux.org:6969/announce",
     "http://torrent.centos.org:6969/announce",
     "http://ipv6.torrent.centos.org:6969/announce",
