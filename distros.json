@@ -324,49 +324,6 @@
       ]
     },
     {
-      "name": "Manjaro",
-      "full-name": "Manjaro",
-      "primary-color": "#34be5b",
-      "url": "https://manjaro.org/",
-      "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
-      "font-logos-icon": "fl-manjaro",
-      "recommended-version-index": 2,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "18.0",
-          "desktop-environment": "No Desktop Environment",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/",
-          "magnet-url": "magnet:?xt=urn:btih:44595faf38ae6818de60d57acafaef8d0c5d6c5e&dn=manjaro-architect-18.0-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/architect/18.0/manjaro-architect-18.0-stable-x86_64.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "18.0.3",
-          "desktop-environment": "Gnome",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/",
-          "magnet-url": "magnet:?xt=urn:btih:17693c569a0ae211bec7b89fcc27fe3a695f95a1&dn=manjaro-gnome-18.0.3-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/gnome/18.0.3/manjaro-gnome-18.0.3-stable-x86_64.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "18.0.3",
-          "desktop-environment": "KDE",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/",
-          "magnet-url": "magnet:?xt=urn:btih:31e584536528d7d874739eb0c1606d437559ba08&dn=manjaro-kde-18.0.3-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/kde/18.0.3/manjaro-kde-18.0.3-stable-x86_64.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "18.0.3",
-          "desktop-environment": "XFCE",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/",
-          "magnet-url": "magnet:?xt=urn:btih:b1202fd2d6d1f97d006ee49f63afe98bca00d02c&dn=manjaro-xfce-18.0.3-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/z_release_archive/xfce/18.0.3/manjaro-xfce-18.0.3-stable-x86_64.iso"
-        }
-      ]
-    },
-    {
       "name": "Raspbian",
       "full-name": "Raspbian",
       "primary-color": "#c51a4a",
