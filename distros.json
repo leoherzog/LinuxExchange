@@ -404,12 +404,9 @@
   ],
   "recommended-distro-index": 8,
   "trackers": [
-    "https://ashrise.com:443/phoenix/announce",
-    "udp://open.demonii.com:1337/announce",
-    "udp://tracker.ccc.de:80/announce",
-    "udp://tracker.openbittorrent.com:80/announce",
-    "udp://tracker.publicbt.com:80/announce",
-    "udp://mirror.strits.dk:6969",
+    "wss://tracker.openwebtorrent.com",
+    "wss://tracker.btorrent.xyz",
+    "wss://tracker.fastcast.nz",
     "udp://tracker.archlinux.org:6969",
     "http://tracker.archlinux.org:6969/announce",
     "http://torrent.centos.org:6969/announce",
@@ -420,8 +417,10 @@
     "http://tracker.raspberrypi.org:6969/announce",
     "http://torrent.ubuntu.com:6969/announce",
     "http://ipv6.torrent.ubuntu.com:6969/announce",
-    "wss://tracker.openwebtorrent.com",
-    "wss://tracker.btorrent.xyz",
-    "wss://tracker.fastcast.nz"
+    "https://ashrise.com:443/phoenix/announce",
+    "udp://open.demonii.com:1337/announce",
+    "udp://tracker.ccc.de:80/announce",
+    "udp://tracker.openbittorrent.com:80/announce",
+    "udp://tracker.publicbt.com:80/announce"
   ]
 }
