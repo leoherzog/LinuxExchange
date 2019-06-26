@@ -25,11 +25,6 @@
       "description": "A very lightweight and resource-friendly desktop environment",
       "url": "https://lxde.org/"
     },
-    "No Desktop Environment": {
-      "name": "No Desktop Environment",
-      "description": "This distro doesn't include a desktop environment. When you boot it up for the first time, there will only be a command prompt.",
-      "url": null
-    },
     "NOOBS": {
       "name": "New Out-of-Box Software (NOOBS)",
       "description": "A special set of software to make getting started with the Raspberry Pi easy",
@@ -54,6 +49,11 @@
       "name": "XFCE",
       "description": "A lightweight yet visually appealing desktop system",
       "url": "https://xfce.org/"
+    },
+    "No Desktop Environment": {
+      "name": "No Desktop Environment",
+      "description": "This distro doesn't include a desktop environment. When you boot it up for the first time, there will only be a command prompt.",
+      "url": null
     }
   },
   "distros": [
@@ -74,6 +74,10 @@
           "magnet-url": "magnet:?xt=urn:btih:336165b4134e3754fa6996d881a7e7b55a40eb68&dn=archlinux-2019.06.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.06.01/archlinux-2019.06.01-x86_64.iso"
         }
+      ],
+      "trackers": [
+        "udp://tracker.archlinux.org:6969",
+        "http://tracker.archlinux.org:6969/announce"
       ]
     },
     {
@@ -109,6 +113,10 @@
           "magnet-url": "magnet:?xt=urn:btih:56a5bd917f99c7a67045632c3fe7dbd544b3a4eb&dn=CentOS-7-x86_64-Minimal-1810",
           "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1810.iso"
         }
+      ],
+      "trackers": [
+        "http://torrent.centos.org:6969/announce",
+        "http://ipv6.torrent.centos.org:6969/announce"
       ]
     },
     {
@@ -216,6 +224,9 @@
           "magnet-url": "magnet:?xt=urn:btih:e064b94fa8a61c191e33a505d558902d311a476c&dn=debian-live-9.9.0-i386-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-9.9.0-i386-xfce.iso"
         }
+      ],
+      "trackers": [
+        "http://bttracker.debian.org:6969/announce"
       ]
     },
     {
@@ -235,7 +246,8 @@
           "magnet-url": "magnet:?xt=urn:btih:f5b31b1bd67bf65fe97be298ec7c473cb2e3e201&dn=elementaryos-5.0-stable.20181016.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/MTU1ODcyNzY3OQ==/elementaryos-5.0-stable.20181016.iso"
         }
-      ]
+      ],
+      "trackers": []
     },
     {
       "name": "Fedora",
@@ -262,6 +274,9 @@
           "magnet-url": "magnet:?xt=urn:btih:2ec4036708d2bbde4a526350841b950750529bbc&dn=Fedora-Workstation-Live-i386-30",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/30/Workstation/i386/iso/Fedora-Workstation-Live-i386-30-1.2.iso"
         }
+      ],
+      "trackers": [
+        "http://torrent.fedoraproject.org:6969/announce"
       ]
     },
     {
@@ -321,6 +336,9 @@
           "magnet-url": "magnet:?xt=urn:btih:f2a0aaef27c85f11ccbafd04361958305a333108&dn=linuxmint-19.1-xfce-32bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-xfce-32bit.iso"
         }
+      ],
+      "trackers": [
+        "https://torrents.linuxmint.com/announce.php"
       ]
     },
     {
@@ -356,6 +374,9 @@
           "magnet-url": "magnet:?xt=urn:btih:6b830201d4246d5847338d03a9726c81d33d59ae&dn=2019-06-20-raspbian-buster-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-06-24/2019-06-20-raspbian-buster-lite.zip"
         }
+      ],
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
       ]
     },
     {
@@ -399,6 +420,10 @@
           "magnet-url": "magnet:?xt=urn:btih:b7b0fbab74a85d4ac170662c645982a862826455&dn=ubuntu-19.04-live-server-amd64.iso",
           "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.04/ubuntu-19.04-live-server-amd64.iso"
         }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
       ]
     }
   ],
@@ -407,16 +432,6 @@
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
     "wss://tracker.fastcast.nz",
-    "udp://tracker.archlinux.org:6969",
-    "http://tracker.archlinux.org:6969/announce",
-    "http://torrent.centos.org:6969/announce",
-    "http://ipv6.torrent.centos.org:6969/announce",
-    "http://bttracker.debian.org:6969/announce",
-    "http://torrent.fedoraproject.org:6969/announce",
-    "https://torrents.linuxmint.com/announce.php",
-    "http://tracker.raspberrypi.org:6969/announce",
-    "http://torrent.ubuntu.com:6969/announce",
-    "http://ipv6.torrent.ubuntu.com:6969/announce",
     "https://ashrise.com:443/phoenix/announce",
     "udp://open.demonii.com:1337/announce",
     "udp://tracker.ccc.de:80/announce",
