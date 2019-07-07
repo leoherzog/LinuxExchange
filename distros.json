@@ -22,7 +22,7 @@
     },
     "LXDE": {
       "name": "LXDE",
-      "description": A very lightweight and resource-friendly desktop environment",
+      "description": "A very lightweight and resource-friendly desktop environment",
       "url": "https://lxde.org/"
     },
     "LXQt": {
