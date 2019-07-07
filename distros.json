@@ -22,7 +22,7 @@
     },
     "LXDE": {
       "name": "LXDE",
-      "description": A very lightweight and resource-friendly desktop environment ",
+      "description": A very lightweight and resource-friendly desktop environment",
       "url": "https://lxde.org/"
     },
     "LXQt": {
@@ -131,7 +131,7 @@
       "url": "https://debian.org/",
       "description": "An incredibly stable operating system with a vast library of software",
       "font-logos-icon": "fl-debian",
-      "recommended-version-index": 0,
+      "recommended-version-index": 2,
       "versions": [
         {
           "arch": "amd64",
