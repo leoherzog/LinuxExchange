@@ -31,6 +31,7 @@ getJSON('https://linux.exchange/distros.json', function (error, response) {
       }
       url += "&tr=" + response.trackers.join("&tr=");
       url += "&ws=https://cors.linux.exchange/" + name;
+      url += "&ws=" + response.distros[i].versions[j]["direct-download-url"];
       // console.log(url + '\n');
       // fs.appendFileSync('./magnets.txt', url + '\n');
       urls.push({ "name": name, "url": url });
