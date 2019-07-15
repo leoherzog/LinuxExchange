@@ -3,6 +3,7 @@
 const fs = require('fs');
 const Webtorrent = require('webtorrent');
 const getJSON = require('get-json');
+const rimraf = require('rimraf');
 const chalk = require('chalk');
 
 var downloader = new Webtorrent();
@@ -37,6 +38,8 @@ getJSON('https://linux.exchange/distros.json', function (error, response) {
   }
 
   console.log("Starting download of " + urls.length + " torrents...");
+
+  rimraf(dir + '/*', function () { console.log("Cleared out old torrent files"); });
 
   for (var i in urls) {
     // console.log(urls[i] + "\n");
