@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "chalk": "latest",
-    "get-json": "latest",
-    "prettier-bytes": "latest",
     "rimraf": "latest",
     "webtorrent": "latest"
   },

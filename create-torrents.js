@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const Webtorrent = require('webtorrent');
-const getJSON = require('get-json');
 const rimraf = require('rimraf');
 const chalk = require('chalk');
 
@@ -15,47 +14,44 @@ if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
 }
 
-getJSON('https://linux.exchange/distros.json', function (error, response) {
+var distros = JSON.parse(fs.readFileSync('distros.json', 'utf8'));
 
-  if (error) {
-    console.log(error.message);
-    process.exit();
-  }
+if (!distros) {
+  throw "Problem parsing distros.json";
+}
 
-  for (var i in response.distros) {
-    for (var j in response.distros[i].versions) {
-      var url = response.distros[i].versions[j]["magnet-url"];
-      var name = url.split("dn=")[1];
-      if (response.distros[i].trackers.length) {
-        url += "&tr=" + response.distros[i].trackers.join("&tr=");
-      }
-      url += "&tr=" + response.trackers.join("&tr=");
-      url += "&ws=https://cors.linux.exchange/" + name;
-      url += "&ws=" + response.distros[i].versions[j]["direct-download-url"];
-      // console.log(url + '\n');
-      // fs.appendFileSync('./magnets.txt', url + '\n');
-      urls.push({ "name": name, "url": url });
+for (var i in distros.distros) {
+  for (var j in distros.distros[i].versions) {
+    var url = distros.distros[i].versions[j]["magnet-url"];
+    var name = url.split("dn=")[1];
+    if (distros.distros[i].trackers.length) {
+      url += "&tr=" + distros.distros[i].trackers.join("&tr=");
     }
+    url += "&tr=" + distros.trackers.join("&tr=");
+    url += "&ws=https://cors.linux.exchange/" + name;
+    url += "&ws=" + distros.distros[i].versions[j]["direct-download-url"];
+    // console.log(url + '\n');
+    // fs.appendFileSync('./magnets.txt', url + '\n');
+    urls.push({ "name": name, "url": url });
   }
+}
 
-  console.log("Starting download of " + urls.length + " torrents...");
+console.log("Starting download of " + urls.length + " torrents...");
 
-  rimraf(dir + '/*', function () { console.log("Cleared out old torrent files"); });
+rimraf(dir + '/*', function () { console.log("Cleared out old torrent files"); });
 
-  for (var i in urls) {
-    // console.log(urls[i] + "\n");
-    downloader.add(urls[i].url, { "path": "/tmp" }, function (torrent) {
-      fs.writeFile(dir + "/" + torrent.dn + ".torrent", torrent.torrentFile, function (err) {
-        if (err) throw err;
-        console.log(chalk.green(torrent.dn) + " saved!");
-        torrent.destroy();
-      });
+for (var i in urls) {
+  // console.log(urls[i] + "\n");
+  downloader.add(urls[i].url, { "path": "/tmp" }, function (torrent) {
+    fs.writeFile(dir + "/" + torrent.dn + ".torrent", torrent.torrentFile, function (err) {
+      if (err) throw err;
+      console.log(chalk.green(torrent.dn) + " saved!");
+      torrent.destroy();
     });
-  }
+  });
+}
 
-  setInterval(checkProgress, 2000);
-
-});
+setInterval(checkProgress, 2000);
 
 function checkProgress() {
   if (downloader.torrents.length) {
