@@ -379,6 +379,50 @@
       ]
     },
     {
+      "name": "Manjaro",
+      "full-name": "Manjaro",
+      "primary-color": "#34be5b",
+      "url": "https://manjaro.org/",
+      "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
+      "font-logos-icon": "fl-manjaro",
+      "recommended-version-index": 1,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.0.2",
+          "desktop-environment": "No Desktop Environment",
+          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
+          "magnet-url": "magnet:?xt=urn:btih:c27454a8a0687054a4a7bc14a123fd52c5f05c1c&dn=manjaro-architect-18.0.2-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/architect/18.0.2/manjaro-architect-18.0.2-stable-x86_64.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "18.0.4",
+          "desktop-environment": "Gnome",
+          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
+          "magnet-url": "magnet:?xt=urn:btih:e22d2a9b1ba81039046843d6e38ab196d01edb2f&dn=manjaro-gnome-18.0.4-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/gnome/18.0.4/manjaro-gnome-18.0.4-stable-x86_64.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "18.0.4",
+          "desktop-environment": "KDE",
+          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
+          "magnet-url": "magnet:?xt=urn:btih:0757586ff043b1bf6011b430ee1998ddf8ed0519&dn=manjaro-kde-18.0.4-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/kde/18.0.4/manjaro-kde-18.0.4-stable-x86_64.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "18.0.4",
+          "desktop-environment": "XFCE",
+          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
+          "magnet-url": "magnet:?xt=urn:btih:d39d00c8413dc061b5c2d04454c11baac77aff41&dn=manjaro-xfce-18.0.4-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/xfce/18.0.4/manjaro-xfce-18.0.4-stable-x86_64.iso"
+        }
+      ],
+      "trackers": []
+    },
+    {
       "name": "Raspbian",
       "full-name": "Raspbian",
       "primary-color": "#c51a4a",
