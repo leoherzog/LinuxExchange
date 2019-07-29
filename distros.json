@@ -474,7 +474,7 @@
           "version": "18.04.2",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:cf7da7ab4d4e6125567bd979994f13bb1f23dddd&dn=ubuntu-18.04.2-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.2/ubuntu-18.04.2-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.2-desktop-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         },
         {
@@ -482,7 +482,7 @@
           "version": "18.04.2",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:842783e3005495d5d1637f5364b59343c7844707&dn=ubuntu-18.04.2-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.2/ubuntu-18.04.2-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.2-live-server-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         },
         {
@@ -490,7 +490,7 @@
           "version": "19.04",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d540fc48eb12f2833163eed6421d449dd8f1ce1f&dn=ubuntu-19.04-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.04/ubuntu-19.04-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/19.04/ubuntu-19.04-desktop-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         },
         {
@@ -498,7 +498,7 @@
           "version": "19.04",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:b7b0fbab74a85d4ac170662c645982a862826455&dn=ubuntu-19.04-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.04/ubuntu-19.04-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/19.04/ubuntu-19.04-live-server-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         }
       ],
