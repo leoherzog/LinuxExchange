@@ -280,7 +280,7 @@
           "version": "5.0",
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:f5b31b1bd67bf65fe97be298ec7c473cb2e3e201&dn=elementaryos-5.0-stable.20181016.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/MTU2NDQ1MTAxMw==/elementaryos-5.0-stable.20181016.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.0-stable.20181016.iso",
           "torrent-download-page-url": "https://elementary.io/"
         }
       ],
