@@ -327,50 +327,50 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:e5319a107f1c62203eeab43cd30cee83f54e41c0&dn=linuxmint-19.1-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-cinnamon-64bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:3fe9aafd0bb6a90d79a4440d634fe79b3253e6a3&dn=linuxmint-19.2-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-64bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         },
         {
           "arch": "x86",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:f29624563445e89f19ac744e85fcdab923d25070&dn=linuxmint-19.1-cinnamon-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-cinnamon-32bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:2661821bc7f3737066c032b7797de6a26d766ef5&dn=linuxmint-19.2-cinnamon-32bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-32bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         },
         {
           "arch": "amd64",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:bc53ebdad81e4331a825c19293bd7f4424dfaa2e&dn=linuxmint-19.1-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-mate-64bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:745c0167eb294bac7ad1000da296ccb8607b39b6&dn=linuxmint-19.2-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-64bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         },
         {
           "arch": "x86",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:eb6f538419e637ea9c885ff71fc546ba6ba4e8bd&dn=linuxmint-19.1-mate-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-mate-32bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:a1a253865e15503b9dca5c526c1448874b34d69c&dn=linuxmint-19.2-mate-32bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-32bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         },
         {
           "arch": "amd64",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "XFCE",
-          "magnet-url": "magnet:?xt=urn:btih:6fd29b9073459e7dbdf45ed8a21de4acb5328e72&dn=linuxmint-19.1-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-xfce-64bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:4d5aec1d1ff018bf76796933c3837d84734ade85&dn=linuxmint-19.2-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-64bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         },
         {
           "arch": "x86",
-          "version": "19.1",
+          "version": "19.2",
           "desktop-environment": "XFCE",
-          "magnet-url": "magnet:?xt=urn:btih:f2a0aaef27c85f11ccbafd04361958305a333108&dn=linuxmint-19.1-xfce-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.1/linuxmint-19.1-xfce-32bit.iso",
+          "magnet-url": "magnet:?xt=urn:btih:c8b2057bd4d6bdcbebc0a6b03c21fa4e8b44e366&dn=linuxmint-19.2-xfce-32bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-32bit.iso",
           "torrent-download-page-url": "https://torrents.linuxmint.com/"
         }
       ],
