@@ -436,7 +436,7 @@
           "version": "3.2.0",
           "desktop-environment": "NOOBS",
           "magnet-url": "magnet:?xt=urn:btih:15652c77a9ad9042ae738ec4e54f4d7b79d68f9e&dn=NOOBS_v3_2_0.zip",
-          "direct-download-url": "http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-07-12/NOOBS_v3_2_0.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-07-12/NOOBS_v3_2_0.zip",
           "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/"
         },
         {
