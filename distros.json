@@ -423,11 +423,11 @@
       "trackers": []
     },
     {
-      "name": "Raspbian",
-      "full-name": "Raspbian",
+      "name": "NOOBS",
+      "full-name": "NOOBS",
       "primary-color": "#c51a4a",
       "url": "https://raspberrypi.org/downloads/",
-      "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
+      "description": "The easiest way to get start started with Raspberry Pi software. Just drag and drop onto an SD card!",
       "font-logos-icon": "fl-raspberry-pi",
       "recommended-version-index": 0,
       "versions": [
@@ -438,7 +438,21 @@
           "magnet-url": "magnet:?xt=urn:btih:15652c77a9ad9042ae738ec4e54f4d7b79d68f9e&dn=NOOBS_v3_2_0.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-07-12/NOOBS_v3_2_0.zip",
           "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/"
-        },
+        }
+      ],
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Raspbian",
+      "full-name": "Raspbian",
+      "primary-color": "#c51a4a",
+      "url": "https://raspberrypi.org/downloads/",
+      "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
+      "font-logos-icon": "fl-raspberry-pi",
+      "recommended-version-index": 0,
+      "versions": [
         {
           "arch": "arm",
           "version": "2019-07-10",
@@ -508,7 +522,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 8,
+  "recommended-distro-index": 9,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
