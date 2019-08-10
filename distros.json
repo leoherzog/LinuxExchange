@@ -485,18 +485,18 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.2",
+          "version": "18.04.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:cf7da7ab4d4e6125567bd979994f13bb1f23dddd&dn=ubuntu-18.04.2-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.2/ubuntu-18.04.2-desktop-amd64.iso",
+          "magnet-url": "magnet:?xt=urn:btih:65145ed4d745cfc93f5ffe3492e9cde54b557d9f&dn=ubuntu-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         },
         {
           "arch": "amd64",
-          "version": "18.04.2",
+          "version": "18.04.3",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:842783e3005495d5d1637f5364b59343c7844707&dn=ubuntu-18.04.2-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.2/ubuntu-18.04.2-live-server-amd64.iso",
+          "magnet-url": "magnet:?xt=urn:btih:194257a7bf4eaea978f4b5b7fbd3b4efcdd99e43&dn=ubuntu-18.04.3-live-server-amd64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-live-server-amd64.iso",
           "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
         },
         {
