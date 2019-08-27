@@ -529,9 +529,9 @@
     "wss://tracker.fastcast.nz",
     "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
     "https://ashrise.com:443/phoenix/announce",
-    "udp://open.demonii.com:1337/announce",
-    "udp://tracker.ccc.de:80/announce",
-    "udp://tracker.openbittorrent.com:80/announce",
-    "udp://tracker.publicbt.com:80/announce"
+    "udp://open.demonii.si:1337/announce",
+    "udp://tracker.torrent.eu.org:451/announce",
+    "http://tracker.files.fm:6969/announce",
+    "udp://tracker.openbittorrent.com:80/announce"
   ]
 }
