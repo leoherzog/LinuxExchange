@@ -397,27 +397,27 @@
         },
         {
           "arch": "amd64",
-          "version": "18.0.4",
+          "version": "18.1.0",
           "desktop-environment": "Gnome",
           "download-page-url": "https://osdn.net/projects/manjaro/storage/",
-          "magnet-url": "magnet:?xt=urn:btih:e22d2a9b1ba81039046843d6e38ab196d01edb2f&dn=manjaro-gnome-18.0.4-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/gnome/18.0.4/manjaro-gnome-18.0.4-stable-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:493a69e41b62586cf4c85af818d5d32b2dd82f5f&dn=manjaro-gnome-18.1.0-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/gnome/18.1.0/manjaro-gnome-18.1.0-stable-x86_64.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.0.4",
+          "version": "18.1.0",
           "desktop-environment": "KDE",
           "download-page-url": "https://osdn.net/projects/manjaro/storage/",
-          "magnet-url": "magnet:?xt=urn:btih:0757586ff043b1bf6011b430ee1998ddf8ed0519&dn=manjaro-kde-18.0.4-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/kde/18.0.4/manjaro-kde-18.0.4-stable-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:2fc6ff9fb603691af5d500fca68d528762a73f06&dn=manjaro-kde-18.1.0-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/kde/18.1.0/manjaro-kde-18.1.0-stable-x86_64.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.0.4",
+          "version": "18.1.0",
           "desktop-environment": "XFCE",
           "download-page-url": "https://osdn.net/projects/manjaro/storage/",
-          "magnet-url": "magnet:?xt=urn:btih:d39d00c8413dc061b5c2d04454c11baac77aff41&dn=manjaro-xfce-18.0.4-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/xfce/18.0.4/manjaro-xfce-18.0.4-stable-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:8b0f453719ffda0e1675ea7596ef51a8f0e12d9e&dn=manjaro-xfce-18.1.0-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/xfce/18.1.0/manjaro-xfce-18.1.0-stable-x86_64.iso"
         }
       ],
       "trackers": []
@@ -524,6 +524,7 @@
   ],
   "recommended-distro-index": 9,
   "trackers": [
+    "udp://tracker.opentrackr.org:1337",
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
     "wss://tracker.fastcast.nz",
