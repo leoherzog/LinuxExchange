@@ -389,11 +389,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.0.2",
+          "version": "18.1.0",
           "desktop-environment": "No Desktop Environment",
           "download-page-url": "https://osdn.net/projects/manjaro/storage/",
-          "magnet-url": "magnet:?xt=urn:btih:c27454a8a0687054a4a7bc14a123fd52c5f05c1c&dn=manjaro-architect-18.0.2-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/projects/manjaro/storage/architect/18.0.2/manjaro-architect-18.0.2-stable-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:18837b86c6ee214c5e85b3aa2f49c6d6a18bbb7f&dn=manjaro-architect-18.1.0-stable-x86_64.iso",
+          "direct-download-url": "https://osdn.net/projects/manjaro/storage/architect/18.1.0/manjaro-architect-18.1.0-stable-x86_64.iso"
         },
         {
           "arch": "amd64",
