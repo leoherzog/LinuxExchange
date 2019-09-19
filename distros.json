@@ -524,10 +524,10 @@
   ],
   "recommended-distro-index": 9,
   "trackers": [
-    "udp://tracker.opentrackr.org:1337",
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
     "wss://tracker.fastcast.nz",
+    "udp://tracker.opentrackr.org:1337",
     "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
     "https://ashrise.com:443/phoenix/announce",
     "udp://open.demonii.si:1337/announce",
