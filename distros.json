@@ -123,7 +123,7 @@
           "version": "8.0.1905",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:338d4a9bf8d013d3c6b68dc456281ab64fe61e60&dn=CentOS-8-x86_64-1905-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1",
+          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso",
           "torrent-download-page-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/"
         }
       ],
