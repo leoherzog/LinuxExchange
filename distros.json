@@ -441,10 +441,10 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "3.2.0",
+          "version": "3.2.1",
           "desktop-environment": "NOOBS",
-          "magnet-url": "magnet:?xt=urn:btih:15652c77a9ad9042ae738ec4e54f4d7b79d68f9e&dn=NOOBS_v3_2_0.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-07-12/NOOBS_v3_2_0.zip",
+          "magnet-url": "magnet:?xt=urn:btih:0f816fa2bbad8358efd1ffe4abed11ee5fc7cb07&dn=NOOBS_v3_2_1.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-09-30/NOOBS_v3_2_1.zip",
           "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/"
         }
       ],
@@ -463,18 +463,18 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "2019-07-10",
+          "version": "2019-09-26",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:4c0900b52bbd1f564fdca4e2e091aef6ace3a74d&dn=2019-07-10-raspbian-buster-full.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-07-12/2019-07-10-raspbian-buster-full.zip",
+          "magnet-url": "magnet:?xt=urn:btih:ea0bf70ef78f417c9b2186502b1065e2bc958b64&dn=2019-09-26-raspbian-buster-full.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-09-30/2019-09-26-raspbian-buster-full.zip",
           "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/"
         },
         {
           "arch": "arm",
-          "version": "2019-07-10",
+          "version": "2019-09-26",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3e55efe0fc2742d3bc21c23e7787f962b1eaf040&dn=2019-07-10-raspbian-buster-lite.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-07-12/2019-07-10-raspbian-buster-lite.zip",
+          "magnet-url": "magnet:?xt=urn:btih:33539c16ef7240c53ec803282de3578a13985f8e&dn=2019-09-26-raspbian-buster-lite.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip",
           "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/"
         }
       ],
