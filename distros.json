@@ -73,10 +73,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2019.09.01",
+          "version": "2019.10.01",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:49efb5fdd274abb26c5ea6361d1d9be28e4db2d3&dn=archlinux-2019.09.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.09.01/archlinux-2019.09.01-x86_64.iso",
+          "magnet-url": "magnet:?xt=urn:btih:4ebd3250ac87a5296d7c9738b8388cb6e2b44429&dn=archlinux-2019.10.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.10.01/archlinux-2019.10.01-x86_64.iso",
           "torrent-download-page-url": "https://www.archlinux.org/download/"
         }
       ],
