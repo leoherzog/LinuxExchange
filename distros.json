@@ -399,33 +399,33 @@
           "arch": "amd64",
           "version": "18.1.0",
           "desktop-environment": "No Desktop Environment",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
           "magnet-url": "magnet:?xt=urn:btih:18837b86c6ee214c5e85b3aa2f49c6d6a18bbb7f&dn=manjaro-architect-18.1.0-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-18.1.0-stable-x86_64.iso"
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-18.1.0-stable-x86_64.iso",
+          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         },
         {
           "arch": "amd64",
           "version": "18.1.1",
           "desktop-environment": "Gnome",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
           "magnet-url": "magnet:?xt=urn:btih:de14a206c127999ad4eec3f8b5da7079059bc722&dn=manjaro-gnome-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-18.1.1-191015-linux53.iso"
+          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         },
         {
           "arch": "amd64",
           "version": "18.1.1",
           "desktop-environment": "KDE",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
           "magnet-url": "magnet:?xt=urn:btih:c1400d9ac6e6f03c768865246fb761dd5f9424bd&dn=manjaro-kde-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-18.1.1-191015-linux53.iso"
+          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         },
         {
           "arch": "amd64",
           "version": "18.1.1",
           "desktop-environment": "XFCE",
-          "download-page-url": "https://osdn.net/projects/manjaro/storage/",
           "magnet-url": "magnet:?xt=urn:btih:84f7212c1c197957b712527904ff82092d257971&dn=manjaro-xfce-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.1-191015-linux53.iso"
+          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         }
       ],
       "trackers": []
