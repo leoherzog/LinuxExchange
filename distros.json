@@ -67,6 +67,7 @@
       "full-name": "Arch Linux",
       "primary-color": "#1793d1",
       "url": "https://www.archlinux.org/",
+      "torrent-download-page-url": "https://www.archlinux.org/download/",
       "description": "A very advanced and very customizable operating system where you need to choose and install most pieces of the software yourself",
       "font-logos-icon": "fl-archlinux",
       "recommended-version-index": 0,
@@ -76,8 +77,7 @@
           "version": "2019.10.01",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:4ebd3250ac87a5296d7c9738b8388cb6e2b44429&dn=archlinux-2019.10.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.10.01/archlinux-2019.10.01-x86_64.iso",
-          "torrent-download-page-url": "https://www.archlinux.org/download/"
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.10.01/archlinux-2019.10.01-x86_64.iso"
         }
       ],
       "trackers": [
@@ -90,6 +90,7 @@
       "full-name": "CentOS",
       "primary-color": "#efa623",
       "url": "https://centos.org/",
+      "torrent-download-page-url": "http://isoredirect.centos.org/centos/",
       "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL)",
       "font-logos-icon": "fl-centos",
       "recommended-version-index": 0,
@@ -99,32 +100,28 @@
           "version": "7.7.1908",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:8672e22e7689d39d9cadfaa5878ae798de3a0187&dn=CentOS-7-x86_64-LiveGNOME-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso",
-          "torrent-download-page-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/"
+          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso"
         },
         {
           "arch": "amd64",
           "version": "7.7.1908",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:842028f260405b4fcaa04434a4d6ea54082a42fb&dn=CentOS-7-x86_64-LiveKDE-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso",
-          "torrent-download-page-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/"
+          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso"
         },
         {
           "arch": "amd64",
           "version": "7.7.1908",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:a9bc3b4ebd06faa8c44ef5173db4a18a1467b5bd&dn=CentOS-7-x86_64-Minimal-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso",
-          "torrent-download-page-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/"
+          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso"
         },
         {
           "arch": "amd64",
           "version": "8.0.1905",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:338d4a9bf8d013d3c6b68dc456281ab64fe61e60&dn=CentOS-8-x86_64-1905-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso",
-          "torrent-download-page-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/"
+          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso"
         }
       ],
       "trackers": [
@@ -137,6 +134,7 @@
       "full-name": "Debian Live",
       "primary-color": "#a80030",
       "url": "https://debian.org/",
+      "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/",
       "description": "An incredibly stable operating system with a vast library of software",
       "font-logos-icon": "fl-debian",
       "recommended-version-index": 2,
@@ -146,128 +144,112 @@
           "version": "10.1.0",
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:93a71372ed0dd85e1ef3739add758f8ba982b9b6&dn=debian-live-10.1.0-amd64-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-cinnamon.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-cinnamon.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:6ed51a4bab3265bb136715f9ebc68b82d984662c&dn=debian-live-10.1.0-i386-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-cinnamon.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-cinnamon.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:a1c3ed8571f7dae9ea853a23cdef5723f74ccd11&dn=debian-live-10.1.0-amd64-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-gnome.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-gnome.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:4812def6a81d9ec90da640b50575b5b22c3cec82&dn=debian-live-10.1.0-i386-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-gnome.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-gnome.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:99c6a30010f4f33d09183735439fdbaf33cb20b1&dn=debian-live-10.1.0-amd64-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-kde.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-kde.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:582b374b9b6c9f087839de0b6a7fed4f9fae0e08&dn=debian-live-10.1.0-i386-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-kde.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-kde.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:4c671ee123ef919fc19840eeb6f7baddaf5c349d&dn=debian-live-10.1.0-amd64-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxde.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxde.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:dbe1797585e3ec26101b707d1c71b3080a934539&dn=debian-live-10.1.0-i386-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxde.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxde.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:96b3bbba37e8ab9b171bfb0bfa5294926161f474&dn=debian-live-10.1.0-amd64-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxqt.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxqt.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:076925d77837721903565861facff9fcc059c86a&dn=debian-live-10.1.0-i386-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxqt.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxqt.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:9495501813164f08bfe6c204f617393a08f7c4e9&dn=debian-live-10.1.0-amd64-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-mate.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-mate.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:4f4a44720c472203bf2eb3b5610600104602c6bf&dn=debian-live-10.1.0-i386-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-mate.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-mate.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:36139e34332ca8f223b24952bab9e54fe9d4ea3d&dn=debian-live-10.1.0-amd64-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-standard.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-standard.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:f13414b51aad8ecbc253126199b5a9b20d6e69f3&dn=debian-live-10.1.0-i386-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-standard.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-standard.iso"
         },
         {
           "arch": "amd64",
           "version": "10.1.0",
           "desktop-environment": "XFCE",
           "magnet-url": "magnet:?xt=urn:btih:147d445918e4352ff0e4c2e1ccc216e02893f47e&dn=debian-live-10.1.0-amd64-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-xfce.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-xfce.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
           "desktop-environment": "XFCE",
           "magnet-url": "magnet:?xt=urn:btih:efc77887baf15e75b7a41b210691809d6a86aeda&dn=debian-live-10.1.0-i386-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-xfce.iso",
-          "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/"
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-xfce.iso"
         }
       ],
       "trackers": [
@@ -279,6 +261,7 @@
       "full-name": "Elementary OS",
       "primary-color": "#3689e6",
       "url": "https://elementary.io/",
+      "torrent-download-page-url": "https://elementary.io/",
       "description": "A very polished and slick distro, with a layout that vaguely resembles macOS",
       "font-logos-icon": "fl-elementary",
       "recommended-version-index": 0,
@@ -288,8 +271,7 @@
           "version": "5.0",
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:f5b31b1bd67bf65fe97be298ec7c473cb2e3e201&dn=elementaryos-5.0-stable.20181016.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.0-stable.20181016.iso",
-          "torrent-download-page-url": "https://elementary.io/"
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.0-stable.20181016.iso"
         }
       ],
       "trackers": []
@@ -299,6 +281,7 @@
       "full-name": "Fedora Workstation",
       "primary-color": "#3c6eb4",
       "url": "https://getfedora.org/",
+      "torrent-download-page-url": "https://torrent.fedoraproject.org/",
       "description": "A popular and frequently-updated distro used by Red Hat as a testing ground for their enterprise Linux product, Red Hat Enterprise Linux (RHEL)",
       "font-logos-icon": "fl-fedora",
       "recommended-version-index": 0,
@@ -308,17 +291,14 @@
           "version": "30",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:aec2e48d6ece459f8358aad4889dc83046746b0b&dn=Fedora-Workstation-Live-x86_64-30",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-30-1.2.iso",
-          "torrent-download-page-url": "https://torrent.fedoraproject.org/"
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-30-1.2.iso"
         },
         {
           "arch": "x86",
           "version": "30",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2ec4036708d2bbde4a526350841b950750529bbc&dn=Fedora-Workstation-Live-i386-30",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/30/Workstation/i386/iso/Fedora-Workstation-Live-i386-30-1.2.iso",
-          "torrent-download-page-url": "https://torrent.fedoraproject.org/"
-        }
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/30/Workstation/i386/iso/Fedora-Workstation-Live-i386-30-1.2.iso"        }
       ],
       "trackers": [
         "http://torrent.fedoraproject.org:6969/announce"
@@ -329,6 +309,7 @@
       "full-name": "Linux Mint",
       "primary-color": "#87cf3e",
       "url": "https://linuxmint.com/",
+      "torrent-download-page-url": "https://torrents.linuxmint.com/",
       "description": "A relative newcomer, focused on ease of use and comfort for someone who is new to Linux",
       "font-logos-icon": "fl-linuxmint",
       "recommended-version-index": 0,
@@ -338,48 +319,42 @@
           "version": "19.2",
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:3fe9aafd0bb6a90d79a4440d634fe79b3253e6a3&dn=linuxmint-19.2-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-64bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-64bit.iso"
         },
         {
           "arch": "x86",
           "version": "19.2",
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:2661821bc7f3737066c032b7797de6a26d766ef5&dn=linuxmint-19.2-cinnamon-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-32bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-cinnamon-32bit.iso"
         },
         {
           "arch": "amd64",
           "version": "19.2",
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:745c0167eb294bac7ad1000da296ccb8607b39b6&dn=linuxmint-19.2-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-64bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-64bit.iso"
         },
         {
           "arch": "x86",
           "version": "19.2",
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:a1a253865e15503b9dca5c526c1448874b34d69c&dn=linuxmint-19.2-mate-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-32bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-mate-32bit.iso"
         },
         {
           "arch": "amd64",
           "version": "19.2",
           "desktop-environment": "XFCE",
           "magnet-url": "magnet:?xt=urn:btih:4d5aec1d1ff018bf76796933c3837d84734ade85&dn=linuxmint-19.2-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-64bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-64bit.iso"
         },
         {
           "arch": "x86",
           "version": "19.2",
           "desktop-environment": "XFCE",
           "magnet-url": "magnet:?xt=urn:btih:c8b2057bd4d6bdcbebc0a6b03c21fa4e8b44e366&dn=linuxmint-19.2-xfce-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-32bit.iso",
-          "torrent-download-page-url": "https://torrents.linuxmint.com/"
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-32bit.iso"
         }
       ],
       "trackers": [
@@ -391,6 +366,7 @@
       "full-name": "Manjaro",
       "primary-color": "#34be5b",
       "url": "https://manjaro.org/",
+      "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/",
       "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
       "font-logos-icon": "fl-manjaro",
       "recommended-version-index": 1,
@@ -400,8 +376,7 @@
           "version": "18.1.0",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:18837b86c6ee214c5e85b3aa2f49c6d6a18bbb7f&dn=manjaro-architect-18.1.0-stable-x86_64.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-18.1.0-stable-x86_64.iso",
-          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-18.1.0-stable-x86_64.iso"
         },
         {
           "arch": "amd64",
@@ -409,7 +384,6 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:de14a206c127999ad4eec3f8b5da7079059bc722&dn=manjaro-gnome-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-18.1.1-191015-linux53.iso"
-          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         },
         {
           "arch": "amd64",
@@ -417,7 +391,6 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:c1400d9ac6e6f03c768865246fb761dd5f9424bd&dn=manjaro-kde-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-18.1.1-191015-linux53.iso"
-          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         },
         {
           "arch": "amd64",
@@ -425,7 +398,6 @@
           "desktop-environment": "XFCE",
           "magnet-url": "magnet:?xt=urn:btih:84f7212c1c197957b712527904ff82092d257971&dn=manjaro-xfce-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.1-191015-linux53.iso"
-          "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/"
         }
       ],
       "trackers": []
@@ -435,6 +407,7 @@
       "full-name": "NOOBS",
       "primary-color": "#c51a4a",
       "url": "https://raspberrypi.org/downloads/",
+      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/",
       "description": "The easiest way to get start started with Raspberry Pi software. Just drag and drop onto an SD card!",
       "font-logos-icon": "fl-raspberry-pi",
       "recommended-version-index": 0,
@@ -444,8 +417,7 @@
           "version": "3.2.1",
           "desktop-environment": "NOOBS",
           "magnet-url": "magnet:?xt=urn:btih:0f816fa2bbad8358efd1ffe4abed11ee5fc7cb07&dn=NOOBS_v3_2_1.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-09-30/NOOBS_v3_2_1.zip",
-          "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/"
+          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-09-30/NOOBS_v3_2_1.zip"
         }
       ],
       "trackers": [
@@ -457,6 +429,7 @@
       "full-name": "Raspbian",
       "primary-color": "#c51a4a",
       "url": "https://raspberrypi.org/downloads/",
+      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/",
       "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
       "font-logos-icon": "fl-raspberry-pi",
       "recommended-version-index": 0,
@@ -466,16 +439,14 @@
           "version": "2019-09-26",
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:ea0bf70ef78f417c9b2186502b1065e2bc958b64&dn=2019-09-26-raspbian-buster-full.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-09-30/2019-09-26-raspbian-buster-full.zip",
-          "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/"
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-09-30/2019-09-26-raspbian-buster-full.zip"
         },
         {
           "arch": "arm",
           "version": "2019-09-26",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:33539c16ef7240c53ec803282de3578a13985f8e&dn=2019-09-26-raspbian-buster-lite.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip",
-          "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/"
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip"
         }
       ],
       "trackers": [
@@ -487,6 +458,7 @@
       "full-name": "Ubuntu",
       "primary-color": "#e95420",
       "url": "https://ubuntu.com/",
+      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
       "recommended-version-index": 0,
@@ -496,32 +468,28 @@
           "version": "18.04.3",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:65145ed4d745cfc93f5ffe3492e9cde54b557d9f&dn=ubuntu-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso",
-          "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso"
         },
         {
           "arch": "amd64",
           "version": "18.04.3",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:194257a7bf4eaea978f4b5b7fbd3b4efcdd99e43&dn=ubuntu-18.04.3-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-live-server-amd64.iso",
-          "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-live-server-amd64.iso"
         },
         {
           "arch": "amd64",
           "version": "19.10",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:e2467cbf021192c241367b892230dc1e05c0580e&dn=ubuntu-19.10-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-desktop-amd64.iso",
-          "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-desktop-amd64.iso"
         },
         {
           "arch": "amd64",
           "version": "19.10",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:bc5aed8098d18556ed4fa7b6b96558e4f557af4d&dn=ubuntu-19.10-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-live-server-amd64.iso",
-          "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent"
+          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-live-server-amd64.iso"
         }
       ],
       "trackers": [
