@@ -5,6 +5,11 @@
     "arm": "An alternative to desktop processors commonly found in mobile devices and single-board computers like the Raspberry Pi"
   },
   "desktop-environments": {
+    "Budgie": {
+      "name": "Budgie",
+      "description": "A simple and elegant desktop environment based on Gnome, created by the Solus project",
+      "url": "https://solus-project.com/"
+    },
     "Cinnamon": {
       "name": "Cinnamon",
       "description": "A modern and innovative take on the traditional desktop layout",
@@ -50,8 +55,8 @@
       "description": "A classic and flexible take on the traditional Linux desktop",
       "url": "https://mate-desktop.org/"
     },
-    "XFCE": {
-      "name": "XFCE",
+    "Xfce": {
+      "name": "Xfce",
       "description": "A lightweight yet visually appealing desktop system",
       "url": "https://xfce.org/"
     },
@@ -240,14 +245,14 @@
         {
           "arch": "amd64",
           "version": "10.1.0",
-          "desktop-environment": "XFCE",
+          "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:147d445918e4352ff0e4c2e1ccc216e02893f47e&dn=debian-live-10.1.0-amd64-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-xfce.iso"
         },
         {
           "arch": "x86",
           "version": "10.1.0",
-          "desktop-environment": "XFCE",
+          "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:efc77887baf15e75b7a41b210691809d6a86aeda&dn=debian-live-10.1.0-i386-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-xfce.iso"
         }
@@ -305,6 +310,43 @@
       ]
     },
     {
+      "name": "Kubuntu",
+      "full-name": "Kubuntu",
+      "primary-color": "#0079c1",
+      "url": "https://kubuntu.org/",
+      "torrent-download-page-url": "https://kubuntu.org/alternative-downloads",
+      "description": "A flavor of Ubuntu that offers the KDE Plasma Workspace experience, a good-looking system for home and office use.",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.04.3",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:65145ed4d745cfc93f5ffe3492e9cde54b557d9f&dn=ubuntu-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.3-desktop-amd64.iso"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.3",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:5cec2696cb80bfecda1034fdc8e922b8a0be463f&dn=kubuntu-18.04.3-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.3-desktop-i386.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "19.10",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:5b6a484a018beed4d01f2f57e6d029a4190a9d04&dn=kubuntu-19.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/19.10/release/kubuntu-19.10-desktop-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
+      ]
+    },
+    {
       "name": "Linux Mint",
       "full-name": "Linux Mint",
       "primary-color": "#87cf3e",
@@ -345,20 +387,57 @@
         {
           "arch": "amd64",
           "version": "19.2",
-          "desktop-environment": "XFCE",
+          "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:4d5aec1d1ff018bf76796933c3837d84734ade85&dn=linuxmint-19.2-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-64bit.iso"
         },
         {
           "arch": "x86",
           "version": "19.2",
-          "desktop-environment": "XFCE",
+          "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:c8b2057bd4d6bdcbebc0a6b03c21fa4e8b44e366&dn=linuxmint-19.2-xfce-32bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.2/linuxmint-19.2-xfce-32bit.iso"
         }
       ],
       "trackers": [
         "https://torrents.linuxmint.com/announce.php"
+      ]
+    },
+    {
+      "name": "Lubuntu",
+      "full-name": "Lubuntu",
+      "primary-color": "#1e73be",
+      "url": "https://lubuntu.me/",
+      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
+      "description": "A light, fast, and modern Ubuntu flavor using LXQt as its default desktop environment",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.04.3",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:f8557ffe4f57aa38eb158010ac7a7fcd588a85a5&dn=lubuntu-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.3-desktop-amd64.iso"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.3",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:709445b3be3225a984e5364fa85ce6ddaf4e2991&dn=lubuntu-18.04.3-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.3-desktop-i386.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "19.10",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:28f0bb34b542af1609641fcf4188afed73a03f64&dn=lubuntu-19.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/19.10/release/lubuntu-19.10-desktop-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
       ]
     },
     {
@@ -395,7 +474,7 @@
         {
           "arch": "amd64",
           "version": "18.1.1",
-          "desktop-environment": "XFCE",
+          "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:84f7212c1c197957b712527904ff82092d257971&dn=manjaro-xfce-18.1.1-191015-linux53.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.1-191015-linux53.iso"
         }
@@ -537,9 +616,120 @@
         "http://torrent.ubuntu.com:6969/announce",
         "http://ipv6.torrent.ubuntu.com:6969/announce"
       ]
+    },
+    {
+      "name": "Ubuntu Budgie",
+      "full-name": "Ubuntu Budgie",
+      "primary-color": "#1e73be",
+      "url": "https://lubuntu.me/",
+      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
+      "description": "A flavor of Ubuntu that provides the Budgie desktop environment, which focuses on simplicity and elegance",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.04.3",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:8689366ad30813097337bdb1dd8d5d05f8332312&dn=ubuntu-budgie-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04.3/release/ubuntu-budgie-18.04.3-desktop-amd64.iso"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.3",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:73d5957b7f3a5f6afcd486780f96593ba48eae26&dn=ubuntu-budgie-18.04.3-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04.3/release/ubuntu-budgie-18.04.3-desktop-i386.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "19.10",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:2944c65c5597a27efe0dfc0e7461ab364111f46e&dn=ubuntu-budgie-19.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/19.10/release/ubuntu-budgie-19.10-desktop-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
+      ]
+    },
+    {
+      "name": "Ubuntu MATE",
+      "full-name": "Ubuntu MATE",
+      "primary-color": "#87a556",
+      "url": "https://ubuntu-mate.org/",
+      "torrent-download-page-url": "https://ubuntu-mate.org/download/",
+      "description": "A flavor of Ubuntu that expresses the simplicity of a classic desktop environment",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.04.3",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:fde90bc54dc43150e4b34d0003732a47b4cf54f3&dn=ubuntu-mate-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.3-desktop-amd64.iso"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.3",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:0c950f6204c543e6c82af40524ba0f521c48efd0&dn=ubuntu-mate-18.04.3-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.3-desktop-i386.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "19.10",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
+      ]
+    },
+    {
+      "name": "Xubuntu",
+      "full-name": "Xubuntu",
+      "primary-color": "#7cb8f7",
+      "url": "https://xubuntu.org/",
+      "torrent-download-page-url": "https://xubuntu.org/download",
+      "description": "A flavor of Ubuntu that comes with Xfce, which is a stable, light and configurable desktop environment",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "18.04.3",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:6b1fdc1d893f79ab1bdc8099e811c006df21eceb&dn=xubuntu-18.04.3-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.3-desktop-amd64.iso"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.3",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:63d087aca9f73687ddd769031988aabb0b434ab4&dn=xubuntu-18.04.3-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.3-desktop-i386.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "19.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3d0fd29a6da0d7bdb6c7fb55cd812265f31a7705&dn=xubuntu-19.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/xubuntu-19.10-desktop-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrent.ubuntu.com:6969/announce",
+        "http://ipv6.torrent.ubuntu.com:6969/announce"
+      ]
     }
   ],
-  "recommended-distro-index": 10,
+  "recommended-distro-index": 12,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
