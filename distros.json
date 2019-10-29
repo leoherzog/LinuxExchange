@@ -293,17 +293,18 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "30",
+          "version": "31",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:aec2e48d6ece459f8358aad4889dc83046746b0b&dn=Fedora-Workstation-Live-x86_64-30",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-30-1.2.iso"
+          "magnet-url": "magnet:?xt=urn:btih:bd2d1a1e1fba6377c0b58aa473b3c86db264a2cd&dn=Fedora-Workstation-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-31-1.9.iso"
         },
         {
-          "arch": "x86",
-          "version": "30",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:2ec4036708d2bbde4a526350841b950750529bbc&dn=Fedora-Workstation-Live-i386-30",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/30/Workstation/i386/iso/Fedora-Workstation-Live-i386-30-1.2.iso"        }
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:85c9ef0f17c3f8cc8c80acde31058c93c9ba8062&dn=Fedora-Server-dvd-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-dvd-x86_64-31-1.9.iso"
+        }
       ],
       "trackers": [
         "http://torrent.fedoraproject.org:6969/announce"
