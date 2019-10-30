@@ -55,6 +55,11 @@
       "description": "A classic and flexible take on the traditional Linux desktop",
       "url": "https://mate-desktop.org/"
     },
+    "Sugar": {
+      "name": "Sugar on a Stick",
+      "description": "A desktop activity platform aimed at education",
+      "url": "https://sugarlabs.org/"
+    },
     "Xfce": {
       "name": "Xfce",
       "description": "A lightweight yet visually appealing desktop system",
@@ -304,6 +309,55 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:85c9ef0f17c3f8cc8c80acde31058c93c9ba8062&dn=Fedora-Server-dvd-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-dvd-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:62767cda0d60527ec13cb5110a705d4dc4418b40&dn=Fedora-KDE-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3c69ac391eec1575e3d973c8b1a043604bea8fca&dn=Fedora-Xfce-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:2aaea7c87dcbac75e7ea1bdb85858c98d671217b&dn=Fedora-LXQt-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:d3b501e36612e91f3c3474453eca7a8360169d6d&dn=Fedora-MATE_Compiz-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "Cinnamon",
+          "magnet-url": "magnet:?xt=urn:btih:1d18b9df0e5d6961ece1fcdc486c5bf2dccd56a1&dn=Fedora-Cinnamon-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "LXDE",
+          "magnet-url": "magnet:?xt=urn:btih:2ffe27fe3d631016629ba3099478ead5ebfd6092&dn=Fedora-LXDE-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-31-1.9.iso"
+        },
+        {
+          "arch": "amd64",
+          "version": "31",
+          "desktop-environment": "Sugar",
+          "magnet-url": "magnet:?xt=urn:btih:94f8bbbf42c075f1be07002930e0b14a24db5df4&dn=Fedora-SoaS-Live-x86_64-31",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-31-1.9.iso"
         }
       ],
       "trackers": [
