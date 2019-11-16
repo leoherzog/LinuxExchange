@@ -151,115 +151,115 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:93a71372ed0dd85e1ef3739add758f8ba982b9b6&dn=debian-live-10.1.0-amd64-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-cinnamon.iso"
+          "magnet-url": "magnet:?xt=urn:btih:24ecc910e7070b293a7bb40fa55e7d16855f4086&dn=debian-live-10.2.0-amd64-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-cinnamon.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:6ed51a4bab3265bb136715f9ebc68b82d984662c&dn=debian-live-10.1.0-i386-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-cinnamon.iso"
+          "magnet-url": "magnet:?xt=urn:btih:b6e07e8e625f64a30137c5589da606c82ed14cff&dn=debian-live-10.2.0-i386-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-cinnamon.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:a1c3ed8571f7dae9ea853a23cdef5723f74ccd11&dn=debian-live-10.1.0-amd64-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-gnome.iso"
+          "magnet-url": "magnet:?xt=urn:btih:cba526fe9aed061758fc445db3a84c03f93bd886&dn=debian-live-10.2.0-amd64-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-gnome.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:4812def6a81d9ec90da640b50575b5b22c3cec82&dn=debian-live-10.1.0-i386-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-gnome.iso"
+          "magnet-url": "magnet:?xt=urn:btih:bcd205adbb16c729ad6593396d8d41fdbd6e454d&dn=debian-live-10.2.0-i386-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-gnome.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:99c6a30010f4f33d09183735439fdbaf33cb20b1&dn=debian-live-10.1.0-amd64-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-kde.iso"
+          "magnet-url": "magnet:?xt=urn:btih:df942b278e5d6c67b0e9c84924d2540b52fc578f&dn=debian-live-10.2.0-amd64-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-kde.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:582b374b9b6c9f087839de0b6a7fed4f9fae0e08&dn=debian-live-10.1.0-i386-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-kde.iso"
+          "magnet-url": "magnet:?xt=urn:btih:fde1917c8a9f69abcfbfbadf804589831f7c40b8&dn=debian-live-10.2.0-i386-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-kde.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:4c671ee123ef919fc19840eeb6f7baddaf5c349d&dn=debian-live-10.1.0-amd64-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxde.iso"
+          "magnet-url": "magnet:?xt=urn:btih:2b74bd269ec0b571ce6b1fc66539d22406cf19f6&dn=debian-live-10.2.0-amd64-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-lxde.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:dbe1797585e3ec26101b707d1c71b3080a934539&dn=debian-live-10.1.0-i386-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxde.iso"
+          "magnet-url": "magnet:?xt=urn:btih:9854444383adab37fc9916aa5231fb6ecd2613b9&dn=debian-live-10.2.0-i386-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-lxde.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:96b3bbba37e8ab9b171bfb0bfa5294926161f474&dn=debian-live-10.1.0-amd64-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-lxqt.iso"
+          "magnet-url": "magnet:?xt=urn:btih:ed259a4c6e79e2dd161fa3d89f4da641855ab640&dn=debian-live-10.2.0-amd64-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-lxqt.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:076925d77837721903565861facff9fcc059c86a&dn=debian-live-10.1.0-i386-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-lxqt.iso"
+          "magnet-url": "magnet:?xt=urn:btih:56da8dec6711046d6435e416dfe10d9bbe61213b&dn=debian-live-10.2.0-i386-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-lxqt.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:9495501813164f08bfe6c204f617393a08f7c4e9&dn=debian-live-10.1.0-amd64-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-mate.iso"
+          "magnet-url": "magnet:?xt=urn:btih:8bfc54b912b3907581ab1b6f27aef1ad6ee8b35f&dn=debian-live-10.2.0-amd64-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-mate.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:4f4a44720c472203bf2eb3b5610600104602c6bf&dn=debian-live-10.1.0-i386-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-mate.iso"
+          "magnet-url": "magnet:?xt=urn:btih:a5eba739145a73a6ac08477c8bfb84b21f1c193a&dn=debian-live-10.2.0-i386-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-mate.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:36139e34332ca8f223b24952bab9e54fe9d4ea3d&dn=debian-live-10.1.0-amd64-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-standard.iso"
+          "magnet-url": "magnet:?xt=urn:btih:63b08ba72e958d72561d9ce14684e4877d886a81&dn=debian-live-10.2.0-amd64-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-standard.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:f13414b51aad8ecbc253126199b5a9b20d6e69f3&dn=debian-live-10.1.0-i386-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-standard.iso"
+          "magnet-url": "magnet:?xt=urn:btih:ce8ee8f9d5d321a60d2ffab001d56f45b460a458&dn=debian-live-10.2.0-i386-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-standard.iso"
         },
         {
           "arch": "amd64",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:147d445918e4352ff0e4c2e1ccc216e02893f47e&dn=debian-live-10.1.0-amd64-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.1.0-amd64-xfce.iso"
+          "magnet-url": "magnet:?xt=urn:btih:8ec276f14fa643b46fc78d39032098b8f63655ea&dn=debian-live-10.2.0-amd64-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.2.0-amd64-xfce.iso"
         },
         {
           "arch": "x86",
-          "version": "10.1.0",
+          "version": "10.2.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:efc77887baf15e75b7a41b210691809d6a86aeda&dn=debian-live-10.1.0-i386-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.1.0-i386-xfce.iso"
+          "magnet-url": "magnet:?xt=urn:btih:c41f6102efa1e2eacbd3f1e26f7737ad7e6b3ae9&dn=debian-live-10.2.0-i386-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.2.0-i386-xfce.iso"
         }
       ],
       "trackers": [
