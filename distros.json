@@ -514,24 +514,24 @@
         },
         {
           "arch": "amd64",
-          "version": "18.1.1",
+          "version": "18.1.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:de14a206c127999ad4eec3f8b5da7079059bc722&dn=manjaro-gnome-18.1.1-191015-linux53.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-18.1.1-191015-linux53.iso"
+          "magnet-url": "magnet:?xt=urn:btih:f08c0f0ad600df7f277645ad5ae63a07f8d56e07&dn=manjaro-gnome-18.1.3-191114-linux53.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-18.1.3-191114-linux53.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.1.1",
+          "version": "18.1.3",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:c1400d9ac6e6f03c768865246fb761dd5f9424bd&dn=manjaro-kde-18.1.1-191015-linux53.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-18.1.1-191015-linux53.iso"
+          "magnet-url": "magnet:?xt=urn:btih:66de804fcd37e446d93573bf3652c5fc6c23009a&dn=manjaro-kde-18.1.3-191114-linux53.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-18.1.3-191114-linux53.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.1.1",
+          "version": "18.1.3",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:84f7212c1c197957b712527904ff82092d257971&dn=manjaro-xfce-18.1.1-191015-linux53.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.1-191015-linux53.iso"
+          "magnet-url": "magnet:?xt=urn:btih:c53084991ffb1c84ab85c2ecf13e52b2a0d863c4&dn=manjaro-xfce-18.1.3-191114-linux53.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.3-191114-linux53.iso"
         }
       ],
       "trackers": []
