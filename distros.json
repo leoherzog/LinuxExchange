@@ -77,17 +77,17 @@
       "full-name": "Arch Linux",
       "primary-color": "#1793d1",
       "url": "https://www.archlinux.org/",
-      "torrent-download-page-url": "https://www.archlinux.org/download/",
+      "torrent-download-page-url": "https://www.archlinux.org/releng/releases/",
       "description": "A very advanced and very customizable operating system where you need to choose and install most pieces of the software yourself",
       "font-logos-icon": "fl-archlinux",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "2019.11.01",
+          "version": "2019.12.01",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:7c312dd630e216b10e87c82a9624e38eac4bac4b&dn=archlinux-2019.11.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.11.01/archlinux-2019.11.01-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:dee86a7fa6f286a9d74c362014616a0ff5e4843d&dn=archlinux-2019.12.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2019.12.01/archlinux-2019.12.01-x86_64.iso"
         }
       ],
       "trackers": [
