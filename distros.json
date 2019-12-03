@@ -278,10 +278,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "5.0",
+          "version": "5.1",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:f5b31b1bd67bf65fe97be298ec7c473cb2e3e201&dn=elementaryos-5.0-stable.20181016.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.0-stable.20181016.iso"
+          "magnet-url": "magnet:?xt=urn:btih:5b1599770c9f8c796ec8bbe096b8be545510e2c9&dn=elementaryos-5.1-stable.20191202.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20191202.iso"
         }
       ],
       "trackers": []
@@ -792,7 +792,9 @@
     "udp://tracker.opentrackr.org:1337/announce",
     "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
     "https://ashrise.com:443/phoenix/announce",
-    "udp://open.demonii.si:1337/announce",
+    "udp://tracker.ccc.de:80/announce",
+    "udp://open.demonii.com:1337/announce",
+    "udp://tracker.publicbt.com:80/announce",
     "udp://tracker.torrent.eu.org:451/announce",
     "http://tracker.files.fm:6969/announce",
     "udp://tracker.openbittorrent.com:80/announce"
