@@ -272,7 +272,7 @@
       "primary-color": "#3689e6",
       "url": "https://elementary.io/",
       "torrent-download-page-url": "https://elementary.io/",
-      "description": "A very polished and slick distro, with a layout that vaguely resembles macOS",
+      "description": "A very polished and cohesive distro, with a layout that vaguely resembles macOS",
       "font-logos-icon": "fl-elementary",
       "recommended-version-index": 0,
       "versions": [
@@ -285,6 +285,28 @@
         }
       ],
       "trackers": []
+    },
+    {
+      "name": "Endless",
+      "full-name": "Endless OS",
+      "primary-color": "#f26522",
+      "url": "https://endlessos.com/",
+      "torrent-download-page-url": "https://support.endlessm.com/hc/en-us/articles/209063006-Where-can-I-download-the-Endless-OS-ISO-image-files-directly-",
+      "description": "A Debian-based system with a read-only root filesystem and Flatpak-based application distribution",
+      "font-logos-icon": "",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "3.7.6",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:9129349809a807ad4f9288b7d8d2f52beb7802f4&dn=eos-eos3.7-amd64-amd64.200106-220857.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.7.6/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.200106-220857.base.iso"
+        }
+      ],
+      "trackers": [
+        "http://torrents.endlessm.com:6969/announce"
+      ]
     },
     {
       "name": "Fedora",
@@ -784,7 +806,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 12,
+  "recommended-distro-index": 13,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
