@@ -107,31 +107,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "7.7.1908",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:8672e22e7689d39d9cadfaa5878ae798de3a0187&dn=CentOS-7-x86_64-LiveGNOME-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "7.7.1908",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:842028f260405b4fcaa04434a4d6ea54082a42fb&dn=CentOS-7-x86_64-LiveKDE-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "7.7.1908",
+          "version": "8.1.1911",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:a9bc3b4ebd06faa8c44ef5173db4a18a1467b5bd&dn=CentOS-7-x86_64-Minimal-1908",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "8.0.1905",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:338d4a9bf8d013d3c6b68dc456281ab64fe61e60&dn=CentOS-8-x86_64-1905-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso"
+          "magnet-url": "magnet:?xt=urn:btih:9db46a612d04763aa7db02a0ff63ede2ea555867&dn=CentOS-8.1.1911-x86_64-dvd1",
+          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso"
         }
       ],
       "trackers": [
