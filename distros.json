@@ -560,47 +560,6 @@
       ]
     },
     {
-      "name": "Pop!_OS",
-      "full-name": "Pop!_OS",
-      "primary-color": "#635b56",
-      "url": "https://system76.com/pop",
-      "torrent-download-page-url": "",
-      "description": "An elegant Ubuntu-based Distro created by System76 to be beautiful and secure.",
-      "font-logos-icon": "",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "18.04 Intel/AMD",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:22f75770a7c9ba62419e1812685326c3c6234e4d&dn=pop-os_18.04_amd64_intel_56.iso",
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/18.04/amd64/intel/56/pop-os_18.04_amd64_intel_56.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "18.04 Nvidia",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:c543946f8a699ae0ce07ecf1626f3f235df8d425&dn=pop-os_18.04_amd64_nvidia_56.iso",
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/18.04/amd64/nvidia/56/pop-os_18.04_amd64_nvidia_56.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10 Intel/AMD",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:5c44f41e13ee7e7df3e56d0db6c39a69a7f4aa7a&dn=pop-os_19.10_amd64_intel_8.iso",
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/19.10/amd64/intel/8/pop-os_19.10_amd64_intel_8.iso"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10 Nvidia",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:aa62455ace034307c446a5f0740000f6d5308ad5&dn=pop-os_19.10_amd64_nvidia_8.iso",
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/19.10/amd64/nvidia/8/pop-os_19.10_amd64_nvidia_8.iso"
-        }
-      ],
-      "trackers": []
-    },
-    {
       "name": "Raspbian",
       "full-name": "Raspbian",
       "primary-color": "#c51a4a",
@@ -785,7 +744,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 13,
+  "recommended-distro-index": 12,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
