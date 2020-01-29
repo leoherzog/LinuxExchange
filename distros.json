@@ -366,6 +366,29 @@
       ]
     },
     {
+      "name": "Kali",
+      "full-name": "Kali Linux",
+      "primary-color": "#527d97",
+      "url": "https://kali.org/",
+      "torrent-download-page-url": "https://kali.org/downloads/",
+      "description": "A Debian-based distribution with a collection of security and forensics tools",
+      "font-logos-icon": "",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "2020.1",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:5112e6ce31a3a98f84988c76ed6c690595fb24b0&dn=kali-linux-2020-1-live-amd64-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2020.1/kali-linux-2020.1-live-amd64.iso"
+        }
+      ],
+      "trackers": [
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
+      ]
+    },
+    {
       "name": "Kubuntu",
       "full-name": "Kubuntu",
       "primary-color": "#0079c1",
@@ -744,7 +767,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 12,
+  "recommended-distro-index": 13,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
