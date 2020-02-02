@@ -84,10 +84,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2020.01.01",
+          "version": "2020.02.01",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3f70b98c6162c02924194447e1f23e749edf7a1f&dn=archlinux-2020.01.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.01.01/archlinux-2020.01.01-x86_64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:661b2365e2226122339cf73197ea0a1d5a8ed392&dn=archlinux-2020.02.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.02.01/archlinux-2020.02.01-x86_64.iso"
         }
       ],
       "trackers": [
