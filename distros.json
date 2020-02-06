@@ -257,10 +257,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "5.1",
+          "version": "5.1.2",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:5b1599770c9f8c796ec8bbe096b8be545510e2c9&dn=elementaryos-5.1-stable.20191202.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20191202.iso"
+          "magnet-url": "magnet:?xt=urn:btih:50aa76ebbe8396e4afe93c2d8aede35faf5b1a51&dn=elementaryos-5.1-stable.20200204.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200204.iso"
         }
       ],
       "trackers": []
