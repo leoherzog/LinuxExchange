@@ -572,10 +572,10 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "3.2.1",
+          "version": "3.3.1",
           "desktop-environment": "NOOBS",
-          "magnet-url": "magnet:?xt=urn:btih:0f816fa2bbad8358efd1ffe4abed11ee5fc7cb07&dn=NOOBS_v3_2_1.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2019-09-30/NOOBS_v3_2_1.zip"
+          "magnet-url": "magnet:?xt=urn:btih:e08f709f8265118d96de45fc9d58c0dc9493bbba&dn=NOOBS_v3_3_1.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2020-02-14/NOOBS_v3_3_1.zip"
         }
       ],
       "trackers": [
@@ -594,17 +594,17 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "2019-09-26",
+          "version": "2020-02-13",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:ea0bf70ef78f417c9b2186502b1065e2bc958b64&dn=2019-09-26-raspbian-buster-full.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2019-09-30/2019-09-26-raspbian-buster-full.zip"
+          "magnet-url": "magnet:?xt=urn:btih:672f6ba0a49b285fa79835ccd5732cc1c5bbd5bb&dn=2020-02-13-raspbian-buster-full.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2020-02-14/2020-02-13-raspbian-buster-full.zip"
         },
         {
           "arch": "arm",
-          "version": "2019-09-26",
+          "version": "2020-02-13",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:33539c16ef7240c53ec803282de3578a13985f8e&dn=2019-09-26-raspbian-buster-lite.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-09-30/2019-09-26-raspbian-buster-lite.zip"
+          "magnet-url": "magnet:?xt=urn:btih:2213f24bca4031663b3dfa99fb554dce8cfcb5da&dn=2020-02-13-raspbian-buster-lite.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2020-02-14/2020-02-13-raspbian-buster-lite.zip"
         }
       ],
       "trackers": [
