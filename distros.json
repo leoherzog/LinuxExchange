@@ -400,17 +400,17 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:65145ed4d745cfc93f5ffe3492e9cde54b557d9f&dn=ubuntu-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:88334ec1d90afe94a22c6de5756268599f5f8ea2&dn=kubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "x86",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:5cec2696cb80bfecda1034fdc8e922b8a0be463f&dn=kubuntu-18.04.3-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.3-desktop-i386.iso"
+          "magnet-url": "magnet:?xt=urn:btih:49c6332d5a3a265cbdbb8fc8b4c097c7f31a8b85&dn=kubuntu-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-i386.iso"
         },
         {
           "arch": "amd64",
@@ -494,17 +494,17 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:f8557ffe4f57aa38eb158010ac7a7fcd588a85a5&dn=lubuntu-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:a4196fe465ab87c67a3c24990bdfaf663cdad26d&dn=lubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "x86",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:709445b3be3225a984e5364fa85ce6ddaf4e2991&dn=lubuntu-18.04.3-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.3-desktop-i386.iso"
+          "magnet-url": "magnet:?xt=urn:btih:57c9ae226b4799571f91e7b4568725f2890789c0&dn=lubuntu-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-i386.iso"
         },
         {
           "arch": "amd64",
@@ -623,17 +623,17 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:65145ed4d745cfc93f5ffe3492e9cde54b557d9f&dn=ubuntu-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:286d2e5b4f8369855328336ac1263ae02a7a60d5&dn=ubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:194257a7bf4eaea978f4b5b7fbd3b4efcdd99e43&dn=ubuntu-18.04.3-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/18.04.3/ubuntu-18.04.3-live-server-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:e73108cbd628fee5cf203acdf668c5bf45d07810&dn=ubuntu-18.04.4-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso"
         },
         {
           "arch": "amd64",
@@ -659,25 +659,25 @@
       "name": "Ubuntu Budgie",
       "full-name": "Ubuntu Budgie",
       "primary-color": "#1e73be",
-      "url": "https://lubuntu.me/",
-      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
+      "url": "https://ubuntubudgie.org/",
+      "torrent-download-page-url": "https://ubuntubudgie.org/downloads/",
       "description": "A flavor of Ubuntu that provides the Budgie desktop environment, which focuses on simplicity and elegance",
       "font-logos-icon": "fl-ubuntu",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:8689366ad30813097337bdb1dd8d5d05f8332312&dn=ubuntu-budgie-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04.3/release/ubuntu-budgie-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:13868dc15fa4fd39ec8fbf429a7511b3e1c2a761&dn=ubuntu-budgie-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "x86",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:73d5957b7f3a5f6afcd486780f96593ba48eae26&dn=ubuntu-budgie-18.04.3-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04.3/release/ubuntu-budgie-18.04.3-desktop-i386.iso"
+          "magnet-url": "magnet:?xt=urn:btih:1776ec04788e6485472580af4cf4556bfa7ee9b8&dn=ubuntu-budgie-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-i386.iso"
         },
         {
           "arch": "amd64",
@@ -704,17 +704,17 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:fde90bc54dc43150e4b34d0003732a47b4cf54f3&dn=ubuntu-mate-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:545e7abb9380c5cc4addae47ddab31886ce3b6d0&dn=ubuntu-mate-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "x86",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:0c950f6204c543e6c82af40524ba0f521c48efd0&dn=ubuntu-mate-18.04.3-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.3-desktop-i386.iso"
+          "magnet-url": "magnet:?xt=urn:btih:b5d8cb506fac60d0fcc0adefd7d1c2391f2e2972&dn=ubuntu-mate-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-i386.iso"
         },
         {
           "arch": "amd64",
@@ -741,17 +741,17 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:6b1fdc1d893f79ab1bdc8099e811c006df21eceb&dn=xubuntu-18.04.3-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.3-desktop-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:9a271ad2325b1e5974dfd548cb9bba4c78757a25&dn=xubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-amd64.iso"
         },
         {
           "arch": "x86",
-          "version": "18.04.3",
+          "version": "18.04.4",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:63d087aca9f73687ddd769031988aabb0b434ab4&dn=xubuntu-18.04.3-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.3-desktop-i386.iso"
+          "magnet-url": "magnet:?xt=urn:btih:563f53e1c5af7a91ae6643896ddddde1e04043de&dn=xubuntu-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-i386.iso"
         },
         {
           "arch": "amd64",
