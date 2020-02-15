@@ -277,10 +277,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.7.6",
+          "version": "3.7.7",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:9129349809a807ad4f9288b7d8d2f52beb7802f4&dn=eos-eos3.7-amd64-amd64.200106-220857.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.7.6/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.200106-220857.base.iso"
+          "magnet-url": "magnet:?xt=urn:btih:17eacb0e9c1e329ea46fd7a20c32580e3e102ae0&dn=eos-eos3.7-amd64-amd64.200210-201928.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.7.7/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.200210-201928.base.iso"
         }
       ],
       "trackers": [
