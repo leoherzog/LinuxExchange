@@ -531,31 +531,31 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.1.5",
+          "version": "19.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:d23b9e97b7bc5b6322b9c2e9076cddfc3b0c8a7d&dn=manjaro-architect-18.1.5-200207-linux54.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-18.1.5-200207-linux54.iso"
+          "magnet-url": "magnet:?xt=urn:btih:75c9b0f73dd70eb11dcbbda6cf4195ba49f190d3&dn=manjaro-architect-19.0-200223-linux54.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-19.0-200223-linux54.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.1.5",
+          "version": "19.0.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:aab8a636c67161eff708f3f9d4e955c5aea714fb&dn=manjaro-gnome-18.1.5-191229-linux54.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-18.1.5-191229-linux54.iso"
+          "magnet-url": "magnet:?xt=urn:btih:7c609ff01a0a0c36ae93ac9697177d7513490097&dn=manjaro-gnome-19.0.2-200303-linux54.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-19.0.2-200303-linux54.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.1.5",
+          "version": "19.0.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:ba8b79749e7206dd83bd88efc69b71a5c9362d77&dn=manjaro-kde-18.1.5-191229-linux54.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-18.1.5-191229-linux54.iso"
+          "magnet-url": "magnet:?xt=urn:btih:f9f2fc2879af84964372149eb24181373e0c9350&dn=manjaro-kde-19.0.2-200303-linux54.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-19.0.2-200303-linux54.iso"
         },
         {
           "arch": "amd64",
-          "version": "18.1.5",
+          "version": "19.0.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:2ceee3980928322e84fcf89cd686d23d21d11bb0&dn=manjaro-xfce-18.1.5-191229-linux54.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-18.1.5-191229-linux54.iso"
+          "magnet-url": "magnet:?xt=urn:btih:8da232113713ddfde9638de49cac91fedb53fbe8&dn=manjaro-xfce-19.0.2-200303-linux54.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-19.0.2-200303-linux54.iso"
         }
       ],
       "trackers": []
