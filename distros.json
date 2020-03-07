@@ -561,28 +561,6 @@
       "trackers": []
     },
     {
-      "name": "NOOBS",
-      "full-name": "NOOBS",
-      "primary-color": "#c51a4a",
-      "url": "https://raspberrypi.org/downloads/",
-      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/noobs/",
-      "description": "The easiest way to get start started with Raspberry Pi software. Just drag and drop onto an SD card!",
-      "font-logos-icon": "fl-raspberry-pi",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "arm",
-          "version": "3.3.1",
-          "desktop-environment": "NOOBS",
-          "magnet-url": "magnet:?xt=urn:btih:e08f709f8265118d96de45fc9d58c0dc9493bbba&dn=NOOBS_v3_3_1.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2020-02-14/NOOBS_v3_3_1.zip"
-        }
-      ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
-    },
-    {
       "name": "Raspbian",
       "full-name": "Raspbian",
       "primary-color": "#c51a4a",
@@ -767,7 +745,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 13,
+  "recommended-distro-index": 12,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
