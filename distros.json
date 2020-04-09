@@ -531,10 +531,10 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "19.0",
+          "version": "19.0.2",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:75c9b0f73dd70eb11dcbbda6cf4195ba49f190d3&dn=manjaro-architect-19.0-200223-linux54.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-19.0-200223-linux54.iso"
+          "magnet-url": "magnet:?xt=urn:btih:f7083494dcb76518a989a5d126a2302f7f48e285&dn=manjaro-architect-19.0.2-200324-linux54.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-19.0.2-200324-linux54.iso"
         },
         {
           "arch": "amd64",
