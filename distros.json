@@ -379,8 +379,8 @@
           "arch": "amd64",
           "version": "2020.1a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:ec89c6c0c9c7e3784249fac31e6a2b4e54ac2c05&dn=kali-linux-2020-1a-installer-amd64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2020.1/kali-linux-2020.1a-installer-amd64.iso"
+          "magnet-url": "magnet:?xt=urn:btih:12627cf538d2c6a9268e7eb41e30cba06822007b&dn=kali-linux-2020-1b-installer-amd64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2020.1b/kali-linux-2020.1b-installer-amd64.iso"
         }
       ],
       "trackers": [
