@@ -10,7 +10,7 @@ const distroIndex = distros['distros'].findIndex(function(distro) {
 
 const parser = new Parser();
 parser.parseURL('https://www.archlinux.org/feeds/releases/', function(err, feed) {
-  
+
   if (err) throw err;
 
   parseTorrent.remote(feed['items'][0]['enclosure']['url'], function(err, parsedTorrent) {
@@ -23,8 +23,8 @@ parser.parseURL('https://www.archlinux.org/feeds/releases/', function(err, feed)
     version['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
     version['direct-download-url'] = 'https://mirrors.kernel.org/archlinux/iso/' + feed['items'][0]['title'] + '/' + parsedTorrent['name'];
 
-    fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+    fs.writeFileSync('../distros.json', JSON.stringify(distros, null, 2));
 
   });
-  
+
 });
