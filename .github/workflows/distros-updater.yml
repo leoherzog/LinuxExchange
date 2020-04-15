@@ -16,10 +16,14 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install libraries
-      run: npm install rss-parser parse-torrent
-    - name: Update Arch
-      run: node .github/arch-updater.js
+      run: npm install rss-parser simple-get cheerio parse-torrent
     - name: Configure Git
       run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
-    - name: Add, Commit, and Push
+    - name: Update Arch
+      run: node .github/arch-updater.js
+    - name: Add, Commit, and Push Arch
       run: git add distros.json && git commit -m "Update Arch" && git push || echo "No changes"
+    - name: Update Debian
+      run: node .github/debian-updater.js
+    - name: Add, Commit, and Push Debian
+      run: git add distros.json && git commit -m "Update Debian" && git push || echo "No changes"
