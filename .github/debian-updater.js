@@ -57,11 +57,15 @@ function updateVersion(err, parsedTorrent) {
   if (arch == 'x86') arch = 'i386';
   if (de == 'no desktop environment') de = 'standard';
 
-  correspondingVersion['version'] = versionNumber;
-  correspondingVersion['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
-  correspondingVersion['direct-download-url'] = 'https://cdimage.debian.org/debian-cd/current-live/' + arch + '/iso-hybrid/' + parsedTorrent['name'];
-  correspondingVersion['ipfs-hash'] = '';
+  if (correspondingVersion['version'] != versionNumber) {
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+    correspondingVersion['version'] = versionNumber;
+    correspondingVersion['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
+    correspondingVersion['direct-download-url'] = 'https://cdimage.debian.org/debian-cd/current-live/' + arch + '/iso-hybrid/' + parsedTorrent['name'];
+    correspondingVersion['ipfs-hash'] = '';
+
+    fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+
+  }
 
 }
