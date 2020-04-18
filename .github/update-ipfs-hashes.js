@@ -9,7 +9,6 @@ var timeInBase64 = new Buffer(new Date().getTime().toString()).toString('base64'
 async function startNode () {
   node = await ipfs.create();
   await downloadFiles(node);
-  node.repo.gc();
   process.exit();
 }
 
@@ -31,6 +30,7 @@ async function addHash(version, url) {
       version['ipfs-hash'] = file.cid.toString();
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
       console.log('Added hash for ' + url.substring(url.lastIndexOf('/') + 1));
+      node.repo.gc();
       return;
     }
   }
