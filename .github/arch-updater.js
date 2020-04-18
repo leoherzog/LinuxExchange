@@ -22,7 +22,8 @@ parser.parseURL('https://www.archlinux.org/feeds/releases/', function(err, feed)
     version['version'] = feed['items'][0]['title'];
     version['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
     version['direct-download-url'] = 'https://mirrors.kernel.org/archlinux/iso/' + feed['items'][0]['title'] + '/' + parsedTorrent['name'];
-
+    version['ipfs-hash'] = '';
+    
     fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 
   });
