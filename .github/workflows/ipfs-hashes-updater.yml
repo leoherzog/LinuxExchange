@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install libraries
-      run: npm install ipfs
+      run: npm install ipfs && sed 's/# http.get(url)/http.get(url, options)' node_modules/ipfs-utils/src/files/url-source.js
     - name: Configure Git
       run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
     - name: Add missing hashes
