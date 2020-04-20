@@ -63,6 +63,7 @@ function updateVersion(err, parsedTorrent) {
     correspondingVersion['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
     correspondingVersion['direct-download-url'] = 'https://cdimage.debian.org/debian-cd/current-live/' + arch + '/iso-hybrid/' + parsedTorrent['name'];
     correspondingVersion['ipfs-hash'] = '';
+    correspondingVersion['file-size'] = '';
 
     fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 

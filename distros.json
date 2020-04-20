@@ -88,7 +88,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:1027de87dc168253781f83b183ece4dffa402f40&dn=archlinux-2020.04.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.04.01/archlinux-2020.04.01-x86_64.iso",
-          "ipfs-hash": "QmQxBX5ZKRY8k6W2UqYTMxhdFTvkmNw8X7GJN3t5UiyBpe"
+          "ipfs-hash": "QmQxBX5ZKRY8k6W2UqYTMxhdFTvkmNw8X7GJN3t5UiyBpe",
+          "file-size": "680525824"
         }
       ],
       "trackers": [
@@ -112,7 +113,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9db46a612d04763aa7db02a0ff63ede2ea555867&dn=CentOS-8.1.1911-x86_64-dvd1",
           "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso",
-          "ipfs-hash": "QmYgCx8YzxvHqfcCgwXmd35MqScDNkWdD9ctsLcmeCynK1"
+          "ipfs-hash": "QmYgCx8YzxvHqfcCgwXmd35MqScDNkWdD9ctsLcmeCynK1",
+          "file-size": "7554990080"
         }
       ],
       "trackers": [
@@ -136,7 +138,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:c99f39a464313fae434647df1baa91970224ff67&dn=debian-live-10.3.0-amd64-cinnamon.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-cinnamon.iso",
-          "ipfs-hash": "QmeLmDzc8ZuZe4gtAtbuLUNTFvy4SiYfV3b4yuBj8A4Tse"
+          "ipfs-hash": "QmeLmDzc8ZuZe4gtAtbuLUNTFvy4SiYfV3b4yuBj8A4Tse",
+          "file-size": "2506752000"
         },
         {
           "arch": "x86",
@@ -144,7 +147,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:78ae8101dd39f8cc2e5d28f93c4f8e129f556274&dn=debian-live-10.3.0-i386-cinnamon.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-cinnamon.iso",
-          "ipfs-hash": "QmTH2q9ozoG6Xx7uJWnwktRq6y8oiwGbM2nq2oTZWdBfea"
+          "ipfs-hash": "QmTH2q9ozoG6Xx7uJWnwktRq6y8oiwGbM2nq2oTZWdBfea",
+          "file-size": "2554380288"
         },
         {
           "arch": "amd64",
@@ -152,7 +156,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:095d0650e6536e9a7d56345973cf56bb5c5f697d&dn=debian-live-10.3.0-amd64-gnome.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-gnome.iso",
-          "ipfs-hash": "QmV9Jc38PBah1JDCT4mvpUPJwAsNf4uW9JFr6xdzi4W9nf"
+          "ipfs-hash": "QmV9Jc38PBah1JDCT4mvpUPJwAsNf4uW9JFr6xdzi4W9nf",
+          "file-size": "2537684992"
         },
         {
           "arch": "x86",
@@ -160,7 +165,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:c57838d6b7aa36ff2903a309ec5f720770a158f0&dn=debian-live-10.3.0-i386-gnome.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-gnome.iso",
-          "ipfs-hash": "QmRBFM5WX9XWYowXfz3c7KsM7V3K2uavQ9C7gBo36mWFES"
+          "ipfs-hash": "QmRBFM5WX9XWYowXfz3c7KsM7V3K2uavQ9C7gBo36mWFES",
+          "file-size": "2581168128"
         },
         {
           "arch": "amd64",
@@ -168,7 +174,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:06595d51fa70d550413a2b96bfb02c3def26b13a&dn=debian-live-10.3.0-amd64-kde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-kde.iso",
-          "ipfs-hash": "Qmc615XcPtp4FGipH1472R3MWWhFdTsP4iTRTXSfdHk49j"
+          "ipfs-hash": "Qmc615XcPtp4FGipH1472R3MWWhFdTsP4iTRTXSfdHk49j",
+          "file-size": "2732015616"
         },
         {
           "arch": "x86",
@@ -176,7 +183,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:34de525d93ecf08565c0551d91992f63517870a9&dn=debian-live-10.3.0-i386-kde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-kde.iso",
-          "ipfs-hash": "QmQdVGnLtVxiU8siBVGW6GrdjwyMba4sbCHMqrHJDFX1R7"
+          "ipfs-hash": "QmQdVGnLtVxiU8siBVGW6GrdjwyMba4sbCHMqrHJDFX1R7",
+          "file-size": "2790850560"
         },
         {
           "arch": "amd64",
@@ -184,7 +192,8 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:401afe1da437278c782ce1352dd8cf5f6d9cfbfc&dn=debian-live-10.3.0-amd64-lxde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-lxde.iso",
-          "ipfs-hash": "QmbBrhCi1kUNPshKdwCeDcqtHJEVwvjhyBc3Sb2N8uQNi1"
+          "ipfs-hash": "QmbBrhCi1kUNPshKdwCeDcqtHJEVwvjhyBc3Sb2N8uQNi1",
+          "file-size": "2382364672"
         },
         {
           "arch": "x86",
@@ -192,7 +201,8 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:b457a79f0700f1f55d7bcf65781348b4db546464&dn=debian-live-10.3.0-i386-lxde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-lxde.iso",
-          "ipfs-hash": "QmNTFFN1cmjcwCxCny2nXzfQE8Yrd99nGvHtK4HuNEQobU"
+          "ipfs-hash": "QmNTFFN1cmjcwCxCny2nXzfQE8Yrd99nGvHtK4HuNEQobU",
+          "file-size": "2427944960"
         },
         {
           "arch": "amd64",
@@ -200,7 +210,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:e3b4e3fbd64b012511715155cf39166853c769cf&dn=debian-live-10.3.0-amd64-lxqt.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-lxqt.iso",
-          "ipfs-hash": "QmSoyZ64NGupXCixfCheX5TexBU7MZ1eAwrdcj74RhcMZp"
+          "ipfs-hash": "QmSoyZ64NGupXCixfCheX5TexBU7MZ1eAwrdcj74RhcMZp",
+          "file-size": "2499805184"
         },
         {
           "arch": "x86",
@@ -208,7 +219,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:bfabb3338077110c2f3b036cc2d1621d4a4f6eb0&dn=debian-live-10.3.0-i386-lxqt.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-lxqt.iso",
-          "ipfs-hash": "QmV5htwoZkxu44qzkEKZtLaJRAYuk2w2Gym18t9kMuuBDG"
+          "ipfs-hash": "QmV5htwoZkxu44qzkEKZtLaJRAYuk2w2Gym18t9kMuuBDG",
+          "file-size": "2550136832"
         },
         {
           "arch": "amd64",
@@ -216,7 +228,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:19b7b63695c0a2be1dfd341c6d5c9be3bf09bda8&dn=debian-live-10.3.0-amd64-mate.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-mate.iso",
-          "ipfs-hash": "Qmcop4D5ErLztZ7hTkgKeBz9bcfN1oQWah4Lx2yH3JJE7k"
+          "ipfs-hash": "Qmcop4D5ErLztZ7hTkgKeBz9bcfN1oQWah4Lx2yH3JJE7k",
+          "file-size": "2475753472"
         },
         {
           "arch": "x86",
@@ -224,7 +237,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:24fa49f894dccf035bd5db46fff9477cac74dc85&dn=debian-live-10.3.0-i386-mate.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-mate.iso",
-          "ipfs-hash": "QmNcBsrUpqF88MKBh87xD32mqNxVQeim5KYU5LMCMWS8Fu"
+          "ipfs-hash": "QmNcBsrUpqF88MKBh87xD32mqNxVQeim5KYU5LMCMWS8Fu",
+          "file-size": "2520989696"
         },
         {
           "arch": "amd64",
@@ -232,7 +246,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:d0f7ff23a4046295f28271becdfcac98f64dd87a&dn=debian-live-10.3.0-amd64-standard.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-standard.iso",
-          "ipfs-hash": "QmYyZEP6sLwBSpoMBF63bqN1aRA1u6fU8woZ6y48NBaErj"
+          "ipfs-hash": "QmYyZEP6sLwBSpoMBF63bqN1aRA1u6fU8woZ6y48NBaErj",
+          "file-size": "891289600"
         },
         {
           "arch": "x86",
@@ -240,7 +255,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:88f55fcc34ef0ee3a7189962aa2358c7cb52a0dd&dn=debian-live-10.3.0-i386-standard.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-standard.iso",
-          "ipfs-hash": "QmWectP36ghzEJ1HNyNyjnb4FRaBT65CfQFaqibm6E1MNA"
+          "ipfs-hash": "QmWectP36ghzEJ1HNyNyjnb4FRaBT65CfQFaqibm6E1MNA",
+          "file-size": "916455424"
         },
         {
           "arch": "amd64",
@@ -248,7 +264,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:e9dc906a9345fa722943989e927964dcf95c7c3c&dn=debian-live-10.3.0-amd64-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.3.0-amd64-xfce.iso",
-          "ipfs-hash": "QmaryUi4tbXhyW6U2UzY4XP6E5ZBxDJgMmKcmPTe1gcLL3"
+          "ipfs-hash": "QmaryUi4tbXhyW6U2UzY4XP6E5ZBxDJgMmKcmPTe1gcLL3",
+          "file-size": "2356346880"
         },
         {
           "arch": "x86",
@@ -256,7 +273,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:91949eff6f7078c9d943d4e4c9c1d7a8764e8fc9&dn=debian-live-10.3.0-i386-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-xfce.iso",
-          "ipfs-hash": "QmRHFUdeWwPDmT8ogBWFZnndb529rPH7fbLEBBPKLTJrvm"
+          "ipfs-hash": "QmRHFUdeWwPDmT8ogBWFZnndb529rPH7fbLEBBPKLTJrvm",
+          "file-size": "2401763328"
         }
       ],
       "trackers": [
@@ -279,7 +297,8 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:79f160695f35e57110523761b092b56238aa10e8&dn=elementaryos-5.1-stable.20200405.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200405.iso",
-          "ipfs-hash": "QmXS7WjJnXMknXrmMdd3VdCuMi4iZmKG17yz6UdprEDvPf"
+          "ipfs-hash": "QmXS7WjJnXMknXrmMdd3VdCuMi4iZmKG17yz6UdprEDvPf",
+          "file-size": "1502576640"
         }
       ],
       "trackers": []
@@ -300,7 +319,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:8c1cd1e699d95d951d5f26605252e8cbce907313&dn=eos-eos3.7-amd64-amd64.200310-013107.base.iso",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.7.8/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.200310-013107.base.iso",
-          "ipfs-hash": "Qmf847pgAqAq8sbHn2VYz4ucGA7RyVdaQdUuA1eXqhBnkv"
+          "ipfs-hash": "Qmf847pgAqAq8sbHn2VYz4ucGA7RyVdaQdUuA1eXqhBnkv",
+          "file-size": "2826516480"
         }
       ],
       "trackers": [
@@ -323,7 +343,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:1d18b9df0e5d6961ece1fcdc486c5bf2dccd56a1&dn=Fedora-Cinnamon-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmRT8PVPmuPeF4dXjh4YxXhxuSjdC6wnwh4gQzv86hsSZg"
+          "ipfs-hash": "QmRT8PVPmuPeF4dXjh4YxXhxuSjdC6wnwh4gQzv86hsSZg",
+          "file-size": "2203779072"
         },
         {
           "arch": "amd64",
@@ -331,7 +352,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:bd2d1a1e1fba6377c0b58aa473b3c86db264a2cd&dn=Fedora-Workstation-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmSbC29xRAiH8i82uoaPM7B1myVTVkS3hfPdQv53J1qkpy"
+          "ipfs-hash": "QmSbC29xRAiH8i82uoaPM7B1myVTVkS3hfPdQv53J1qkpy",
+          "file-size": "1929379840"
         },
         {
           "arch": "amd64",
@@ -339,7 +361,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:62767cda0d60527ec13cb5110a705d4dc4418b40&dn=Fedora-KDE-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmNSWhm5zCVzwLYRkyuNuA2AXn2NTRdcb9ai1gWxRM3qvj"
+          "ipfs-hash": "QmNSWhm5zCVzwLYRkyuNuA2AXn2NTRdcb9ai1gWxRM3qvj",
+          "file-size": "1854996480"
         },
         {
           "arch": "amd64",
@@ -347,7 +370,8 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:2ffe27fe3d631016629ba3099478ead5ebfd6092&dn=Fedora-LXDE-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmWe3FpMfZ7Qg4cJF7y6JpDnwoLGyDC4fXVe7bEFMK9BUU"
+          "ipfs-hash": "QmWe3FpMfZ7Qg4cJF7y6JpDnwoLGyDC4fXVe7bEFMK9BUU",
+          "file-size": "1277968384"
         },
         {
           "arch": "amd64",
@@ -355,7 +379,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:2aaea7c87dcbac75e7ea1bdb85858c98d671217b&dn=Fedora-LXQt-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmasPnwZ3tw6nCbdCyvrwhaF9ya15af6QKFLgFtW3Adtk1"
+          "ipfs-hash": "QmasPnwZ3tw6nCbdCyvrwhaF9ya15af6QKFLgFtW3Adtk1",
+          "file-size": "1401028608"
         },
         {
           "arch": "amd64",
@@ -363,7 +388,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:d3b501e36612e91f3c3474453eca7a8360169d6d&dn=Fedora-MATE_Compiz-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmVwvMRJYXCdz8qX8FKcPBhUvoU9uxsbk1HWaG8p4rSc8h"
+          "ipfs-hash": "QmVwvMRJYXCdz8qX8FKcPBhUvoU9uxsbk1HWaG8p4rSc8h",
+          "file-size": "2143289344"
         },
         {
           "arch": "amd64",
@@ -371,7 +397,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:85c9ef0f17c3f8cc8c80acde31058c93c9ba8062&dn=Fedora-Server-dvd-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-dvd-x86_64-31-1.9.iso",
-          "ipfs-hash": "Qmd6UbF1XMuMhgWuE5ctUrJ3GQvxd69LVFWXfzaxrHzWyX"
+          "ipfs-hash": "Qmd6UbF1XMuMhgWuE5ctUrJ3GQvxd69LVFWXfzaxrHzWyX",
+          "file-size": "2138046464"
         },
         {
           "arch": "amd64",
@@ -379,7 +406,8 @@
           "desktop-environment": "Sugar",
           "magnet-url": "magnet:?xt=urn:btih:94f8bbbf42c075f1be07002930e0b14a24db5df4&dn=Fedora-SoaS-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmPn5zerfACJzwi3Dt54V94ShoC1ZGPxRrUQsAcQoRHQLA"
+          "ipfs-hash": "QmPn5zerfACJzwi3Dt54V94ShoC1ZGPxRrUQsAcQoRHQLA",
+          "file-size": "1107296256"
         },
         {
           "arch": "amd64",
@@ -387,7 +415,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3c69ac391eec1575e3d973c8b1a043604bea8fca&dn=Fedora-Xfce-Live-x86_64-31",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/31/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-31-1.9.iso",
-          "ipfs-hash": "QmYSvXgLqtJjVsZbqh7cTC1EvbBJ3g8d8oxV6XAp6PAcgf"
+          "ipfs-hash": "QmYSvXgLqtJjVsZbqh7cTC1EvbBJ3g8d8oxV6XAp6PAcgf",
+          "file-size": "1472069632"
         }
       ],
       "trackers": [
@@ -410,7 +439,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:12627cf538d2c6a9268e7eb41e30cba06822007b&dn=kali-linux-2020-1b-installer-amd64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.1b/kali-linux-2020.1b-installer-amd64.iso",
-          "ipfs-hash": "QmPi5RySoPwxeJ2F88XjGz6zQ5jrh5nm9TUFEmisAVuYSf"
+          "ipfs-hash": "QmPi5RySoPwxeJ2F88XjGz6zQ5jrh5nm9TUFEmisAVuYSf",
+          "file-size": "2176778240"
         }
       ],
       "trackers": [
@@ -434,7 +464,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:88334ec1d90afe94a22c6de5756268599f5f8ea2&dn=kubuntu-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmNgqpgZjqtADzQzkCPhwJinh29VEYXZoUpSZcM7rKQu72"
+          "ipfs-hash": "QmNgqpgZjqtADzQzkCPhwJinh29VEYXZoUpSZcM7rKQu72",
+          "file-size": "1973911552"
         },
         {
           "arch": "x86",
@@ -442,7 +473,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:49c6332d5a3a265cbdbb8fc8b4c097c7f31a8b85&dn=kubuntu-18.04.4-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmbP5EU7PG2iCcswPnX3i9RUpuj4qNqofFeAfis2UgcZXX"
+          "ipfs-hash": "QmbP5EU7PG2iCcswPnX3i9RUpuj4qNqofFeAfis2UgcZXX",
+          "file-size": "1999503360"
         },
         {
           "arch": "amd64",
@@ -450,7 +482,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:5b6a484a018beed4d01f2f57e6d029a4190a9d04&dn=kubuntu-19.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/19.10/release/kubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmPancjcqUkLZkkioiLFfBPFVahFt3WT1iuuQMKCa86a2b"
+          "ipfs-hash": "QmPancjcqUkLZkkioiLFfBPFVahFt3WT1iuuQMKCa86a2b",
+          "file-size": "2301689856"
         }
       ],
       "trackers": [
@@ -474,7 +507,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:2a78414b7af89fe08644ece339ee454867d29cb7&dn=linuxmint-19.3-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-cinnamon-64bit.iso",
-          "ipfs-hash": "QmZeBhbmQWKXC3E7anxMKrdaffasNqaTPLN1BrPzwAU762"
+          "ipfs-hash": "QmZeBhbmQWKXC3E7anxMKrdaffasNqaTPLN1BrPzwAU762",
+          "file-size": "2036826112"
         },
         {
           "arch": "x86",
@@ -482,7 +516,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:043bce8cac76f5e75ffb9755c7ddd6c561ac386a&dn=linuxmint-19.3-cinnamon-32bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-cinnamon-32bit.iso",
-          "ipfs-hash": "QmQqqqGjoFpZQuFaJZpsoYM2mDoug7cJpqjgMpV83F1RsL"
+          "ipfs-hash": "QmQqqqGjoFpZQuFaJZpsoYM2mDoug7cJpqjgMpV83F1RsL",
+          "file-size": "2015363072"
         },
         {
           "arch": "amd64",
@@ -490,7 +525,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:90f700358946c85c6dd5244c34c5304810bd9d28&dn=linuxmint-19.3-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-mate-64bit.iso",
-          "ipfs-hash": "QmP92X42gkDq7c7pFaUE164nCq79QKe5PzbdwzY8oE7REw"
+          "ipfs-hash": "QmP92X42gkDq7c7pFaUE164nCq79QKe5PzbdwzY8oE7REw",
+          "file-size": "2101542912"
         },
         {
           "arch": "x86",
@@ -498,7 +534,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:b6622f65ad09b434161a62561435c148675a1f03&dn=linuxmint-19.3-mate-32bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-mate-32bit.iso",
-          "ipfs-hash": "QmfYwbEo2Y6nKbJZGzFKtczZF9sDRKFWRiWg1xRQDZJ7q9"
+          "ipfs-hash": "QmfYwbEo2Y6nKbJZGzFKtczZF9sDRKFWRiWg1xRQDZJ7q9",
+          "file-size": "2080374784"
         },
         {
           "arch": "amd64",
@@ -506,7 +543,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:ec09f2735f7681e2553550f36020328c58456085&dn=linuxmint-19.3-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-xfce-64bit.iso",
-          "ipfs-hash": "QmXniHUvXAMPwXjkdeKHSfLXFbd7kGgkTr21qdsTCzuc2T"
+          "ipfs-hash": "QmXniHUvXAMPwXjkdeKHSfLXFbd7kGgkTr21qdsTCzuc2T",
+          "file-size": "1994539008"
         },
         {
           "arch": "x86",
@@ -514,7 +552,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:f739d02aae33b38ed02b84714080b20d193338f2&dn=linuxmint-19.3-xfce-32bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-xfce-32bit.iso",
-          "ipfs-hash": "QmYqokx5Ljt1uvBejmzRAfRiua4pALsFEBFCwBtdY1oS7L"
+          "ipfs-hash": "QmYqokx5Ljt1uvBejmzRAfRiua4pALsFEBFCwBtdY1oS7L",
+          "file-size": "1973420032"
         }
       ],
       "trackers": [
@@ -537,7 +576,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:a4196fe465ab87c67a3c24990bdfaf663cdad26d&dn=lubuntu-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmNhDwbQukyarYSwst6ZWWihbe5kdHFcdy1jpLeB2M4oKa"
+          "ipfs-hash": "QmNhDwbQukyarYSwst6ZWWihbe5kdHFcdy1jpLeB2M4oKa",
+          "file-size": "1185366016"
         },
         {
           "arch": "x86",
@@ -545,7 +585,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:57c9ae226b4799571f91e7b4568725f2890789c0&dn=lubuntu-18.04.4-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmTrqZBZKoVhpZYG7qhe27PNLRFHmstE9AfCqef5m23rCM"
+          "ipfs-hash": "QmTrqZBZKoVhpZYG7qhe27PNLRFHmstE9AfCqef5m23rCM",
+          "file-size": "1179549696"
         },
         {
           "arch": "amd64",
@@ -553,7 +594,8 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:28f0bb34b542af1609641fcf4188afed73a03f64&dn=lubuntu-19.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/19.10/release/lubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmdmpCGULyobqgbhtwzd5551TDqnRumxgFCuPxMQHJHrFU"
+          "ipfs-hash": "QmdmpCGULyobqgbhtwzd5551TDqnRumxgFCuPxMQHJHrFU",
+          "file-size": "1681260544"
         }
       ],
       "trackers": [
@@ -577,7 +619,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:f7083494dcb76518a989a5d126a2302f7f48e285&dn=manjaro-architect-19.0.2-200324-linux54.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-19.0.2-200324-linux54.iso",
-          "ipfs-hash": "QmYKUgBXhXc1yf7TSxTL8vU9XXpxHydQPaXsWG74Acspuh"
+          "ipfs-hash": "QmYKUgBXhXc1yf7TSxTL8vU9XXpxHydQPaXsWG74Acspuh",
+          "file-size": "739119104"
         },
         {
           "arch": "amd64",
@@ -585,7 +628,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7c609ff01a0a0c36ae93ac9697177d7513490097&dn=manjaro-gnome-19.0.2-200303-linux54.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-19.0.2-200312-linux54.iso",
-          "ipfs-hash": "QmPVwpTDL7sUoC5n4F6Ui8Vj6c8EULBkEUGRCWA9fjSm2i"
+          "ipfs-hash": "QmPVwpTDL7sUoC5n4F6Ui8Vj6c8EULBkEUGRCWA9fjSm2i",
+          "file-size": "2703609856"
         },
         {
           "arch": "amd64",
@@ -593,7 +637,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:f9f2fc2879af84964372149eb24181373e0c9350&dn=manjaro-kde-19.0.2-200303-linux54.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-19.0.2-200311-linux54.iso",
-          "ipfs-hash": "Qmc9V54o1NJRdhFU7PXsAn1JmUYyXd9VcWFAKK1t3kLhwe"
+          "ipfs-hash": "Qmc9V54o1NJRdhFU7PXsAn1JmUYyXd9VcWFAKK1t3kLhwe",
+          "file-size": "3048198144"
         },
         {
           "arch": "amd64",
@@ -601,7 +646,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:8da232113713ddfde9638de49cac91fedb53fbe8&dn=manjaro-xfce-19.0.2-200303-linux54.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-19.0.2-200311-linux54.iso",
-          "ipfs-hash": "QmPvSQUZj7N6LXbf8wiy3NT3MMi62dq2dHddYqHc2TFkU9"
+          "ipfs-hash": "QmPvSQUZj7N6LXbf8wiy3NT3MMi62dq2dHddYqHc2TFkU9",
+          "file-size": "2772090880"
         }
       ],
       "trackers": []
@@ -622,7 +668,8 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:672f6ba0a49b285fa79835ccd5732cc1c5bbd5bb&dn=2020-02-13-raspbian-buster-full.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspbian_full/images/raspbian_full-2020-02-14/2020-02-13-raspbian-buster-full.zip",
-          "ipfs-hash": "QmY7cbfMxRnUHLijpdBq1U9GBjmBzYJuBAztaMdfje5M3f"
+          "ipfs-hash": "QmY7cbfMxRnUHLijpdBq1U9GBjmBzYJuBAztaMdfje5M3f",
+          "file-size": "2653723839"
         },
         {
           "arch": "arm",
@@ -630,7 +677,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:2213f24bca4031663b3dfa99fb554dce8cfcb5da&dn=2020-02-13-raspbian-buster-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2020-02-14/2020-02-13-raspbian-buster-lite.zip",
-          "ipfs-hash": "QmV2oYwNrmYbeK7RFLNAtrgSVeZeDnLYWQj4Ng7DVvGWWo"
+          "ipfs-hash": "QmV2oYwNrmYbeK7RFLNAtrgSVeZeDnLYWQj4Ng7DVvGWWo",
+          "file-size": "454047405"
         }
       ],
       "trackers": [
@@ -653,7 +701,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:286d2e5b4f8369855328336ac1263ae02a7a60d5&dn=ubuntu-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmbTNBikZbHX7vYX6H6G3fwpjtVi9HseFviGd9oNf1WVfD"
+          "ipfs-hash": "QmbTNBikZbHX7vYX6H6G3fwpjtVi9HseFviGd9oNf1WVfD",
+          "file-size": "2126544896"
         },
         {
           "arch": "amd64",
@@ -661,7 +710,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e73108cbd628fee5cf203acdf668c5bf45d07810&dn=ubuntu-18.04.4-live-server-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso",
-          "ipfs-hash": "QmX6AyJuyjL4sn8VWkctxbComtPdLG7XX6pHXre7ARFbvQ"
+          "ipfs-hash": "QmX6AyJuyjL4sn8VWkctxbComtPdLG7XX6pHXre7ARFbvQ",
+          "file-size": "912261120"
         },
         {
           "arch": "amd64",
@@ -669,7 +719,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:e2467cbf021192c241367b892230dc1e05c0580e&dn=ubuntu-19.10-desktop-amd64.iso",
           "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmePuTUQzXhwzWLj5b5U5sJrpB33FLR6Sh6KJvP1BxhyRw"
+          "ipfs-hash": "QmePuTUQzXhwzWLj5b5U5sJrpB33FLR6Sh6KJvP1BxhyRw",
+          "file-size": "2463842304"
         },
         {
           "arch": "amd64",
@@ -677,7 +728,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:bc5aed8098d18556ed4fa7b6b96558e4f557af4d&dn=ubuntu-19.10-live-server-amd64.iso",
           "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-live-server-amd64.iso",
-          "ipfs-hash": "QmUiy6FBSdx5m8boVKZL98UL448gC4eHMPRbdSnDSADqtB"
+          "ipfs-hash": "QmUiy6FBSdx5m8boVKZL98UL448gC4eHMPRbdSnDSADqtB",
+          "file-size": "883949568"
         }
       ],
       "trackers": [
@@ -701,7 +753,8 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:13868dc15fa4fd39ec8fbf429a7511b3e1c2a761&dn=ubuntu-budgie-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmP9nxBN7adRgkwGji1cu4Vi7tHHtRKCgZmC8DVkAk1kLR"
+          "ipfs-hash": "QmP9nxBN7adRgkwGji1cu4Vi7tHHtRKCgZmC8DVkAk1kLR",
+          "file-size": "1716240384"
         },
         {
           "arch": "x86",
@@ -709,7 +762,8 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:1776ec04788e6485472580af4cf4556bfa7ee9b8&dn=ubuntu-budgie-18.04.4-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmfU7dziWaLbc4VoUUdABgS2586RYLF9S6Y7ddNLMsN4Vd"
+          "ipfs-hash": "QmfU7dziWaLbc4VoUUdABgS2586RYLF9S6Y7ddNLMsN4Vd",
+          "file-size": "1716240384"
         },
         {
           "arch": "amd64",
@@ -717,7 +771,8 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:2944c65c5597a27efe0dfc0e7461ab364111f46e&dn=ubuntu-budgie-19.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/19.10/release/ubuntu-budgie-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmcZoeL6cPuFMDFUvbD1cPuMhzGw49bpkqF14MfYbseUNa"
+          "ipfs-hash": "QmcZoeL6cPuFMDFUvbD1cPuMhzGw49bpkqF14MfYbseUNa",
+          "file-size": "2155806720"
         }
       ],
       "trackers": [
@@ -741,7 +796,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:545e7abb9380c5cc4addae47ddab31886ce3b6d0&dn=ubuntu-mate-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmcW1NVMqX7GMurSU8axqJotDyUxHuu59dwroym3G7ng24"
+          "ipfs-hash": "QmcW1NVMqX7GMurSU8axqJotDyUxHuu59dwroym3G7ng24",
+          "file-size": "1964244992"
         },
         {
           "arch": "x86",
@@ -749,7 +805,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:b5d8cb506fac60d0fcc0adefd7d1c2391f2e2972&dn=ubuntu-mate-18.04.4-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmNjDoY6RZsmXXtLBQruJ2xjXFUeiseC4WDfkbKyo9mUgF"
+          "ipfs-hash": "QmNjDoY6RZsmXXtLBQruJ2xjXFUeiseC4WDfkbKyo9mUgF",
+          "file-size": "1964244992"
         },
         {
           "arch": "amd64",
@@ -757,7 +814,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmZNo7iztXtQmiVfbMh9D2EmehWWXtzMGvdzJTfowjPRyz"
+          "ipfs-hash": "QmZNo7iztXtQmiVfbMh9D2EmehWWXtzMGvdzJTfowjPRyz",
+          "file-size": "2260500480"
         }
       ],
       "trackers": [
@@ -781,7 +839,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:9a271ad2325b1e5974dfd548cb9bba4c78757a25&dn=xubuntu-18.04.4-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmTw9KWPLV6WW3CZvu7oo5ZofZBECRqTuJBfoU4ZgA99Rr"
+          "ipfs-hash": "QmTw9KWPLV6WW3CZvu7oo5ZofZBECRqTuJBfoU4ZgA99Rr",
+          "file-size": "1534459904"
         },
         {
           "arch": "x86",
@@ -789,7 +848,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:563f53e1c5af7a91ae6643896ddddde1e04043de&dn=xubuntu-18.04.4-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmPGseLBvK5GS2UKJxVMQ4xLNbXG7S6zZfrGScWz8D3Tnc"
+          "ipfs-hash": "QmPGseLBvK5GS2UKJxVMQ4xLNbXG7S6zZfrGScWz8D3Tnc",
+          "file-size": "1529937920"
         },
         {
           "arch": "amd64",
@@ -797,7 +857,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3d0fd29a6da0d7bdb6c7fb55cd812265f31a7705&dn=xubuntu-19.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/xubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmTGobwfDRQLKdzdc6X5UD4fDFZdwEaV68bk7SxUxteg87"
+          "ipfs-hash": "QmTGobwfDRQLKdzdc6X5UD4fDFZdwEaV68bk7SxUxteg87",
+          "file-size": "1647968256"
         }
       ],
       "trackers": [

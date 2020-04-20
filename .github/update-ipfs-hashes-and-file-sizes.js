@@ -1,6 +1,7 @@
 const fs = require('fs');
 const ipfs = require('ipfs');
 const { urlSource } = ipfs;
+const fetch = require('node-fetch');
 
 var node;
 var distros = JSON.parse(fs.readFileSync('distros.json'));
@@ -16,8 +17,14 @@ async function downloadFiles() {
   for (var i in distros.distros) {
     for (var j in distros.distros[i].versions) {
       var version = distros.distros[i].versions[j];
+      var url = version['direct-download-url'].replace('{{base64time}}', timeInBase64);
+      var res = await fetch(url, {"headers": {"user-agent": "Wget/"}});
+      if (!version['file-size']) {
+        version['file-size'] = res.headers.get('content-length');
+        fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+      }
       if (!version['ipfs-hash']) {
-        await addHash(version, version['direct-download-url'].replace('{{base64time}}', timeInBase64));
+        await addHash(version, url);
       }
     }
   }
