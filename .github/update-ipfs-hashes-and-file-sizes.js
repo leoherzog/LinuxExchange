@@ -18,8 +18,8 @@ async function downloadFiles() {
     for (var j in distros.distros[i].versions) {
       var version = distros.distros[i].versions[j];
       var url = version['direct-download-url'].replace('{{base64time}}', timeInBase64);
-      var res = await fetch(url, {"headers": {"user-agent": "Wget/"}});
       if (!version['file-size']) {
+        var res = await fetch(url, {"timeout": 60 * 1000, "headers": {"user-agent": "Wget/"}});
         version['file-size'] = res.headers.get('content-length');
         fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
       }
@@ -33,7 +33,7 @@ async function downloadFiles() {
 
 async function addHash(version, url) {
   try {
-    for await (const file of node.add(urlSource(url, {"headers": {"user-agent": "Wget/"}}), {"pin": false})) {
+    for await (const file of node.add(urlSource(url, {"timeout": 60 * 1000, "headers": {"user-agent": "Wget/"}}), {"pin": false})) {
       version['ipfs-hash'] = file.cid.toString();
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
       console.log('Added hash for ' + url.substring(url.lastIndexOf('/') + 1));
