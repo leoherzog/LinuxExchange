@@ -607,7 +607,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
+      "recommended-version-index": 3,
       "versions": [
         {
           "arch": "amd64",
@@ -787,7 +787,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 12,
+  "recommended-distro-index": 10,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
