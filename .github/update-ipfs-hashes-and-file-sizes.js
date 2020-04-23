@@ -14,14 +14,18 @@ async function startNode () {
 }
 
 async function downloadFiles() {
-  for (var i in distros.distros) {
-    for (var j in distros.distros[i].versions) {
-      var version = distros.distros[i].versions[j];
+  for (let distro of distros.distros) {
+    for (let version of distro.versions) {
       var url = version['direct-download-url'].replace('{{base64time}}', timeInBase64);
       if (!version['file-size']) {
-        var res = await fetch(url, {"timeout": 60 * 1000, "headers": {"user-agent": "Wget/"}});
-        version['file-size'] = res.headers.get('content-length');
-        fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+        try {
+          var res = await fetch(url, {"timeout": 60 * 1000, "headers": {"user-agent": "Wget/"}});
+          version['file-size'] = res.headers.get('content-length');
+          fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+        }
+        catch(e) {
+          console.log("Trouble downloading " + url.substring(url.lastIndexOf('/') + 1) + ": " + e.toString());
+        }
       }
       if (!version['ipfs-hash']) {
         await addHash(version, url);
