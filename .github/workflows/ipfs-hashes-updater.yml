@@ -1,8 +1,6 @@
 name: IPFS Hashes and File Sizes Updater
 
-on:
-  schedule:
-    - cron: '30 */4 * * *'
+on: push
 
 jobs:
 
