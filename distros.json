@@ -449,49 +449,6 @@
       ]
     },
     {
-      "name": "Kubuntu",
-      "full-name": "Kubuntu",
-      "primary-color": "#0079c1",
-      "url": "https://kubuntu.org/",
-      "torrent-download-page-url": "https://kubuntu.org/alternative-downloads",
-      "description": "A flavor of Ubuntu that offers the KDE Plasma Workspace experience, a good-looking system for home and office use.",
-      "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "18.04.4",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:88334ec1d90afe94a22c6de5756268599f5f8ea2&dn=kubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmNgqpgZjqtADzQzkCPhwJinh29VEYXZoUpSZcM7rKQu72",
-          "file-size": "1973911552"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.4",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:49c6332d5a3a265cbdbb8fc8b4c097c7f31a8b85&dn=kubuntu-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmbP5EU7PG2iCcswPnX3i9RUpuj4qNqofFeAfis2UgcZXX",
-          "file-size": "1999503360"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:5b6a484a018beed4d01f2f57e6d029a4190a9d04&dn=kubuntu-19.10-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/19.10/release/kubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmPancjcqUkLZkkioiLFfBPFVahFt3WT1iuuQMKCa86a2b",
-          "file-size": "2301689856"
-        }
-      ],
-      "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
-      ]
-    },
-    {
       "name": "Linux Mint",
       "full-name": "Linux Mint",
       "primary-color": "#87cf3e",
@@ -558,49 +515,6 @@
       ],
       "trackers": [
         "https://torrents.linuxmint.com/announce.php"
-      ]
-    },
-    {
-      "name": "Lubuntu",
-      "full-name": "Lubuntu",
-      "primary-color": "#1e73be",
-      "url": "https://lubuntu.me/",
-      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
-      "description": "A light, fast, and modern Ubuntu flavor using LXQt as its default desktop environment",
-      "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "18.04.4",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:a4196fe465ab87c67a3c24990bdfaf663cdad26d&dn=lubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmNhDwbQukyarYSwst6ZWWihbe5kdHFcdy1jpLeB2M4oKa",
-          "file-size": "1185366016"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.4",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:57c9ae226b4799571f91e7b4568725f2890789c0&dn=lubuntu-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-i386.iso",
-          "ipfs-hash": "QmTrqZBZKoVhpZYG7qhe27PNLRFHmstE9AfCqef5m23rCM",
-          "file-size": "1179549696"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:28f0bb34b542af1609641fcf4188afed73a03f64&dn=lubuntu-19.10-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/19.10/release/lubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmdmpCGULyobqgbhtwzd5551TDqnRumxgFCuPxMQHJHrFU",
-          "file-size": "1681260544"
-        }
-      ],
-      "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
       ]
     },
     {
@@ -697,56 +611,13 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "18.04.4",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:286d2e5b4f8369855328336ac1263ae02a7a60d5&dn=ubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-desktop-amd64.iso",
-          "ipfs-hash": "QmbTNBikZbHX7vYX6H6G3fwpjtVi9HseFviGd9oNf1WVfD",
-          "file-size": "2126544896"
+          "version": "20.04",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:98263d859e29b4b444c1d883a864d75aaac9311a&dn=ubuntu-budgie-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
-        {
-          "arch": "amd64",
-          "version": "18.04.4",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e73108cbd628fee5cf203acdf668c5bf45d07810&dn=ubuntu-18.04.4-live-server-amd64.iso",
-          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso",
-          "ipfs-hash": "QmX6AyJuyjL4sn8VWkctxbComtPdLG7XX6pHXre7ARFbvQ",
-          "file-size": "912261120"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e2467cbf021192c241367b892230dc1e05c0580e&dn=ubuntu-19.10-desktop-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmePuTUQzXhwzWLj5b5U5sJrpB33FLR6Sh6KJvP1BxhyRw",
-          "file-size": "2463842304"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:bc5aed8098d18556ed4fa7b6b96558e4f557af4d&dn=ubuntu-19.10-live-server-amd64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/ubuntu-releases/19.10/ubuntu-19.10-live-server-amd64.iso",
-          "ipfs-hash": "QmUiy6FBSdx5m8boVKZL98UL448gC4eHMPRbdSnDSADqtB",
-          "file-size": "883949568"
-        }
-      ],
-      "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
-      ]
-    },
-    {
-      "name": "Ubuntu Budgie",
-      "full-name": "Ubuntu Budgie",
-      "primary-color": "#1e73be",
-      "url": "https://ubuntubudgie.org/",
-      "torrent-download-page-url": "https://ubuntubudgie.org/downloads/",
-      "description": "A flavor of Ubuntu that provides the Budgie desktop environment, which focuses on simplicity and elegance",
-      "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
-      "versions": [
         {
           "arch": "amd64",
           "version": "18.04.4",
@@ -767,29 +638,85 @@
         },
         {
           "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:2944c65c5597a27efe0dfc0e7461ab364111f46e&dn=ubuntu-budgie-19.10-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/19.10/release/ubuntu-budgie-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmcZoeL6cPuFMDFUvbD1cPuMhzGw49bpkqF14MfYbseUNa",
-          "file-size": "2155806720"
-        }
-      ],
-      "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
-      ]
-    },
-    {
-      "name": "Ubuntu MATE",
-      "full-name": "Ubuntu MATE",
-      "primary-color": "#87a556",
-      "url": "https://ubuntu-mate.org/",
-      "torrent-download-page-url": "https://ubuntu-mate.org/download/",
-      "description": "A flavor of Ubuntu that expresses the simplicity of a classic desktop environment",
-      "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
-      "versions": [
+          "version": "20.04",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:9fc20b9e98ea98b4a35e6223041a5ef94ea27809&dn=ubuntu-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "18.04.4",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:286d2e5b4f8369855328336ac1263ae02a7a60d5&dn=ubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-desktop-amd64.iso",
+          "ipfs-hash": "QmbTNBikZbHX7vYX6H6G3fwpjtVi9HseFviGd9oNf1WVfD",
+          "file-size": "2126544896"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.04",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:9d6553628dc787aef1c392652c816ebccb1bd794&dn=kubuntu-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "18.04.4",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:88334ec1d90afe94a22c6de5756268599f5f8ea2&dn=kubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-amd64.iso",
+          "ipfs-hash": "QmNgqpgZjqtADzQzkCPhwJinh29VEYXZoUpSZcM7rKQu72",
+          "file-size": "1973911552"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.4",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:49c6332d5a3a265cbdbb8fc8b4c097c7f31a8b85&dn=kubuntu-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-i386.iso",
+          "ipfs-hash": "QmbP5EU7PG2iCcswPnX3i9RUpuj4qNqofFeAfis2UgcZXX",
+          "file-size": "1999503360"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.04",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:abf4df41c8242dca6538dae8b67377f736f831cf&dn=lubuntu-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "18.04.4",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:a4196fe465ab87c67a3c24990bdfaf663cdad26d&dn=lubuntu-18.04.4-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso",
+          "ipfs-hash": "QmNhDwbQukyarYSwst6ZWWihbe5kdHFcdy1jpLeB2M4oKa",
+          "file-size": "1185366016"
+        },
+        {
+          "arch": "x86",
+          "version": "18.04.4",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:57c9ae226b4799571f91e7b4568725f2890789c0&dn=lubuntu-18.04.4-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-i386.iso",
+          "ipfs-hash": "QmTrqZBZKoVhpZYG7qhe27PNLRFHmstE9AfCqef5m23rCM",
+          "file-size": "1179549696"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.04",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:8d362daa64fd8a6df42250334cf4c607e95e999a&dn=ubuntu-mate-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
         {
           "arch": "amd64",
           "version": "18.04.4",
@@ -810,29 +737,31 @@
         },
         {
           "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:662948f49f28ab7f57e741e5189b6776588e9947&dn=ubuntu-mate-19.10-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/19.10/release/ubuntu-mate-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmZNo7iztXtQmiVfbMh9D2EmehWWXtzMGvdzJTfowjPRyz",
-          "file-size": "2260500480"
-        }
-      ],
-      "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
-      ]
-    },
-    {
-      "name": "Xubuntu",
-      "full-name": "Xubuntu",
-      "primary-color": "#7cb8f7",
-      "url": "https://xubuntu.org/",
-      "torrent-download-page-url": "https://xubuntu.org/download",
-      "description": "A flavor of Ubuntu that comes with Xfce, which is a stable, light and configurable desktop environment",
-      "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
-      "versions": [
+          "version": "20.04",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:c44f931b1a3986851242d755d0ac46e9fa3c5d32&dn=ubuntu-20.04-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "18.04.4",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:e73108cbd628fee5cf203acdf668c5bf45d07810&dn=ubuntu-18.04.4-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso",
+          "ipfs-hash": "QmX6AyJuyjL4sn8VWkctxbComtPdLG7XX6pHXre7ARFbvQ",
+          "file-size": "912261120"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.04",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:c6df3faa31ff9a73a3687bf5522b2035e561ac41&dn=xubuntu-20.04-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04-desktop-amd64.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
         {
           "arch": "amd64",
           "version": "18.04.4",
@@ -850,15 +779,6 @@
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-i386.iso",
           "ipfs-hash": "QmPGseLBvK5GS2UKJxVMQ4xLNbXG7S6zZfrGScWz8D3Tnc",
           "file-size": "1529937920"
-        },
-        {
-          "arch": "amd64",
-          "version": "19.10",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:3d0fd29a6da0d7bdb6c7fb55cd812265f31a7705&dn=xubuntu-19.10-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/xubuntu-19.10-desktop-amd64.iso",
-          "ipfs-hash": "QmTGobwfDRQLKdzdc6X5UD4fDFZdwEaV68bk7SxUxteg87",
-          "file-size": "1647968256"
         }
       ],
       "trackers": [
