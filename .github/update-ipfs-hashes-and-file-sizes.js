@@ -41,7 +41,8 @@ async function addHash(version, url) {
       version['ipfs-hash'] = file.cid.toString();
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
       console.log('Added hash for ' + url.substring(url.lastIndexOf('/') + 1));
-      node.repo.gc();
+      await node.pin.rm(file.cid.toString());
+      await node.repo.gc();
       return;
     }
   }
