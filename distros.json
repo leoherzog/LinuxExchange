@@ -343,7 +343,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:72dd808d62df3a3deba6e993eb1be38e9837324d&dn=Fedora-Cinnamon-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmQqfZtxmKriE9C9KMUPPDXm2KgMXMhSJNC9rJC5uC2Gqj",
           "file-size": "2064121856"
         },
         {
@@ -353,7 +353,7 @@
           "magnet-url": "magnet:?xt=urn:btih:7e0e6cfcd4e661a92be9fdb41b4483d1faeff0b9&dn=Fedora-Workstation-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "QmSCsvAwiXvHzQh9LScdgkUQ3TpMKtAwyxE7mezkoHzcg1",
-          "file-size": ""
+          "file-size": "1966178304"
         },
         {
           "arch": "amd64",
@@ -388,7 +388,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:7134004bab382e19af370147440523f1a51ddd82&dn=Fedora-MATE_Compiz-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmSgFf8BLNTkxjSyKZ575bU9V34imeXXe3VTcaoSjVy8g8",
           "file-size": "2020130816"
         },
         {
@@ -416,7 +416,7 @@
           "magnet-url": "magnet:?xt=urn:btih:124b3a5c95c718a503eb4dab226651799bd0d104&dn=Fedora-Xfce-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "QmSSRWMBLyYeNinSwi9WXZLamdKHt9XczTaQ2tKeTTar1j",
-          "file-size": ""
+          "file-size": "1505525760"
         }
       ],
       "trackers": [
@@ -533,8 +533,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:3a87abd39322861ab4621234d406c8a6ce1fca9a&dn=manjaro-architect-20.0-200426-linux56.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0-200426-linux56.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmQVWbtkhRrHdcrKWnm1XuN1r34p72AhA12WGxz4G4Ax8e",
+          "file-size": "743385088"
         },
         {
           "arch": "amd64",
@@ -542,8 +542,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:281ff5b8e989187fcd238a2246212cc7fc838bc0&dn=manjaro-gnome-20.0-200426-linux56.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.0-200426-linux56.iso ",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "Qmf47EJEJegpkriEwdd1kB8crwQy6FPqhZK9vBY5EpjUhg",
+          "file-size": "2780303360"
         },
         {
           "arch": "amd64",
@@ -551,8 +551,8 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:95a5135c5fd7d0d6136dfa95217ef9a80fb3c82f&dn=manjaro-kde-20.0-200426-linux56.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.0-200426-linux56.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmQTwLqBxqXUQMakCEJ2pjnPH5boSZ7fLoJH5E8UspgHVK",
+          "file-size": "3104976896"
         },
         {
           "arch": "amd64",
@@ -561,7 +561,7 @@
           "magnet-url": "magnet:?xt=urn:btih:ea35a1d945c027fd401762dfa01fcd3ebe95816f&dn=manjaro-xfce-20.0-200426-linux56.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.0-200426-linux56.iso",
           "ipfs-hash": "",
-          "file-size": ""
+          "file-size": "2819059712"
         }
       ],
       "trackers": []
