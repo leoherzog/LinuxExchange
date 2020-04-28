@@ -344,7 +344,7 @@
           "magnet-url": "magnet:?xt=urn:btih:72dd808d62df3a3deba6e993eb1be38e9837324d&dn=Fedora-Cinnamon-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "",
-          "file-size": ""
+          "file-size": "2064121856"
         },
         {
           "arch": "amd64",
@@ -352,7 +352,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7e0e6cfcd4e661a92be9fdb41b4483d1faeff0b9&dn=Fedora-Workstation-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmSCsvAwiXvHzQh9LScdgkUQ3TpMKtAwyxE7mezkoHzcg1",
           "file-size": ""
         },
         {
@@ -361,7 +361,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:a039e7bc9062735d3f65a83c728694ff47a9c6d7&dn=Fedora-KDE-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmSiRjrDkcfDSfmPvR2qfp3QEXUkSLQ81thHPdpxZobBUZ",
           "file-size": ""
         },
         {
@@ -370,8 +370,8 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:928771fe18dd2d7bb881055d3d2faabe96da80be&dn=Fedora-LXDE-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmR3R7Xzpuz7uUJ3rBwgzTjSYnCVCdDbFNATE9rAd8GA96",
+          "file-size": "1320222720"
         },
         {
           "arch": "amd64",
@@ -379,7 +379,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:cab9dfe3410833b86d013b3cdbcf36b68970ea58&dn=Fedora-LXQt-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmUj7rKxixGM9hrsFSdvvdQantZ3sDgDvau8MLA8ouNa3X",
           "file-size": ""
         },
         {
@@ -389,7 +389,7 @@
           "magnet-url": "magnet:?xt=urn:btih:7134004bab382e19af370147440523f1a51ddd82&dn=Fedora-MATE_Compiz-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "",
-          "file-size": ""
+          "file-size": "2020130816"
         },
         {
           "arch": "amd64",
@@ -397,8 +397,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:ce9149c328d2708c47c2b7738594f0dbc2601a16&dn=Fedora-Server-dvd-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Server/x86_64/iso/Fedora-Server-dvd-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmUQTQoD9sdukPDxj5TZEwMsn92YGZaTUScJ1ACzv31WVu",
+          "file-size": "2073034752"
         },
         {
           "arch": "amd64",
@@ -406,8 +406,8 @@
           "desktop-environment": "Sugar",
           "magnet-url": "magnet:?xt=urn:btih:80bbb5c4986d3dd4c52f8dab517451203c4fab1d&dn=Fedora-SoaS-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmXQQhGArJLFrrswFfHiFapLrbeuDhnq5itNfhH7Hrr7xh",
+          "file-size": "1109803008"
         },
         {
           "arch": "amd64",
@@ -415,7 +415,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:124b3a5c95c718a503eb4dab226651799bd0d104&dn=Fedora-Xfce-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-32-1.6.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmSSRWMBLyYeNinSwi9WXZLamdKHt9XczTaQ2tKeTTar1j",
           "file-size": ""
         }
       ],
