@@ -122,8 +122,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:bbd32d5d1c8164ec085fc460928e1f8bf71dc10a&dn=CentOS-7-x86_64-DVD-2003",
           "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmQdjrhmAQTMtwWWsfpGtWBZQeM4xvTj6SByXiC4Hbsruu",
+          "file-size": "4781506560"
         }
       ],
       "trackers": [
@@ -371,7 +371,7 @@
           "magnet-url": "magnet:?xt=urn:btih:a039e7bc9062735d3f65a83c728694ff47a9c6d7&dn=Fedora-KDE-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "QmSiRjrDkcfDSfmPvR2qfp3QEXUkSLQ81thHPdpxZobBUZ",
-          "file-size": ""
+          "file-size": "1886568448"
         },
         {
           "arch": "amd64",
@@ -389,7 +389,7 @@
           "magnet-url": "magnet:?xt=urn:btih:cab9dfe3410833b86d013b3cdbcf36b68970ea58&dn=Fedora-LXQt-Live-x86_64-32",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/32/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-32-1.6.iso",
           "ipfs-hash": "QmUj7rKxixGM9hrsFSdvvdQantZ3sDgDvau8MLA8ouNa3X",
-          "file-size": ""
+          "file-size": "1466302464"
         },
         {
           "arch": "amd64",
@@ -569,7 +569,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:ea35a1d945c027fd401762dfa01fcd3ebe95816f&dn=manjaro-xfce-20.0-200426-linux56.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.0-200426-linux56.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmcEanTBZSAC3qss3BdUuyoZC5kd1x4XvZTjkUmdpRzijr",
           "file-size": "2819059712"
         }
       ],
