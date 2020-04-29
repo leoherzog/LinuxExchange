@@ -328,8 +328,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:62c15a84dc2a699fa88d1c9bcd2a1c13f350fd33&dn=eos-eos3.8-amd64-amd64.200427-200052.base.iso",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.8.0/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200427-200052.base.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmQw6HZGpWJLCfzkwxJ76xhPxfAvVeYts5RzEG4aymAzSV",
+          "file-size": "2895955968"
         }
       ],
       "trackers": [
