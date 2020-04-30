@@ -81,6 +81,7 @@ button:disabled {
   width: 85vw;
   max-width: 1000px;
   height: fit-content;
+  height: -moz-fit-content;
   padding-left: 16px;
   padding-right: 16px;
   border-radius: .5vw;
@@ -190,6 +191,7 @@ button:disabled {
   #selections, #downloads, #osSelection {
     width: 95vw;
     height: fit-content;
+    height: -moz-fit-content;
   }
   #properties {
     width: 100%;
