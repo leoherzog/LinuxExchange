@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">
+
+    <meta name="description" content="Download official install media for popular Linux distributions, peer-to-peer, right in the web browser!">
+    <meta name="keywords" content="linux, iso, download, live, ubuntu, debian, torrent, webtorrent">
+    <meta name="author" content="Leo Herzog | herzog.tech">
+    <meta name="theme-color" content="#000000">
+
+    <link href="lx.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Asap:500,700" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-linux/0.9/font-linux.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ipfs/0.43.1/index.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filesize/6.1.0/filesize.min.js"></script>
+    <script defer src="https://kit.fontawesome.com/3150158421.js"></script>
+
+    <title>Linux Exchange</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <span id="logo"><span class="fad fa-chart-network fa-fw"></span> Linux Exchange</span>
+      <span id="source"><a href="https://github.com/leoherzog/LinuxExchange" target="_blank"><span class="fab fa-github"></span></a></span>
+    </header>
+
+    <div id="page">
+
+      <div id="intro">
+        <div id="introclose" onclick='document.getElementById("intro").remove()'><span class="far fa-times"></span></div>
+        <h1>Download Linux directly from <a href="https://ipfs.io/#how" target="_blank">the distributed web</a>!</h1>
+        <p>Creating and maintaining a distribution of Linux is hard enough without operating a network of mirrors.</p>
+        <p>Your browser is <span id="nodeStatusText">loading...</span>.
+        That means that the more people that use this website, and the more distros that integrate IPFS for distributing their ISOs, the faster it gets for everyone!
+        If you maintain a version of Linux, it's easier than ever to distribute your installation media, no mirror network required.</p>
+      </div>
+  
+      <div id="selections">
+        <div id="osSelection">
+          <select id="os" required><option>Loading...</option></select>
+          <select id="version" required><option>Loading...</option></select>
+          <button id="start" type="button" disabled>Download</button>
+        </div>
+        <div id="properties">
+          <div id="version-number" class="property"></div>
+          <div id="desktop-environment" class="property"></div>
+          <div id="arch" class="property"></div>
+        </div>
+      </div>
+  
+      <div id="downloads"></div>
+  
+    </div>
+
+    <div id="nodeStatusIcon"></div>
+
+    <script src="lx.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165013092-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-165013092-1');
+    </script>
+
+  </body>
+
+</html>
