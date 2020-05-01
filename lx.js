@@ -2,6 +2,8 @@ var node;
 var distros;
 var selectedDistro;
 var selectedVersion;
+var header = document.getElementById('header');
+var source = document.getElementById('source');
 var os = document.getElementById('os');
 var version = document.getElementById('version');
 var start = document.getElementById('start');
@@ -85,11 +87,15 @@ function onDistroChange() {
 
   version.selectedIndex = selectedDistro['recommended-version-index'];
 
+  let textColor = isDark(selectedDistro['primary-color']) ? '#fff' : '#0D191F';
+  header.setAttribute('style', 'color: ' + textColor + ';background:' + selectedDistro['primary-color']);
+  source.setAttribute('style', 'color: ' + textColor + ';');
+
   onVersionChange();
 
 }
 
-function onVersionChange(element) {
+function onVersionChange() {
 
   selectedDistro = distros.distros.find(index => index['name'] == os.value);
   selectedVersion = selectedDistro.versions.find(index => index['ipfs-hash'] == version.value);
@@ -157,11 +163,8 @@ async function download() {
       if (!progress) document.getElementById(hash + '-total').innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
       progress += chunk.byteLength;
       content = new Blob([content, chunk], {"type": "application/octet-stream"});
-      if (progress < 1073741824) {
-        progressStatus.innerHTML = filesize(progress, {"round": 0});
-      } else {
-        progressStatus.innerHTML = filesize(progress, {"round": 1});
-      }
+      let digits = new Number(progress > 1073741824);
+      progressStatus.innerHTML = filesize(progress, {"round": digits});
     }
 
     console.log("Saving " + name);
@@ -193,7 +196,7 @@ function createRow(hash) {
   let col1 = document.createElement('div');
   col1.setAttribute('id', hash + '-distroicon');
   col1.className = 'cell';
-  col1.innerHTML = '<span class="' + (selectedDistro['font-logos-icon'] || 'fab fa-linux') +'"></span>';
+  col1.innerHTML = '<span style="color:' + selectedDistro['primary-color'] + '" class="' + (selectedDistro['font-logos-icon'] || 'fab fa-linux') +'"></span>';
   left.appendChild(col1);
   
   let col2 = document.createElement('div');
@@ -259,4 +262,22 @@ Array.prototype.unique = function() {
     }
   }
   return out;
+}
+
+// https://awik.io/determine-color-bright-dark-using-javascript/
+function isDark(color) {
+  var r, g, b, hsp;
+  if (color.match(/^rgb/)) {
+      color = color.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/);
+      r = color[1];
+      g = color[2];
+      b = color[3];
+  } else {
+      color = + ("0x" + color.slice(1).replace(color.length < 5 && /./g, '$&$&'));
+      r = color >> 16;
+      g = color >> 8 & 255;
+      b = color & 255;
+  }
+  hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b));
+  return hsp < 127.5;
 }
