@@ -834,7 +834,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 10,
+  "recommended-distro-index": 11,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",

@@ -100,6 +100,14 @@ function onVersionChange() {
   selectedDistro = distros.distros.find(index => index['name'] == os.value);
   selectedVersion = selectedDistro.versions.find(index => index['ipfs-hash'] == version.value);
 
+  if (!selectedVersion) {
+    versionNumber.innerHTML = "";
+    desktopEnvironment.innerHTML = "";
+    arch.innerHTML = "";
+    start.disabled = true;
+    return;
+  }
+
   let selectedDesktopEnvironment = distros['desktop-environments'][selectedVersion['desktop-environment']];
   
   versionNumber.innerHTML = selectedDistro['full-name'] + " " + selectedVersion['version'];
@@ -123,6 +131,8 @@ function onVersionChange() {
 
   arch.innerHTML = selectedVersion['arch'];
   arch.setAttribute('title', distros['architectures'][selectedVersion['arch']]);
+
+  start.disabled = false;
 
 }
 
