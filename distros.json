@@ -50,6 +50,11 @@
       "description": "A modified version of LXDE specially made for the Raspberry Pi",
       "url": "https://raspberrypi.org/downloads/raspbian/"
     },
+    "Pop Shell": {
+      "name": "Pop Shell",
+      "description": "Pop Shell is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows",
+      "url": "https://github.com/pop-os/shell"
+    },
     "MATE": {
       "name": "MATE",
       "description": "A classic and flexible take on the traditional Linux desktop",
@@ -319,7 +324,7 @@
       "url": "https://endlessos.com/",
       "torrent-download-page-url": "https://support.endlessm.com/hc/en-us/articles/209063006-Where-can-I-download-the-Endless-OS-ISO-image-files-directly-",
       "description": "A Debian-based system with a read-only root filesystem and Flatpak-based application distribution",
-      "font-logos-icon": "",
+      "font-logos-icon": null,
       "recommended-version-index": 0,
       "versions": [
         {
@@ -439,7 +444,7 @@
       "url": "https://kali.org/",
       "torrent-download-page-url": "https://kali.org/downloads/",
       "description": "A Debian-based distribution with a collection of security and forensics tools",
-      "font-logos-icon": "",
+      "font-logos-icon": null,
       "recommended-version-index": 0,
       "versions": [
         {
@@ -602,6 +607,39 @@
           "direct-download-url": "https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2020-02-14/2020-02-13-raspbian-buster-lite.zip",
           "ipfs-hash": "QmV2oYwNrmYbeK7RFLNAtrgSVeZeDnLYWQj4Ng7DVvGWWo",
           "file-size": "454047405"
+        }
+      ],
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Pop!_OS",
+      "full-name": "Pop!_OS",
+      "primary-color": "#ffa300",
+      "url": "https://pop.system76.com/",
+      "torrent-download-page-url": null,
+      "description": "Pop!_OS is designed for fast navigation, easy workspace organization, and fluid, convenient workflow",
+      "font-logos-icon": null,
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "20.04 (Nvidia)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/5/pop-os_20.04_amd64_nvidia_5.iso",
+          "ipfs-hash": "",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "20.04 (Intel/AMD)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/5/pop-os_20.04_amd64_intel_5.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": [
