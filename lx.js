@@ -122,7 +122,11 @@ function onVersionChange(element) {
 
 async function startNode(event) {
   console.log("Starting IPFS...");
-  node = await Ipfs.create();
+  if (window.ipfs && window.ipfs.enable) {
+    node = await window.ipfs.enable();
+  } else {
+    node = await Ipfs.create();
+  }
   let ipfsVersion = await node.version();
   console.log("Started, version " + ipfsVersion.version);
   updateNodeStatus('ready', 'This browser tab is a v' + ipfsVersion.version + ' node connected to the IPFS network');
