@@ -307,12 +307,12 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "5.1.3",
+          "version": "5.1.4",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:79f160695f35e57110523761b092b56238aa10e8&dn=elementaryos-5.1-stable.20200405.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200405.iso",
-          "ipfs-hash": "QmXS7WjJnXMknXrmMdd3VdCuMi4iZmKG17yz6UdprEDvPf",
-          "file-size": "1502576640"
+          "magnet-url": "magnet:?xt=urn:btih:444f6d8b8c3a5363a80216c4e97c7460ad0325bf&dn=elementaryos-5.1-stable.20200501.iso",
+          "direct-download-url": "http://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200501.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": []
