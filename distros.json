@@ -118,8 +118,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9db46a612d04763aa7db02a0ff63ede2ea555867&dn=CentOS-8.1.1911-x86_64-dvd1",
           "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmYgCx8YzxvHqfcCgwXmd35MqScDNkWdD9ctsLcmeCynK1",
+          "file-size": "7554990080"
         },
         {
           "arch": "amd64",
@@ -127,8 +127,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:bbd32d5d1c8164ec085fc460928e1f8bf71dc10a&dn=CentOS-7-x86_64-DVD-2003",
           "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmQdjrhmAQTMtwWWsfpGtWBZQeM4xvTj6SByXiC4Hbsruu",
+          "file-size": "4781506560"
         }
       ],
       "trackers": [
