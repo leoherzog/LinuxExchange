@@ -19,23 +19,23 @@ async function makeRequests() {
       if (!version['ipfs-hash']) {
         continue;
       }
+      console.log("Requesting " + version['direct-download-url'].substring(version['direct-download-url'].lastIndexOf('/') + 1) + "...");
       for (let gateway of gateways) {
-        let url = 'https://' + gateway + '/ipfs/' + version['ipfs-hash'];
-        await makeRequest(url);
+        await makeRequest(gateway, version['ipfs-hash']);
       }
     }
   }
   return;
 }
 
-async function makeRequest(url) {
-  console.log("Requesting " + url + "...");
+async function makeRequest(gateway, hash) {
+  let url = 'https://' + gateway + '/ipfs/' + hash;
   try {
-    var res = await fetch(url, {"timeout": 15 * 1000});
-    console.log("Got response. Size: " + res.headers.get('content-length'));
+    var res = await fetch(url, {"timeout": 15 * 1000, "headers": {"user-agent": "Wget/"}});
+    console.log("Got response from " + gateway + ". Size: " + res.headers.get('content-length'));
   }
   catch(e) {
-    console.error("No response");
+    console.error("No response from " + gateway);
   }
   return;
 }
