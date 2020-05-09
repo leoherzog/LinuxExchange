@@ -31,7 +31,7 @@ async function downloadFiles() {
 async function addFileSize(version, url) {
   try {
     var res = await fetch(url, {"timeout": 60 * 1000, "headers": {"user-agent": "Wget/"}});
-    version['file-size'] = res.headers.get('content-length');
+    version['file-size'] = await res.headers.get('content-length');
     fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
   }
   catch(e) {
