@@ -157,12 +157,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:78ae8101dd39f8cc2e5d28f93c4f8e129f556274&dn=debian-live-10.3.0-i386-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-cinnamon.iso",
-          "ipfs-hash": "QmTH2q9ozoG6Xx7uJWnwktRq6y8oiwGbM2nq2oTZWdBfea",
-          "file-size": "2554380288"
+          "magnet-url": "magnet:?xt=urn:btih:478f70792be505b62e6ca3a3c751dddbf45c4e33&dn=debian-live-10.4.0-i386-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-cinnamon.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -175,12 +175,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:c57838d6b7aa36ff2903a309ec5f720770a158f0&dn=debian-live-10.3.0-i386-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-gnome.iso",
-          "ipfs-hash": "QmRBFM5WX9XWYowXfz3c7KsM7V3K2uavQ9C7gBo36mWFES",
-          "file-size": "2581168128"
+          "magnet-url": "magnet:?xt=urn:btih:ef30391eb0c916a44e1ca21493f990272242668a&dn=debian-live-10.4.0-i386-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-gnome.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -193,12 +193,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:34de525d93ecf08565c0551d91992f63517870a9&dn=debian-live-10.3.0-i386-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-kde.iso",
-          "ipfs-hash": "QmQdVGnLtVxiU8siBVGW6GrdjwyMba4sbCHMqrHJDFX1R7",
-          "file-size": "2790850560"
+          "magnet-url": "magnet:?xt=urn:btih:23a59833d40c0b38e0c94b5a97f8bdb3d4e6b897&dn=debian-live-10.4.0-i386-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-kde.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -211,12 +211,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:b457a79f0700f1f55d7bcf65781348b4db546464&dn=debian-live-10.3.0-i386-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-lxde.iso",
-          "ipfs-hash": "QmNTFFN1cmjcwCxCny2nXzfQE8Yrd99nGvHtK4HuNEQobU",
-          "file-size": "2427944960"
+          "magnet-url": "magnet:?xt=urn:btih:7b9c089fd9828a4fbf4a5da60846865a88204544&dn=debian-live-10.4.0-i386-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-lxde.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -229,12 +229,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:bfabb3338077110c2f3b036cc2d1621d4a4f6eb0&dn=debian-live-10.3.0-i386-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-lxqt.iso",
-          "ipfs-hash": "QmV5htwoZkxu44qzkEKZtLaJRAYuk2w2Gym18t9kMuuBDG",
-          "file-size": "2550136832"
+          "magnet-url": "magnet:?xt=urn:btih:a93874ebb9b4f6b9810e30fb2d0f72af6346ae6f&dn=debian-live-10.4.0-i386-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-lxqt.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -247,12 +247,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:24fa49f894dccf035bd5db46fff9477cac74dc85&dn=debian-live-10.3.0-i386-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-mate.iso",
-          "ipfs-hash": "QmNcBsrUpqF88MKBh87xD32mqNxVQeim5KYU5LMCMWS8Fu",
-          "file-size": "2520989696"
+          "magnet-url": "magnet:?xt=urn:btih:01429a4cf757b8e32e4ae0c0f4dbf30281bc6f6e&dn=debian-live-10.4.0-i386-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-mate.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -265,12 +265,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:88f55fcc34ef0ee3a7189962aa2358c7cb52a0dd&dn=debian-live-10.3.0-i386-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-standard.iso",
-          "ipfs-hash": "QmWectP36ghzEJ1HNyNyjnb4FRaBT65CfQFaqibm6E1MNA",
-          "file-size": "916455424"
+          "magnet-url": "magnet:?xt=urn:btih:2f32147c12f3aa7f6e7b4d09813dde7b7f9c478c&dn=debian-live-10.4.0-i386-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-standard.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -283,12 +283,12 @@
         },
         {
           "arch": "x86",
-          "version": "10.3.0",
+          "version": "10.4.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:91949eff6f7078c9d943d4e4c9c1d7a8764e8fc9&dn=debian-live-10.3.0-i386-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.3.0-i386-xfce.iso",
-          "ipfs-hash": "QmRHFUdeWwPDmT8ogBWFZnndb529rPH7fbLEBBPKLTJrvm",
-          "file-size": "2401763328"
+          "magnet-url": "magnet:?xt=urn:btih:4f7f1d491c6a5fc8afee399d690a803df457671b&dn=debian-live-10.4.0-i386-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.4.0-i386-xfce.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": [
