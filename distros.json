@@ -451,7 +451,7 @@
           "arch": "amd64",
           "version": "2020.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:75IUQIBUA3NZZWJXWH67VKCEMUFIQP7B&dn=kali-linux-2020-2-live-amd64-iso",
+          "magnet-url": "magnet:?xt=urn:btih:ff5148203406db9cd937b1fdfaa844650a883fe1&dn=kali-linux-2020-2-live-amd64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-live-amd64.iso",
           "ipfs-hash": "",
           "file-size": ""
