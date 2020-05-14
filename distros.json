@@ -278,7 +278,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:dafd05d76fe967ebcec0df3122ef13f4fd3622b5&dn=debian-live-10.4.0-amd64-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.4.0-amd64-xfce.iso",
-          "ipfs-hash": "",
+          "ipfs-hash": "QmX9RLrpkGqARcEi7Q7janfnPkWUVa1gi5QCk7mQN87XkM",
           "file-size": "2382364672"
         },
         {
@@ -453,8 +453,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:ff5148203406db9cd937b1fdfaa844650a883fe1&dn=kali-linux-2020-2-live-amd64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-live-amd64.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmerqpN4Wvzgewwkkf1uPZHBgLeLi2zSLcEmTM1AFasA5W",
+          "file-size": "3020959744"
         }
       ],
       "trackers": [
