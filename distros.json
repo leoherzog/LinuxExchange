@@ -462,8 +462,8 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2e5f5bd95789ffdb7c5332303a2e925ed766ee64&dn=kali-linux-2020-2-live-i386-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.2/kali-linux-2020.2-live-i386.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "Qmf4zwaHnVSthx8iUwFc2iZyYEnu4JrQ2cA2zhjPu9oKiq",
+          "file-size": "2651860992"
         }
       ],
       "trackers": [
