@@ -11,9 +11,8 @@ const distroIndex = distros['distros'].findIndex(function(distro) {
 
 var urls = ["https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/", "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"]
 
-for (var i in urls) {
-  get.concat(urls[i], parseWebpage);
-  break;
+for (var url of urls) {
+  get.concat(url, parseWebpage);
 }
 
 function parseWebpage(err, res, body) {
@@ -31,8 +30,8 @@ function parseWebpage(err, res, body) {
     }
   });
 
-  for (var j in torrentLinks) {
-    parseTorrent.remote(torrentLinks[j], updateVersion);
+  for (var link of torrentLinks) {
+    parseTorrent.remote(link, updateVersion);
   }
 
   return;
