@@ -206,7 +206,7 @@ function createRow(hash) {
   let col1 = document.createElement('div');
   col1.setAttribute('id', hash + '-distroicon');
   col1.className = 'cell';
-  col1.innerHTML = '<span style="color:' + selectedDistro['primary-color'] + '" class="' + (selectedDistro['font-logos-icon'] || 'fab fa-linux') +'"></span>';
+  col1.innerHTML = '<span style="color:' + selectedDistro['primary-color'] + '" class="' + (selectedDistro['font-logos-icon'] || 'fas fa-compact-disc') +'"></span>';
   left.appendChild(col1);
   
   let col2 = document.createElement('div');
