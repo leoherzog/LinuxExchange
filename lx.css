@@ -5,7 +5,11 @@ html, body, div {
   color: #263238;
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  overflow: hidden;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
@@ -56,6 +60,8 @@ button {
   transition: .5s ease-in-out all;
   color: #fff;
   width: 15%;
+  min-width: fit-content;
+  min-width: -moz-fit-content;
   font-size: 1rem;
   padding: 8px 8px;
   border: 0;
@@ -99,6 +105,8 @@ button:disabled {
 #selections {
   width: 580px;
   height: 10%;
+  min-height: fit-content;
+  min-height: -moz-fit-content;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
@@ -139,11 +147,15 @@ button:disabled {
 
 .row {
   width: 100%;
-  height: 42px;
+  height: fit-content;
+  height: -moz-fit-content;
+  padding-top: 6px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #8C989E;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .row:last-child {
@@ -155,8 +167,6 @@ button:disabled {
   display: block;
   width: auto;
   margin: 0px 2px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 
@@ -178,6 +188,12 @@ button:disabled {
 
 .error {
   color: #d50000;
+}
+
+@media screen and (max-width: 900px) {
+  .row {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 600px) {
