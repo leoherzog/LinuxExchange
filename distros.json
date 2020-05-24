@@ -668,8 +668,8 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/6/pop-os_20.04_amd64_nvidia_6.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmZ4Pc3b3QiX9DanPJHVY97EXy2jeYrRtBRUufXSBbp22x",
+          "file-size": "2528411648"
         },
         {
           "arch": "amd64",
@@ -677,8 +677,8 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/6/pop-os_20.04_amd64_intel_6.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmNjwhyeGwfmXzs72GEEMTjYqgRUm21M7qtpAidyawcVsv",
+          "file-size": "2239365120"
         }
       ],
       "trackers": []
