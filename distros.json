@@ -551,12 +551,12 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "20.0",
+          "version": "20.0.1",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3a87abd39322861ab4621234d406c8a6ce1fca9a&dn=manjaro-architect-20.0-200426-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0-200426-linux56.iso",
-          "ipfs-hash": "QmQVWbtkhRrHdcrKWnm1XuN1r34p72AhA12WGxz4G4Ax8e",
-          "file-size": "743385088"
+          "magnet-url": "magnet:?xt=urn:btih:04526be4b26a5fe701130a9e2d664d3725b90244&dn=manjaro-architect-20.0.1-200521-linux56.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0.1-200521-linux56.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
