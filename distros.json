@@ -93,8 +93,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e79d1fac0e60598bf0f1133487852d81cf716ced&dn=archlinux-2020.06.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.06.01/archlinux-2020.06.01-x86_64.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmSBRV9QBDsQcKBqS259FpBNb7ksV4UdKugUgzmcg1ekPh",
+          "file-size": "694157312"
         }
       ],
       "trackers": [
