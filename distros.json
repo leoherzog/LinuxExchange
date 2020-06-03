@@ -589,39 +589,6 @@
       "trackers": []
     },
     {
-      "name": "Raspberry Pi OS",
-      "full-name": "Raspberry Pi OS",
-      "primary-color": "#c51a4a",
-      "url": "https://raspberrypi.org/downloads/",
-      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/",
-      "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
-      "font-logos-icon": "fl-raspberry-pi",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "arm",
-          "version": "2020-05-27",
-          "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:0cf1fd7955829f9efae1bc8edfbd6a2ad8730be1&dn=2020-05-27-raspios-buster-full-armhf.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2020-05-28/2020-05-27-raspios-buster-full-armhf.zip",
-          "ipfs-hash": "QmXQLm2pFkpiMRWXhR1zPaZ5FVyMhwJSo6nmshWC9y5zvr",
-          "file-size": "2645200349"
-        },
-        {
-          "arch": "arm",
-          "version": "2020-05-27",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:b87a0ece19a15d68c77369bc92175e67f71ed9dd&dn=2020-05-27-raspios-buster-lite-armhf.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-05-28/2020-05-27-raspios-buster-lite-armhf.zip",
-          "ipfs-hash": "QmYVd2uyvnPu42d4FwB7eY6ZSUy6tGiZp3E62ESfuDY1AQ",
-          "file-size": "452715448"
-        }
-      ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
-    },
-    {
       "name": "Peppermint",
       "full-name": "Peppermint OS",
       "primary-color": "#da2a2f",
@@ -682,6 +649,39 @@
         }
       ],
       "trackers": []
+    },
+    {
+      "name": "Raspberry Pi OS",
+      "full-name": "Raspberry Pi OS",
+      "primary-color": "#c51a4a",
+      "url": "https://raspberrypi.org/downloads/",
+      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/",
+      "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
+      "font-logos-icon": "fl-raspberry-pi",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "arm",
+          "version": "2020-05-27",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:0cf1fd7955829f9efae1bc8edfbd6a2ad8730be1&dn=2020-05-27-raspios-buster-full-armhf.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2020-05-28/2020-05-27-raspios-buster-full-armhf.zip",
+          "ipfs-hash": "QmXQLm2pFkpiMRWXhR1zPaZ5FVyMhwJSo6nmshWC9y5zvr",
+          "file-size": "2645200349"
+        },
+        {
+          "arch": "arm",
+          "version": "2020-05-27",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:b87a0ece19a15d68c77369bc92175e67f71ed9dd&dn=2020-05-27-raspios-buster-lite-armhf.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-05-28/2020-05-27-raspios-buster-lite-armhf.zip",
+          "ipfs-hash": "QmYVd2uyvnPu42d4FwB7eY6ZSUy6tGiZp3E62ESfuDY1AQ",
+          "file-size": "452715448"
+        }
+      ],
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
     },
     {
       "name": "Ubuntu",
