@@ -635,8 +635,8 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/7/pop-os_20.04_amd64_nvidia_7.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmPRFgAmR1CwfZYyPC6bvfTuhJuPNtFwrWvTrDBsj7Evv4",
+          "file-size": "2530885632"
         },
         {
           "arch": "amd64",
@@ -644,8 +644,8 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/7/pop-os_20.04_amd64_intel_7.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "Qmd79QhZa28UuP3CTSEKmzdzPg1yJnkw5QTQjz26w45tuo",
+          "file-size": "2239365120"
         }
       ],
       "trackers": []
