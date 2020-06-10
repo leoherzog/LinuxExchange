@@ -48,7 +48,7 @@
 
     <header id="header">
       <span><span class="fad fa-chart-network fa-fw"></span> Linux Exchange</span>
-      <span><a id="source" href="https://github.com/leoherzog/LinuxExchange" target="_blank"><span class="fab fa-github"></span></a></span>
+      <span><a id="source" href="https://github.com/leoherzog/LinuxExchange" target="_blank" aria-label="See on Github"><span class="fab fa-github"></span></a></span>
     </header>
 
     <div id="page">
@@ -66,8 +66,11 @@
       <div id="selections">
         <div id="osSelection">
           <select id="os" required><option>Loading...</option></select>
+          <label for="os">Select an operating system</label>
           <select id="version" required><option>Loading...</option></select>
+          <label for="version">Select a version of that operating system</label>
           <button id="start" type="button" disabled>Download</button>
+          <label for="start">Begin download</label>
         </div>
         <div id="properties">
           <div id="version-number" class="property"></div>

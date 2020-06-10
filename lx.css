@@ -35,6 +35,10 @@ header {
   align-items: center;
 }
 
+label {
+  display: none;
+}
+
 header > span {
   margin: 0 1rem 0 1rem;
 }
