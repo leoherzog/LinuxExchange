@@ -551,39 +551,39 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "20.0.2",
+          "version": "20.0.3",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:505198aece7e8223713437f00d169da524f35636&dn=manjaro-architect-20.0.2-200601-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0.2-200601-linux56.iso",
-          "ipfs-hash": "QmdNnRkpWgmEmxXZmJUV5wJ59GFUw9XU8birJYeNoWJ5ov",
-          "file-size": "754507776"
+          "magnet-url": "magnet:?xt=urn:btih:19edb0f21e753076e7e4de1cb3220fcfacdd6754&dn=manjaro-architect-20.0.3-200607-linux56.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0.3-200607-linux56.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.0.2",
+          "version": "20.0.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:d55955b22a070ba557d85a7668b25207c27fc978&dn=manjaro-gnome-20.0.2-200531-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.0.2-200531-linux56.iso",
-          "ipfs-hash": "QmVQDnpVWi8j9cfcwbxoDubYBPccnTRvjEKkgVQbFAqYmq",
-          "file-size": "2769676288"
+          "magnet-url": "magnet:?xt=urn:btih:651cad3c76923d0ea845430e9449dddf5ece6ede&dn=manjaro-gnome-20.0.3-200606-linux56.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.0.3-200606-linux56.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.0.2",
+          "version": "20.0.3",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:7df692e8cea1b630ec3c8cd6370539378fa020af&dn=manjaro-kde-20.0.2-200531-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.0.2-200531-linux56.iso",
-          "ipfs-hash": "QmXVUS7J5eer8GUeWdSQYybDb2j3FzDvdx1Mom3BAh3wjb",
-          "file-size": "3116886016"
+          "magnet-url": "magnet:?xt=urn:btih:4f871f18a6ec6a30e78b6d65a4a57d1b724bdc39&dn=manjaro-kde-20.0.3-200606-linux56.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.0.3-200606-linux56.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.0.2",
+          "version": "20.0.3",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:0052b892cfe793d6364f9c1f06b2435bacdbe6cb&dn=manjaro-xfce-20.0.2-200531-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.0.2-200531-linux56.iso",
-          "ipfs-hash": "QmQibb5r6beD3MEXSKTNAeCzemPHvg5X8ZeKSter59erTN",
-          "file-size": "2835957760"
+          "magnet-url": "magnet:?xt=urn:btih:94aec8eec42574426f6248358d5184fa3e6f369c&dn=manjaro-xfce-20.0.3-200606-linux56.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.0.3-200606-linux56.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": []
