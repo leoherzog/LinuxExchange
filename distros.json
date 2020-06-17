@@ -114,12 +114,12 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.1.1911",
+          "version": "8.2.2004",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:9db46a612d04763aa7db02a0ff63ede2ea555867&dn=CentOS-8.1.1911-x86_64-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso",
-          "ipfs-hash": "QmYgCx8YzxvHqfcCgwXmd35MqScDNkWdD9ctsLcmeCynK1",
-          "file-size": "7554990080"
+          "magnet-url": "magnet:?xt=urn:btih:adc119f7d38fdabc051d965c0c8f577d1b4c9143&dn=CentOS-8.2.2004-x86_64-dvd1",
+          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso ",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
