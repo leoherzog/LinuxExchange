@@ -118,8 +118,8 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:adc119f7d38fdabc051d965c0c8f577d1b4c9143&dn=CentOS-8.2.2004-x86_64-dvd1",
           "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso ",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmT8VP2uEb3Jmhgue3mqW5k3aLL3DdHhFjmLqNjuhrHPJT",
+          "file-size": "8231321600"
         },
         {
           "arch": "amd64",
