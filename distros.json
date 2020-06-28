@@ -482,57 +482,30 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "19.3",
+          "version": "20",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:2a78414b7af89fe08644ece339ee454867d29cb7&dn=linuxmint-19.3-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-cinnamon-64bit.iso",
-          "ipfs-hash": "QmZeBhbmQWKXC3E7anxMKrdaffasNqaTPLN1BrPzwAU762",
-          "file-size": "2036826112"
-        },
-        {
-          "arch": "x86",
-          "version": "19.3",
-          "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:043bce8cac76f5e75ffb9755c7ddd6c561ac386a&dn=linuxmint-19.3-cinnamon-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-cinnamon-32bit.iso",
-          "ipfs-hash": "QmQqqqGjoFpZQuFaJZpsoYM2mDoug7cJpqjgMpV83F1RsL",
-          "file-size": "2015363072"
+          "magnet-url": "magnet:?xt=urn:btih:b11be92351257a96b9a3696075f0d30f1a17cddc&dn=linuxmint-20-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-cinnamon-64bit.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "19.3",
+          "version": "20",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:90f700358946c85c6dd5244c34c5304810bd9d28&dn=linuxmint-19.3-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-mate-64bit.iso",
-          "ipfs-hash": "QmP92X42gkDq7c7pFaUE164nCq79QKe5PzbdwzY8oE7REw",
-          "file-size": "2101542912"
-        },
-        {
-          "arch": "x86",
-          "version": "19.3",
-          "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:b6622f65ad09b434161a62561435c148675a1f03&dn=linuxmint-19.3-mate-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-mate-32bit.iso",
-          "ipfs-hash": "QmfYwbEo2Y6nKbJZGzFKtczZF9sDRKFWRiWg1xRQDZJ7q9",
-          "file-size": "2080374784"
+          "magnet-url": "magnet:?xt=urn:btih:f5417cda71d66b935fc997c5ae72e8539eab5094&dn=linuxmint-20-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-mate-64bit.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "19.3",
+          "version": "20",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:ec09f2735f7681e2553550f36020328c58456085&dn=linuxmint-19.3-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-xfce-64bit.iso",
-          "ipfs-hash": "QmXniHUvXAMPwXjkdeKHSfLXFbd7kGgkTr21qdsTCzuc2T",
-          "file-size": "1994539008"
-        },
-        {
-          "arch": "x86",
-          "version": "19.3",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:f739d02aae33b38ed02b84714080b20d193338f2&dn=linuxmint-19.3-xfce-32bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/19.3/linuxmint-19.3-xfce-32bit.iso",
-          "ipfs-hash": "QmYqokx5Ljt1uvBejmzRAfRiua4pALsFEBFCwBtdY1oS7L",
-          "file-size": "1973420032"
+          "magnet-url": "magnet:?xt=urn:btih:08f45062617dc8fdfbc0511fbb14d208bd8ea026&dn=linuxmint-20-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-xfce-64bit.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": [
