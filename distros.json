@@ -486,8 +486,8 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:b11be92351257a96b9a3696075f0d30f1a17cddc&dn=linuxmint-20-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-cinnamon-64bit.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmRgNvFhUMX5HTDDBRCWLRcsa2nXG7xC3x6m9KiPPXRyjJ",
+          "file-size": "1984790528"
         },
         {
           "arch": "amd64",
@@ -495,8 +495,8 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:f5417cda71d66b935fc997c5ae72e8539eab5094&dn=linuxmint-20-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-mate-64bit.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "Qme4qeWR2qiFDgPTLkvyjkLWoCmWdhkEJS2beP3aED19tz",
+          "file-size": "2057551872"
         },
         {
           "arch": "amd64",
@@ -504,8 +504,8 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:08f45062617dc8fdfbc0511fbb14d208bd8ea026&dn=linuxmint-20-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-xfce-64bit.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmPCKo5zRgJX2Jd1nVL9HPfs1DQxkyA3rPehsBVFV6ZmxE",
+          "file-size": "1949515776"
         }
       ],
       "trackers": [
