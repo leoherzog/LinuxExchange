@@ -94,7 +94,7 @@
           "magnet-url": "magnet:?xt=urn:btih:707ff7a8be55d9e3ab8e1eb8560061f7e679de6d&dn=archlinux-2020.07.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.07.01/archlinux-2020.07.01-x86_64.iso",
           "ipfs-hash": "",
-          "file-size": ""
+          "file-size": null
         }
       ],
       "trackers": [
