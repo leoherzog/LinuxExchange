@@ -329,12 +329,12 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.8.3",
+          "version": "3.8.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:f3e90596d7cc403828d5bb5ededdc3ce58ff1c89&dn=eos-eos3.8-amd64-amd64.200609-195252.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.8.3/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200609-195252.base.iso",
-          "ipfs-hash": "QmQdrZ4WpY289JqR1PT3qJ2Xzo5GmV3JMafvL2ygu6n19X",
-          "file-size": "3063724032"
+          "magnet-url": "magnet:?xt=urn:btih:3c7995b5e7f4c9205160caef8359d73cc21f8a2c&dn=eos-eos3.8-amd64-amd64.200706-185259.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.8.4/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200706-185259.base.iso",
+          "ipfs-hash": "",
+          "file-size": ""
         }
       ],
       "trackers": [
