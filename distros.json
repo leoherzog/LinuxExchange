@@ -311,8 +311,8 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:2d27ecbc35c83953aa72778f361355469416a85d&dn=elementaryos-5.1-stable.20200706.iso",
           "direct-download-url": "http://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200706.iso",
-          "ipfs-hash": "",
-          "file-size": ""
+          "ipfs-hash": "QmRnaMW5dfzurP5C8XWUQbGGEf4J5BPVWtxeoemwQPYwsJ",
+          "file-size": "1484423168"
         }
       ],
       "trackers": []
