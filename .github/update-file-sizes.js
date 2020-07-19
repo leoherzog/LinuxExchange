@@ -1,17 +1,9 @@
 const fs = require('fs');
-const ipfs = require('ipfs');
-const { urlSource } = ipfs;
 const fetch = require('node-fetch');
 
 var node;
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 var timeInBase64 = new Buffer(new Date().getTime().toString()).toString('base64');
-
-async function startNode() {
-  node = await ipfs.create();
-  await downloadFiles(node);
-  process.exit();
-}
 
 async function downloadFiles() {
   for (let distro of distros.distros) {
@@ -19,9 +11,6 @@ async function downloadFiles() {
       var url = version['direct-download-url'].replace('{{base64time}}', timeInBase64);
       if (!version['file-size']) {
         await addFileSize(version, url);
-      }
-      if (!version['ipfs-hash']) {
-        await addHash(version, url);
       }
     }
   }
@@ -54,4 +43,4 @@ async function addHash(version, url) {
   }
 }
 
-startNode();
+downloadFiles();

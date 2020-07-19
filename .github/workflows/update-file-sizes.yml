@@ -1,4 +1,4 @@
-name: IPFS Hashes and File Sizes Updater
+name: File Sizes Updater
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: '12.x'
     - name: Install libraries
-      run: npm install ipfs
+      run: npm install node-fetch
     - name: Configure Git
       run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
     - name: Add missing hashes
