@@ -1,4 +1,4 @@
-var node;
+var client;
 var distros;
 var selectedDistro;
 var selectedVersion;
@@ -46,9 +46,10 @@ async function load() {
   start.addEventListener('click', download);
 
   try {
-    updateNodeStatus('loading', 'Turning this browser tab into an IPFS node...');
-    await startNode();
-    setInterval(() => node.swarm.peers().then(peers => console.log("Peers: " + peers.length)), 15000);
+    updateNodeStatus('loading', 'Turning this browser tab into a Torrent client...');
+    client = new WebTorrent();
+    setTimeout(checkStatus, 1000);
+    setInterval(checkStatus, 5000);
   }
   catch(e) {
     updateNodeStatus('error', 'Problem starting node. ' + e.toString());
@@ -74,11 +75,11 @@ function onDistroChange() {
     if (!hasSameArch) properties.push(version['arch']);
     let option = document.createElement('option');
     option.text = properties.join(' — ') || version['version'];
-    if (version['ipfs-hash']) {
-      option.value = version['ipfs-hash'];
+    if (version['magnet-url']) {
+      option.value = version['magnet-url'].split('btih:')[1].split('&')[0];
     } else {
       option.disabled = true;
-      option.text += ' (temporarily unavailable)'
+      option.text += ' (temporarily unavailable)';
     }
     document.getElementById('version').add(option);
   }
@@ -96,9 +97,9 @@ function onDistroChange() {
 }
 
 function onVersionChange() {
-
+  
   selectedDistro = distros.distros.find(index => index['name'] == os.value);
-  selectedVersion = selectedDistro.versions.find(index => index['ipfs-hash'] == version.value);
+  selectedVersion = selectedDistro.versions.find(index => index['magnet-url'].split('btih:')[1].split('&')[0] == version.value);
 
   if (!selectedVersion) {
     versionNumber.innerHTML = "";
@@ -136,21 +137,9 @@ function onVersionChange() {
 
 }
 
-async function startNode(event) {
-  console.log("Starting IPFS...");
-  if (window.ipfs && window.ipfs.enable) {
-    node = await window.ipfs.enable();
-  } else {
-    node = await Ipfs.create();
-  }
-  let ipfsVersion = await node.version();
-  console.log("Started, version " + ipfsVersion.version);
-  updateNodeStatus('ready', 'This browser tab is a v' + ipfsVersion.version + ' node connected to the IPFS network');
-}
+function download() {
 
-async function download() {
-
-  let hash = selectedVersion['ipfs-hash'];
+  let hash = selectedVersion['magnet-url'].split('btih:')[1].split('&')[0];
   let name = selectedVersion['direct-download-url'].substring(selectedVersion['direct-download-url'].lastIndexOf('/') + 1);
   let total = selectedVersion['file-size'];
 
@@ -164,33 +153,42 @@ async function download() {
   }
 
   let progressStatus = document.getElementById(hash + '-progress');
+  let progressTotal = document.getElementById(hash + '-total');
 
-  for await (const file of node.get(hash)) {
+  let id = selectedVersion['magnet-url'];
+  if (selectedDistro.trackers.length) {
+    id += "&tr=" + selectedDistro.trackers.join("&tr=");
+  }
+  id += "&tr=" + distros.trackers.join("&tr=");
+  id += "&ws=" + selectedVersion["direct-download-url"];
 
-    var content = new Blob([], {"type": "application/octet-stream"});
-    let progress = 0;
-    for await (const chunk of file.content) {
-      if (!progress) document.getElementById(hash + '-total').innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
-      progress += chunk.byteLength;
-      content = new Blob([content, chunk], {"type": "application/octet-stream"});
-      let digits = new Number(progress > 1073741824);
-      progressStatus.innerHTML = filesize(progress, {"round": digits});
-    }
+  console.log(id);
 
-    console.log("Saving " + name);
-    
-    var a = document.createElement('a');
-    var url = window.URL.createObjectURL(content);
-    a.setAttribute("href", url);
-    a.setAttribute("download", name);
-    a.innerHTML = 'Save Again';
-    document.getElementById(hash + '-progress').innerHTML = '';
-    document.getElementById(hash + '-progress').appendChild(a);
-    document.getElementById(hash + '-total').innerHTML = '(' + filesize(total) + ') <span class="far fa-file-check fa-fw ready"></span>';
-    a.click();
-    console.log("Saved " + name);
-
-  };
+  client.add(id, {"store": window.IdbChunkStore}, function(torrent) {
+    progressTotal.innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
+    progressStatus.innerHTML = filesize(0);
+    torrent.on('download', () => {
+      let digits = new Number(torrent.downloaded > 1073741824);
+      progressStatus.innerHTML = filesize(torrent.downloaded, {"round": digits});
+    });
+    torrent.on('done', () => {
+      console.log(torrent.name + " done!");
+      torrent.files.forEach((file) => {
+        progressStatus = '';
+        progressTotal.innerHTML = '(' + filesize(total) + ') <span class="far fa-file-check fa-fw ready"></span>';
+        file.getBlobURL((err, url) => {
+          if (err) throw err;
+          var a = document.createElement('a');
+          a.download = file.name;
+          a.href = url;
+          a.textContent = 'Save ' + file.name;
+          progressStatus.appendChild(a);
+          a.click();
+          console.log("Saved " + name);
+        });
+      });
+    });
+  });
 
 }
 
@@ -234,6 +232,15 @@ function createRow(hash) {
 
 }
 
+function checkStatus() {
+  console.info("Client ready: " + client.ready + ", Torrents: " + client.torrents.length);
+  if (client.ready) {
+    updateNodeStatus('ready', 'This browser tab is a node in the WebTorrent network');
+  } else {
+    updateNodeStatus('loading', 'This browser tab is loading a peer node in the WebTorrent network');
+  }
+}
+
 function updateNodeStatus(status, message) {
   nodeStatusIcon.className = status;
   nodeStatusText.className = status;
@@ -241,19 +248,19 @@ function updateNodeStatus(status, message) {
     case "loading":
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="fas fa-spinner fa-pulse fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
-      nodeStatusText.innerText = 'about to be connected directly to the IPFS network';
+      nodeStatusText.innerText = 'about to be connected directly to the WebTorrent network';
       start.disabled = true;
       break;
     case "ready":
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="far fa-chart-network fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
-      nodeStatusText.innerText = 'currently connected directly to the IPFS network';
+      nodeStatusText.innerText = 'currently connected directly to the WebTorrent network';
       start.disabled = false;
       break;
     case "error":
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="fas fa-exclamation fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
-      nodeStatusText.innerText = 'capable of being connected to the IPFS network, but we ran into a snag (' + message + ')';
+      nodeStatusText.innerText = 'capable of being connected to the WebTorrent network, but we ran into a snag (' + message + ')';
       start.disabled = true;
       break;
   }
