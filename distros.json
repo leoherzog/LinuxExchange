@@ -116,7 +116,7 @@
           "version": "8.2.2004",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:adc119f7d38fdabc051d965c0c8f577d1b4c9143&dn=CentOS-8.2.2004-x86_64-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso ",
+          "direct-download-url": "https://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.2.2004-x86_64-dvd1.iso",
           "file-size": "8231321600"
         },
         {
@@ -124,7 +124,7 @@
           "version": "7.8.2003",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:bbd32d5d1c8164ec085fc460928e1f8bf71dc10a&dn=CentOS-7-x86_64-DVD-2003",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso",
+          "direct-download-url": "https://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso",
           "file-size": "4781506560"
         }
       ],
@@ -291,7 +291,7 @@
           "version": "5.1.6",
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:2d27ecbc35c83953aa72778f361355469416a85d&dn=elementaryos-5.1-stable.20200706.iso",
-          "direct-download-url": "http://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200706.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200706.iso",
           "file-size": "1484423168"
         }
       ],
