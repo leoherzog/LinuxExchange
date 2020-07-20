@@ -162,8 +162,6 @@ function download() {
   id += "&tr=" + distros.trackers.join("&tr=");
   id += "&ws=" + selectedVersion["direct-download-url"];
 
-  console.log(id);
-
   client.add(id, {"store": window.IdbChunkStore}, function(torrent) {
     progressTotal.innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
     progressStatus.innerHTML = filesize(0);
@@ -174,17 +172,16 @@ function download() {
     torrent.on('done', () => {
       console.log(torrent.name + " done!");
       torrent.files.forEach((file) => {
-        progressStatus = '';
-        progressTotal.innerHTML = '(' + filesize(total) + ') <span class="far fa-file-check fa-fw ready"></span>';
+        progressStatus.innerHTML = '';
+        progressTotal.innerHTML = 'Assembling... <span class="fad fa-spinner fa-fw fa-pulse"></span>';
         file.getBlobURL((err, url) => {
           if (err) throw err;
+          progressTotal.innerHTML = '';
           var a = document.createElement('a');
           a.download = file.name;
           a.href = url;
-          a.textContent = 'Save ' + file.name;
+          a.innerHTML = '<span class="far fa-file-download fa-fw ready"></span> Save ' + file.name;
           progressStatus.appendChild(a);
-          a.click();
-          console.log("Saved " + name);
         });
       });
     });
