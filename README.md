@@ -4,15 +4,15 @@
 
 Creating and maintaining a distribution of Linux is hard enough without operating a network of mirrors.
 
-What if we could combine the convenience of downloading large files via http in the web browser, with the scalability and efficiency of torrenting? This website serves as a demo for downloading Linux ISOs via [IPFS](https://ipfs.io/#how), entirely on a static site.
+What if we could combine the convenience of downloading large files via http in the web browser, with the scalability and efficiency of torrenting? This website serves as a demo for downloading Linux ISOs via [WebTorrent](https://webtorrent.io/faq), entirely on a static site.
 
-That means that the more people that use this website, and the more distros that integrate IPFS for distribution of their installation media, the faster it gets for everyone! If you maintain a version of Linux, it's easier than ever to distribute your installation media peer-to-peer, no mirror network required.
+That means that the more people that use this website, and the more distros that integrate WebTorrent for distribution of their installation media, the faster it gets for everyone! If you maintain a version of Linux, it's easier than ever to distribute your installation media peer-to-peer, no mirror network required.
 
 ### I want to help!
 
-Awesome! Consider becoming an IPFS node that hosts this content. You can either use [the Linux Exchange website](https://linux.exchange/) itself, or run a [Linux Exchange IPFS Seedbox](https://github.com/leoherzog/LinuxExchangeIPFSSeedbox).
+Awesome! Consider becoming a WebTorrent seedbox that hosts this content. You can either use [the Linux Exchange website](https://linux.exchange/) itself, or run a [Linux Exchange WebTorrent Seedbox](https://github.com/leoherzog/LinuxExchangeWebtorrentSeedbox).
 
-If you have thoughts about enhancing the code, design, or backend automation (currently trying out [Github Actions](https://github.com/leoherzog/LinuxExchange/tree/master/.github)) of this website, I'd be happy to review Pull Requests. The magic of [`js-ipfs`](https://js.ipfs.io/) is, you can fork this code and publish your own version... They'll still talk to each other, regardless of domain!
+If you have thoughts about enhancing the code, design, or backend automation (currently trying out [Github Actions](https://github.com/leoherzog/LinuxExchange/tree/master/.github)) of this website, I'd be happy to review Pull Requests. The magic of WebTorrent is, you can fork this code and publish your own version... They'll still talk to each other, regardless of domain!
 
 ### License
 
