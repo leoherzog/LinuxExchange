@@ -648,19 +648,19 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:13868dc15fa4fd39ec8fbf429a7511b3e1c2a761&dn=ubuntu-budgie-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-amd64.iso",
-          "file-size": "1716240384"
+          "magnet-url": "magnet:?xt=urn:btih:5b1475ffdef4d716d0b372d181d7e35159c32f37&dn=ubuntu-budgie-18.04.5-desktop-amd64.isoo",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:1776ec04788e6485472580af4cf4556bfa7ee9b8&dn=ubuntu-budgie-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.4-desktop-i386.iso",
-          "file-size": "1716240384"
+          "magnet-url": "magnet:?xt=urn:btih:1590261ea616a1306bdab80ee3fe2f8faa221ffb&dn=ubuntu-budgie-18.04.5-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -672,11 +672,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:286d2e5b4f8369855328336ac1263ae02a7a60d5&dn=ubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-desktop-amd64.iso",
-          "file-size": "2126544896"
+          "magnet-url": "magnet:?xt=urn:btih:94a315e2cf8015b2f635d79aab592e6db557d5ea&dn=ubuntu-18.04.5-desktop-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -688,19 +688,19 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:88334ec1d90afe94a22c6de5756268599f5f8ea2&dn=kubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-amd64.iso",
-          "file-size": "1973911552"
+          "magnet-url": "magnet:?xt=urn:btih:592c557efa5ef8115aa1ce4f8ef0735d44a98357&dn=kubuntu-18.04.5-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:49c6332d5a3a265cbdbb8fc8b4c097c7f31a8b85&dn=kubuntu-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.4-desktop-i386.iso",
-          "file-size": "1999503360"
+          "magnet-url": "magnet:?xt=urn:btih:ba47248fc83366cd583412596b3db3105399df59&dn=kubuntu-18.04.5-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -712,19 +712,19 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:a4196fe465ab87c67a3c24990bdfaf663cdad26d&dn=lubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-amd64.iso",
-          "file-size": "1185366016"
+          "magnet-url": "magnet:?xt=urn:btih:8ad8b674b83553171dee994c7d9cc454051f88e7&dn=lubuntu-18.04.5-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:57c9ae226b4799571f91e7b4568725f2890789c0&dn=lubuntu-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.4-desktop-i386.iso",
-          "file-size": "1179549696"
+          "magnet-url": "magnet:?xt=urn:btih:c6537aa9ce1416a12268961fa83fa0d1dc0028fe&dn=lubuntu-18.04.5-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -736,19 +736,19 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:545e7abb9380c5cc4addae47ddab31886ce3b6d0&dn=ubuntu-mate-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-amd64.iso",
-          "file-size": "1964244992"
+          "magnet-url": "magnet:?xt=urn:btih:32310b4db84de5c023bfcb9f40648d8c9e7ca16e&dn=ubuntu-mate-18.04.5-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:b5d8cb506fac60d0fcc0adefd7d1c2391f2e2972&dn=ubuntu-mate-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.4-desktop-i386.iso",
-          "file-size": "1964244992"
+          "magnet-url": "magnet:?xt=urn:btih:536ba3a7d7b15bf71613080cab90db96fc80a2d5&dn=ubuntu-mate-18.04.5-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -760,11 +760,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e73108cbd628fee5cf203acdf668c5bf45d07810&dn=ubuntu-18.04.4-live-server-amd64.iso",
-          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.4-live-server-amd64.iso",
-          "file-size": "912261120"
+          "magnet-url": "magnet:?xt=urn:btih:d8f48475af46d2e01af13fb5126f06f962be215c&dn=ubuntu-18.04.5-live-server-amd64.iso",
+          "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.5-live-server-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -776,19 +776,19 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:9a271ad2325b1e5974dfd548cb9bba4c78757a25&dn=xubuntu-18.04.4-desktop-amd64.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-amd64.iso",
-          "file-size": "1534459904"
+          "magnet-url": "magnet:?xt=urn:btih:563a485379b6ea4e25b9ada1fef1e15493a22989&dn=xubuntu-18.04.5-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "18.04.4",
+          "version": "18.04.5",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:563f53e1c5af7a91ae6643896ddddde1e04043de&dn=xubuntu-18.04.4-desktop-i386.iso",
-          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.4-desktop-i386.iso",
-          "file-size": "1529937920"
+          "magnet-url": "magnet:?xt=urn:btih:0d1f63eb47157afa85672ad4b60fd42fde3d3388&dn=xubuntu-18.04.5-desktop-i386.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
