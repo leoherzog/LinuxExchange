@@ -326,11 +326,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.8.4",
+          "version": "3.8.5",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:3c7995b5e7f4c9205160caef8359d73cc21f8a2c&dn=eos-eos3.8-amd64-amd64.200706-185259.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.8.4/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200706-185259.base.iso",
-          "file-size": "3172548608"
+          "magnet-url": "magnet:?xt=urn:btih:90f3a9a7a84d3de1ed7e69570544c9875b630f47&dn=eos-eos3.8-amd64-amd64.200810-202038.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.8.5/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200810-202038.base.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
