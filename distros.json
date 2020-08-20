@@ -440,7 +440,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7600c470a8e0d3741943b56e4eba4586e0528591&dn=kali-linux-2020-3-live-amd64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.3/kali-linux-2020.3-live-amd64.iso",
-          "file-size": ""
+          "file-size": "3138400256"
         },
         {
           "arch": "x86",
@@ -448,7 +448,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:743c5577ece9f432a83be10ca886fbf2eaeca5f5&dn=kali-linux-2020-3-live-i386-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2020.3/kali-linux-2020.3-live-i386.iso",
-          "file-size": ""
+          "file-size": "2752524288"
         }
       ],
       "trackers": [
