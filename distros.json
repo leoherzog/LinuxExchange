@@ -602,26 +602,26 @@
       "full-name": "Raspberry Pi OS",
       "primary-color": "#c51a4a",
       "url": "https://raspberrypi.org/downloads/",
-      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspbian/",
+      "torrent-download-page-url": "https://www.raspberrypi.org/downloads/raspberry-pi-os/",
       "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
       "font-logos-icon": "fl-raspberry-pi",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "arm",
-          "version": "2020-05-27",
+          "version": "2020-08-20",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:0cf1fd7955829f9efae1bc8edfbd6a2ad8730be1&dn=2020-05-27-raspios-buster-full-armhf.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2020-05-28/2020-05-27-raspios-buster-full-armhf.zip",
-          "file-size": "2645200349"
+          "magnet-url": "magnet:?xt=urn:btih:e15a86c77976b61b26212bab6bc8d26d3caee36a&dn=2020-08-20-raspios-buster-armhf-full.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-full.zip",
+          "file-size": ""
         },
         {
           "arch": "arm",
           "version": "2020-05-27",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:b87a0ece19a15d68c77369bc92175e67f71ed9dd&dn=2020-05-27-raspios-buster-lite-armhf.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-05-28/2020-05-27-raspios-buster-lite-armhf.zip",
-          "file-size": "452715448"
+          "magnet-url": "magnet:?xt=urn:btih:b2ee41ed28e80e8ac54fb5576fcbefc88842c06a&dn=2020-08-20-raspios-buster-armhf-lite.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip",
+          "file-size": ""
         }
       ],
       "trackers": [
