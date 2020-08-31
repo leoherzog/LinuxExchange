@@ -584,7 +584,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/12/pop-os_20.04_amd64_nvidia_12.iso",
-          "file-size": ""
+          "file-size": "2564407296"
         },
         {
           "arch": "amd64",
@@ -592,7 +592,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/12/pop-os_20.04_amd64_intel_12.iso",
-          "file-size": ""
+          "file-size": "2272788480"
         }
       ],
       "trackers": []
@@ -613,7 +613,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:e15a86c77976b61b26212bab6bc8d26d3caee36a&dn=2020-08-20-raspios-buster-armhf-full.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-full.zip",
-          "file-size": ""
+          "file-size": "2653267468"
         },
         {
           "arch": "arm",
@@ -621,7 +621,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:b2ee41ed28e80e8ac54fb5576fcbefc88842c06a&dn=2020-08-20-raspios-buster-armhf-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip",
-          "file-size": ""
+          "file-size": "455166810"
         }
       ],
       "trackers": [
