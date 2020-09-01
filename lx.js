@@ -35,6 +35,10 @@ async function load() {
   for (let distro of distros.distros) {
     let option = document.createElement("option");
     option.text = distro['name'];
+    if (distro.versions.every(version => version["magnet-url"] === null)) {
+      option.text += " (torrents unavailable)";
+      option.disabled = true;
+    }
     os.add(option);
   }
   os.selectedIndex = distros['recommended-distro-index'];
