@@ -93,7 +93,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:1d378e95a2319165a82104c2e9f5a1868b61ec09&dn=archlinux-2020.10.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2020.10.01/archlinux-2020.10.01-x86_64.iso",
-          "file-size": "",
+          "file-size": "714080256",
           "ipfs-hash": ""
         }
       ],
