@@ -567,7 +567,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/13/pop-os_20.04_amd64_nvidia_13.iso",
-          "file-size": ""
+          "file-size": "2566914048"
         },
         {
           "arch": "amd64",
@@ -575,7 +575,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/13/pop-os_20.04_amd64_intel_13.iso",
-          "file-size": ""
+          "file-size": "2275016704"
         }
       ],
       "trackers": []
