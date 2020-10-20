@@ -600,7 +600,7 @@
         },
         {
           "arch": "arm",
-          "version": "2020-05-27",
+          "version": "2020-08-20",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:b2ee41ed28e80e8ac54fb5576fcbefc88842c06a&dn=2020-08-20-raspios-buster-armhf-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip",
