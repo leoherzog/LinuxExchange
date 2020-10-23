@@ -576,6 +576,22 @@
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/13/pop-os_20.04_amd64_intel_13.iso",
           "file-size": "2275016704"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.10 (Nvidia)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/1/pop-os_20.10_amd64_nvidia_1.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "20.10 (Intel/AMD)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/1/pop-os_20.10_amd64_intel_1.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
