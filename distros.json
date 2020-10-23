@@ -639,6 +639,14 @@
       "versions": [
         {
           "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:bf3542636c94a81b61874dd8a3bb9e2ef7e0f141&dn=ubuntu-budgie-20.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/20.10/release/ubuntu-budgie-20.10-desktop-amd64.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
           "version": "20.04.1",
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:9e4e28d97191b574e0fbfd95ed18b88a081790e7&dn=ubuntu-budgie-20.04.1-desktop-amd64.iso",
@@ -663,6 +671,14 @@
         },
         {
           "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:5fff0e1c8ac414860310bcc1cb76ac28e960efbe&dn=ubuntu-20.10-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/20.10/ubuntu-20.10-desktop-amd64.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
           "version": "20.04.1",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d1101a2b9d202811a05e8c57c557a20bf974dc8a&dn=ubuntu-20.04.1-desktop-amd64.iso",
@@ -676,6 +692,14 @@
           "magnet-url": "magnet:?xt=urn:btih:94a315e2cf8015b2f635d79aab592e6db557d5ea&dn=ubuntu-18.04.5-desktop-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso",
           "file-size": "2193522688"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:847670a944a0e0c25f2e2476d38d92bfdbf08e2c&dn=kubuntu-20.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/20.10/release/kubuntu-20.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -703,6 +727,14 @@
         },
         {
           "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:dc2969e1986633e6fdd1c1d8566895c6191689d2&dn=lubuntu-20.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/20.10/release/lubuntu-20.10-desktop-amd64.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
           "version": "20.04.1",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:b4a6ec48a8985dad190ef9b8e5f25cac83087720&dn=lubuntu-20.04.1-desktop-amd64.iso",
@@ -724,6 +756,14 @@
           "magnet-url": "magnet:?xt=urn:btih:c6537aa9ce1416a12268961fa83fa0d1dc0028fe&dn=lubuntu-18.04.5-desktop-i386.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-i386.iso",
           "file-size": "1193803776"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -751,6 +791,14 @@
         },
         {
           "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:8b851cd45092b458da23ba0ed834906d79f4e2d7&dn=ubuntu-20.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/20.10/ubuntu-20.10-live-server-amd64.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
           "version": "20.04.1",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:36c67464c37a83478ceff54932b5a9bddea636f3&dn=ubuntu-20.04.1-live-server-amd64.iso",
@@ -764,6 +812,14 @@
           "magnet-url": "magnet:?xt=urn:btih:d8f48475af46d2e01af13fb5126f06f962be215c&dn=ubuntu-18.04.5-live-server-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/18.04/ubuntu-18.04.5-live-server-amd64.iso",
           "file-size": "990904320"
+        },
+        {
+          "arch": "amd64",
+          "version": "20.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:c4934f0929e6112d784a8f03856e052d91666260&dn=xubuntu-20.10-desktop-amd64.iso",
+          "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/20.10/release/xubuntu-20.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -791,8 +847,8 @@
         }
       ],
       "trackers": [
-        "http://torrent.ubuntu.com:6969/announce",
-        "http://ipv6.torrent.ubuntu.com:6969/announce"
+        "https://torrent.ubuntu.com/announce",
+        "https://ipv6.torrent.ubuntu.com/announce"
       ]
     }
   ],
