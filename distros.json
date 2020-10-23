@@ -643,7 +643,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:bf3542636c94a81b61874dd8a3bb9e2ef7e0f141&dn=ubuntu-budgie-20.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/20.10/release/ubuntu-budgie-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2574467072"
         },
         {
           "arch": "amd64",
@@ -675,7 +675,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:5fff0e1c8ac414860310bcc1cb76ac28e960efbe&dn=ubuntu-20.10-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/20.10/ubuntu-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2942003200"
         },
         {
           "arch": "amd64",
@@ -699,7 +699,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:847670a944a0e0c25f2e2476d38d92bfdbf08e2c&dn=kubuntu-20.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/20.10/release/kubuntu-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2739255296"
         },
         {
           "arch": "amd64",
@@ -731,7 +731,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:dc2969e1986633e6fdd1c1d8566895c6191689d2&dn=lubuntu-20.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/20.10/release/lubuntu-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1894451200"
         },
         {
           "arch": "amd64",
@@ -763,7 +763,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:897ba1967a2cebd37cf98b6d8071c12230362a28&dn=ubuntu-mate-20.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.10/release/ubuntu-mate-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2723088384"
         },
         {
           "arch": "amd64",
@@ -795,7 +795,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:8b851cd45092b458da23ba0ed834906d79f4e2d7&dn=ubuntu-20.10-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/20.10/ubuntu-20.10-live-server-amd64.iso",
-          "file-size": ""
+          "file-size": "1046083584"
         },
         {
           "arch": "amd64",
@@ -819,7 +819,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:c4934f0929e6112d784a8f03856e052d91666260&dn=xubuntu-20.10-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/20.10/release/xubuntu-20.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1815271424"
         },
         {
           "arch": "amd64",
