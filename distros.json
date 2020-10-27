@@ -336,7 +336,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:4c02b6c199d8e4cd7029f394e231f9dc881182f1&dn=Fedora-Cinnamon-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "2153693184"
         },
         {
           "arch": "amd64",
@@ -344,7 +344,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7707056a138a00dd9b9eff4fab29f46233e2bad9&dn=Fedora-Workstation-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "2049490944"
         },
         {
           "arch": "amd64",
@@ -352,7 +352,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:654b7bcee32672a78b4f5c9f49a966506b3f699a&dn=Fedora-KDE-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "1957183488"
         },
         {
           "arch": "amd64",
@@ -360,7 +360,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:c2e18676a2da4b21619a4b817bd08e9000170da2&dn=Fedora-LXDE-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "1377550336"
         },
         {
           "arch": "amd64",
@@ -368,7 +368,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:7490c7f609a894436c873ea556d54c2104f2d53a&dn=Fedora-LXQt-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "1485881344"
         },
         {
           "arch": "amd64",
@@ -376,7 +376,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:76011528657c01919a4877534244feb663bb7440&dn=Fedora-MATE_Compiz-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "2134900736"
         },
         {
           "arch": "amd64",
@@ -384,7 +384,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:11866019dbe44a7470ff9a4d2688ddd365fbc1e8&dn=Fedora-Server-dvd-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Server/x86_64/iso/Fedora-Server-dvd-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "2076180480"
         },
         {
           "arch": "amd64",
@@ -392,7 +392,7 @@
           "desktop-environment": "Sugar",
           "magnet-url": "magnet:?xt=urn:btih:235b9578a335d4d2c57dd227d67b74388d0e294d&dn=Fedora-SoaS-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "1114193920"
         },
         {
           "arch": "amd64",
@@ -400,7 +400,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:632dfb1dd773539f9396a5b6c27f9795c2ed59bf&dn=Fedora-Xfce-Live-x86_64-33",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/33/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-33-1.2.iso",
-          "file-size": ""
+          "file-size": "1592279040"
         }
       ],
       "trackers": [
