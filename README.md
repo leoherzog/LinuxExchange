@@ -29,7 +29,7 @@ Linux Exchange is licensed under a [Creative Commons Attribution-ShareAlike 4.0 
 <a href="https://herzog.tech/" target="_blank">
   <img src="https://herzog.tech/signature/link.svg.png" width="32px" />
 </a>
-<a href="https://twitter.com/downtime" target="_blank">
+<a href="https://twitter.com/xd1936" target="_blank">
   <img src="https://herzog.tech/signature/twitter.svg.png" width="32px" />
 </a>
 <a href="https://facebook.com/xd1936" target="_blank">
