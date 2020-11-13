@@ -121,11 +121,11 @@
         },
         {
           "arch": "amd64",
-          "version": "7.8.2003",
+          "version": "7.9.2009",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:bbd32d5d1c8164ec085fc460928e1f8bf71dc10a&dn=CentOS-7-x86_64-DVD-2003",
-          "direct-download-url": "https://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso",
-          "file-size": "4781506560"
+          "magnet-url": "magnet:?xt=urn:btih:e62c416954c578469fc763690f95ade490d991d3&dn=CentOS-7-x86_64-DVD-2009",
+          "direct-download-url": "https://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
