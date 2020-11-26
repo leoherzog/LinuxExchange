@@ -558,7 +558,7 @@
       "url": "https://pop.system76.com/",
       "torrent-download-page-url": null,
       "description": "Pop!_OS is designed for fast navigation, easy workspace organization, and fluid, convenient workflow",
-      "font-logos-icon": null,
+      "font-logos-icon": "fl-pop-os",
       "recommended-version-index": 0,
       "versions": [
         {
