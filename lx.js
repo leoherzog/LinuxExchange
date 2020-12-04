@@ -165,6 +165,9 @@ function download() {
   }
   id += "&tr=" + distros.trackers.join("&tr=");
   id += "&ws=" + selectedVersion["direct-download-url"];
+  
+  console.info("Downloading " + name);
+  console.info(id);
 
   client.add(id, {"store": window.IdbChunkStore}, function(torrent) {
     progressTotal.innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
