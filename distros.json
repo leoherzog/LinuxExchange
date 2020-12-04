@@ -497,27 +497,27 @@
         },
         {
           "arch": "amd64",
-          "version": "20.1.2",
+          "version": "20.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:93aa6a3ce992234c90b1ce7cf69bfbff3800c72b&dn=manjaro-gnome-20.1.2-201019-linux58.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.1.2-201019-linux58.iso",
-          "file-size": "2781958144"
+          "magnet-url": "magnet:?xt=urn:btih:84b27f18241bb3e8165b14b2838c169aeb16114f&dn=manjaro-gnome-20.2-201203-linux59.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.2-201203-linux59.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.1.2",
+          "version": "20.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:f2f958b19f33dc481ac561d940087b6f5302d0d6&dn=manjaro-kde-20.1.2-201019-linux58.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.1.2-201019-linux58.iso",
-          "file-size": "3083304960"
+          "magnet-url": "magnet:?xt=urn:btih:276cf58e1a6f349d445356dda43668a41e2cb2a6&dn=manjaro-kde-20.2-201203-linux59.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.2-201203-linux59.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.1.2",
+          "version": "20.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:97861ca9101dcecf6ab9725fd6c04d05f2cc9ecb&dn=manjaro-xfce-20.1.2-201019-linux58.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.1.2-201019-linux58.iso",
-          "file-size": "2791522304"
+          "magnet-url": "magnet:?xt=urn:btih:11b2a7d6aadbf17bb0e29dbd267d1e8c4165e622&dn=manjaro-xfce-20.2-201203-linux59.iso",
+          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.2-201203-linux59.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
