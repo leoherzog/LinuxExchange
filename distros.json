@@ -566,32 +566,32 @@
           "version": "20.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/14/pop-os_20.04_amd64_nvidia_14.iso",
-          "file-size": "2684354560"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/18/pop-os_20.04_amd64_nvidia_18.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/14/pop-os_20.04_amd64_intel_14.iso",
-          "file-size": "2346516480"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/18/pop-os_20.04_amd64_intel_18.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.10 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/2/pop-os_20.10_amd64_nvidia_2.iso",
-          "file-size": "2754723840"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/6/pop-os_20.10_amd64_nvidia_6.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/2/pop-os_20.10_amd64_intel_2.iso",
-          "file-size": "2411200512"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/6/pop-os_20.10_amd64_intel_6.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
