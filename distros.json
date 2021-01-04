@@ -501,7 +501,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:fc107f6448bc6f1f919b6c99a13da2e9ff2baca0&dn=manjaro-gnome-20.2.1-210103-linux59.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.2.1-210103-linux59.iso",
-          "file-size": ""
+          "file-size": "2957977600"
         },
         {
           "arch": "amd64",
@@ -509,7 +509,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:01c24222c18308823bece4653be12422b292c1ec&dn=manjaro-kde-20.2.1-210103-linux59.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.2.1-210103-linux59.iso",
-          "file-size": ""
+          "file-size": "3230201856"
         },
         {
           "arch": "amd64",
@@ -517,7 +517,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:f6c8dfdbf66e29f8fef773e28560307dea184c66&dn=manjaro-xfce-20.2.1-210103-linux59.iso",
           "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.2.1-210103-linux59.iso",
-          "file-size": ""
+          "file-size": "2936530944"
         }
       ],
       "trackers": []
