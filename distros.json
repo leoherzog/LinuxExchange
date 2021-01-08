@@ -443,34 +443,34 @@
       "full-name": "Linux Mint",
       "primary-color": "#87cf3e",
       "url": "https://linuxmint.com/",
-      "torrent-download-page-url": "https://torrents.linuxmint.com/",
-      "description": "A relative newcomer, focused on ease of use and comfort for someone who is new to Linux",
+      "torrent-download-page-url": "https://linuxmint.com/torrents/",
+      "description": "An Ubuntu derivative, focused on ease of use and comfort for someone who is new to Linux",
       "font-logos-icon": "fl-linuxmint",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "20",
+          "version": "20.1",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:b11be92351257a96b9a3696075f0d30f1a17cddc&dn=linuxmint-20-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-cinnamon-64bit.iso",
-          "file-size": "1984790528"
+          "magnet-url": "magnet:?xt=urn:btih:8df6e26142615621983763b729f640372cf1fc34&dn=linuxmint-20.1-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.1/linuxmint-20.1-cinnamon-64bit.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20",
+          "version": "20.1",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:f5417cda71d66b935fc997c5ae72e8539eab5094&dn=linuxmint-20-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-mate-64bit.iso",
-          "file-size": "2057551872"
+          "magnet-url": "magnet:?xt=urn:btih:949a0f900077dd55a4f1310ef6f5d09571929b98&dn=linuxmint-20.1-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.1/linuxmint-20.1-mate-64bit.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20",
+          "version": "20.1",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:08f45062617dc8fdfbc0511fbb14d208bd8ea026&dn=linuxmint-20-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20/linuxmint-20-xfce-64bit.iso",
-          "file-size": "1949515776"
+          "magnet-url": "magnet:?xt=urn:btih:e718fe07734a8eca0824a6e32e0594173a0d1ba0&dn=linuxmint-20.1-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.1/linuxmint-20.1-xfce-64bit.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
