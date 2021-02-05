@@ -414,7 +414,7 @@
       "url": "https://kali.org/",
       "torrent-download-page-url": "https://kali.org/downloads/",
       "description": "A Debian-based distribution with a collection of security and forensics tools",
-      "font-logos-icon": null,
+      "font-logos-icon": "fl-kali-linux",
       "recommended-version-index": 0,
       "versions": [
         {
