@@ -651,7 +651,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:396e7f56fd9834a1a6fb0ef243eb35e42fb4fd7d&dn=ubuntu-budgie-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2485157888"
         },
         {
           "arch": "amd64",
@@ -683,7 +683,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:998786ad5f17107b373662d63647fde829d6730b&dn=ubuntu-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/20.04/ubuntu-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2877227008"
         },
         {
           "arch": "amd64",
@@ -707,7 +707,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:39d62d45ee24489262e17d47c6f6b1454c0a74f5&dn=kubuntu-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2643034112"
         },
         {
           "arch": "amd64",
@@ -739,7 +739,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:27cddc614137b2e88cca39d940678de70fec042e&dn=lubuntu-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1818001408"
         },
         {
           "arch": "amd64",
@@ -771,7 +771,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:51930cdb2be448be84e0e91453aa52136d06222e&dn=ubuntu-mate-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2617245696"
         },
         {
           "arch": "amd64",
@@ -803,7 +803,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:126f82fb33119d2acf93a16cfba6eb1c5787a59f&dn=ubuntu-20.04.2-live-server-amd64.iso",
           "direct-download-url": "http://releases.ubuntu.com/20.04/ubuntu-20.04.2-live-server-amd64.iso",
-          "file-size": ""
+          "file-size": "1215168512"
         },
         {
           "arch": "amd64",
@@ -827,7 +827,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:5d6bf814125b1660f29a6841dbb5f6e277eb02cc&dn=xubuntu-20.04.2-desktop-amd64.iso",
           "direct-download-url": "http://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.2-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1741422592"
         },
         {
           "arch": "amd64",
@@ -851,7 +851,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:c28b4977699d2057cf35ff346c7d7cad81db8b53&dn=ubuntu-20.10-live-server-arm64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/20.10/release/ubuntu-20.10-live-server-arm64.iso",
-          "file-size": ""
+          "file-size": "1016377344"
         },
         {
           "arch": "arm",
@@ -859,7 +859,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:b185765be59bc56ab29a4860a5820863bf0512ad&dn=ubuntu-20.04.2-live-server-arm64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04.2-live-server-arm64.iso",
-          "file-size": ""
+          "file-size": "1193754624"
         },
         {
           "arch": "arm",
@@ -867,7 +867,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:907079a2e569f2ac4b4d9dc5dd52ba740bf7348e&dn=ubuntu-18.04.5-server-arm64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-arm64.iso",
-          "file-size": ""
+          "file-size": "1032005632"
         }
       ],
       "trackers": [
