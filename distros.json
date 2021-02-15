@@ -309,11 +309,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.9.1",
+          "version": "3.9.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:fa8959ba1692220f40da824eba34d930298c159d&dn=eos-eos3.9-amd64-amd64.201207-161902.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.1/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.201207-161902.base.iso",
-          "file-size": "2914338816"
+          "magnet-url": "magnet:?xt=urn:btih:bd9c12c156ce0f62e3601996561fd7186afa97cd&dn=eos-eos3.9-amd64-amd64.210125-202532.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.2/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210125-202532.base.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
