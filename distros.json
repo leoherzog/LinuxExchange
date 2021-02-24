@@ -419,23 +419,32 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2020.4",
+          "version": "2021.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:42a722c899f74964e9083a3e57c2eb54d58ec028&dn=kali-linux-2020-4-live-amd64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2020.4/kali-linux-2020.4-live-amd64.iso",
-          "file-size": "3517394944"
+          "magnet-url": "magnet:?xt=urn:btih:7c8f00b9a305aea36500081c528f62e807cf001d&dn=kali-linux-2021-1-live-amd64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2020.4",
+          "version": "2021.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:38b5ce4b69fe8faa0df5ff0d4e314dfb0b00c427&dn=kali-linux-2020-4-live-i386-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2020.4/kali-linux-2020.4-live-i386.iso",
-          "file-size": "2917445632"
+          "magnet-url": "magnet:?xt=urn:btih:c4a86882296b4566a0bd6bc96b7d3a95d78d7b55&dn=kali-linux-2021-1-live-i386-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-i386.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "arm",
+          "version": "2021.1",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:bb7f639fe529c805356455f8e0dfec6567775772&dn=kali-linux-2021-1-live-arm64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
-        "http://tracker.kali.org:6969/announce"
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
       ]
     },
     {
