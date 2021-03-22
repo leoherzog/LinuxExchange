@@ -302,18 +302,18 @@
       "full-name": "Endless OS",
       "primary-color": "#f26522",
       "url": "https://endlessos.com/",
-      "torrent-download-page-url": "https://support.endlessos.org/en/help-center/Where-can-I-download-the-Endless-OS-ISO-image-files-directly",
+      "torrent-download-page-url": "https://support.endlessos.org/en/installation/direct-download",
       "description": "A Debian-based system with a read-only root filesystem and Flatpak-based application distribution",
       "font-logos-icon": null,
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.9.2",
+          "version": "3.9.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:bd9c12c156ce0f62e3601996561fd7186afa97cd&dn=eos-eos3.9-amd64-amd64.210125-202532.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.2/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210125-202532.base.iso",
-          "file-size": "2984773632"
+          "magnet-url": "magnet:?xt=urn:btih:fc54665bf002b33b45b23ead3eb1ff81ddf0c103&dn=eos-eos3.9-amd64-amd64.210219-011139.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210219-011139.base.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
