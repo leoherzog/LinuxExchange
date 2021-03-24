@@ -491,7 +491,7 @@
       "full-name": "Manjaro",
       "primary-color": "#34be5b",
       "url": "https://manjaro.org/",
-      "torrent-download-page-url": "https://osdn.net/projects/manjaro/storage/",
+      "torrent-download-page-url": "https://manjaro.org/download/",
       "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
       "font-logos-icon": "fl-manjaro",
       "recommended-version-index": 1,
@@ -506,27 +506,27 @@
         },
         {
           "arch": "amd64",
-          "version": "20.2.1",
+          "version": "21.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:fc107f6448bc6f1f919b6c99a13da2e9ff2baca0&dn=manjaro-gnome-20.2.1-210103-linux59.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-gnome-20.2.1-210103-linux59.iso",
-          "file-size": "2957977600"
+          "magnet-url": null,
+          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/gnome/21.0/manjaro-gnome-21.0-210318-linux510.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.2.1",
+          "version": "21.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:01c24222c18308823bece4653be12422b292c1ec&dn=manjaro-kde-20.2.1-210103-linux59.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-kde-20.2.1-210103-linux59.iso",
-          "file-size": "3230201856"
+          "magnet-url": null,
+          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/kde/21.0/manjaro-kde-21.0-210318-linux510.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.2.1",
+          "version": "21.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:f6c8dfdbf66e29f8fef773e28560307dea184c66&dn=manjaro-xfce-20.2.1-210103-linux59.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-xfce-20.2.1-210103-linux59.iso",
-          "file-size": "2936530944"
+          "magnet-url": null,
+          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/xfce/21.0/manjaro-xfce-21.0-210318-linux510.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
