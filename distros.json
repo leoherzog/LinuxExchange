@@ -510,7 +510,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": null,
           "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/gnome/21.0/manjaro-gnome-21.0-210318-linux510.iso",
-          "file-size": ""
+          "file-size": "2767138816"
         },
         {
           "arch": "amd64",
@@ -518,7 +518,7 @@
           "desktop-environment": "KDE",
           "magnet-url": null,
           "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/kde/21.0/manjaro-kde-21.0-210318-linux510.iso",
-          "file-size": ""
+          "file-size": "2830651392"
         },
         {
           "arch": "amd64",
@@ -526,7 +526,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": null,
           "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/xfce/21.0/manjaro-xfce-21.0-210318-linux510.iso",
-          "file-size": ""
+          "file-size": "2524790784"
         }
       ],
       "trackers": []
