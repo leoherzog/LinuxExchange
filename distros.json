@@ -149,7 +149,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:abc4d6b10f7e596f757354e41c5465d97aaa3e77&dn=debian-live-10.9.0-amd64-cinnamon.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-cinnamon.iso",
-          "file-size": ""
+          "file-size": "2623733760"
         },
         {
           "arch": "x86",
@@ -157,7 +157,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:64d1b276d12003d7a29aaa84fe5f275692778d04&dn=debian-live-10.9.0-i386-cinnamon.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-cinnamon.iso",
-          "file-size": ""
+          "file-size": "2748776448"
         },
         {
           "arch": "amd64",
@@ -165,7 +165,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:c47dc0ee4805633fc76a154275f0554499e948d7&dn=debian-live-10.9.0-amd64-gnome.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-gnome.iso",
-          "file-size": ""
+          "file-size": "2654552064"
         },
         {
           "arch": "x86",
@@ -173,7 +173,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:b06da356416f03e7e3e22cdd5d856b73091f2ed4&dn=debian-live-10.9.0-i386-gnome.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-gnome.iso",
-          "file-size": ""
+          "file-size": "2779578368"
         },
         {
           "arch": "amd64",
@@ -181,7 +181,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:93003c34d21cdbe5a0c2901998d7ca8b79200379&dn=debian-live-10.9.0-amd64-kde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-kde.iso",
-          "file-size": ""
+          "file-size": "2840985600"
         },
         {
           "arch": "x86",
@@ -189,7 +189,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:b310330bd10f9ea9c46ef63ad89dc7c7857c7964&dn=debian-live-10.9.0-i386-kde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-kde.iso",
-          "file-size": ""
+          "file-size": "2977595392"
         },
         {
           "arch": "amd64",
@@ -197,7 +197,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:837c171b7850bc99b3bd15bd33a921e6a6a6c567&dn=debian-live-10.9.0-amd64-lxde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-lxde.iso",
-          "file-size": ""
+          "file-size": "2494922752"
         },
         {
           "arch": "x86",
@@ -205,7 +205,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:810396507efb0a2c26c8668c6907596e9e95982a&dn=debian-live-10.9.0-i386-lxde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-lxde.iso",
-          "file-size": ""
+          "file-size": "2617245696"
         },
         {
           "arch": "amd64",
@@ -213,7 +213,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:aacbdfa31ac0ead40cb25fb62b4b67d0ddcc416c&dn=debian-live-10.9.0-amd64-lxqt.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-lxqt.iso",
-          "file-size": ""
+          "file-size": "2617245696"
         },
         {
           "arch": "x86",
@@ -221,7 +221,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:be9e59f77975762c41db9db097b23724cc7585c2&dn=debian-live-10.9.0-i386-lxqt.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-lxqt.iso",
-          "file-size": ""
+          "file-size": "2746089472"
         },
         {
           "arch": "amd64",
@@ -229,7 +229,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:1afb1cac686989a69a0cd1ef7f5c7d491ef2e893&dn=debian-live-10.9.0-amd64-mate.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-mate.iso",
-          "file-size": ""
+          "file-size": "2587770880"
         },
         {
           "arch": "x86",
@@ -237,7 +237,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:ec9ec98c3688ef6556e9647677598188245eb8df&dn=debian-live-10.9.0-i386-mate.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-mate.iso",
-          "file-size": ""
+          "file-size": "2709946368"
         },
         {
           "arch": "amd64",
@@ -245,7 +245,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:26032b7bc987893693648c59927d20159e9956c9&dn=debian-live-10.9.0-amd64-standard.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-standard.iso",
-          "file-size": ""
+          "file-size": "990904320"
         },
         {
           "arch": "x86",
@@ -253,7 +253,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:c25785df75386033f8e894057e0a617a9992b72d&dn=debian-live-10.9.0-i386-standard.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-standard.iso",
-          "file-size": ""
+          "file-size": "1093238784"
         },
         {
           "arch": "amd64",
@@ -261,7 +261,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:9af47f0bfc5182d1cffdbbb412ec78ad5cc70d75&dn=debian-live-10.9.0-amd64-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-10.9.0-amd64-xfce.iso",
-          "file-size": ""
+          "file-size": "2468478976"
         },
         {
           "arch": "x86",
@@ -269,7 +269,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:02865bed382d996e4d51eb3944200da940306851&dn=debian-live-10.9.0-i386-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-10.9.0-i386-xfce.iso",
-          "file-size": ""
+          "file-size": "2592849920"
         }
       ],
       "trackers": [
