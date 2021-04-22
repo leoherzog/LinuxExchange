@@ -617,19 +617,19 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "2020-01-11",
+          "version": "2021-03-04",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:86b13940d043efc672d1329dd275c6ac3aac9565&dn=2021-01-11-raspios-buster-armhf-full.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-full.zip",
-          "file-size": "3002523031"
+          "magnet-url": "magnet:?xt=urn:btih:d8fe9120aa58fa76ebaa65e22cc08aac82140625&dn=2021-03-04-raspios-buster-armhf-full.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-03-25/2021-03-04-raspios-buster-armhf-full.zip",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2020-01-11",
+          "version": "2021-03-04",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:ec7a402ff515d80f30f6244847b672ae9fbe5d7a&dn=2021-01-11-raspios-buster-armhf-lite.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-01-12/2021-01-11-raspios-buster-armhf-lite.zip",
-          "file-size": "459635953"
+          "magnet-url": "magnet:?xt=urn:btih:81e31482f78abe426dea59ed7b9daa91aede5f83&dn=2021-03-04-raspios-buster-armhf-lite.zip",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-03-25/2021-03-04-raspios-buster-armhf-lite.zip",
+          "file-size": ""
         }
       ],
       "trackers": [
