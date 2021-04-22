@@ -494,39 +494,31 @@
       "torrent-download-page-url": "https://manjaro.org/download/",
       "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
       "font-logos-icon": "fl-manjaro",
-      "recommended-version-index": 1,
+      "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "20.0.3",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:19edb0f21e753076e7e4de1cb3220fcfacdd6754&dn=manjaro-architect-20.0.3-200607-linux56.iso",
-          "direct-download-url": "https://osdn.net/dl/manjaro/manjaro-architect-20.0.3-200607-linux56.iso",
-          "file-size": "758474752"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.0",
+          "version": "21.0.2",
           "desktop-environment": "Gnome",
-          "magnet-url": null,
-          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/gnome/21.0/manjaro-gnome-21.0-210318-linux510.iso",
-          "file-size": "2767138816"
+          "magnet-url": "magnet:?xt=urn:btih:48263e3dfd11d4385c23a3485e535af0a3da5298&dn=manjaro-gnome-21.0.2-210419-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/21.0.2/manjaro-gnome-21.0.2-210419-linux510.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "21.0",
+          "version": "21.0.2",
           "desktop-environment": "KDE",
-          "magnet-url": null,
-          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/kde/21.0/manjaro-kde-21.0-210318-linux510.iso",
-          "file-size": "2830651392"
+          "magnet-url": "magnet:?xt=urn:btih:a6d547293fcdaa3ec98d920d79146ae6255f107d&dn=manjaro-kde-21.0.2-210419-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/21.0.2/manjaro-kde-21.0.2-210419-linux510.iso",
+          "file-size": "2833285120"
         },
         {
           "arch": "amd64",
-          "version": "21.0",
+          "version": "21.0.2",
           "desktop-environment": "Xfce",
-          "magnet-url": null,
-          "direct-download-url": "https://downloads.sourceforge.net/project/manjarolinux/xfce/21.0/manjaro-xfce-21.0-210318-linux510.iso",
-          "file-size": "2524790784"
+          "magnet-url": "magnet:?xt=urn:btih:20602b50e372aadd6f06de6dd9541c1f8e7b62ed&dn=manjaro-xfce-21.0.2-210419-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/21.0.2/manjaro-xfce-21.0.2-210419-linux510.iso",
+          "file-size": "2527993856"
         }
       ],
       "trackers": []
