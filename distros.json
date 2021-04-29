@@ -338,6 +338,14 @@
         {
           "arch": "amd64",
           "version": "34",
+          "desktop-environment": "Cinnamon",
+          "magnet-url": "",
+          "direct-download-url": "https://dl.fedoraproject.org/pub/alt/unofficial/releases/34/Fedora-Cinnamon-Live-x86_64-34-1.2.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "34",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2046e45fb6cf298cd25e4c0decbea40c6603d91b&dn=Fedora-Workstation-Live-x86_64-34",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/34/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-34-1.2.iso",
