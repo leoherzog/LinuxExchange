@@ -596,32 +596,32 @@
           "version": "20.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/26/pop-os_20.04_amd64_nvidia_26.iso",
-          "file-size": "2785017856"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/27/pop-os_20.04_amd64_nvidia_27.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/26/pop-os_20.04_amd64_intel_26.iso",
-          "file-size": "2430320640"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/27/pop-os_20.04_amd64_intel_27.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.10 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/14/pop-os_20.10_amd64_nvidia_14.iso",
-          "file-size": "2843770880"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/15/pop-os_20.10_amd64_nvidia_15.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/14/pop-os_20.10_amd64_intel_14.iso",
-          "file-size": "2487599104"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/15/pop-os_20.10_amd64_intel_15.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
