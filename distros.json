@@ -527,27 +527,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.0.4",
+          "version": "21.0.5",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:c133dcd5e206ee5c0945dbd64b947b927612d957&dn=manjaro-gnome-21.0.4-210506-linux510.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/21.0.4/manjaro-gnome-21.0.4-210506-linux510.iso",
-          "file-size": "2804217856"
+          "magnet-url": "magnet:?xt=urn:btih:1ac99e0a9d35d48dfe553b6a4f73e5b40476d5a7&dn=manjaro-gnome-21.0.5-210519-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/21.0.5/manjaro-gnome-21.0.5-210519-linux510.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "21.0.4",
+          "version": "21.0.5",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:919b8a163807db4633a79b2cc8d575c4ccf9c908&dn=manjaro-kde-21.0.4-210506-linux510.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/21.0.4/manjaro-kde-21.0.4-210506-linux510.iso",
-          "file-size": "2880800768"
+          "magnet-url": "magnet:?xt=urn:btih:1c37d7e6e4e3029bb74fd7f63fd840806e4d4fc8&dn=manjaro-kde-21.0.5-210519-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/21.0.5/manjaro-kde-21.0.5-210519-linux510.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "21.0.4",
+          "version": "21.0.5",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:bc5ce8b849f773775e55f5e1e1b9b139e42e7e35&dn=manjaro-xfce-21.0.4-210506-linux510.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/21.0.4/manjaro-xfce-21.0.4-210506-linux510.iso",
-          "file-size": "2573096960"
+          "magnet-url": "magnet:?xt=urn:btih:a531515fec914bb5d14e687cbb9c7538455b1d18&dn=manjaro-xfce-21.0.5-210519-linux510.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/21.0.5/manjaro-xfce-21.0.5-210519-linux510.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
