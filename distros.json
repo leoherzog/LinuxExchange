@@ -642,7 +642,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:660c45f897f8a1cf3d8aea0b463465331d7b7f32&dn=2021-05-07-raspios-buster-armhf-full.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-full.zip",
-          "file-size": ""
+          "file-size": "3005999855"
         },
         {
           "arch": "arm",
@@ -650,7 +650,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:f5b07e037ab2e724ea26b3901d1fdb5e17317aeb&dn=2021-05-07-raspios-buster-armhf-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip",
-          "file-size": ""
+          "file-size": "465662909"
         },
         {
           "arch": "arm",
@@ -658,7 +658,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:cd69af03d423ecb492c4f0e15600ea56a1bee806&dn=2021-05-07-raspios-buster-arm64-lite.zip",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/2021-05-07-raspios-buster-arm64-lite.zip",
-          "file-size": ""
+          "file-size": "405826358"
         }
       ],
       "trackers": [
