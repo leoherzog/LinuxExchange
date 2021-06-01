@@ -441,34 +441,34 @@
       "full-name": "Kali Linux",
       "primary-color": "#527d97",
       "url": "https://kali.org/",
-      "torrent-download-page-url": "https://kali.org/downloads/",
+      "torrent-download-page-url": "https://kali.org/get-kali/",
       "description": "A Debian-based distribution with a collection of security and forensics tools",
       "font-logos-icon": "fl-kali-linux",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "2021.1",
+          "version": "2021.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:7c8f00b9a305aea36500081c528f62e807cf001d&dn=kali-linux-2021-1-live-amd64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-amd64.iso",
-          "file-size": "3591385088"
+          "magnet-url": "magnet:?xt=urn:btih:6f3e5f72b87a4d25abecb5b4037e8f0d84637578&dn=kali-linux-2021-2-live-amd64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2021.1",
+          "version": "2021.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:c4a86882296b4566a0bd6bc96b7d3a95d78d7b55&dn=kali-linux-2021-1-live-i386-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-i386.iso",
-          "file-size": "3152097280"
+          "magnet-url": "magnet:?xt=urn:btih:12592ec6ed3736d28160dc0e817711d3762d660a&dn=kali-linux-2021-2-live-i386-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2021.1",
+          "version": "2021.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:bb7f639fe529c805356455f8e0dfec6567775772&dn=kali-linux-2021-1-live-arm64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.1/kali-linux-2021.1-live-arm64.iso",
-          "file-size": "2708123648"
+          "magnet-url": "magnet:?xt=urn:btih:325a3832efb035fb3e7d6d5877dcb314cf8a0554&dn=kali-linux-2021-2-live-arm64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
