@@ -118,11 +118,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.3.2011",
+          "version": "8.4.2105",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:9c4591cf8f8782183e73933396ae6f3a9cf6b9e6&dn=CentOS-8.3.2011-x86_64-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-dvd1.iso",
-          "file-size": "9264168960"
+          "magnet-url": "magnet:?xt=urn:btih:801ba9eca09787cea99a653771663783320a044b&dn=CentOS-8.4.2105-x86_64-dvd1",
+          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-dvd1.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
