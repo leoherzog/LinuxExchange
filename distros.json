@@ -301,11 +301,11 @@
         },
         {
           "arch": "amd64",
-          "version": "6.0 Beta",
+          "version": "6.0 Beta 2",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:d83cd89ea7b75f433d5be5e222cb4eb8cf3a619a&dn=elementaryos-6.0-daily.20210430.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-daily.20210430.iso",
-          "file-size": "2547646464"
+          "magnet-url": "magnet:?xt=urn:btih:e32279f003e185e5498ac9c23d4ae0966b8c7460&dn=elementaryos-6.0-daily.20210615.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-daily.20210615.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
