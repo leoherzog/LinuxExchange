@@ -597,7 +597,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/30/pop-os_20.04_amd64_nvidia_30.iso",
-          "file-size": ""
+          "file-size": "2857697280"
         },
         {
           "arch": "amd64",
@@ -605,7 +605,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/30/pop-os_20.04_amd64_intel_30.iso",
-          "file-size": ""
+          "file-size": "2454208512"
         },
         {
           "arch": "amd64",
@@ -613,7 +613,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/nvidia/18/pop-os_20.10_amd64_nvidia_18.iso",
-          "file-size": ""
+          "file-size": "2921676800"
         },
         {
           "arch": "amd64",
@@ -621,7 +621,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.10/amd64/intel/18/pop-os_20.10_amd64_intel_18.iso",
-          "file-size": ""
+          "file-size": "2516582400"
         }
       ],
       "trackers": []
