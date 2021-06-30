@@ -613,7 +613,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/5/pop-os_21.04_amd64_nvidia_5.iso",
-          "file-size": ""
+          "file-size": "2941255680"
         },
         {
           "arch": "amd64",
@@ -621,7 +621,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/5/pop-os_21.04_amd64_intel_5.iso",
-          "file-size": ""
+          "file-size": "2537684992"
         }
       ],
       "trackers": []
