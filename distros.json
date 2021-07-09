@@ -326,7 +326,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:a19d45dccc43df250d45352143d4c10773946ba8&dn=eos-eos3.9-amd64-amd64.210706-203204.base.iso",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210706-203204.base.iso",
-          "file-size": ""
+          "file-size": "3011065856"
         },
         {
           "arch": "arm",
@@ -334,7 +334,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:b286752e99f0d39c750e8a763741f0638dc9eed5&dn=3.9.5",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-arm64-rpi4/base/eos-eos3.9-arm64-rpi4.210706-185158.base.img.xz",
-          "file-size": ""
+          "file-size": "2450687004"
         },
         {
           "arch": "amd64",
@@ -342,7 +342,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:093258087a5668344aaa80839f510eaf0bc44da1&dn=3.9.5",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-arm64-pinebookpro/base/eos-eos3.9-arm64-pinebookpro.210706-185158.base.img.xz",
-          "file-size": ""
+          "file-size": "2442554628"
         }
       ],
       "trackers": [
@@ -629,7 +629,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/6/pop-os_21.04_amd64_nvidia_6.iso",
-          "file-size": ""
+          "file-size": "2941255680"
         },
         {
           "arch": "amd64",
@@ -637,7 +637,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/6/pop-os_21.04_amd64_intel_6.iso",
-          "file-size": ""
+          "file-size": "2537684992"
         }
       ],
       "trackers": []
