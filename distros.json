@@ -343,7 +343,7 @@
           "magnet-url": "magnet:?xt=urn:btih:093258087a5668344aaa80839f510eaf0bc44da1&dn=3.9.5",
           "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-arm64-pinebookpro/base/eos-eos3.9-arm64-pinebookpro.210706-185158.base.img.xz",
           "file-size": ""
-        },
+        }
       ],
       "trackers": [
         "http://torrents.endlessm.com:6969/announce"
@@ -628,16 +628,16 @@
           "version": "21.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/5/pop-os_21.04_amd64_nvidia_5.iso",
-          "file-size": "2941255680"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/6/pop-os_21.04_amd64_nvidia_6.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/5/pop-os_21.04_amd64_intel_5.iso",
-          "file-size": "2537684992"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/6/pop-os_21.04_amd64_intel_6.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
