@@ -322,12 +322,28 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "3.9.4",
+          "version": "3.9.5",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:0b30d37e88c6186284ee0ea07b0d04f00704acd0&dn=eos-eos3.9-amd64-amd64.210423-215210.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210423-215210.base.iso",
-          "file-size": "2981816320"
-        }
+          "magnet-url": "magnet:?xt=urn:btih:a19d45dccc43df250d45352143d4c10773946ba8&dn=eos-eos3.9-amd64-amd64.210706-203204.base.iso",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210706-203204.base.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "arm",
+          "version": "3.9.5 for Raspberry Pi 4",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:b286752e99f0d39c750e8a763741f0638dc9eed5&dn=3.9.5",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-arm64-rpi4/base/eos-eos3.9-arm64-rpi4.210706-185158.base.img.xz",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "3.9.5 for Pinebook Pro",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:093258087a5668344aaa80839f510eaf0bc44da1&dn=3.9.5",
+          "direct-download-url": "https://images-dl.endlessm.com/release/3.9.5/eos-arm64-pinebookpro/base/eos-eos3.9-arm64-pinebookpro.210706-185158.base.img.xz",
+          "file-size": ""
+        },
       ],
       "trackers": [
         "http://torrents.endlessm.com:6969/announce"
@@ -672,7 +688,7 @@
       "url": "https://rockylinux.org/",
       "torrent-download-page-url": "",
       "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL) and inspired by CentOS",
-      "font-logos-icon": null,
+      "font-logos-icon": "fl-rocky-linux",
       "recommended-version-index": 0,
       "versions": [
         {
