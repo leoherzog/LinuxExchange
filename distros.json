@@ -363,7 +363,7 @@
           "arch": "amd64",
           "version": "34",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "",
+          "magnet-url": null,
           "direct-download-url": "https://dl.fedoraproject.org/pub/alt/unofficial/releases/34/Fedora-Cinnamon-Live-x86_64-34-1.2.iso",
           "file-size": "2178908160"
         },
@@ -684,7 +684,7 @@
       "full-name": "Rocky Linux",
       "primary-color": "#10b981",
       "url": "https://rockylinux.org/",
-      "torrent-download-page-url": "",
+      "torrent-download-page-url": "https://rockylinux.org/download",
       "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL) and inspired by CentOS",
       "font-logos-icon": "fl-rocky-linux",
       "recommended-version-index": 0,
