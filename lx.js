@@ -33,10 +33,10 @@ async function load() {
 
   os.innerHTML = '';
   for (let distro of distros.distros) {
-    let option = document.createElement("option");
+    let option = document.createElement('option');
     option.text = distro['name'];
-    if (distro.versions.every(version => version["magnet-url"] === null)) {
-      option.text += " (torrents unavailable)";
+    if (distro.versions.every(version => version['magnet-url'] === null)) {
+      option.text += ' (torrents unavailable)';
       option.disabled = true;
     }
     os.add(option);
@@ -106,16 +106,16 @@ function onVersionChange() {
   selectedVersion = selectedDistro.versions.find(index => index['magnet-url'].split('btih:')[1].split('&')[0] == version.value);
 
   if (!selectedVersion) {
-    versionNumber.innerHTML = "";
-    desktopEnvironment.innerHTML = "";
-    arch.innerHTML = "";
+    versionNumber.innerHTML = '';
+    desktopEnvironment.innerHTML = '';
+    arch.innerHTML = '';
     start.disabled = true;
     return;
   }
 
   let selectedDesktopEnvironment = distros['desktop-environments'][selectedVersion['desktop-environment']];
   
-  versionNumber.innerHTML = selectedDistro['full-name'] + " " + selectedVersion['version'];
+  versionNumber.innerHTML = selectedDistro['full-name'] + ' ' + selectedVersion['version'];
   if (selectedDistro['font-logos-icon']) {
     versionNumber.innerHTML = '<span class="' + selectedDistro['font-logos-icon'] +'"></span> ' + versionNumber.innerHTML;
   }
@@ -149,11 +149,11 @@ function download() {
 
   let row = document.getElementById(hash);
   if (!row) {
-    console.log("Starting download for " + name);
+    console.log('Starting download for ' + name);
     row = createRow(hash);
     downloads.appendChild(row);
   } else {
-    console.error("Already downloading " + name);
+    console.error('Already downloading ' + name);
   }
 
   let progressStatus = document.getElementById(hash + '-progress');
@@ -161,12 +161,12 @@ function download() {
 
   let id = selectedVersion['magnet-url'];
   if (selectedDistro.trackers.length) {
-    id += "&tr=" + selectedDistro.trackers.join("&tr=");
+    id += '&tr=' + selectedDistro.trackers.join('&tr=');
   }
-  id += "&tr=" + distros.trackers.join("&tr=");
-  id += "&ws=" + selectedVersion["direct-download-url"].replace('{{base64time}}', btoa(new Date().getTime().toString()));
+  id += '&tr=' + distros.trackers.join('&tr=');
+  id += '&ws=' + selectedVersion['direct-download-url'].replace('{{base64time}}', btoa(new Date().getTime().toString()));
   
-  console.info("Downloading " + name);
+  console.info('Downloading ' + name);
   console.info(id);
 
   client.add(id, {"store": window.IdbChunkStore}, function(torrent) {
@@ -177,7 +177,7 @@ function download() {
       progressStatus.innerHTML = filesize(torrent.downloaded, {"round": digits});
     });
     torrent.on('done', () => {
-      console.log(torrent.name + " done!");
+      console.log(torrent.name + ' done!');
       torrent.files.forEach((file) => {
         progressStatus.innerHTML = '';
         progressTotal.innerHTML = 'Assembling... <span class="fad fa-spinner fa-fw fa-pulse"></span>';
@@ -237,7 +237,7 @@ function createRow(hash) {
 }
 
 function checkStatus() {
-  console.info("Client ready: " + client.ready + ", Torrents: " + client.torrents.length);
+  console.info('Client ready: ' + client.ready + ', Torrents: ' + client.torrents.length);
   if (client.ready) {
     updateNodeStatus('ready', 'This browser tab is a node in the WebTorrent network');
   } else {
@@ -249,19 +249,19 @@ function updateNodeStatus(status, message) {
   nodeStatusIcon.className = status;
   nodeStatusText.className = status;
   switch (status) {
-    case "loading":
+    case 'loading':
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="fas fa-spinner fa-pulse fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
       nodeStatusText.innerText = 'about to be connected directly to the WebTorrent network';
       start.disabled = true;
       break;
-    case "ready":
+    case 'ready':
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="far fa-chart-network fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
       nodeStatusText.innerText = 'currently connected directly to the WebTorrent network';
       start.disabled = false;
       break;
-    case "error":
+    case 'error':
       nodeStatusIcon.innerHTML = '<span class="fa-stack"><span class="fas fa-circle fa-stack-2x"></span><span class="fas fa-exclamation fa-stack-1x fa-inverse"></span></span>';
       nodeStatusIcon.setAttribute('title', message);
       nodeStatusText.innerText = 'capable of being connected to the WebTorrent network, but we ran into a snag (' + message + ')';
@@ -294,7 +294,7 @@ function isDark(color) {
       g = color[2];
       b = color[3];
   } else {
-      color = + ("0x" + color.slice(1).replace(color.length < 5 && /./g, '$&$&'));
+      color = + ('0x' + color.slice(1).replace(color.length < 5 && /./g, '$&$&'));
       r = color >> 16;
       g = color >> 8 & 255;
       b = color & 255;
