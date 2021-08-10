@@ -293,19 +293,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "5.1.7",
+          "version": "6.0",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:73e9c0288c0b62c2646b695219b550fd231fede4&dn=elementaryos-5.1-stable.20200814.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-5.1-stable.20200814.iso",
-          "file-size": "1487339520"
-        },
-        {
-          "arch": "amd64",
-          "version": "6.0 Beta 2",
-          "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:e32279f003e185e5498ac9c23d4ae0966b8c7460&dn=elementaryos-6.0-daily.20210615.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-daily.20210615.iso",
-          "file-size": "2664972288"
+          "magnet-url": "magnet:?xt=urn:btih:6def4d028d76c6f02590bb062be4ad5cbf4e76fb&dn=elementaryos-6.0-stable.20210810.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20210810.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
