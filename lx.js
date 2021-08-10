@@ -164,7 +164,7 @@ function download() {
     id += "&tr=" + selectedDistro.trackers.join("&tr=");
   }
   id += "&tr=" + distros.trackers.join("&tr=");
-  id += "&ws=" + selectedVersion["direct-download-url"];
+  id += "&ws=" + selectedVersion["direct-download-url"].replace('{{base64time}}', btoa(new Date().getTime().toString()));
   
   console.info("Downloading " + name);
   console.info(id);
