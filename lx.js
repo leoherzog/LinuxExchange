@@ -141,7 +141,7 @@ function onVersionChange() {
 
 }
 
-function download() {
+async function download() {
 
   let hash = selectedVersion['magnet-url'].split('btih:')[1].split('&')[0];
   let name = selectedVersion['direct-download-url'].substring(selectedVersion['direct-download-url'].lastIndexOf('/') + 1);
@@ -160,10 +160,19 @@ function download() {
   let progressTotal = document.getElementById(hash + '-total');
 
   let id = selectedVersion['magnet-url'];
-  if (selectedDistro.trackers.length) {
-    id += '&tr=' + selectedDistro.trackers.join('&tr=');
-  }
+  if (selectedDistro.trackers.length) id += '&tr=' + selectedDistro.trackers.join('&tr=');
   id += '&tr=' + distros.trackers.join('&tr=');
+  try {
+    let res = await fetch('https://newtrackon.com/api/stable');
+    if (res.status != 200) throw new Error('Failed to fetch additional trackers');
+    let additionalTrackers = await res.text();
+    additionalTrackers = additionalTrackers.split('\n').filter(tracker => !!tracker);
+    id += '&tr=' + additionalTrackers.join('&tr=');
+  }
+  catch(e) {
+    console.error('Trouble fetching more trackers from newTrackon: ' + e);
+  }
+
   id += '&ws=' + selectedVersion['direct-download-url'].replace('{{base64time}}', btoa(new Date().getTime().toString()));
   
   console.info('Downloading ' + name);
