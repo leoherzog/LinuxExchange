@@ -297,7 +297,7 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:303673e100258846334f8edcc4cc1a5826e69042&dn=elementaryos-6.0-stable.20210823.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20210823.iso",
-          "file-size": ""
+          "file-size": "2380038144"
         }
       ],
       "trackers": []
