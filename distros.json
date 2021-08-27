@@ -727,7 +727,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:632885909f6baeea7a60c3f35dcf70eaef91e2fc&dn=ubuntu-budgie-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3041525760"
         },
         {
           "arch": "amd64",
@@ -759,7 +759,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:b26c81363ac1a236765385a702aec107a49581b5&dn=ubuntu-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/20.04/ubuntu-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3071934464"
         },
         {
           "arch": "amd64",
@@ -783,7 +783,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:7f0e917ff8dc6a11dace0043415d2d990fd4f103&dn=kubuntu-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/20.04/release/kubuntu-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3204448256"
         },
         {
           "arch": "amd64",
@@ -815,7 +815,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:d5e89ab27efd07e00701dfffee032bd9818562da&dn=lubuntu-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/20.04/release/lubuntu-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1854996480"
         },
         {
           "arch": "amd64",
@@ -847,7 +847,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:adcb42c09f980a746f9df41f2d8d05e862eeac55&dn=ubuntu-mate-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/20.04/release/ubuntu-mate-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3167797248"
         },
         {
           "arch": "amd64",
@@ -879,7 +879,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:3057ad5d5df45fe07dbcbca184ec4276d3068a2e&dn=ubuntu-20.04.3-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso",
-          "file-size": ""
+          "file-size": "1261371392"
         },
         {
           "arch": "amd64",
@@ -903,7 +903,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:a2975c4fcfcd3da4d41e134f20ead5a5c62f551a&dn=xubuntu-20.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/20.04/release/xubuntu-20.04.3-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "1791655936"
         },
         {
           "arch": "amd64",
@@ -935,7 +935,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:b9ec893b006da2d705b0646a7016094168cf7b01&dn=ubuntu-20.04.3-live-server-arm64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04.3-live-server-arm64.iso",
-          "file-size": ""
+          "file-size": "1229002752"
         },
         {
           "arch": "arm",
