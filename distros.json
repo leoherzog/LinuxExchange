@@ -98,7 +98,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:0aae223b7c0244e4952158554cd0506f0eca1fdf&dn=archlinux-2021.09.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2021.09.01/archlinux-2021.09.01-x86_64.iso",
-          "file-size": ""
+          "file-size": "0"
         }
       ],
       "trackers": [
@@ -537,7 +537,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:33edd1f7de1c086232d77d8e7fe6dfeec0a2944b&dn=manjaro-gnome-21.1.1-210827-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/21.1.1/manjaro-gnome-21.1.1-210827-linux513.iso",
-          "file-size": ""
+          "file-size": "3117467648"
         },
         {
           "arch": "amd64",
@@ -545,7 +545,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:c5bcb482145b9cb1c3f5d3a4c47f3698e6b66743&dn=manjaro-kde-21.1.1-210827-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/kde/21.1.1/manjaro-kde-21.1.1-210827-linux513.iso",
-          "file-size": ""
+          "file-size": "3193694208"
         },
         {
           "arch": "amd64",
@@ -553,7 +553,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:311d487f2591dcd229445bcc50dfbdca62494959&dn=manjaro-xfce-21.1.1-210827-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/21.1.1/manjaro-xfce-21.1.1-210827-linux513.iso",
-          "file-size": ""
+          "file-size": "2860759040"
         }
       ],
       "trackers": []
@@ -603,7 +603,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/33/pop-os_20.04_amd64_nvidia_33.iso",
-          "file-size": ""
+          "file-size": "2933145600"
         },
         {
           "arch": "amd64",
@@ -611,7 +611,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/33/pop-os_20.04_amd64_intel_33.iso",
-          "file-size": ""
+          "file-size": "2466250752"
         },
         {
           "arch": "amd64",
@@ -619,7 +619,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/8/pop-os_21.04_amd64_nvidia_8.iso",
-          "file-size": ""
+          "file-size": "3011051520"
         },
         {
           "arch": "amd64",
@@ -627,7 +627,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/8/pop-os_21.04_amd64_intel_8.iso",
-          "file-size": ""
+          "file-size": "2542665728"
         }
       ],
       "trackers": []
