@@ -7,15 +7,15 @@ on:
 
 jobs:
 
-  update-hashes:
+  update-file-sizes:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
       uses: actions/checkout@v2
     - name: Get Node
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2.4.0
       with:
-        node-version: '14'
+        node-version: '16'
     - name: Install libraries
       run: npm install node-fetch
     - name: Configure Git
