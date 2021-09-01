@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 var node;
 var distros = JSON.parse(fs.readFileSync('distros.json'));
