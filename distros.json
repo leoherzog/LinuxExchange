@@ -98,7 +98,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:0aae223b7c0244e4952158554cd0506f0eca1fdf&dn=archlinux-2021.09.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2021.09.01/archlinux-2021.09.01-x86_64.iso",
-          "file-size": ""
+          "file-size": "0"
         }
       ],
       "trackers": [
@@ -295,9 +295,9 @@
           "arch": "amd64",
           "version": "6.0",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:303673e100258846334f8edcc4cc1a5826e69042&dn=elementaryos-6.0-stable.20210823.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20210823.iso",
-          "file-size": "2380038144"
+          "magnet-url": "magnet:?xt=urn:btih:7b4bce53195f7db8c0ba9b9db04b20228b84b60b&dn=elementaryos-6.0-stable.20210831.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20210831.iso",
+          "file-size": "2373058560"
         }
       ],
       "trackers": []
@@ -603,7 +603,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/33/pop-os_20.04_amd64_nvidia_33.iso",
-          "file-size": ""
+          "file-size": "2933145600"
         },
         {
           "arch": "amd64",
@@ -611,7 +611,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/33/pop-os_20.04_amd64_intel_33.iso",
-          "file-size": ""
+          "file-size": "2466250752"
         },
         {
           "arch": "amd64",
@@ -619,7 +619,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/8/pop-os_21.04_amd64_nvidia_8.iso",
-          "file-size": ""
+          "file-size": "3011051520"
         },
         {
           "arch": "amd64",
@@ -627,7 +627,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/8/pop-os_21.04_amd64_intel_8.iso",
-          "file-size": ""
+          "file-size": "2542665728"
         }
       ],
       "trackers": []
