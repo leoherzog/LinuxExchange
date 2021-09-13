@@ -67,9 +67,9 @@ function onDistroChange() {
   selectedDistro = distros.distros.find(index => index['name'] == os.value);
 
   // boolean on whether this distro has only one unique attribute
-  let hasSameVersion = selectedDistro.versions.every((element, index, array) => element['version'] == array[0]['version']);
-  let hasSameDE = selectedDistro.versions.every((element, index, array) => element['desktop-environment'] == array[0]['desktop-environment']);
-  let hasSameArch = selectedDistro.versions.every((element, index, array) => element['arch'] == array[0]['arch']);
+  let hasSameVersion = selectedDistro.versions.every((version, index, versions) => version['version'] == versions[0]['version']);
+  let hasSameDE = selectedDistro.versions.every((version, index, versions) => version['desktop-environment'] == versions[0]['desktop-environment']);
+  let hasSameArch = selectedDistro.versions.every((version, index, versions) => version['arch'] == versions[0]['arch']);
 
   version.innerHTML = '';
   for (let version of selectedDistro.versions) {
