@@ -537,7 +537,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d80856766d38f0d58dc6016e37c753ab4acd738f&dn=manjaro-gnome-21.1.2-210904-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/21.1.2/manjaro-gnome-21.1.2-210904-linux513.iso",
-          "file-size": ""
+          "file-size": "3119290368"
         },
         {
           "arch": "amd64",
@@ -545,7 +545,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:ba8bdd65390d02a4c9582c2325bf5b5e1b98415b&dn=manjaro-kde-21.1.2-210904-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/kde/21.1.2/manjaro-kde-21.1.2-210904-linux513.iso",
-          "file-size": ""
+          "file-size": "3456624640"
         },
         {
           "arch": "amd64",
@@ -553,7 +553,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:d8658e5ab731ffd087f5eccb294ac97977dca8cd&dn=manjaro-xfce-21.1.2-210904-linux513.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/21.1.2/manjaro-xfce-21.1.2-210904-linux513.iso",
-          "file-size": ""
+          "file-size": "3124750336"
         }
       ],
       "trackers": []
