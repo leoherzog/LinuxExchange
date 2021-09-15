@@ -456,27 +456,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2021.2",
+          "version": "2021.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:6f3e5f72b87a4d25abecb5b4037e8f0d84637578&dn=kali-linux-2021-2-live-amd64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-amd64.iso",
-          "file-size": "3872813056"
+          "magnet-url": "magnet:?xt=urn:btih:1f19630b9fc544b4ae3692292e018e31eaea6d24&dn=kali-linux-2021-3-live-amd64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2021.2",
+          "version": "2021.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:12592ec6ed3736d28160dc0e817711d3762d660a&dn=kali-linux-2021-2-live-i386-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-i386.iso",
-          "file-size": "3215994880"
+          "magnet-url": "magnet:?xt=urn:btih:0b695154e6788f2daeec13dc326032b8301c407d&dn=kali-linux-2021-3-live-i386-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2021.2",
+          "version": "2021.3 Apple M1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:325a3832efb035fb3e7d6d5877dcb314cf8a0554&dn=kali-linux-2021-2-live-arm64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.2/kali-linux-2021.2-live-arm64.iso",
-          "file-size": "2764310528"
+          "magnet-url": "magnet:?xt=urn:btih:13549350589768bb9ca7680d5e22f57a7e81b2fb&dn=kali-linux-2021-3-live-arm64-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
