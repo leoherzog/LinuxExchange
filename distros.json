@@ -460,7 +460,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:1f19630b9fc544b4ae3692292e018e31eaea6d24&dn=kali-linux-2021-3-live-amd64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-amd64.iso",
-          "file-size": ""
+          "file-size": "356"
         },
         {
           "arch": "x86",
@@ -468,7 +468,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:0b695154e6788f2daeec13dc326032b8301c407d&dn=kali-linux-2021-3-live-i386-iso",
           "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-i386.iso",
-          "file-size": ""
+          "file-size": "353"
         },
         {
           "arch": "arm",
@@ -476,7 +476,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:13549350589768bb9ca7680d5e22f57a7e81b2fb&dn=kali-linux-2021-3-live-arm64-iso",
           "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-live-arm64.iso",
-          "file-size": ""
+          "file-size": "354"
         }
       ],
       "trackers": [
