@@ -763,11 +763,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
+          "version": "18.04.6",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:94a315e2cf8015b2f635d79aab592e6db557d5ea&dn=ubuntu-18.04.5-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso",
-          "file-size": "2193522688"
+          "magnet-url": "magnet:?xt=urn:btih:bc26c6bc83d0ca1a7bf9875df1ffc3fed81ff555&dn=ubuntu-18.04.6-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -883,11 +883,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
+          "version": "18.04.6",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:d8f48475af46d2e01af13fb5126f06f962be215c&dn=ubuntu-18.04.5-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.5-live-server-amd64.iso",
-          "file-size": "990904320"
+          "magnet-url": "magnet:?xt=urn:btih:e897e8a8b7033d66f4cea35b6073f85af8ee334d&dn=ubuntu-18.04.6-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
