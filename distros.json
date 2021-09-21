@@ -767,7 +767,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:bc26c6bc83d0ca1a7bf9875df1ffc3fed81ff555&dn=ubuntu-18.04.6-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2514124800"
         },
         {
           "arch": "amd64",
@@ -887,7 +887,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e897e8a8b7033d66f4cea35b6073f85af8ee334d&dn=ubuntu-18.04.6-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso",
-          "file-size": ""
+          "file-size": "1016070144"
         },
         {
           "arch": "amd64",
