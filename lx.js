@@ -103,7 +103,7 @@ function onDistroChange() {
 function onVersionChange() {
   
   selectedDistro = distros.distros.find(index => index['name'] == os.value);
-  selectedVersion = selectedDistro.versions.find(index => index['magnet-url'].split('btih:')[1].split('&')[0] == version.value);
+  selectedVersion = selectedDistro.versions.find(index => index['magnet-url'] && index['magnet-url'].split('btih:')[1].split('&')[0] == version.value);
 
   if (!selectedVersion) {
     versionNumber.innerHTML = '';
