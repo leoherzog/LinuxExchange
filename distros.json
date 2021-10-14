@@ -719,7 +719,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:e4f94e8fe36de4071b8c29e30644f55bd8b09208&dn=ubuntu-budgie-21.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/21.10/release/ubuntu-budgie-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3195518976"
         },
         {
           "arch": "amd64",
@@ -751,7 +751,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:f1fcdc1462d36530f526c1d9402eec9100b7ba18&dn=ubuntu-21.10-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3116482560"
         },
         {
           "arch": "amd64",
@@ -775,7 +775,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:005c8ace4452b01ca49d56b3bfc4a7bacccfaa1b&dn=kubuntu-21.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/21.10/release/kubuntu-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3372374016"
         },
         {
           "arch": "amd64",
@@ -807,7 +807,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:2cbc3e5cd85e9ca69e8da0845047adfea8bad4c1&dn=lubuntu-21.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/21.10/release/lubuntu-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2080362496"
         },
         {
           "arch": "amd64",
@@ -839,7 +839,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.10/release/ubuntu-mate-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "3406557184"
         },
         {
           "arch": "amd64",
@@ -871,7 +871,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:c9abe33e3679593cd89927910d528252cdc44e6e&dn=ubuntu-21.10-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-live-server-amd64.iso",
-          "file-size": ""
+          "file-size": "1269377024"
         },
         {
           "arch": "amd64",
@@ -895,7 +895,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:c47a603802777056692ba7ca5d757f44316bb3b2&dn=xubuntu-21.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/21.10/release/xubuntu-21.10-desktop-amd64.iso",
-          "file-size": ""
+          "file-size": "2097561600"
         },
         {
           "arch": "amd64",
@@ -927,7 +927,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:3111c560ec0d30c43205f0be92b00ce9fc155e15&dn=ubuntu-21.10-live-server-arm64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso",
-          "file-size": ""
+          "file-size": "1234546688"
         },
         {
           "arch": "arm",
