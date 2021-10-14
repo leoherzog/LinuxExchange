@@ -715,11 +715,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:e4f94e8fe36de4071b8c29e30644f55bd8b09208&dn=ubuntu-budgie-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/21.04/release/ubuntu-budgie-21.04-desktop-amd64.iso",
-          "file-size": "2756216832"
+          "magnet-url": "magnet:?xt=urn:btih:e4f94e8fe36de4071b8c29e30644f55bd8b09208&dn=ubuntu-budgie-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/21.10/release/ubuntu-budgie-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -747,11 +747,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:64a980abe6e448226bb930ba061592e44c3781a1&dn=ubuntu-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/21.04/ubuntu-21.04-desktop-amd64.iso",
-          "file-size": "2818738176"
+          "magnet-url": "magnet:?xt=urn:btih:f1fcdc1462d36530f526c1d9402eec9100b7ba18&dn=ubuntu-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -771,11 +771,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:d65d07329264aecb2d2be7a6c0e86b6613b2a600&dn=kubuntu-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/21.04/release/kubuntu-21.04-desktop-amd64.iso",
-          "file-size": "2941128704"
+          "magnet-url": "magnet:?xt=urn:btih:005c8ace4452b01ca49d56b3bfc4a7bacccfaa1b&dn=kubuntu-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/21.10/release/kubuntu-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -803,11 +803,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:5052caf0211cb95e8b0074761b248b9033d05f2f&dn=lubuntu-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/21.04/release/lubuntu-21.04-desktop-amd64.iso",
-          "file-size": "2008125440"
+          "magnet-url": "magnet:?xt=urn:btih:2cbc3e5cd85e9ca69e8da0845047adfea8bad4c1&dn=lubuntu-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/21.10/release/lubuntu-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -835,11 +835,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:fcb313e32f355b01c4136e22a4a308462a4b2b63&dn=ubuntu-mate-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.04/release/ubuntu-mate-21.04-desktop-amd64.iso",
-          "file-size": "2965633024"
+          "magnet-url": "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.10/release/ubuntu-mate-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -867,11 +867,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:cab507494d02ebb1178b38f2e9d7be299c86b862&dn=ubuntu-21.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/21.04/ubuntu-21.04-live-server-amd64.iso",
-          "file-size": "1174243328"
+          "magnet-url": "magnet:?xt=urn:btih:c9abe33e3679593cd89927910d528252cdc44e6e&dn=ubuntu-21.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-live-server-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -891,11 +891,11 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:80d773cbf111e906608077967683a0ffcc3a7668&dn=xubuntu-21.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/21.04/release/xubuntu-21.04-desktop-amd64.iso",
-          "file-size": "1958051840"
+          "magnet-url": "magnet:?xt=urn:btih:c47a603802777056692ba7ca5d757f44316bb3b2&dn=xubuntu-21.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/21.10/release/xubuntu-21.10-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -923,11 +923,11 @@
         },
         {
           "arch": "arm",
-          "version": "21.04",
+          "version": "21.10",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:83ec009d5dc7fc15d845fbfdb14d8fd156dc138a&dn=ubuntu-21.04-live-server-arm64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/21.04/release/ubuntu-21.04-live-server-arm64.iso",
-          "file-size": "1133359104"
+          "magnet-url": "magnet:?xt=urn:btih:3111c560ec0d30c43205f0be92b00ce9fc155e15&dn=ubuntu-21.10-live-server-arm64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
