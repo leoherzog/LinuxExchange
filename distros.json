@@ -602,32 +602,32 @@
           "version": "20.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/33/pop-os_20.04_amd64_nvidia_33.iso",
-          "file-size": "2933145600"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/34/pop-os_20.04_amd64_nvidia_34.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/33/pop-os_20.04_amd64_intel_33.iso",
-          "file-size": "2466250752"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/34/pop-os_20.04_amd64_intel_34.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/8/pop-os_21.04_amd64_nvidia_8.iso",
-          "file-size": "3011051520"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/9/pop-os_21.04_amd64_nvidia_9.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/8/pop-os_21.04_amd64_intel_8.iso",
-          "file-size": "2542665728"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/9/pop-os_21.04_amd64_intel_9.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
@@ -636,8 +636,8 @@
       "name": "Raspberry Pi OS",
       "full-name": "Raspberry Pi OS",
       "primary-color": "#c51a4a",
-      "url": "https://www.raspberrypi.org/software/operating-systems/",
-      "torrent-download-page-url": "https://www.raspberrypi.org/software/operating-systems/",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "torrent-download-page-url": "https://www.raspberrypi.com/software/operating-systems/",
       "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
       "font-logos-icon": "fl-raspberry-pi",
       "recommended-version-index": 0,
