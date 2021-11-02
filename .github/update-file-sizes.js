@@ -2,7 +2,6 @@ const fs = require('fs');
 const http = require('http');
 const https = require('https');
 
-var node;
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 var timeInBase64 = new Buffer.from(new Date().getTime().toString()).toString('base64');
 
