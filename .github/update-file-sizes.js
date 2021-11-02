@@ -9,7 +9,7 @@ function downloadFiles() {
   for (let distro of distros.distros) {
     for (let version of distro.versions) {
       var url = version['direct-download-url'].replace('{{base64time}}', timeInBase64);
-      if (!version['file-size']) {
+      if (!version['file-size'] || version['file-size'] === '0') {
         addFileSize(version, url);
       }
     }
