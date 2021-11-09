@@ -1,6 +1,10 @@
 const fs = require('fs');
-const http = require('http');
-const https = require('https');
+const { http, https } = require('follow-redirects');
+const options = {
+  "headers": {
+      "User-Agent": "Wget/",
+  }
+};
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 var timeInBase64 = new Buffer.from(new Date().getTime().toString()).toString('base64');
@@ -19,12 +23,12 @@ function downloadFiles() {
 
 function addFileSize(version, url) {
   if (url.toLowerCase().includes('https')) {
-    https.get(url, function(res) {
+    https.get(url, options, function(res) {
       version['file-size'] = res.headers['content-length'];
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
     });
   } else {
-    http.get(url, function(res) {
+    http.get(url, options, function(res) {
       version['file-size'] = res.headers['content-length'];
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
     });
