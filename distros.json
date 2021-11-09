@@ -295,9 +295,9 @@
           "arch": "amd64",
           "version": "6.0",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:8de6cffcf38e9f3ee643c33c7db180b5c5b89eb4&dn=elementaryos-6.0-stable.20211005.iso",
-          "direct-download-url": "http://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20211005.iso",
-          "file-size": "185"
+          "magnet-url": "magnet:?xt=urn:btih:0539d48ed49200d6cf50f2b5f397a3a8f0d779b1&dn=elementaryos-6.0-stable.20211103.iso",
+          "direct-download-url": "http://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.0-stable.20211103.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
