@@ -699,25 +699,22 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.4",
+          "version": "8.5",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:128765af0a9d412aaf6fb4fc92d5c6ce2ace2b91&dn=Rocky-8.4-x86_64-dvd1",
-          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso",
-          "file-size": "9907994624"
+          "magnet-url": "magnet:?xt=urn:btih:3a516d721c97c46def16a1c75f4d1e5ecf0c0fcf&dn=Rocky-8.5-x86_64-dvd1",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.5-x86_64-dvd1.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "8.4",
+          "version": "8.5",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:30e05302835f2e71c7d300ccfd0ccc234959f551&dn=Rocky-8.4-aarch64-dvd1",
-          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso",
-          "file-size": "7303860224"
+          "magnet-url": "magnet:?xt=urn:btih:27726eea32bdc051210e41258df242fa7fbff7ef&dn=Rocky-8.5-aarch64-dvd1",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.5-aarch64-dvd1.iso",
+          "file-size": ""
         }
       ],
-      "trackers": [
-        "http://torrent.centos.org:6969/announce",
-        "http://ipv6.torrent.centos.org:6969/announce"
-      ]
+      "trackers": []
     },
     {
       "name": "Ubuntu",
