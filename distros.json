@@ -318,7 +318,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:3cf9e1a5821405efc46ab45f86d4f16fe45f6a67&dn=eos-eos4.0-amd64-amd64.211123-052013.base.iso",
           "direct-download-url": "https://images-dl.endlessm.com/release/4.0.0/eos-amd64-amd64/base/eos-eos4.0-amd64-amd64.211123-052013.base.iso",
-          "file-size": ""
+          "file-size": "3539908608"
         },
         {
           "arch": "arm",
@@ -334,7 +334,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:138053470f1fbc03762cf1da0cb73d64996f9913&dn=4.0.0",
           "direct-download-url": "https://images-dl.endlessm.com/release/4.0.0/eos-arm64-pinebookpro/base/eos-eos4.0-arm64-pinebookpro.211123-035530.base.img.xz",
-          "file-size": ""
+          "file-size": "2808427280"
         }
       ],
       "trackers": [
