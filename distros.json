@@ -472,27 +472,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2021.3",
+          "version": "2021.3a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:1f19630b9fc544b4ae3692292e018e31eaea6d24&dn=kali-linux-2021-3-live-amd64-iso",
-          "direct-download-url": "https://kali.download/kali-images/kali-2021.3/kali-linux-2021.3-live-amd64.iso",
-          "file-size": "4027592704"
+          "magnet-url": "magnet:?xt=urn:btih:eb2af9670237f53152c68317b252bf49403ce545&dn=kali-linux-2021.3a-installer-amd64-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2021.3a/kali-linux-2021.3a-installer-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2021.3",
+          "version": "2021.3a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:0b695154e6788f2daeec13dc326032b8301c407d&dn=kali-linux-2021-3-live-i386-iso",
-          "direct-download-url": "https://kali.download/kali-images/kali-2021.3/kali-linux-2021.3-live-i386.iso",
-          "file-size": "3326685184"
+          "magnet-url": "magnet:?xt=urn:btih:7006dab5595d5d76084aa8d46d3a9f50674a4b1e&dn=kali-linux-2021-3-installer-i386-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-installer-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2021.3 Apple M1",
+          "version": "2021.3a Apple M1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:13549350589768bb9ca7680d5e22f57a7e81b2fb&dn=kali-linux-2021-3-live-arm64-iso",
-          "direct-download-url": "https://kali.download/kali-images/kali-2021.3/kali-linux-2021.3-live-arm64.iso",
-          "file-size": "2838767616"
+          "magnet-url": "magnet:?xt=urn:btih:ba06972dcbb8648b577ca483ff147af92b680d12&dn=kali-linux-2021-3-installer-arm64-iso",
+          "direct-download-url": "http://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-installer-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
