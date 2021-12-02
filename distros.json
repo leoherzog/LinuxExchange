@@ -484,7 +484,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7006dab5595d5d76084aa8d46d3a9f50674a4b1e&dn=kali-linux-2021-3-installer-i386-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-installer-i386.iso",
-          "file-size": ""
+          "file-size": "3825205248"
         },
         {
           "arch": "arm",
@@ -492,7 +492,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:ba06972dcbb8648b577ca483ff147af92b680d12&dn=kali-linux-2021-3-installer-arm64-iso",
           "direct-download-url": "https://cdimage.kali.org/kali-2021.3/kali-linux-2021.3-installer-arm64.iso",
-          "file-size": ""
+          "file-size": "3590631424"
         }
       ],
       "trackers": [
