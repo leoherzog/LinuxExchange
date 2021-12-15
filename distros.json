@@ -631,19 +631,19 @@
         },
         {
           "arch": "amd64",
-          "version": "21.04 (Nvidia)",
+          "version": "21.10 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/nvidia/10/pop-os_21.04_amd64_nvidia_10.iso",
-          "file-size": "3074949120"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/3/pop-os_21.10_amd64_nvidia_3.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "21.04 (Intel/AMD)",
+          "version": "21.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.04/amd64/intel/10/pop-os_21.04_amd64_intel_10.iso",
-          "file-size": "2601910272"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/3/pop-os_21.10_amd64_intel_3.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
