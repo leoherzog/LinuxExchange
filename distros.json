@@ -635,7 +635,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/3/pop-os_21.10_amd64_nvidia_3.iso",
-          "file-size": ""
+          "file-size": "3120562176"
         },
         {
           "arch": "amd64",
@@ -643,7 +643,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/3/pop-os_21.10_amd64_intel_3.iso",
-          "file-size": ""
+          "file-size": "2635268096"
         }
       ],
       "trackers": []
