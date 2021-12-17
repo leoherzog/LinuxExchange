@@ -5,9 +5,8 @@ const parseTorrent = require('parse-torrent');
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 
-const distroIndex = distros['distros'].findIndex(function(distro) {
-  return distro['name'] == "Debian";
-});
+const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Debian');
+
 
 var urls = ["https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/", "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"]
 

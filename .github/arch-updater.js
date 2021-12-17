@@ -4,9 +4,7 @@ const parseTorrent = require('parse-torrent');
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 
-const distroIndex = distros['distros'].findIndex(function(distro) {
-  return distro['name'] == "Arch";
-});
+const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Arch');
 
 const parser = new Parser();
 parser.parseURL('https://www.archlinux.org/feeds/releases/', function(err, feed) {
