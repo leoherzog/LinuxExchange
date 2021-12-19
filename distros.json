@@ -150,131 +150,131 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:3a07e169ffe4d7ce3224bf3a1cf2897327f7bcdb&dn=debian-live-11.1.0-amd64-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-cinnamon.iso",
-          "file-size": "2818572288"
+          "magnet-url": "magnet:?xt=urn:btih:fef1a993bc49de2c4d140fca66f15fc89f8011c7&dn=debian-live-11.2.0-amd64-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-cinnamon.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:6dfca278779f8a9ff57639259f2f8111f1f73ce4&dn=debian-live-11.1.0-i386-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-cinnamon.iso",
-          "file-size": "2863300608"
+          "magnet-url": "magnet:?xt=urn:btih:d8612150e3802787bdd3a9520ab700c20506c325&dn=debian-live-11.2.0-i386-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-cinnamon.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:f38f7dda034e398dd13b6e11f4f64ff02a5f86e3&dn=debian-live-11.1.0-amd64-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-gnome.iso",
-          "file-size": "2715254784"
+          "magnet-url": "magnet:?xt=urn:btih:792c6aaea7f256335c4d1535f7062e72453cdc78&dn=debian-live-11.2.0-amd64-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-gnome.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:0bd2bdf56f544233aa9e8dd4efa7ee5d75cb66f8&dn=debian-live-11.1.0-i386-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-gnome.iso",
-          "file-size": "2757427200"
+          "magnet-url": "magnet:?xt=urn:btih:000df05351057c77f58fd8c9c8b6a15a583a3fd2&dn=debian-live-11.2.0-i386-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-gnome.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:88952d82a8b00cac78f01b0957efe56594dbb155&dn=debian-live-11.1.0-amd64-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-kde.iso",
-          "file-size": "2738028544"
+          "magnet-url": "magnet:?xt=urn:btih:9e1ce66d25276fc04e0e0ed7eef2cb671d0773af&dn=debian-live-11.2.0-amd64-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-kde.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:b7b8cb73d1a088591ed2eb063e6bd8d81d5d8525&dn=debian-live-11.1.0-i386-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-kde.iso",
-          "file-size": "2782298112"
+          "magnet-url": "magnet:?xt=urn:btih:df821819612c4acb2fe32303f7f09a561c5bcd33&dn=debian-live-11.2.0-i386-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-kde.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:98c62dacfc4dd04d658e5001d0d086ec23e6a38f&dn=debian-live-11.1.0-amd64-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-lxde.iso",
-          "file-size": "2525937664"
+          "magnet-url": "magnet:?xt=urn:btih:44c7295613be0e9b15b632139e2965c6d39ce030&dn=debian-live-11.2.0-amd64-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-lxde.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:263ed99a052e06c4753890bdf597991bf8ed415f&dn=debian-live-11.1.0-i386-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-lxde.iso",
-          "file-size": "2561900544"
+          "magnet-url": "magnet:?xt=urn:btih:b2b5f076ef7090ec51fa6246c19eb805c8fc027b&dn=debian-live-11.2.0-i386-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-lxde.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:a06bfde36f99e94c7a01d8424743ed4e2725d127&dn=debian-live-11.1.0-amd64-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-lxqt.iso",
-          "file-size": "2551873536"
+          "magnet-url": "magnet:?xt=urn:btih:7a42556041a960cf5c1d9c9010367a5411eab81a&dn=debian-live-11.2.0-amd64-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-lxqt.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:9cdfd4d65c92e99da3e009f0331707fecb3e76da&dn=debian-live-11.1.0-i386-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-lxqt.iso",
-          "file-size": "2587770880"
+          "magnet-url": "magnet:?xt=urn:btih:74b3bca6bc33d42f89c90bbcb13949d8fa3ce699&dn=debian-live-11.2.0-i386-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-lxqt.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:96e91e9cace13c962e7450ba2c9d7c92439db4ab&dn=debian-live-11.1.0-amd64-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-mate.iso",
-          "file-size": "2612133888"
+          "magnet-url": "magnet:?xt=urn:btih:aaf1923e43e47e0322806349241276878b689e59&dn=debian-live-11.2.0-amd64-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-mate.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:6b955846bca26ef486ffa87a4291fe75e8e2a56c&dn=debian-live-11.1.0-i386-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-mate.iso",
-          "file-size": "2648211456"
+          "magnet-url": "magnet:?xt=urn:btih:474f140afc72289ee3032af70f8b34e29f26d69b&dn=debian-live-11.2.0-i386-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-mate.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:f3d7a863cc4eadce466a7aa3194e14ce9179d907&dn=debian-live-11.1.0-amd64-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-standard.iso",
-          "file-size": "975175680"
+          "magnet-url": "magnet:?xt=urn:btih:e5f75ea3ff72e4aea39caecd870e8e43a9ed14b5&dn=debian-live-11.2.0-amd64-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-standard.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3a6ca0ce0de9e55ee0b5fe8a13415192a73b69f9&dn=debian-live-11.1.0-i386-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-standard.iso",
-          "file-size": "993001472"
+          "magnet-url": "magnet:?xt=urn:btih:1fa105d52df2c8756031105e592cf2ca3bbdec63&dn=debian-live-11.2.0-i386-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-standard.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:4d6db27a50393cbdf0582198f1d4d55707b3ea8e&dn=debian-live-11.1.0-amd64-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.1.0-amd64-xfce.iso",
-          "file-size": "2499805184"
+          "magnet-url": "magnet:?xt=urn:btih:6bfa0179f513a1cbf89c27ae8949eb63a7d1a8f6&dn=debian-live-11.2.0-amd64-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-11.2.0-amd64-xfce.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "11.1.0",
+          "version": "11.2.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:b4bd2877976d15800a44ea4c76175384b070669e&dn=debian-live-11.1.0-i386-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.1.0-i386-xfce.iso",
-          "file-size": "2535194624"
+          "magnet-url": "magnet:?xt=urn:btih:bdef8f13c432cf7dd1746add725363be2a868f47&dn=debian-live-11.2.0-i386-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/i386/iso-hybrid/debian-live-11.2.0-i386-xfce.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
