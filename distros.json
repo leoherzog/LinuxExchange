@@ -107,38 +107,6 @@
       ]
     },
     {
-      "name": "CentOS",
-      "full-name": "CentOS",
-      "primary-color": "#efa623",
-      "url": "https://centos.org/",
-      "torrent-download-page-url": "http://isoredirect.centos.org/centos/",
-      "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL)",
-      "font-logos-icon": "fl-centos",
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "8.5.2111",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:ae43c933f632933737b880b975c9a7ebfc6d79c8&dn=CentOS-8.5.2111-x86_64-dvd1",
-          "direct-download-url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.5.2111-x86_64-dvd1.iso",
-          "file-size": "10794041344"
-        },
-        {
-          "arch": "amd64",
-          "version": "7.9.2009",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e62c416954c578469fc763690f95ade490d991d3&dn=CentOS-7-x86_64-DVD-2009",
-          "direct-download-url": "http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso",
-          "file-size": "4712300544"
-        }
-      ],
-      "trackers": [
-        "http://torrent.centos.org:6969/announce",
-        "http://ipv6.torrent.centos.org:6969/announce"
-      ]
-    },
-    {
       "name": "Debian",
       "full-name": "Debian Live",
       "primary-color": "#a80030",
@@ -973,7 +941,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 13,
+  "recommended-distro-index": 12,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
