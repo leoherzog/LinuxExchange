@@ -97,14 +97,16 @@
           "version": "8.5",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:6205adf2911098563aa995c54c8f5a21af2f52ee&dn=AlmaLinux-8.5-x86_64",
-          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/x86_64/"
+          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/x86_64/",
+          "file-size": ""
         },
         {
           "arch": "arm",
           "version": "8.5",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:02099628949359e64e77cc481be2a3404564d8c5&dn=AlmaLinux-8.5-aarch64",
-          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/aarch64/"
+          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/aarch64/",
+          "file-size": ""
         }
       ],
       "trackers": []
