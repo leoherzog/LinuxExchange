@@ -24,12 +24,12 @@ function downloadFiles() {
 function addFileSize(version, url) {
   if (url.toLowerCase().includes('https')) {
     https.get(url, options, function(res) {
-      version['file-size'] = res.headers['content-length'];
+      version['file-size'] = res.headers['content-length'] || "";
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
     });
   } else {
     http.get(url, options, function(res) {
-      version['file-size'] = res.headers['content-length'];
+      version['file-size'] = res.headers['content-length'] || "";
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
     });
   }
