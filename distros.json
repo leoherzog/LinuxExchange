@@ -469,27 +469,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2021.4",
+          "version": "2021.4a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e25321a1e04e300ecc11e2ec758eb7d8c9384c99&dn=kali-linux-2021.4-installer-amd64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.4/kali-linux-2021.4-installer-amd64.iso",
-          "file-size": "3295428608"
+          "magnet-url": "magnet:?xt=urn:btih:8925a7ec4fd6b615202136fa3203725e94147325&dn=kali-linux-2021.4a-installer-amd64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.4a/kali-linux-2021.4a-installer-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2021.4",
+          "version": "2021.4a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:4dd46ce9dd3b16270c43e96651de7aff287459a4&dn=kali-linux-2021.4-installer-i386-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.4/kali-linux-2021.4-installer-i386.iso",
-          "file-size": "2617245696"
+          "magnet-url": "magnet:?xt=urn:btih:117f51fa62778de430c82b98e41fcf217b4f9e32&dn=kali-linux-2021.4a-installer-i386-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.4a/kali-linux-2021.4a-installer-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2021.4 Apple M1",
+          "version": "2021.4a Apple M1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:720b540235037d04fb59f0ff58a3d5f42b2789da&dn=kali-linux-2021.4-installer-arm64-iso",
-          "direct-download-url": "https://cdimage.kali.org/kali-2021.4/kali-linux-2021.4-installer-arm64.iso",
-          "file-size": "2533666816"
+          "magnet-url": "magnet:?xt=urn:btih:cc763af29d1746ab4caeca2a5c8724ffafb5e33a&dn=kali-linux-2021.4a-installer-arm64-iso",
+          "direct-download-url": "https://cdimage.kali.org/kali-2021.4a/kali-linux-2021.4a-installer-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
