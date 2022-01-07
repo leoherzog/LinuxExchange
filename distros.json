@@ -85,7 +85,7 @@
     {
       "name": "AlmaLinux",
       "full-name": "AlmaLinux OS",
-      "primary-color": "#1793d1",
+      "primary-color": "#0f4266",
       "url": "https://almalinux.org/",
       "torrent-download-page-url": "https://mirrors.almalinux.org/isos.html",
       "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL) and inspired by CentOS",
