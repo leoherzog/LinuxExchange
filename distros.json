@@ -513,7 +513,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:8a0831e064719f432c2d2ffde6e19635d052a4b4&dn=linuxmint-20.3-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.3/linuxmint-20.3-cinnamon-64bit.iso",
-          "file-size": ""
+          "file-size": "2251653120"
         },
         {
           "arch": "amd64",
@@ -521,7 +521,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:00c0d87b1f98f3594699aa359c561d07112a893f&dn=linuxmint-20.3-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.3/linuxmint-20.3-mate-64bit.iso",
-          "file-size": ""
+          "file-size": "2239365120"
         },
         {
           "arch": "amd64",
@@ -529,7 +529,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:7005a507793b19d25b4b60aff89c7d0714e4dd01&dn=linuxmint-20.3-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/20.3/linuxmint-20.3-xfce-64bit.iso",
-          "file-size": ""
+          "file-size": "2126544896"
         }
       ],
       "trackers": []
