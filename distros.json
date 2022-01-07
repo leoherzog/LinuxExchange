@@ -300,45 +300,6 @@
       "trackers": []
     },
     {
-      "name": "Endless",
-      "full-name": "Endless OS",
-      "primary-color": "#f26522",
-      "url": "https://endlessos.com/",
-      "torrent-download-page-url": "https://support.endlessos.org/en/installation/direct-download",
-      "description": "A Debian-based system with a read-only root filesystem and Flatpak-based application distribution",
-      "font-logos-icon": null,
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "4.0",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:3cf9e1a5821405efc46ab45f86d4f16fe45f6a67&dn=eos-eos4.0-amd64-amd64.211123-052013.base.iso",
-          "direct-download-url": "https://images-dl.endlessm.com/release/4.0.0/eos-amd64-amd64/base/eos-eos4.0-amd64-amd64.211123-052013.base.iso",
-          "file-size": "3539908608"
-        },
-        {
-          "arch": "arm",
-          "version": "4.0 for Raspberry Pi 4",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:a3e4cd4e9264d0ffdc7f94c35fe1c225d5993f85&dn=4.0.0",
-          "direct-download-url": "https://images-dl.endlessm.com/release/4.0.0/eos-arm64-rpi4/base/eos-eos4.0-arm64-rpi4.211123-035531.base.img.xz",
-          "file-size": "2450687004"
-        },
-        {
-          "arch": "amd64",
-          "version": "4.0 for Pinebook Pro",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:138053470f1fbc03762cf1da0cb73d64996f9913&dn=4.0.0",
-          "direct-download-url": "https://images-dl.endlessm.com/release/4.0.0/eos-arm64-pinebookpro/base/eos-eos4.0-arm64-pinebookpro.211123-035530.base.img.xz",
-          "file-size": "2808427280"
-        }
-      ],
-      "trackers": [
-        "http://torrents.endlessm.com:6969/announce"
-      ]
-    },
-    {
       "name": "Fedora",
       "full-name": "Fedora Workstation",
       "primary-color": "#3c6eb4",
@@ -970,7 +931,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 13,
+  "recommended-distro-index": 12,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
