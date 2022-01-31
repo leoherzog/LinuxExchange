@@ -573,35 +573,35 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "20.04 (Nvidia)",
-          "desktop-environment": "Pop Shell",
-          "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/35/pop-os_20.04_amd64_nvidia_35.iso",
-          "file-size": "3038543872"
-        },
-        {
-          "arch": "amd64",
           "version": "20.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/35/pop-os_20.04_amd64_intel_35.iso",
-          "file-size": "2568552448"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/37/pop-os_20.04_amd64_intel_37.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "21.10 (Nvidia)",
+          "version": "20.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/3/pop-os_21.10_amd64_nvidia_3.iso",
-          "file-size": "3120562176"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/37/pop-os_20.04_amd64_nvidia_37.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/3/pop-os_21.10_amd64_intel_3.iso",
-          "file-size": "2635268096"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/5/pop-os_21.10_amd64_intel_5.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "21.10 (Nvidia)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/5/pop-os_21.10_amd64_nvidia_5.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
