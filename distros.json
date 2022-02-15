@@ -533,35 +533,6 @@
       "trackers": []
     },
     {
-      "name": "Peppermint",
-      "full-name": "Peppermint OS",
-      "primary-color": "#da2a2f",
-      "url": "https://peppermintos.com/",
-      "torrent-download-page-url": "https://peppermintos.com/guide/downloading/",
-      "description": "A lightweight, stable, and super fast operating system based on Ubuntu that makes native and web apps equal citizens",
-      "font-logos-icon": null,
-      "recommended-version-index": 0,
-      "versions": [
-        {
-          "arch": "amd64",
-          "version": "10 Respin",
-          "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:873e4fd93cac588f5cba9a4193dadd223f0bec5d&dn=Peppermint-10-20191210-amd64.iso",
-          "direct-download-url": "https://github.com/peppermintos/Peppermint-10/releases/download/10_20191210/Peppermint-10-20191210-amd64.iso",
-          "file-size": "1562378240"
-        },
-        {
-          "arch": "x86",
-          "version": "10 Respin",
-          "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:2ffe4cd342a4776dfdda4091a926fbc33a074fce&dn=Peppermint-10-20191210-i386.iso",
-          "direct-download-url": "https://github.com/peppermintos/Peppermint-10/releases/download/10_20191210/Peppermint-10-20191210-i386.iso",
-          "file-size": "1576009728"
-        }
-      ],
-      "trackers": []
-    },
-    {
       "name": "Pop!_OS",
       "full-name": "Pop!_OS",
       "primary-color": "#ffa300",
@@ -931,7 +902,7 @@
       ]
     }
   ],
-  "recommended-distro-index": 12,
+  "recommended-distro-index": 11,
   "trackers": [
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
