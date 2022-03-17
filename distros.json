@@ -563,16 +563,16 @@
           "version": "21.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/6/pop-os_21.10_amd64_intel_6.iso",
-          "file-size": "2654552064"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/7/pop-os_21.10_amd64_intel_7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.10 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/6/pop-os_21.10_amd64_nvidia_6.iso",
-          "file-size": "3138715648"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/7/pop-os_21.10_amd64_nvidia_7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
