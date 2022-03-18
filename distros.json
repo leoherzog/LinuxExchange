@@ -511,7 +511,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:6808093db8d5198cbf315835fe92a72679e4f7a4&dn=manjaro-gnome-21.2.4-220301-linux515.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/21.2.4/manjaro-gnome-21.2.4-220301-linux515.iso",
-          "file-size": ""
+          "file-size": "3519092736"
         },
         {
           "arch": "amd64",
@@ -519,7 +519,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:9ac66d8694ada133ef7a069e986831ba5148d1de&dn=manjaro-kde-21.2.4-220301-linux515.iso",
           "direct-download-url": "https://download.manjaro.org/kde/21.2.4/manjaro-kde-21.2.4-220301-linux515.iso",
-          "file-size": ""
+          "file-size": "3770230784"
         },
         {
           "arch": "amd64",
@@ -527,7 +527,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3c415fd05f129cd4691812b679d3a2f9ebe087d3&dn=manjaro-xfce-21.2.4-220301-linux515.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/21.2.4/manjaro-xfce-21.2.4-220301-linux515.iso",
-          "file-size": ""
+          "file-size": "3533568000"
         }
       ],
       "trackers": []
@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/7/pop-os_21.10_amd64_intel_7.iso",
-          "file-size": ""
+          "file-size": "2693218304"
         },
         {
           "arch": "amd64",
@@ -572,7 +572,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/7/pop-os_21.10_amd64_nvidia_7.iso",
-          "file-size": ""
+          "file-size": "3178332160"
         },
         {
           "arch": "amd64",
