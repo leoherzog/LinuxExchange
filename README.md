@@ -32,9 +32,6 @@ Linux Exchange is licensed under a [Creative Commons Attribution-ShareAlike 4.0 
 <a href="https://twitter.com/xd1936" target="_blank">
   <img src="https://herzog.tech/signature/twitter.svg.png" width="32px" />
 </a>
-<a href="https://facebook.com/xd1936" target="_blank">
-  <img src="https://herzog.tech/signature/facebook.svg.png" width="32px" />
-</a>
 <a href="https://github.com/leoherzog" target="_blank">
   <img src="https://herzog.tech/signature/github.svg.png" width="32px" />
 </a>
