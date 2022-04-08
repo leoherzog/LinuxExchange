@@ -597,27 +597,43 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "2022-01-28",
+          "version": "2022-04-04",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:c9d1e44cf41fd79ea893e5b61cfa628ae108f9b2&dn=2022-01-28-raspios-bullseye-armhf-full.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2022-01-28/2022-01-28-raspios-bullseye-armhf-full.zip",
-          "file-size": "3425721950"
+          "magnet-url": "magnet:?xt=urn:btih:a95bb529df931419b34f27fe7fa143d8ed796b5f&dn=2022-04-04-raspios-bullseye-armhf.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf.img.xz",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2022-01-28",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:b3fbc173e3887e2a15077fe88f1b71ac185b3a99&dn=2022-01-28-raspios-bullseye-armhf-lite.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-01-28/2022-01-28-raspios-bullseye-armhf-lite.zip",
-          "file-size": "505179990"
+          "version": "2022-04-04 with Recommended Software",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:6d543647f1115ff9f07a13f3df2a47d0edb64877&dn=2022-04-04-raspios-bullseye-armhf-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-full.img.xz",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2022-01-28 64-Bit Beta",
+          "version": "2022-04-04",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:4a3163419813ce7259cdfe9a518efad44134948f&dn=2022-01-28-raspios-bullseye-arm64.zip",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-01-28/2022-01-28-raspios-bullseye-arm64-lite.zip",
-          "file-size": "455883729"
+          "magnet-url": "magnet:?xt=urn:btih:6eb0b646c394542ccafd238df92877a033963af1&dn=2022-04-04-raspios-bullseye-armhf-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-lite.img.xz",
+          "file-size": ""
+        },
+        {
+          "arch": "arm",
+          "version": "2022-04-04 (64-Bit)",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:c6b1b11d7a25e517018fb314a7afa93cd248e66a&dn=2022-04-04-raspios-bullseye-arm64.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2022-04-07/2022-04-04-raspios-bullseye-arm64.img.xz",
+          "file-size": ""
+        },
+        {
+          "arch": "arm",
+          "version": "2022-04-04 (64-Bit)",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:7da3a708c439d70e5a9555c00140c7619b0d91cc&dn=2022-04-04-raspios-bullseye-arm64-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/2022-04-04-raspios-bullseye-arm64-lite.img.xz",
+          "file-size": ""
         }
       ],
       "trackers": [
