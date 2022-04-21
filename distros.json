@@ -677,15 +677,15 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 5,
+      "recommended-version-index": 2,
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:e4f94e8fe36de4071b8c29e30644f55bd8b09208&dn=ubuntu-budgie-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/21.10/release/ubuntu-budgie-21.10-desktop-amd64.iso",
-          "file-size": "3195518976"
+          "magnet-url": "magnet:?xt=urn:btih:0ce571c8248970a6f410a010a1739a1730e68cf8&dn=ubuntu-budgie-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -697,27 +697,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
-          "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:5b1475ffdef4d716d0b372d181d7e35159c32f37&dn=ubuntu-budgie-18.04.5-desktop-amd64.isoo",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-amd64.iso",
-          "file-size": "1736310784"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.5",
-          "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:1590261ea616a1306bdab80ee3fe2f8faa221ffb&dn=ubuntu-budgie-18.04.5-desktop-i386.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/release/ubuntu-budgie-18.04.5-desktop-i386.iso",
-          "file-size": "1724678144"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:f1fcdc1462d36530f526c1d9402eec9100b7ba18&dn=ubuntu-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso",
-          "file-size": "3116482560"
+          "magnet-url": "magnet:?xt=urn:btih:2c6b6858d61da9543d4231a71db4b1c9264b0685&dn=ubuntu-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -729,19 +713,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.6",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:bc26c6bc83d0ca1a7bf9875df1ffc3fed81ff555&dn=ubuntu-18.04.6-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-desktop-amd64.iso",
-          "file-size": "2514124800"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:005c8ace4452b01ca49d56b3bfc4a7bacccfaa1b&dn=kubuntu-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/21.10/release/kubuntu-21.10-desktop-amd64.iso",
-          "file-size": "3372374016"
+          "magnet-url": "magnet:?xt=urn:btih:3eced065042115825725e081c81084da29fa7802&dn=kubuntu-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -753,27 +729,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:592c557efa5ef8115aa1ce4f8ef0735d44a98357&dn=kubuntu-18.04.5-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-amd64.iso",
-          "file-size": "2001469440"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.5",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:ba47248fc83366cd583412596b3db3105399df59&dn=kubuntu-18.04.5-desktop-i386.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04.5-desktop-i386.iso",
-          "file-size": "2020130816"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:2cbc3e5cd85e9ca69e8da0845047adfea8bad4c1&dn=lubuntu-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/21.10/release/lubuntu-21.10-desktop-amd64.iso",
-          "file-size": "2080362496"
+          "magnet-url": "magnet:?xt=urn:btih:424655d95ae30c6f9466fb90ca9120e53dab0570&dn=lubuntu-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -785,27 +745,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:8ad8b674b83553171dee994c7d9cc454051f88e7&dn=lubuntu-18.04.5-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-amd64.iso",
-          "file-size": "1200881664"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.5",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:c6537aa9ce1416a12268961fa83fa0d1dc0028fe&dn=lubuntu-18.04.5-desktop-i386.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.5-desktop-i386.iso",
-          "file-size": "1193803776"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:1e94efefdeee7c3785ba91f48c991a61e66d58b1&dn=ubuntu-mate-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/21.10/release/ubuntu-mate-21.10-desktop-amd64.iso",
-          "file-size": "3406557184"
+          "magnet-url": "magnet:?xt=urn:btih:4bb705210adb59cfbaf22a85acff51f4fb6105cd&dn=ubuntu-mate-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -817,27 +761,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.5",
-          "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:32310b4db84de5c023bfcb9f40648d8c9e7ca16e&dn=ubuntu-mate-18.04.5-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-amd64.iso",
-          "file-size": "2059567104"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.5",
-          "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:536ba3a7d7b15bf71613080cab90db96fc80a2d5&dn=ubuntu-mate-18.04.5-desktop-i386.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/18.04/release/ubuntu-mate-18.04.5-desktop-i386.iso",
-          "file-size": "2047475712"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:c9abe33e3679593cd89927910d528252cdc44e6e&dn=ubuntu-21.10-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/21.10/ubuntu-21.10-live-server-amd64.iso",
-          "file-size": "1269377024"
+          "magnet-url": "magnet:?xt=urn:btih:8a55cfbd5ca5d11507364765936c4f9e55b253ed&dn=ubuntu-22.04-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04-live-server-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -849,19 +777,11 @@
         },
         {
           "arch": "amd64",
-          "version": "18.04.6",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e897e8a8b7033d66f4cea35b6073f85af8ee334d&dn=ubuntu-18.04.6-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/18.04/ubuntu-18.04.6-live-server-amd64.iso",
-          "file-size": "1016070144"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:c47a603802777056692ba7ca5d757f44316bb3b2&dn=xubuntu-21.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/21.10/release/xubuntu-21.10-desktop-amd64.iso",
-          "file-size": "2097561600"
+          "magnet-url": "magnet:?xt=urn:btih:f435d2324f313bad7ff941633320fe4d1c9c3079&dn=xubuntu-22.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04-desktop-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
@@ -872,44 +792,28 @@
           "file-size": "1875378176"
         },
         {
-          "arch": "amd64",
-          "version": "18.04.5",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:563a485379b6ea4e25b9ada1fef1e15493a22989&dn=xubuntu-18.04.5-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-amd64.iso",
-          "file-size": "1563197440"
-        },
-        {
-          "arch": "x86",
-          "version": "18.04.5",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:0d1f63eb47157afa85672ad4b60fd42fde3d3388&dn=xubuntu-18.04.5-desktop-i386.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso",
-          "file-size": "1552662528"
+          "arch": "arm",
+          "version": "22.04 (64-Bit)",
+          "desktop-environment": "Gnome",
+          "magnet-url": "",
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04-preinstalled-desktop-arm64+raspi.img.xz",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "21.10",
+          "version": "22.04",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3111c560ec0d30c43205f0be92b00ce9fc155e15&dn=ubuntu-21.10-live-server-arm64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso",
-          "file-size": "1234546688"
+          "magnet-url": "",
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04-preinstalled-server-armhf+raspi.img.xz",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "20.04.4",
+          "version": "22.04 (64-Bit)",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:a5da40ac406da2f3e5ecbd1d64279a47eb21f15b&dn=ubuntu-20.04.4-live-server-arm64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/20.04/release/ubuntu-20.04.4-live-server-arm64.iso",
-          "file-size": "1307803648"
-        },
-        {
-          "arch": "arm",
-          "version": "18.04.5",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:907079a2e569f2ac4b4d9dc5dd52ba740bf7348e&dn=ubuntu-18.04.5-server-arm64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.5-server-arm64.iso",
-          "file-size": "1032005632"
+          "magnet-url": "",
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04-preinstalled-server-arm64+raspi.img.xz",
+          "file-size": ""
         }
       ],
       "trackers": [
