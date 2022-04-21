@@ -548,7 +548,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso",
-          "file-size": ""
+          "file-size": "2726674432"
         },
         {
           "arch": "amd64",
@@ -556,7 +556,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso",
-          "file-size": ""
+          "file-size": "3268362240"
         },
         {
           "arch": "amd64",
@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/8/pop-os_21.10_amd64_intel_8.iso",
-          "file-size": ""
+          "file-size": "2762833920"
         },
         {
           "arch": "amd64",
@@ -572,7 +572,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/8/pop-os_21.10_amd64_nvidia_8.iso",
-          "file-size": ""
+          "file-size": "3321888768"
         },
         {
           "arch": "amd64",
