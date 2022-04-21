@@ -547,32 +547,32 @@
           "version": "20.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/38/pop-os_20.04_amd64_intel_38.iso",
-          "file-size": "2601910272"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "20.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/38/pop-os_20.04_amd64_nvidia_38.iso",
-          "file-size": "3071934464"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.10 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/7/pop-os_21.10_amd64_intel_7.iso",
-          "file-size": "2693218304"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/8/pop-os_21.10_amd64_intel_8.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "21.10 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/7/pop-os_21.10_amd64_nvidia_7.iso",
-          "file-size": "3178332160"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/8/pop-os_21.10_amd64_nvidia_8.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
