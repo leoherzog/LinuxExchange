@@ -14,7 +14,7 @@ var nodeStatusIcon = document.getElementById('nodeStatusIcon');
 var nodeStatusText = document.getElementById('nodeStatusText');
 var downloads = document.getElementById('downloads');
 
-window.onload = load;
+document.addEventListener('DOMContentLoaded', load);
 
 async function load() {
 
