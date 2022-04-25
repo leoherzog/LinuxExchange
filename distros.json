@@ -544,35 +544,19 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "20.04 (Intel/AMD)",
+          "version": "22.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/intel/39/pop-os_20.04_amd64_intel_39.iso",
-          "file-size": "2726674432"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/intel/4/pop-os_22.04_amd64_intel_4.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "20.04 (Nvidia)",
+          "version": "22.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/20.04/amd64/nvidia/39/pop-os_20.04_amd64_nvidia_39.iso",
-          "file-size": "3268362240"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10 (Intel/AMD)",
-          "desktop-environment": "Pop Shell",
-          "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/intel/8/pop-os_21.10_amd64_intel_8.iso",
-          "file-size": "2762833920"
-        },
-        {
-          "arch": "amd64",
-          "version": "21.10 (Nvidia)",
-          "desktop-environment": "Pop Shell",
-          "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/21.10/amd64/nvidia/8/pop-os_21.10_amd64_nvidia_8.iso",
-          "file-size": "3321888768"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/nvidia/4/pop-os_22.04_amd64_nvidia_4.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
