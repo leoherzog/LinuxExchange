@@ -94,18 +94,18 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.5",
+          "version": "8.6",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:6205adf2911098563aa995c54c8f5a21af2f52ee&dn=AlmaLinux-8.5-x86_64",
-          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/x86_64/",
+          "magnet-url": "magnet:?xt=urn:btih:246be7ef5d292e274723997bb5b8feecb1cb1bbd&dn=AlmaLinux-8.6-x86_64",
+          "direct-download-url": "https://mirrors.kernel.org/almalinux/8.6/isos/x86_64/",
           "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "8.5",
+          "version": "8.6",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:02099628949359e64e77cc481be2a3404564d8c5&dn=AlmaLinux-8.5-aarch64",
-          "direct-download-url": "https://ord.mirror.rackspace.com/almalinux/8.5/isos/aarch64/",
+          "magnet-url": "magnet:?xt=urn:btih:44f4a8f5745e2c1d1792f11617322f72df282437&dn=AlmaLinux-8.6-aarch64",
+          "direct-download-url": "https://mirrors.kernel.org/almalinux/8.6/isos/aarch64/",
           "file-size": ""
         }
       ],
