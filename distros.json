@@ -426,7 +426,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:e358e074a255cc0980b81eb263d746a418e3f654&dn=kali-linux-2022.2-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.2/kali-linux-2022.2-installer-amd64.iso",
-          "file-size": ""
+          "file-size": "2944139264"
         },
         {
           "arch": "x86",
@@ -434,7 +434,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:bca9c34f9ec9b72653bfc7e2f984235dcf7749b2&dn=kali-linux-2022.2-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.2/kali-linux-2022.2-installer-i386.iso",
-          "file-size": ""
+          "file-size": "2587770880"
         },
         {
           "arch": "arm",
@@ -442,7 +442,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:af744a33a8463b53a6ef7c3c4562a4579a8c9e3b&dn=kali-linux-2022.2-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.2/kali-linux-2022.2-installer-arm64.iso",
-          "file-size": ""
+          "file-size": "2416226304"
         }
       ],
       "trackers": [
