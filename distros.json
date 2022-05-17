@@ -632,7 +632,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:650c0f6cd6587e4dda114732c5a4e7eefb238e34&dn=Rocky-8.6-x86_64-dvd1",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso",
-          "file-size": ""
+          "file-size": "11213471744"
         },
         {
           "arch": "arm",
@@ -640,7 +640,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:90ef318f67505ee8af5c5f5b68c2716f9573510c&dn=Rocky-8.6-aarch64-dvd1",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso",
-          "file-size": ""
+          "file-size": "8724043776"
         }
       ],
       "trackers": []
