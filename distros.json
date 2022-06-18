@@ -555,16 +555,16 @@
           "version": "22.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/intel/7/pop-os_22.04_amd64_intel_7.iso",
-          "file-size": "2779578368"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/intel/9/pop-os_22.04_amd64_intel_9.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
           "version": "22.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/nvidia/7/pop-os_22.04_amd64_nvidia_7.iso",
-          "file-size": "3335405568"
+          "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/nvidia/9/pop-os_22.04_amd64_nvidia_9.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
