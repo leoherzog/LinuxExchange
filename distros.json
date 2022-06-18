@@ -556,7 +556,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/intel/9/pop-os_22.04_amd64_intel_9.iso",
-          "file-size": ""
+          "file-size": "2782298112"
         },
         {
           "arch": "amd64",
@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://pop-iso.sfo2.cdn.digitaloceanspaces.com/22.04/amd64/nvidia/9/pop-os_22.04_amd64_nvidia_9.iso",
-          "file-size": ""
+          "file-size": "3338665984"
         },
         {
           "arch": "amd64",
