@@ -644,19 +644,19 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.6",
+          "version": "9.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:650c0f6cd6587e4dda114732c5a4e7eefb238e34&dn=Rocky-8.6-x86_64-dvd1",
-          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.6-x86_64-dvd1.iso",
-          "file-size": "11213471744"
+          "magnet-url": "magnet:?xt=urn:btih:ce4148dcc87918881ab14ce8ea8296e025fe8fe5&dn=Rocky-9.0-x86_64-dvd",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.0-x86_64-dvd.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "8.6",
+          "version": "9.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:90ef318f67505ee8af5c5f5b68c2716f9573510c&dn=Rocky-8.6-aarch64-dvd1",
-          "direct-download-url": "https://download.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-8.6-aarch64-dvd1.iso",
-          "file-size": "8724043776"
+          "magnet-url": "magnet:?xt=urn:btih:c6d2c2461824282437443b3f8f85ca1290b8fd6c&dn=Rocky-9.0-aarch64-dvd",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.0-aarch64-dvd.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
