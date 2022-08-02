@@ -482,7 +482,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:14bb29461c2243aa287cda681488e57c9eeb25af&dn=linuxmint-21-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-cinnamon-64bit.iso",
-          "file-size": ""
+          "file-size": "2449342464"
         },
         {
           "arch": "amd64",
@@ -490,7 +490,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:16fe5b62efdfc012d723b17f952859b8524edddd&dn=linuxmint-21-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-mate-64bit.iso",
-          "file-size": ""
+          "file-size": "2510614528"
         },
         {
           "arch": "amd64",
@@ -498,7 +498,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:ee455b84913c409c746e0aa2951e29f6593ba022&dn=linuxmint-21-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-xfce-64bit.iso",
-          "file-size": ""
+          "file-size": "2415585280"
         }
       ],
       "trackers": []
