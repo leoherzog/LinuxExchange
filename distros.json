@@ -442,7 +442,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:19a6fcfcba6cc2c6d371eb754074d095adb5d291&dn=kali-linux-2022.3-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-amd64.iso",
-          "file-size": ""
+          "file-size": "3134275584"
         },
         {
           "arch": "x86",
@@ -450,7 +450,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:04700789a47fc6ec9bdf25daf7bea0f07c7e97aa&dn=kali-linux-2022.3-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-i386.iso",
-          "file-size": ""
+          "file-size": "2717908992"
         },
         {
           "arch": "arm",
@@ -458,7 +458,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:ec4bf921a72d0159f3351942d4db39fcb4321da3&dn=kali-linux-2022.3-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-arm64.iso",
-          "file-size": ""
+          "file-size": "2547953664"
         }
       ],
       "trackers": [
