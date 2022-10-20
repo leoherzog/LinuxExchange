@@ -556,7 +556,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/14/pop-os_22.04_amd64_intel_14.iso",
-          "file-size": ""
+          "file-size": "3024814080"
         },
         {
           "arch": "amd64",
@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/14/pop-os_22.04_amd64_nvidia_14.iso",
-          "file-size": ""
+          "file-size": "3586818048"
         },
         {
           "arch": "amd64",
@@ -572,7 +572,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/arm64/raspi/2/pop-os_22.04_arm64_raspi_2.img.xz",
-          "file-size": ""
+          "file-size": "2389342496"
         }
       ],
       "trackers": []
