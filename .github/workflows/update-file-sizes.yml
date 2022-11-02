@@ -13,9 +13,7 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v2
     - name: Get Node
-      uses: actions/setup-node@v2.5.0
-      with:
-        node-version: '16'
+      uses: actions/setup-node@v3
     - name: Install libraries
       run: npm install follow-redirects
     - name: Configure Git
