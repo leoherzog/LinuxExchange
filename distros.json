@@ -94,18 +94,18 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.6",
+          "version": "8.7",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:246be7ef5d292e274723997bb5b8feecb1cb1bbd&dn=AlmaLinux-8.6-x86_64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/8.6/isos/x86_64/",
+          "magnet-url": "magnet:?xt=urn:btih:6729f3bc6b6f31df4a4e624adefdee531e8d9cb8&dn=AlmaLinux-8.7-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.7/isos/x86_64/",
           "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "8.6",
+          "version": "8.7",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:44f4a8f5745e2c1d1792f11617322f72df282437&dn=AlmaLinux-8.6-aarch64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/8.6/isos/aarch64/",
+          "magnet-url": "magnet:?xt=urn:btih:9a17bebec3e3d4ec60c6de8da8b860998d72d732&dn=AlmaLinux-8.7-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.7/isos/aarch64/",
           "file-size": ""
         },
         {
