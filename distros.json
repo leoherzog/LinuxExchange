@@ -110,18 +110,18 @@
         },
         {
           "arch": "amd64",
-          "version": "9.0",
+          "version": "9.1",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:f5a73074d40e1e547cddf234af4a2926a4af366c&dn=AlmaLinux-9.0-x86_64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/9.0/isos/x86_64",
+          "magnet-url": "magnet:?xt=urn:btih:8ff3a30806741be65caa84355352565c2e1b3cf3&dn=AlmaLinux-9.1-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/9.1/isos/x86_64",
           "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "9.0",
+          "version": "9.1",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:ffa951ac9a5b4c00d4d46706f3ca2b22aedadaa7&dn=AlmaLinux-9.0-aarch64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/9.0/isos/aarch64/",
+          "magnet-url": "magnet:?xt=urn:btih:53368942f33bef8635baa1e3c9f88d87c28044b6&dn=AlmaLinux-9.1-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/9.1/isos/aarch64/",
           "file-size": ""
         }
       ],
