@@ -327,99 +327,107 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:6ab6ff46960d60928cecab9c3329678d7f4cd92f&dn=Fedora-Cinnamon-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-36-1.5.iso",
-          "file-size": "2220474368"
+          "magnet-url": "magnet:?xt=urn:btih:5adb86d8e009834ecd7eed2184cc5d6170254bbe&dn=Fedora-Cinnamon-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:1559a9fcda593e9508be64e5019a05401e50f652&dn=Fedora-Workstation-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-36-1.5.iso",
-          "file-size": "2018148352"
+          "magnet-url": "magnet:?xt=urn:btih:d56962fefe22cb684fa4190c0a646a8fc83c3208&dn=Fedora-Workstation-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e7fa844cf7aabf136e484742134ae8900397f9eb&dn=Fedora-Workstation-Live-aarch64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Workstation/aarch64/iso/Fedora-Workstation-Live-aarch64-36-1.5.iso",
-          "file-size": "1926846464"
+          "magnet-url": "magnet:?xt=urn:btih:4d3571f79af8beff549f131af1e50384d75f72e1&dn=Fedora-Workstation-Live-aarch64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/aarch64/iso/Fedora-Workstation-Live-aarch64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "i3",
-          "magnet-url": "magnet:?xt=urn:btih:b2a9e3c189dfbc456f41bdd2ca854e48d681917d&dn=Fedora-i3-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-i3-Live-x86_64-36-1.5.iso",
-          "file-size": "1482964992"
+          "magnet-url": "magnet:?xt=urn:btih:895587962ffcd23acdfdae81aeba4b2cff9988b7&dn=Fedora-i3-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-i3-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:71dc4303ac7869c8422914eb2cc3c6ac52926e4a&dn=Fedora-KDE-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-36-1.5.iso",
-          "file-size": "2214592512"
-        },
-        {
-          "arch": "amd64",
-          "version": "36",
-          "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:d8fc02b1adb56d581fbcfa94725ad0e1f2b9287a&dn=Fedora-LXDE-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-36-1.5.iso",
-          "file-size": "1478590464"
-        },
-        {
-          "arch": "amd64",
-          "version": "36",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:a7ac465777f8ad76aeba02416a47c4afa186b4fc&dn=Fedora-LXQt-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-36-1.5.iso",
-          "file-size": "1502576640"
-        },
-        {
-          "arch": "amd64",
-          "version": "36",
-          "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:b0fd74f06e9de5399e4a1ecffea61accc5161b27&dn=Fedora-MATE_Compiz-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-36-1.5.iso",
-          "file-size": "2195668992"
-        },
-        {
-          "arch": "amd64",
-          "version": "36",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:9661ed9e81d69eac8d34f64df2e61c4f0dde06a5&dn=Fedora-Server-dvd-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/x86_64/iso/Fedora-Server-dvd-x86_64-36-1.5.iso",
-          "file-size": "2357198848"
+          "magnet-url": "magnet:?xt=urn:btih:b591b875c0edc4af048299a9b4b0f2476b07b2de&dn=Fedora-KDE-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "36",
+          "version": "37",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:bfb9bd6507eaf55913a5102c6b6ab35eb90d9876&dn=Fedora-KDE-Live-aarch64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-37-1.7.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "37",
+          "desktop-environment": "LXDE",
+          "magnet-url": "magnet:?xt=urn:btih:c0ea95229e6f143d050129eadf68c8ddc5f0650f&dn=Fedora-LXDE-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-37-1.7.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "37",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:1e01a270efefd89e77e0b6defdd8256e6838dead&dn=Fedora-LXQt-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-37-1.7.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "37",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:9761caca2f124f01d93abb3524ddcf6ebcb492c9&dn=Fedora-MATE_Compiz-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-37-1.7.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "amd64",
+          "version": "37",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:d80a9b4b7daddc43bd05e67be75ff4a72de0c485&dn=Fedora-Server-dvd-aarch64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Server/aarch64/iso/Fedora-Server-dvd-aarch64-36-1.5.iso",
-          "file-size": "2246883328"
+          "magnet-url": "magnet:?xt=urn:btih:1b7b81b4129d8add04f658e6b9ea02ecb38bc6ca&dn=Fedora-Server-dvd-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso",
+          "file-size": ""
+        },
+        {
+          "arch": "arm",
+          "version": "37",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:471c9a53f972ac0132f43db4dd204ee12b3a9cff&dn=Fedora-Server-dvd-aarch64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-dvd-aarch64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "Sugar",
-          "magnet-url": "magnet:?xt=urn:btih:68202ff4d41dc690b1c597056ed70f81cb085529&dn=Fedora-SoaS-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-36-1.5.iso",
-          "file-size": "1229389824"
+          "magnet-url": "magnet:?xt=urn:btih:3401dc441487999a6f285c7ec5de847dff7725bc&dn=Fedora-SoaS-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         },
         {
           "arch": "amd64",
-          "version": "36",
+          "version": "37",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:b349a17ed813d9bd85bf3ed96790fba7f0d25bea&dn=Fedora-Xfce-Live-x86_64-36",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/36/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-36-1.5.iso",
-          "file-size": "1694498816"
+          "magnet-url": "magnet:?xt=urn:btih:ce63d102cda0f95c60b5e3cf1df72516e322f951&dn=Fedora-Xfce-Live-x86_64-37",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-37-1.7.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
