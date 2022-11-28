@@ -656,7 +656,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:511d747dac9b47ff73e4cda5a0efe8c83baedb89&dn=Rocky-9.1-x86_64-dvd",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.iso",
-          "file-size": ""
+          "file-size": "9008185344"
         },
         {
           "arch": "arm",
@@ -664,7 +664,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e3bd03e724782c30d67cb361bcf55b0ee3221f61&dn=Rocky-9.1-aarch64-dvd",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.iso",
-          "file-size": ""
+          "file-size": "7207845888"
         }
       ],
       "trackers": []
