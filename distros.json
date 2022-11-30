@@ -827,6 +827,7 @@
     "wss://tracker.openwebtorrent.com",
     "wss://tracker.btorrent.xyz",
     "wss://tracker.fastcast.nz",
+    "wss://tracker.files.fm:7073/announce",
     "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
     "http://bt1.archive.org:6969/announce",
     "http://bt2.archive.org:6969/announce"
