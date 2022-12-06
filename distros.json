@@ -446,27 +446,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2022.3",
+          "version": "2022.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:19a6fcfcba6cc2c6d371eb754074d095adb5d291&dn=kali-linux-2022.3-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-amd64.iso",
-          "file-size": "3134275584"
+          "magnet-url": "magnet:?xt=urn:btih:797a16067ba13b3cc5d422754f897529cc15ccd4&dn=kali-linux-2022.4-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-amd64.iso",
+          "file-size": ""
         },
         {
           "arch": "x86",
-          "version": "2022.3",
+          "version": "2022.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:04700789a47fc6ec9bdf25daf7bea0f07c7e97aa&dn=kali-linux-2022.3-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-i386.iso",
-          "file-size": "2717908992"
+          "magnet-url": "magnet:?xt=urn:btih:7262663e92b63d4df5113ade62a91fec2fe0b9ec&dn=kali-linux-2022.4-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-i386.iso",
+          "file-size": ""
         },
         {
           "arch": "arm",
-          "version": "2022.3 Apple M1",
+          "version": "2022.4 Apple M1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:ec4bf921a72d0159f3351942d4db39fcb4321da3&dn=kali-linux-2022.3-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.3/kali-linux-2022.3-installer-arm64.iso",
-          "file-size": "2547953664"
+          "magnet-url": "magnet:?xt=urn:btih:0062ffdee976404615a8b9f4c2eaa6d6717c7c65&dn=kali-linux-2022.4-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-arm64.iso",
+          "file-size": ""
         }
       ],
       "trackers": [
