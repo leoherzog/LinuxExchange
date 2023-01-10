@@ -1,6 +1,6 @@
-const fs = require('fs');
-const Parser = require('rss-parser');
-const parseTorrent = require('parse-torrent');
+import fs from 'fs'
+import Parser from 'rss-parser';
+import {remote} from 'parse-torrent';
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 
@@ -11,7 +11,7 @@ parser.parseURL('https://www.archlinux.org/feeds/releases/', function(err, feed)
 
   if (err) throw err;
 
-  parseTorrent.remote(feed['items'][0]['enclosure']['url'], function(err, parsedTorrent) {
+  remote(feed['items'][0]['enclosure']['url'], function(err, parsedTorrent) {
 
     if (err) throw err;
 
