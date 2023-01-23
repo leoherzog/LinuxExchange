@@ -1,7 +1,6 @@
-const fs = require('fs');
-const get = require('simple-get')
-const cheerio = require('cheerio');
-const parseTorrent = require('parse-torrent');
+import fs from 'fs';
+import * as cheerio from 'cheerio';
+import * as parseTorrent from 'parse-torrent';
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 
@@ -10,15 +9,14 @@ const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'De
 
 var urls = ["https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/", "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"]
 
-for (var url of urls) {
-  get.concat(url, parseWebpage);
+async function run() {
+  for (var url of urls) {
+    let body = await fetch(url).then(x => x.text());
+    parseWebpage(url, body);
+  }
 }
 
-function parseWebpage(err, res, body) {
-
-  if (err) throw err;
-
-  let url = res.req.agent.protocol + '//' + res.req.socket.servername + res.req.path;
+function parseWebpage(url, body) {
 
   let $ = cheerio.load(body);
 
@@ -28,6 +26,8 @@ function parseWebpage(err, res, body) {
       torrentLinks.push(url + $(this).text());
     }
   });
+
+  console.log(torrentLinks);
 
   for (var link of torrentLinks) {
     parseTorrent.remote(link, updateVersion);
@@ -67,3 +67,5 @@ function updateVersion(err, parsedTorrent) {
   }
 
 }
+
+run();

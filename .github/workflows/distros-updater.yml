@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: latest
     - name: Install libraries
-      run: npm install rss-parser simple-get cheerio parse-torrent
+      run: npm install rss-parser cheerio parse-torrent
     - name: Configure Git
       run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
     - name: Update Arch
