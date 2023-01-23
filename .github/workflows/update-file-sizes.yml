@@ -14,8 +14,8 @@ jobs:
       uses: actions/checkout@v3
     - name: Get Node
       uses: actions/setup-node@v3
-    - name: Install libraries
-      run: npm install follow-redirects
+      with:
+        node-version: latest
     - name: Configure Git
       run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
     - name: Add missing file sizes
