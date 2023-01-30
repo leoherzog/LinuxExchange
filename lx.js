@@ -255,6 +255,11 @@ function checkStatus() {
   } else {
     updateNodeStatus('loading', 'This browser tab is loading a peer node in the WebTorrent network');
   }
+  if (client.torrents.length) {
+    document.title = 'Linux Exchange (' + client.torrents.length + ')';
+  } else {
+    document.title = 'Linux Exchange';
+  }
 }
 
 function updateNodeStatus(status, message) {
