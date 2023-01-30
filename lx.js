@@ -1,3 +1,6 @@
+import WebTorrent from 'https://cdn.jsdelivr.net/npm/webtorrent@2/dist/webtorrent.min.js';
+import {filesize} from 'https://cdn.jsdelivr.net/npm/filesize@10/dist/filesize.esm.min.js';
+
 var client;
 var distros;
 var selectedDistro;
@@ -178,7 +181,7 @@ async function download() {
   console.info('Downloading ' + name);
   console.info(id);
 
-  client.add(id, {"store": window.IdbChunkStore}, function(torrent) {
+  client.add(id, function(torrent) {
     progressTotal.innerHTML = ' / ' + filesize(total) + ' <span class="fad fa-spinner fa-fw fa-pulse"></span>';
     progressStatus.innerHTML = filesize(0);
     torrent.on('download', () => {
@@ -207,7 +210,7 @@ async function download() {
 
 function createRow(hash) {
 
-  row = document.createElement('div');
+  let row = document.createElement('div');
   row.setAttribute('id', hash);
   row.className = 'row';
 
