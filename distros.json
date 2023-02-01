@@ -98,7 +98,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:6729f3bc6b6f31df4a4e624adefdee531e8d9cb8&dn=AlmaLinux-8.7-x86_64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/8.7/isos/x86_64/",
-          "file-size": ""
+          "file-size": null
         },
         {
           "arch": "arm",
@@ -106,7 +106,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9a17bebec3e3d4ec60c6de8da8b860998d72d732&dn=AlmaLinux-8.7-aarch64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/8.7/isos/aarch64/",
-          "file-size": ""
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -114,7 +114,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:8ff3a30806741be65caa84355352565c2e1b3cf3&dn=AlmaLinux-9.1-x86_64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/9.1/isos/x86_64",
-          "file-size": ""
+          "file-size": null
         },
         {
           "arch": "arm",
@@ -122,7 +122,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:53368942f33bef8635baa1e3c9f88d87c28044b6&dn=AlmaLinux-9.1-aarch64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/9.1/isos/aarch64/",
-          "file-size": ""
+          "file-size": null
         }
       ],
       "trackers": []
@@ -331,7 +331,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:5adb86d8e009834ecd7eed2184cc5d6170254bbe&dn=Fedora-Cinnamon-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-37-1.7.iso",
-          "file-size": "2366752768"
+          "file-size": 2366752768
         },
         {
           "arch": "amd64",
@@ -339,7 +339,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d56962fefe22cb684fa4190c0a646a8fc83c3208&dn=Fedora-Workstation-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso",
-          "file-size": "2037372928"
+          "file-size": 2037372928
         },
         {
           "arch": "arm",
@@ -347,7 +347,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:4d3571f79af8beff549f131af1e50384d75f72e1&dn=Fedora-Workstation-Live-aarch64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/aarch64/iso/Fedora-Workstation-Live-aarch64-37-1.7.iso",
-          "file-size": "1953327104"
+          "file-size": 1953327104
         },
         {
           "arch": "amd64",
@@ -355,7 +355,7 @@
           "desktop-environment": "i3",
           "magnet-url": "magnet:?xt=urn:btih:895587962ffcd23acdfdae81aeba4b2cff9988b7&dn=Fedora-i3-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-i3-Live-x86_64-37-1.7.iso",
-          "file-size": "1480536064"
+          "file-size": 1480536064
         },
         {
           "arch": "amd64",
@@ -363,7 +363,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:b591b875c0edc4af048299a9b4b0f2476b07b2de&dn=Fedora-KDE-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-37-1.7.iso",
-          "file-size": "2393667584"
+          "file-size": 2393667584
         },
         {
           "arch": "arm",
@@ -371,7 +371,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:bfb9bd6507eaf55913a5102c6b6ab35eb90d9876&dn=Fedora-KDE-Live-aarch64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Spins/aarch64/iso/Fedora-KDE-Live-aarch64-37-1.7.iso",
-          "file-size": "2323402752"
+          "file-size": 2323402752
         },
         {
           "arch": "amd64",
@@ -379,7 +379,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:c0ea95229e6f143d050129eadf68c8ddc5f0650f&dn=Fedora-LXDE-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-37-1.7.iso",
-          "file-size": "1492944896"
+          "file-size": 1492944896
         },
         {
           "arch": "amd64",
@@ -387,7 +387,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:1e01a270efefd89e77e0b6defdd8256e6838dead&dn=Fedora-LXQt-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-37-1.7.iso",
-          "file-size": "1508005888"
+          "file-size": 1508005888
         },
         {
           "arch": "amd64",
@@ -395,7 +395,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:9761caca2f124f01d93abb3524ddcf6ebcb492c9&dn=Fedora-MATE_Compiz-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-37-1.7.iso",
-          "file-size": "2271160320"
+          "file-size": 2271160320
         },
         {
           "arch": "amd64",
@@ -403,7 +403,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:1b7b81b4129d8add04f658e6b9ea02ecb38bc6ca&dn=Fedora-Server-dvd-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso",
-          "file-size": "2459566080"
+          "file-size": 2459566080
         },
         {
           "arch": "arm",
@@ -411,7 +411,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:471c9a53f972ac0132f43db4dd204ee12b3a9cff&dn=Fedora-Server-dvd-aarch64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-dvd-aarch64-37-1.7.iso",
-          "file-size": "2362048512"
+          "file-size": 2362048512
         },
         {
           "arch": "amd64",
@@ -419,7 +419,7 @@
           "desktop-environment": "Sugar",
           "magnet-url": "magnet:?xt=urn:btih:3401dc441487999a6f285c7ec5de847dff7725bc&dn=Fedora-SoaS-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-37-1.7.iso",
-          "file-size": "1241606144"
+          "file-size": 1241606144
         },
         {
           "arch": "amd64",
@@ -427,7 +427,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:ce63d102cda0f95c60b5e3cf1df72516e322f951&dn=Fedora-Xfce-Live-x86_64-37",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/37/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-37-1.7.iso",
-          "file-size": "1703366656"
+          "file-size": 1703366656
         }
       ],
       "trackers": [
@@ -450,7 +450,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:797a16067ba13b3cc5d422754f897529cc15ccd4&dn=kali-linux-2022.4-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-amd64.iso",
-          "file-size": "3797270528"
+          "file-size": 3797270528
         },
         {
           "arch": "x86",
@@ -458,7 +458,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7262663e92b63d4df5113ade62a91fec2fe0b9ec&dn=kali-linux-2022.4-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-i386.iso",
-          "file-size": "3315400704"
+          "file-size": 3315400704
         },
         {
           "arch": "arm",
@@ -466,7 +466,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:0062ffdee976404615a8b9f4c2eaa6d6717c7c65&dn=kali-linux-2022.4-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-arm64.iso",
-          "file-size": "3151343616"
+          "file-size": 3151343616
         }
       ],
       "trackers": [
@@ -490,7 +490,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:14bb29461c2243aa287cda681488e57c9eeb25af&dn=linuxmint-21-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-cinnamon-64bit.iso",
-          "file-size": "2449342464"
+          "file-size": 2449342464
         },
         {
           "arch": "amd64",
@@ -498,7 +498,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:16fe5b62efdfc012d723b17f952859b8524edddd&dn=linuxmint-21-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-mate-64bit.iso",
-          "file-size": "2510614528"
+          "file-size": 2510614528
         },
         {
           "arch": "amd64",
@@ -506,7 +506,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:ee455b84913c409c746e0aa2951e29f6593ba022&dn=linuxmint-21-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21/linuxmint-21-xfce-64bit.iso",
-          "file-size": "2415585280"
+          "file-size": 2415585280
         }
       ],
       "trackers": []
@@ -527,7 +527,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d9accc2bdb677f7486359898f0cac37d476b17e3&dn=manjaro-gnome-22.0-221224-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/22.0/manjaro-gnome-22.0-221224-linux61.iso",
-          "file-size": "3804092416"
+          "file-size": 3804092416
         },
         {
           "arch": "amd64",
@@ -535,7 +535,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:7e44d7618f0dbebcd2d8e9a0cc88b8ad2105321e&dn=manjaro-kde-22.0-221224-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/kde/22.0/manjaro-kde-22.0-221224-linux61.iso",
-          "file-size": "3837536256"
+          "file-size": 3837536256
         },
         {
           "arch": "amd64",
@@ -543,7 +543,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:9a521f599c865df5750107f100bcc335290e474a&dn=manjaro-xfce-22.0-221224-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/22.0/manjaro-xfce-22.0-221224-linux61.iso",
-          "file-size": "3771553792"
+          "file-size": 3771553792
         }
       ],
       "trackers": []
@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/17/pop-os_22.04_amd64_intel_17.iso",
-          "file-size": "2475753472"
+          "file-size": 2475753472
         },
         {
           "arch": "amd64",
@@ -572,7 +572,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/17/pop-os_22.04_amd64_nvidia_17.iso",
-          "file-size": "2933145600"
+          "file-size": 2933145600
         },
         {
           "arch": "amd64",
@@ -580,7 +580,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/arm64/raspi/2/pop-os_22.04_arm64_raspi_2.img.xz",
-          "file-size": "2389342496"
+          "file-size": 2389342496
         }
       ],
       "trackers": []
@@ -601,7 +601,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:e913e554f6be1e64fbcdfd5e51d9230a6398ebc1&dn=2022-09-22-raspios-bullseye-armhf.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2022-09-26/2022-09-22-raspios-bullseye-armhf.img.xz",
-          "file-size": "937267656"
+          "file-size": 937267656
         },
         {
           "arch": "arm",
@@ -609,7 +609,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:ac2862b6787d8c9c7a19d87399233ff17a0d59dc&dn=2022-09-22-raspios-bullseye-armhf-full.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2022-09-26/2022-09-22-raspios-bullseye-armhf-full.img.xz",
-          "file-size": "2831677672"
+          "file-size": 2831677672
         },
         {
           "arch": "arm",
@@ -617,7 +617,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:88c8d67c7190890918f2696e08195c3218cb752a&dn=2022-09-22-raspios-bullseye-armhf-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-09-26/2022-09-22-raspios-bullseye-armhf-lite.img.xz",
-          "file-size": "354404132"
+          "file-size": 354404132
         },
         {
           "arch": "arm",
@@ -625,7 +625,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:83ef1d9ed932a4f803295988d89c1dea58a7b92d&dn=2022-09-22-raspios-bullseye-arm64.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2022-09-26/2022-09-22-raspios-bullseye-arm64.img.xz",
-          "file-size": "821326852"
+          "file-size": 821326852
         },
         {
           "arch": "arm",
@@ -633,7 +633,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:f84e2f07f16cd3ecea5a1fdedda2da20cb1f12f3&dn=2022-09-22-raspios-bullseye-arm64-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-09-26/2022-09-22-raspios-bullseye-arm64-lite.img.xz",
-          "file-size": "302978228"
+          "file-size": 302978228
         }
       ],
       "trackers": [
@@ -656,7 +656,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:511d747dac9b47ff73e4cda5a0efe8c83baedb89&dn=Rocky-9.1-x86_64-dvd",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.1-x86_64-dvd.iso",
-          "file-size": "9008185344"
+          "file-size": 9008185344
         },
         {
           "arch": "arm",
@@ -664,7 +664,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e3bd03e724782c30d67cb361bcf55b0ee3221f61&dn=Rocky-9.1-aarch64-dvd",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.1-aarch64-dvd.iso",
-          "file-size": "7207845888"
+          "file-size": 7207845888
         }
       ],
       "trackers": []
@@ -685,7 +685,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:d2c758662a4c1d75f36613f8e44efde80368c54e&dn=ubuntu-budgie-22.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.10/release/ubuntu-budgie-22.10-desktop-amd64.iso",
-          "file-size": "3065038848"
+          "file-size": 3065038848
         },
         {
           "arch": "amd64",
@@ -693,7 +693,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:e1388bffe5143dd3a9066b23ea55ef791b69d4f3&dn=ubuntu-budgie-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04.1/release/ubuntu-budgie-22.04.1-desktop-amd64.iso",
-          "file-size": "2627831808"
+          "file-size": 2627831808
         },
         {
           "arch": "amd64",
@@ -701,7 +701,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:99c82bb73505a3c0b453f9fa0e881d6e5a32a0c1&dn=ubuntu-22.10-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.10/ubuntu-22.10-desktop-amd64.iso",
-          "file-size": "4071903232"
+          "file-size": 4071903232
         },
         {
           "arch": "amd64",
@@ -709,7 +709,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:3b245504cf5f11bbdbe1201cea6a6bf45aee1bc0&dn=ubuntu-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso",
-          "file-size": "3826831360"
+          "file-size": 3826831360
         },
         {
           "arch": "amd64",
@@ -717,7 +717,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:9dcced4e3fc49753888f59d559cad9ea9dd99ea5&dn=kubuntu-22.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.10/release/kubuntu-22.10-desktop-amd64.iso",
-          "file-size": "4257404928"
+          "file-size": 4257404928
         },
         {
           "arch": "amd64",
@@ -725,7 +725,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:8e905ea8e925c3a7fda9eb2e964a0e5c97cc2ce0&dn=kubuntu-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04.1/release/kubuntu-22.04.1-desktop-amd64.iso",
-          "file-size": "3767502848"
+          "file-size": 3767502848
         },
         {
           "arch": "amd64",
@@ -733,7 +733,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:69faf7582fe9fe321e149947e90e0201d34ae57f&dn=lubuntu-22.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.10/release/lubuntu-22.10-desktop-amd64.iso",
-          "file-size": "2869901312"
+          "file-size": 2869901312
         },
         {
           "arch": "amd64",
@@ -741,7 +741,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:4a95296ada983d21beda2db5e09725a877e9cbdb&dn=lubuntu-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04.1/release/lubuntu-22.04.1-desktop-amd64.iso",
-          "file-size": "2688100352"
+          "file-size": 2688100352
         },
         {
           "arch": "amd64",
@@ -749,7 +749,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:f864749966037b62be4d28b6af5e229cfa7f1798&dn=ubuntu-mate-22.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.10/release/ubuntu-mate-22.10-desktop-amd64.iso",
-          "file-size": "3199547392"
+          "file-size": 3199547392
         },
         {
           "arch": "amd64",
@@ -757,7 +757,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:de9bff3b76489706867baa8021d7e3367998ebba&dn=ubuntu-mate-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04.1/release/ubuntu-mate-22.04.1-desktop-amd64.iso",
-          "file-size": "2667771904"
+          "file-size": 2667771904
         },
         {
           "arch": "amd64",
@@ -765,7 +765,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:5f48f68d0e7cfe2c4cce3d33104fcffaf6145135&dn=ubuntu-22.10-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.10/ubuntu-22.10-live-server-amd64.iso",
-          "file-size": "1642631168"
+          "file-size": 1642631168
         },
         {
           "arch": "amd64",
@@ -773,7 +773,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:cf3ea75e2ebbd30e0da6e6e215e2226bf35f2e33&dn=ubuntu-22.04.1-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-live-server-amd64.iso",
-          "file-size": "1474873344"
+          "file-size": 1474873344
         },
         {
           "arch": "amd64",
@@ -781,7 +781,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:43873828dfab7ef3ff8fce38a961beca6e750745&dn=xubuntu-22.10-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.10/release/xubuntu-22.10-desktop-amd64.iso",
-          "file-size": "2984538112"
+          "file-size": 2984538112
         },
         {
           "arch": "amd64",
@@ -789,7 +789,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:b813f485c0e6d17f6877c8d6942b3bdc7c227176&dn=xubuntu-22.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04.1/release/xubuntu-22.04.1-desktop-amd64.iso",
-          "file-size": "2475399168"
+          "file-size": 2475399168
         },
         {
           "arch": "arm",
@@ -797,7 +797,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.1-preinstalled-desktop-arm64+raspi.img.xz",
-          "file-size": "2096194096"
+          "file-size": 2096194096
         },
         {
           "arch": "arm",
@@ -805,7 +805,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.1/release/ubuntu-22.04.1-preinstalled-server-armhf+raspi.img.xz",
-          "file-size": "926443748"
+          "file-size": 926443748
         },
         {
           "arch": "arm",
@@ -813,7 +813,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.1/release/ubuntu-22.04.1-preinstalled-server-arm64+raspi.img.xz",
-          "file-size": "961836768"
+          "file-size": 961836768
         }
       ],
       "trackers": [

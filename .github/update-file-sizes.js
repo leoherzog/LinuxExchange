@@ -18,6 +18,6 @@ for (let distro of distros.distros) {
 
 async function addFileSize(version, url) {
   let filesize = await fetch(url, headers).then(r => r.headers.get('content-length'));
-  version['file-size'] = filesize ? new Number(filesize) : "";
+  version['file-size'] = filesize ? new Number(filesize) : null;
   fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 }
