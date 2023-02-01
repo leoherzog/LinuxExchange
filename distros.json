@@ -143,7 +143,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:375ae3280cd80a8e9d7212e11dfaf7c45069dd35&dn=archlinux-2023.02.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2023.02.01/archlinux-2023.02.01-x86_64.iso",
-          "file-size": ""
+          "file-size": 864366592
         }
       ],
       "trackers": [
@@ -310,7 +310,7 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:42b3c0e68ddf3e4be4b9cac2044c3ef472a32f92&dn=elementaryos-7.0-stable.20230129rc.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-7.0-stable.20230129rc.iso",
-          "file-size": ""
+          "file-size": 2779578368
         }
       ],
       "trackers": []
