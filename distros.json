@@ -306,11 +306,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "6.1",
+          "version": "7.0",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:79c043454fc643b05aea16de848e5dce6eb8c9d9&dn=elementaryos-6.1-stable.20211218-rc.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-6.1-stable.20211218-rc.iso",
-          "file-size": "2662367232"
+          "magnet-url": "magnet:?xt=urn:btih:42b3c0e68ddf3e4be4b9cac2044c3ef472a32f92&dn=elementaryos-7.0-stable.20230129rc.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-7.0-stable.20230129rc.iso",
+          "file-size": ""
         }
       ],
       "trackers": []
