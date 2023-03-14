@@ -693,7 +693,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:fa57abbc6a01b1706ca1519e62fcec9fe4786e33&dn=ubuntu-budgie-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04.2/release/ubuntu-budgie-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3241588736
         },
         {
           "arch": "amd64",
@@ -709,7 +709,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:a7838b75c42b612da3b6cc99beed4ecb2d04cff2&dn=ubuntu-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 4927586304
         },
         {
           "arch": "amd64",
@@ -725,7 +725,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:0ee141f56407236b8acd136d56332f87674650d5&dn=kubuntu-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04.2/release/kubuntu-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 5023979520
         },
         {
           "arch": "amd64",
@@ -741,7 +741,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:e7a3fdda4ef70bc9422ee864e18e2d265f910d92&dn=lubuntu-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04.2/release/lubuntu-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 2851551232
         },
         {
           "arch": "amd64",
@@ -757,7 +757,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:e7088644335bd66118c01d3e4ece64f2630fb1c6&dn=ubuntu-mate-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04.2/release/ubuntu-mate-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3292123136
         },
         {
           "arch": "amd64",
@@ -773,7 +773,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9e638562ab1c1fced9def142864cdd5a7019e1aa&dn=ubuntu-22.04.2-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04.2/ubuntu-22.04.2-live-server-amd64.iso",
-          "file-size": null
+          "file-size": 1975971840
         },
         {
           "arch": "amd64",
@@ -789,7 +789,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3b2dda82a16378994dbb22c49bbb91c74d2fb19c&dn=xubuntu-22.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04.2/release/xubuntu-22.04.2-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3078205440
         },
         {
           "arch": "arm",
@@ -797,7 +797,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.2-preinstalled-desktop-arm64+raspi.img.xz",
-          "file-size": null
+          "file-size": 2170281188
         },
         {
           "arch": "arm",
@@ -805,7 +805,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.2/release/ubuntu-22.04.2-preinstalled-server-armhf+raspi.img.xz",
-          "file-size": null
+          "file-size": 957179752
         },
         {
           "arch": "arm",
@@ -813,7 +813,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "",
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.2/release/ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz",
-          "file-size": null
+          "file-size": 1023925356
         }
       ],
       "trackers": [
