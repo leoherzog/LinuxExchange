@@ -446,27 +446,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2022.4",
+          "version": "2023.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:797a16067ba13b3cc5d422754f897529cc15ccd4&dn=kali-linux-2022.4-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-amd64.iso",
-          "file-size": 3797270528
+          "magnet-url": "magnet:?xt=urn:btih:3eb205cc898440ffc3c7551a8ec667c83013001c&dn=kali-linux-2023.1-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "x86",
-          "version": "2022.4",
+          "version": "2023.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:7262663e92b63d4df5113ade62a91fec2fe0b9ec&dn=kali-linux-2022.4-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-i386.iso",
-          "file-size": 3315400704
+          "magnet-url": "magnet:?xt=urn:btih:2d45554a7cac03b1026de8eb843935ed0c85b52d&dn=kali-linux-2023.1-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-i386.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2022.4 Apple M1",
+          "version": "2023.1 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:0062ffdee976404615a8b9f4c2eaa6d6717c7c65&dn=kali-linux-2022.4-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2022.4/kali-linux-2022.4-installer-arm64.iso",
-          "file-size": 3151343616
+          "magnet-url": "magnet:?xt=urn:btih:20591d4cd05ac0bf589d712053aaf2c5780b8428&dn=kali-linux-2023.1-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-arm64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
