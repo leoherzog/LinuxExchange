@@ -563,24 +563,24 @@
           "version": "22.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/17/pop-os_22.04_amd64_intel_17.iso",
-          "file-size": 2475753472
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/23/pop-os_22.04_amd64_intel_23.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
           "version": "22.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/17/pop-os_22.04_amd64_nvidia_17.iso",
-          "file-size": 2933145600
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/23/pop-os_22.04_amd64_nvidia_23.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
           "version": "22.04 (Raspberry Pi 4)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/arm64/raspi/2/pop-os_22.04_arm64_raspi_2.img.xz",
-          "file-size": 2389342496
+          "direct-download-url": "https://iso.pop-os.org/22.04/arm64/raspi/4/pop-os_22.04_arm64_raspi_4.img.xz",
+          "file-size": null
         }
       ],
       "trackers": []
