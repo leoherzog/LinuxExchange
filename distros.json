@@ -564,7 +564,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/25/pop-os_22.04_amd64_intel_25.iso",
-          "file-size": null
+          "file-size": 2667577344
         },
         {
           "arch": "amd64",
@@ -572,7 +572,7 @@
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
           "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/25/pop-os_22.04_amd64_nvidia_25.iso",
-          "file-size": null
+          "file-size": 3187671040
         },
         {
           "arch": "amd64",
