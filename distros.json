@@ -563,16 +563,16 @@
           "version": "22.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/23/pop-os_22.04_amd64_intel_23.iso",
-          "file-size": 2687942656
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/25/pop-os_22.04_amd64_intel_25.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
           "version": "22.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/23/pop-os_22.04_amd64_nvidia_23.iso",
-          "file-size": 3208642560
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/25/pop-os_22.04_amd64_nvidia_25.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -795,7 +795,7 @@
           "arch": "arm",
           "version": "22.04.2 (64-Bit)",
           "desktop-environment": "Gnome",
-          "magnet-url": "",
+          "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.2-preinstalled-desktop-arm64+raspi.img.xz",
           "file-size": 2170281188
         },
@@ -803,7 +803,7 @@
           "arch": "arm",
           "version": "22.04.2",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "",
+          "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.2/release/ubuntu-22.04.2-preinstalled-server-armhf+raspi.img.xz",
           "file-size": 957179752
         },
@@ -811,7 +811,7 @@
           "arch": "arm",
           "version": "22.04.2 (64-Bit)",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "",
+          "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04.2/release/ubuntu-22.04.2-preinstalled-server-arm64+raspi.img.xz",
           "file-size": 1023925356
         }
