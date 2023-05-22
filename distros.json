@@ -523,27 +523,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "22.1.0",
+          "version": "22.1.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:a3eab859eba5685c70c596ae917bf3d522cce6a8&dn=manjaro-gnome-22.1.0-230421-linux61.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/22.1.0/manjaro-gnome-22.1.0-230421-linux61.iso",
-          "file-size": 4081973248
+          "magnet-url": "magnet:?xt=urn:btih:3bbb3d1242e74e8dea85ca76de688033eae0e843&dn=manjaro-gnome-22.1.2-230518-linux61.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/22.1.2/manjaro-gnome-22.1.2-230518-linux61.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "22.1.0",
+          "version": "22.1.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:c23d33776d3113be89f06079a72e84b3a678b89d&dn=manjaro-kde-22.1.0-230421-linux61.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/22.1.0/manjaro-kde-22.1.0-230421-linux61.iso",
-          "file-size": 4173903872
+          "magnet-url": "magnet:?xt=urn:btih:9bf8be01f5537a8c27d8deaf559eecc63d459a9b&dn=manjaro-kde-22.1.2-230518-linux61.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/22.1.2/manjaro-kde-22.1.2-230518-linux61.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "22.1.0",
+          "version": "22.1.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:6d848db1887cf9d692125d5b21baffa56e5a79d8&dn=manjaro-xfce-22.1.0-230421-linux61.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/22.1.0/manjaro-xfce-22.1.0-230421-linux61.iso",
-          "file-size": 4044646400
+          "magnet-url": "magnet:?xt=urn:btih:ad9f14736f028374e4029dccafaa6f960ffa394a&dn=manjaro-xfce-22.1.2-230518-linux61.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/22.1.2/manjaro-xfce-22.1.2-230518-linux61.iso",
+          "file-size": null
         }
       ],
       "trackers": []
