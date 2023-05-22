@@ -601,7 +601,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:e6f0b85f6744ddbcdb88ac2bf5b9472dcabcf983&dn=2023-05-03-raspios-bullseye-armhf.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2023-05-03/2023-05-03-raspios-bullseye-armhf.img.xz",
-          "file-size": null
+          "file-size": 914230732
         },
         {
           "arch": "arm",
@@ -609,7 +609,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:e1797c4c587fdf8f0fd95fbabf13d35f3f579b6a&dn=2023-05-03-raspios-bullseye-armhf-full.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2023-05-03/2023-05-03-raspios-bullseye-armhf-full.img.xz",
-          "file-size": null
+          "file-size": 2831839012
         },
         {
           "arch": "arm",
@@ -617,7 +617,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:6cdb1548ce5fc0b60849437e78f8fe829e8cbcc9&dn=2023-05-03-raspios-bullseye-armhf-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2023-05-03/2023-05-03-raspios-bullseye-armhf-lite.img.xz",
-          "file-size": null
+          "file-size": 381558864
         },
         {
           "arch": "arm",
@@ -625,7 +625,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:dc7dfcaff3557d1e52b05529a0c16b43db22a2cd&dn=2023-05-03-raspios-bullseye-arm64.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2023-05-03/2023-05-03-raspios-bullseye-arm64.img.xz",
-          "file-size": null
+          "file-size": 858074108
         },
         {
           "arch": "arm",
@@ -633,7 +633,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:04f446cd3e673ab084d98c501fabc190e3ce66bf&dn=2023-05-03-raspios-bullseye-arm64-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2023-05-03/2023-05-03-raspios-bullseye-arm64-lite.img.xz",
-          "file-size": null
+          "file-size": 322504480
         }
       ],
       "trackers": [
