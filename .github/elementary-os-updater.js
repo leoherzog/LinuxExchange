@@ -22,7 +22,7 @@ get.concat('https://elementary.io/', (err, res, body) => {
     let url = $('.http')[0].attribs['href'].split('/');
     url[4] = '{{base64time}}';
     version['direct-download-url'] = 'https:' + url.join('/');
-    version['file-size'] = '';
+    version['file-size'] = null;
 
     fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 
