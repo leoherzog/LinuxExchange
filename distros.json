@@ -159,7 +159,7 @@
       "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/",
       "description": "An incredibly stable operating system with a vast library of software",
       "font-logos-icon": "fl-debian",
-      "recommended-version-index": 2,
+      "recommended-version-index": 1,
       "versions": [
         {
           "arch": "amd64",
