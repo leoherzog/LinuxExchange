@@ -7,7 +7,7 @@ var distros = JSON.parse(fs.readFileSync('distros.json'));
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Debian');
 
 
-var urls = ["https://cdimage.debian.org/debian-cd/current-live/i386/bt-hybrid/", "https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"]
+var urls = ["https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"]
 
 async function run() {
   for (var url of urls) {
