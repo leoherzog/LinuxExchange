@@ -463,7 +463,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:68617f6ffc9f95bbca41733556f666739f647f9c&dn=manjaro-gnome-22.1.3-230529-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/22.1.3/manjaro-gnome-22.1.3-230529-linux61.iso",
-          "file-size": null
+          "file-size": 3709091840
         },
         {
           "arch": "amd64",
@@ -471,7 +471,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:6a0349cf4f3ec3c465381b6cb61da7ba84256559&dn=manjaro-kde-22.1.3-230529-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/kde/22.1.3/manjaro-kde-22.1.3-230529-linux61.iso",
-          "file-size": null
+          "file-size": 3859046400
         },
         {
           "arch": "amd64",
@@ -479,7 +479,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3db2d0863185c1c5bfc03eb66115f4eb0119ac68&dn=manjaro-xfce-22.1.3-230529-linux61.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/22.1.3/manjaro-xfce-22.1.3-230529-linux61.iso",
-          "file-size": null
+          "file-size": 3727581184
         }
       ],
       "trackers": []
