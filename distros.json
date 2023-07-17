@@ -422,27 +422,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.1",
+          "version": "21.2",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:b0a64119022786e4f6a0bfd797158ee0e006a8dd&dn=linuxmint-21.1-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.1/linuxmint-21.1-cinnamon-64bit.iso",
-          "file-size": 2681571328
+          "magnet-url": "magnet:?xt=urn:btih:f1fa38021f9831440ae4fdc177872cc34a5ac7fc&dn=linuxmint-21.2-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.1",
+          "version": "21.2",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:4e9d3e3ee0b69f00b250fd9ae847db64d41be18d&dn=linuxmint-21.1-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.1/linuxmint-21.1-mate-64bit.iso",
-          "file-size": 2742749184
+          "magnet-url": "magnet:?xt=urn:btih:18cc7c4f526e66ab78de5468ae13d3613e43a3ac&dn=linuxmint-21.2-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-mate-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.1",
+          "version": "21.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:b0aaad320310d1d1205d509b6589352da6bf0b16&dn=linuxmint-21.1-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.1/linuxmint-21.1-xfce-64bit.iso",
-          "file-size": 2647666688
+          "magnet-url": "magnet:?xt=urn:btih:e5f941ef7d5493c151f34bfdb799079c70f9929a&dn=linuxmint-21.2-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-xfce-64bit.iso",
+          "file-size": null
         }
       ],
       "trackers": []
