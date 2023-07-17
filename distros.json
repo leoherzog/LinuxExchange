@@ -382,27 +382,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2023.1",
+          "version": "2023.2a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:3eb205cc898440ffc3c7551a8ec667c83013001c&dn=kali-linux-2023.1-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-amd64.iso",
-          "file-size": 3875536896
+          "magnet-url": "magnet:?xt=urn:btih:d96a733e95798ab31fa348a33601e22372e826dc&dn=kali-linux-2023.2a-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "x86",
-          "version": "2023.1",
+          "version": "2023.2a",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:2d45554a7cac03b1026de8eb843935ed0c85b52d&dn=kali-linux-2023.1-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-i386.iso",
-          "file-size": 3312156672
+          "magnet-url": "magnet:?xt=urn:btih:b6d27b89e915a75aa523d2e4da96bcc743c4a12e&dn=kali-linux-2023.2a-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-i386.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2023.1 Apple Silicon",
+          "version": "2023.2a Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:20591d4cd05ac0bf589d712053aaf2c5780b8428&dn=kali-linux-2023.1-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.1/kali-linux-2023.1-installer-arm64.iso",
-          "file-size": 3228823552
+          "magnet-url": "magnet:?xt=urn:btih:4936663e8bb12646fc70f0c773e9ef3fea3934d0&dn=kali-linux-2023.2a-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-arm64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
