@@ -386,7 +386,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:d96a733e95798ab31fa348a33601e22372e826dc&dn=kali-linux-2023.2a-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-amd64.iso",
-          "file-size": null
+          "file-size": 3951689728
         },
         {
           "arch": "x86",
@@ -394,7 +394,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:b6d27b89e915a75aa523d2e4da96bcc743c4a12e&dn=kali-linux-2023.2a-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-i386.iso",
-          "file-size": null
+          "file-size": 3412525056
         },
         {
           "arch": "arm",
@@ -402,7 +402,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:4936663e8bb12646fc70f0c773e9ef3fea3934d0&dn=kali-linux-2023.2a-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.2/kali-linux-2023.2a-installer-arm64.iso",
-          "file-size": null
+          "file-size": 3298963456
         }
       ],
       "trackers": [
