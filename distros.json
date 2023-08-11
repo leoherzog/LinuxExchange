@@ -629,7 +629,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:f3824d00ce8807245b87b9ca21d2286acf41b5c6&dn=ubuntu-budgie-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3698358272
         },
         {
           "arch": "amd64",
@@ -645,7 +645,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:75439d5de343999ab377c617c2c647902956e282&dn=ubuntu-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 5037662208
         },
         {
           "arch": "amd64",
@@ -661,7 +661,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:c137639fa69a2c44d689e753887cbb78390fff8f&dn=kubuntu-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 4254734336
         },
         {
           "arch": "amd64",
@@ -677,7 +677,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:6ccf9da8761fb81d3a7f112238d6f1e170397f68&dn=lubuntu-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 2923581440
         },
         {
           "arch": "amd64",
@@ -693,7 +693,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:0223dcb7785d09dbdff5839a089774277a66b4c9&dn=ubuntu-mate-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3747717120
         },
         {
           "arch": "amd64",
@@ -709,7 +709,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:da1a0defb35d43a218fc7eb0fc8d4c6c44a3ed2d&dn=ubuntu-22.04.3-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso",
-          "file-size": null
+          "file-size": 2133391360
         },
         {
           "arch": "amd64",
@@ -725,7 +725,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:3f872de52db27c9d5a033e3435a0fb3d311822a6&dn=xubuntu-22.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": null
+          "file-size": 3049039872
         },
         {
           "arch": "arm",
@@ -733,7 +733,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-desktop-arm64+raspi.img.xz",
-          "file-size": null
+          "file-size": 2595696752
         },
         {
           "arch": "arm",
@@ -741,7 +741,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-server-armhf+raspi.img.xz",
-          "file-size": null
+          "file-size": 986176100
         },
         {
           "arch": "arm",
@@ -749,7 +749,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": null,
           "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-server-arm64+raspi.img.xz",
-          "file-size": null
+          "file-size": 1053089860
         }
       ],
       "trackers": [
