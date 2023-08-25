@@ -386,7 +386,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:be225ac0c78736ac9adc32ff752895950775733b&dn=kali-linux-2023.3-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-amd64.iso",
-          "file-size": null
+          "file-size": 4194304000
         },
         {
           "arch": "x86",
@@ -394,7 +394,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:bc3d89e470dfd1fccda46af66c0c91c7f3b8f5b5&dn=kali-linux-2023.3-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-i386.iso",
-          "file-size": null
+          "file-size": 3593011200
         },
         {
           "arch": "arm",
@@ -402,7 +402,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:78d4e3d0becf10926f82c9cf7360f71ce0bbd87b&dn=kali-linux-2023.3-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-arm64.iso",
-          "file-size": null
+          "file-size": 3489968128
         }
       ],
       "trackers": [
