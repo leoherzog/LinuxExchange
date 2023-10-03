@@ -242,11 +242,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "7.0",
+          "version": "7.1",
           "desktop-environment": "Pantheon",
-          "magnet-url": "magnet:?xt=urn:btih:42b3c0e68ddf3e4be4b9cac2044c3ef472a32f92&dn=elementaryos-7.0-stable.20230129rc.iso",
-          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-7.0-stable.20230129rc.iso",
-          "file-size": 2779578368
+          "magnet-url": "magnet:?xt=urn:btih:42b3c0e68ddf3e4be4b9cac2044c3ef472a32f92&dn=elementaryos-7.1-stable.20230926rc.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-7.1-stable.20230926rc.iso",
+          "file-size": null
         }
       ],
       "trackers": []
