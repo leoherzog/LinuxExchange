@@ -139,11 +139,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2023.09.01",
+          "version": "2023.10.14",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:ab6ad7ff24b5ed3a61352a1f1a7811a8c3cc6dde&dn=archlinux-2023.09.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2023.09.01/archlinux-2023.09.01-x86_64.iso",
-          "file-size": 843395072
+          "magnet-url": "magnet:?xt=urn:btih:504c3313715c99a5e893fdeecf4f52a4b59cc241&dn=archlinux-2023.10.14-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2023.10.14/archlinux-2023.10.14-x86_64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
