@@ -625,11 +625,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10.1",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:46fd5a9214e7f3a1ad0716732ccd75f3ceb1ee5f&dn=ubuntu-budgie-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/23.04/release/ubuntu-budgie-23.04-desktop-amd64.iso",
-          "file-size": 3382654976
+          "magnet-url": "magnet:?xt=urn:btih:7aa799e587ba22a097db14075dda1e40390f4036&dn=ubuntu-budgie-23.10.1-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/23.10.1/release/ubuntu-budgie-23.10.1-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -641,11 +641,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:443c7602b4fde83d1154d6d9da48808418b181b6&dn=ubuntu-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-desktop-amd64.iso",
-          "file-size": 4932407296
+          "magnet-url": "magnet:?xt=urn:btih:9ecd4676fd0f0474151a4b74a5958f42639cebdf&dn=ubuntu-23.10.1-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/23.10.1/ubuntu-23.10.1-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -657,11 +657,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:fc7bcc620c8a8a0105705c28f743ae8373f22f38&dn=kubuntu-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/23.04/release/kubuntu-23.04-desktop-amd64.iso",
-          "file-size": 4950495232
+          "magnet-url": "magnet:?xt=urn:btih:36e467ff9479844087f059f0f9ad1b416f50d0d2&dn=kubuntu-23.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/23.10/release/kubuntu-23.10-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -673,11 +673,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:29cb773e13f2e7a5ab4271d7772762ccae0ea057&dn=lubuntu-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/23.04/release/lubuntu-23.04-desktop-amd64.iso",
-          "file-size": 3100446720
+          "magnet-url": "magnet:?xt=urn:btih:5e738c1645c4ce072668f7fc8d05bd4b6ad83d13&dn=lubuntu-23.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/23.10/release/lubuntu-23.10-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -689,11 +689,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:7f1f147998639094012392bb645e52957cb57680&dn=ubuntu-mate-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.04/release/ubuntu-mate-23.04-desktop-amd64.iso",
-          "file-size": 3535142912
+          "magnet-url": "magnet:?xt=urn:btih:b7fd0b576ef55e2f65aeaf164b40d5f63fb685d5&dn=ubuntu-mate-23.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/23.10/release/ubuntu-mate-23.10-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -705,11 +705,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10.1",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:d6b4535ba8f2b34012bc633569f113e77017e032&dn=ubuntu-23.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-live-server-amd64.iso",
-          "file-size": 2641264640
+          "magnet-url": "magnet:?xt=urn:btih:c1463792a1ff36a237e3a0f68badeb0d3764e9bb&dn=ubuntu-23.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/23.10/ubuntu-23.10-live-server-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -721,11 +721,11 @@
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "23.10",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:5729cad8f0c744c965c2d3539dc3971f96de38ce&dn=xubuntu-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/23.04/release/xubuntu-23.04-desktop-amd64.iso",
-          "file-size": 3252484096
+          "magnet-url": "magnet:?xt=urn:btih:1bac80b88674f713dff57c0c6f8246433e72663c&dn=xubuntu-23.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/23.10/release/xubuntu-23.10-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
