@@ -143,7 +143,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:4d3e0fca47aac76ac05254c695c05f6adff3651e&dn=archlinux-2023.11.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2023.11.01/archlinux-2023.11.01-x86_64.iso",
-          "file-size": null
+          "file-size": 846540800
         }
       ],
       "trackers": [
