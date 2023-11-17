@@ -455,7 +455,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:425e03bc2fd3e4e83cf618f4afd062e9f629816e&dn=manjaro-gnome-23.0.4-231015-linux65.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/23.0.4/manjaro-gnome-23.0.4-231015-linux65.iso",
-          "file-size": null
+          "file-size": 3788443648
         },
         {
           "arch": "amd64",
@@ -463,7 +463,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:06e3da1059c080f8948819ede134bc9339e1354d&dn=manjaro-kde-23.0.4-231015-linux65.iso",
           "direct-download-url": "https://download.manjaro.org/kde/23.0.4/manjaro-kde-23.0.4-231015-linux65.iso",
-          "file-size": null
+          "file-size": 3905155072
         },
         {
           "arch": "amd64",
@@ -471,7 +471,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:40622c692f8db7b085f54b30bd5c6a369f22fbaa&dn=manjaro-xfce-23.0.4-231015-linux65.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/23.0.4/manjaro-xfce-23.0.4-231015-linux65.iso",
-          "file-size": null
+          "file-size": 3765813248
         }
       ],
       "trackers": []
