@@ -455,7 +455,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:ba45eb5a3d97c9ab452ca6fae9ad001104774fae&dn=manjaro-gnome-23.1.0-231215-linux66.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/23.1.0/manjaro-gnome-23.1.0-231215-linux66.iso",
-          "file-size": null
+          "file-size": 4126947328
         },
         {
           "arch": "amd64",
@@ -463,7 +463,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:d2cd258e208d357ee5030e7e706e5b0a5898e9e3&dn=manjaro-kde-23.1.0-231215-linux66.iso",
           "direct-download-url": "https://download.manjaro.org/kde/23.1.0/manjaro-kde-23.1.0-231215-linux66.iso",
-          "file-size": null
+          "file-size": 3904540672
         },
         {
           "arch": "amd64",
@@ -471,7 +471,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:e8fd40ef1f96553b9c5248962dc5fd433ebb8d27&dn=manjaro-xfce-23.1.0-231215-linux66.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/23.1.0/manjaro-xfce-23.1.0-231215-linux66.iso",
-          "file-size": null
+          "file-size": 3762966528
         }
       ],
       "trackers": []
