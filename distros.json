@@ -374,27 +374,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2023.3",
+          "version": "2023.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:be225ac0c78736ac9adc32ff752895950775733b&dn=kali-linux-2023.3-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-amd64.iso",
-          "file-size": 4194304000
+          "magnet-url": "magnet:?xt=urn:btih:e9653d4769e7375eb31da258584494d65516c2c0&dn=kali-linux-2023.4-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "x86",
-          "version": "2023.3",
+          "version": "2023.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:bc3d89e470dfd1fccda46af66c0c91c7f3b8f5b5&dn=kali-linux-2023.3-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-i386.iso",
-          "file-size": 3593011200
+          "magnet-url": "magnet:?xt=urn:btih:017c162737d0084e24e6f0db0c0cf9302df553ae&dn=kali-linux-2023.4-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-i386.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2023.3 Apple Silicon",
+          "version": "2023.4 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:78d4e3d0becf10926f82c9cf7360f71ce0bbd87b&dn=kali-linux-2023.3-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.3/kali-linux-2023.3-installer-arm64.iso",
-          "file-size": 3489968128
+          "magnet-url": "magnet:?xt=urn:btih:425ca3b443a1887549c3ff2ebc7a0c3b2e8f7fe5&dn=kali-linux-2023.4-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-arm64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
