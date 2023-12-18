@@ -451,27 +451,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "23.0.4",
+          "version": "23.1.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:425e03bc2fd3e4e83cf618f4afd062e9f629816e&dn=manjaro-gnome-23.0.4-231015-linux65.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/23.0.4/manjaro-gnome-23.0.4-231015-linux65.iso",
-          "file-size": 3788443648
+          "magnet-url": "magnet:?xt=urn:btih:ba45eb5a3d97c9ab452ca6fae9ad001104774fae&dn=manjaro-gnome-23.1.0-231215-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/23.1.0/manjaro-gnome-23.1.0-231215-linux66.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "23.0.4",
+          "version": "23.1.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:06e3da1059c080f8948819ede134bc9339e1354d&dn=manjaro-kde-23.0.4-231015-linux65.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/23.0.4/manjaro-kde-23.0.4-231015-linux65.iso",
-          "file-size": 3905155072
+          "magnet-url": "magnet:?xt=urn:btih:d2cd258e208d357ee5030e7e706e5b0a5898e9e3&dn=manjaro-kde-23.1.0-231215-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/23.1.0/manjaro-kde-23.1.0-231215-linux66.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "23.0.4",
+          "version": "23.1.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:40622c692f8db7b085f54b30bd5c6a369f22fbaa&dn=manjaro-xfce-23.0.4-231015-linux65.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/23.0.4/manjaro-xfce-23.0.4-231015-linux65.iso",
-          "file-size": 3765813248
+          "magnet-url": "magnet:?xt=urn:btih:e8fd40ef1f96553b9c5248962dc5fd433ebb8d27&dn=manjaro-xfce-23.1.0-231215-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/23.1.0/manjaro-xfce-23.1.0-231215-linux66.iso",
+          "file-size": null
         }
       ],
       "trackers": []
