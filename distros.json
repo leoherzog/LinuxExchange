@@ -146,10 +146,7 @@
           "file-size": 926232576
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3167797248
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1712130048
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3473190912
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -414,27 +404,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.2",
+          "version": "21.3",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:f1fa38021f9831440ae4fdc177872cc34a5ac7fc&dn=linuxmint-21.2-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-cinnamon-64bit.iso",
-          "file-size": 3026413568
+          "magnet-url": "magnet:?xt=urn:btih:5aa5483aee76df2eae84ca4109adbc0d0702ab46&dn=linuxmint-21.3-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.2",
+          "version": "21.3",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:18cc7c4f526e66ab78de5468ae13d3613e43a3ac&dn=linuxmint-21.2-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-mate-64bit.iso",
-          "file-size": 3050733568
+          "magnet-url": "magnet:?xt=urn:btih:d007d14df3ff7ee6cc8aad36771d9259ff2de166&dn=linuxmint-21.3-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-mate-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.2",
+          "version": "21.3",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:e5f941ef7d5493c151f34bfdb799079c70f9929a&dn=linuxmint-21.2-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.2/linuxmint-21.2-xfce-64bit.iso",
-          "file-size": 2957324288
+          "magnet-url": "magnet:?xt=urn:btih:9432cc017033d8eef8b49b1dca50fa16713a664f&dn=linuxmint-21.3-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-xfce-64bit.iso",
+          "file-size": null
         }
       ],
       "trackers": []
@@ -572,9 +562,7 @@
           "file-size": 456635800
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -752,10 +740,7 @@
           "file-size": 1053089860
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
