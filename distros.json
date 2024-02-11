@@ -163,67 +163,67 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:88a4d6ef20963e0dda018d453300a53015f19922&dn=debian-live-12.4.0-amd64-cinnamon.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-cinnamon.iso",
-          "file-size": 3379068928
+          "magnet-url": "magnet:?xt=urn:btih:9b1cad5c281cc08310b2e37821db19158692841b&dn=debian-live-12.5.0-amd64-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-cinnamon.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:d49f5ef2c00598307288808b7c0d6bb04639a147&dn=debian-live-12.4.0-amd64-gnome.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-gnome.iso",
-          "file-size": 3435970560
+          "magnet-url": "magnet:?xt=urn:btih:b7ee86a381f2bdca47574febe56a5b879d68d00e&dn=debian-live-12.5.0-amd64-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-gnome.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:679944e33900621ce87621e6a3e528ac40c8ed0f&dn=debian-live-12.4.0-amd64-kde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-kde.iso",
-          "file-size": 3496165376
+          "magnet-url": "magnet:?xt=urn:btih:fdbaa6002f5db8f5410496ae896be02bb052ef9b&dn=debian-live-12.5.0-amd64-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-kde.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:eacd7b4664556c0730d7ba9f0a818bc7b8a94626&dn=debian-live-12.4.0-amd64-lxde.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-lxde.iso",
-          "file-size": 3154116608
+          "magnet-url": "magnet:?xt=urn:btih:be279b933e14d27fdd4023ba801d30c27f064f44&dn=debian-live-12.5.0-amd64-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-lxde.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:490203664eb0303ca16fb1512353a93777651a3e&dn=debian-live-12.4.0-amd64-lxqt.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-lxqt.iso",
-          "file-size": 3214934016
+          "magnet-url": "magnet:?xt=urn:btih:8678d711b48e2170364ad49467fcba4e84900d8c&dn=debian-live-12.5.0-amd64-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-lxqt.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:e4dfbc8af7aa620c311f316a3eceebe9eb67e1da&dn=debian-live-12.4.0-amd64-mate.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-mate.iso",
-          "file-size": 3268362240
+          "magnet-url": "magnet:?xt=urn:btih:9b32c94e69ff6803748f18edb83f46ab44c99fe8&dn=debian-live-12.5.0-amd64-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-mate.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e489a985daa5f4213a54733b86b2986858093156&dn=debian-live-12.4.0-amd64-standard.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-standard.iso",
-          "file-size": 1532952576
+          "magnet-url": "magnet:?xt=urn:btih:3b46722665fdc9745c852144e6387bec8e774003&dn=debian-live-12.5.0-amd64-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-standard.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "12.4.0",
+          "version": "12.5.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:9b00090d6683aa23595591e41dca92e9f3dc1df6&dn=debian-live-12.4.0-amd64-xfce.iso",
-          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.4.0-amd64-xfce.iso",
-          "file-size": 3167797248
+          "magnet-url": "magnet:?xt=urn:btih:e7d9f7f322247c1a05a97363d3a7170737fde18a&dn=debian-live-12.5.0-amd64-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.5.0-amd64-xfce.iso",
+          "file-size": null
         }
       ],
       "trackers": [
