@@ -146,10 +146,7 @@
           "file-size": 977612800
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1712130048
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3473190912
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -572,9 +562,7 @@
           "file-size": 456635800
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -625,11 +613,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:f3824d00ce8807245b87b9ca21d2286acf41b5c6&dn=ubuntu-budgie-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.3-desktop-amd64.iso",
-          "file-size": 3698358272
+          "magnet-url": "magnet:?xt=urn:btih:5ddf1457426dcd0357154e15a57292a61fcca926&dn=ubuntu-budgie-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -641,11 +629,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:75439d5de343999ab377c617c2c647902956e282&dn=ubuntu-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": 5037662208
+          "magnet-url": "magnet:?xt=urn:btih:018e50b58106b84a42c223ccf0494334f8d55958&dn=ubuntu-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -657,11 +645,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:c137639fa69a2c44d689e753887cbb78390fff8f&dn=kubuntu-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": 4254734336
+          "magnet-url": "magnet:?xt=urn:btih:27a92b32757893ac9eb898e32c952636a3cc7b24&dn=kubuntu-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -673,11 +661,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:6ccf9da8761fb81d3a7f112238d6f1e170397f68&dn=lubuntu-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": 2923581440
+          "magnet-url": "magnet:?xt=urn:btih:10046323ab9a107faa0787460e5af639f7995f36&dn=lubuntu-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -689,11 +677,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:0223dcb7785d09dbdff5839a089774277a66b4c9&dn=ubuntu-mate-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.3-desktop-amd64.iso",
-          "file-size": 3747717120
+          "magnet-url": "magnet:?xt=urn:btih:f9623b09f6e2d07060678557f7b5263440b3cdfa&dn=ubuntu-mate-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -705,11 +693,11 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:da1a0defb35d43a218fc7eb0fc8d4c6c44a3ed2d&dn=ubuntu-22.04.3-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso",
-          "file-size": 2133391360
+          "magnet-url": "magnet:?xt=urn:btih:4d29c6c02c97caad937d8a9b66b0bb1b6f7cbbfe&dn=ubuntu-22.04.4-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/22.04/ubuntu-22.04.4-live-server-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -721,41 +709,38 @@
         },
         {
           "arch": "amd64",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:3f872de52db27c9d5a033e3435a0fb3d311822a6&dn=xubuntu-22.04.3-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.3-desktop-amd64.iso",
-          "file-size": 3049039872
+          "magnet-url": "magnet:?xt=urn:btih:c7d77fc3ecb68344b59ada11a0508dd6d08f2dfd&dn=xubuntu-22.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.4-desktop-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "22.04.3 (64-Bit)",
+          "version": "22.04.4 (64-Bit)",
           "desktop-environment": "Gnome",
           "magnet-url": null,
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-desktop-arm64+raspi.img.xz",
-          "file-size": 2595696752
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.4-preinstalled-desktop-arm64+raspi.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "22.04.3",
+          "version": "22.04.4",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": null,
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-server-armhf+raspi.img.xz",
-          "file-size": 986176100
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.4-preinstalled-server-armhf+raspi.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "22.04.3 (64-Bit)",
+          "version": "22.04.4 (64-Bit)",
           "desktop-environment": "No Desktop Environment",
           "magnet-url": null,
-          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.3-preinstalled-server-arm64+raspi.img.xz",
-          "file-size": 1053089860
+          "direct-download-url": "https://cdimage.ubuntu.com/releases/22.04/release/ubuntu-22.04.4-preinstalled-server-arm64+raspi.img.xz",
+          "file-size": null
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
