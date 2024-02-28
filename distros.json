@@ -146,10 +146,7 @@
           "file-size": 977612800
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1712130048
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -374,33 +367,30 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2023.4",
+          "version": "2024.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e9653d4769e7375eb31da258584494d65516c2c0&dn=kali-linux-2023.4-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-amd64.iso",
-          "file-size": 4236345344
+          "magnet-url": "magnet:?xt=urn:btih:f24f4f54df51118b03f99c74416e4554ab88d22b&dn=kali-linux-2024.1-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "x86",
-          "version": "2023.4",
+          "version": "2024.1",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:017c162737d0084e24e6f0db0c0cf9302df553ae&dn=kali-linux-2023.4-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-i386.iso",
-          "file-size": 3556769792
+          "magnet-url": "magnet:?xt=urn:btih:c4a09eb749cda4a8f7c11ef19f278c09215a3237&dn=kali-linux-2024.1-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-i386.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2023.4 Apple Silicon",
+          "version": "2024.1 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:425ca3b443a1887549c3ff2ebc7a0c3b2e8f7fe5&dn=kali-linux-2023.4-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2023.4/kali-linux-2023.4-installer-arm64.iso",
-          "file-size": 3473190912
+          "magnet-url": "magnet:?xt=urn:btih:e37b347cc7c9ec407a1ec32971ea321f0eb6e031&dn=kali-linux-2024.1-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-arm64.iso",
+          "file-size": null
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -572,9 +562,7 @@
           "file-size": 456635800
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -752,10 +740,7 @@
           "file-size": 1034075988
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
