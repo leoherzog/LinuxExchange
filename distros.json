@@ -146,7 +146,10 @@
           "file-size": 988098560
         }
       ],
-      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
+      "trackers": [
+        "udp://tracker.archlinux.org:6969",
+        "http://tracker.archlinux.org:6969/announce"
+      ]
     },
     {
       "name": "Debian",
@@ -223,7 +226,9 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": ["http://bttracker.debian.org:6969/announce"]
+      "trackers": [
+        "http://bttracker.debian.org:6969/announce"
+      ]
     },
     {
       "name": "Elementary",
@@ -353,7 +358,9 @@
           "file-size": 1712130048
         }
       ],
-      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
+      "trackers": [
+        "http://torrent.fedoraproject.org:6969/announce"
+      ]
     },
     {
       "name": "Kali",
@@ -390,7 +397,10 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
+      "trackers": [
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
+      ]
     },
     {
       "name": "Linux Mint",
@@ -519,7 +529,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:b6cc6a4d394f7314984b74758fbb3bd294541ce1&dn=2024-03-12-raspios-bookworm-armhf.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2024-03-13/2024-03-12-raspios-bookworm-armhf.img.xz",
-          "file-size": null
+          "file-size": 1222501928
         },
         {
           "arch": "arm",
@@ -527,7 +537,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:c529e914082bfb419c215fd03741baa0517a9a29&dn=2024-03-12-raspios-bookworm-armhf-full.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2024-03-13/2024-03-12-raspios-bookworm-armhf-full.img.xz",
-          "file-size": null
+          "file-size": 2778154212
         },
         {
           "arch": "arm",
@@ -535,7 +545,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e05b1235456ab6efc57f1fea3fb503e66c0752b9&dn=2024-03-12-raspios-bookworm-armhf-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2024-03-13/2024-03-12-raspios-bookworm-armhf-lite.img.xz",
-          "file-size": null
+          "file-size": 502831596
         },
         {
           "arch": "arm",
@@ -543,7 +553,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:e062b9924603f5e1bf30c16377d840ea7254f6dc&dn=2024-03-12-raspios-bookworm-arm64.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2024-03-13/2024-03-12-raspios-bookworm-arm64.img.xz",
-          "file-size": null
+          "file-size": 1160758324
         },
         {
           "arch": "arm",
@@ -551,7 +561,7 @@
           "desktop-environment": "PIXEL",
           "magnet-url": "magnet:?xt=urn:btih:be9e238c517365ddfad8a20d85990f833576ebc1&dn=2024-03-12-raspios-bookworm-arm64-full.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2024-03-13/2024-03-12-raspios-bookworm-arm64-full.img.xz",
-          "file-size": null
+          "file-size": 2948438344
         },
         {
           "arch": "arm",
@@ -559,10 +569,12 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:609bb3c190f1507a56e54ece986ffce21c74154e&dn=2024-03-12-raspios-bookworm-arm64-lite.img.xz",
           "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-03-13/2024-03-12-raspios-bookworm-arm64-lite.img.xz",
-          "file-size": null
+          "file-size": 423855428
         }
       ],
-      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
     },
     {
       "name": "Rocky Linux",
@@ -740,7 +752,10 @@
           "file-size": 1034075988
         }
       ],
-      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
+      "trackers": [
+        "https://torrent.ubuntu.com/announce",
+        "https://ipv6.torrent.ubuntu.com/announce"
+      ]
     }
   ],
   "recommended-distro-index": 11,
