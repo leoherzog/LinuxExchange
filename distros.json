@@ -613,12 +613,12 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 3,
+      "recommended-version-index": 1,
       "versions": [
         {
           "arch": "amd64",
           "version": "24.04",
-          "desktop-environment": "Gnome",
+          "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:f2dda5966f434bbd60679415629718b2040f3076&dn=ubuntu-budgie-24.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04-desktop-amd64.iso",
           "file-size": 4087312384
@@ -658,7 +658,7 @@
         {
           "arch": "amd64",
           "version": "24.04",
-          "desktop-environment": "Gnome",
+          "desktop-environment": "Mate",
           "magnet-url": "magnet:?xt=urn:btih:956291e2d0d3a86acc62c510ea997679fc2436db&dn=ubuntu-mate-24.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04-desktop-amd64.iso",
           "file-size": 4196413440
