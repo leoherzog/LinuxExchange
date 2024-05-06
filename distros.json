@@ -146,7 +146,10 @@
           "file-size": 1130704896
         }
       ],
-      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
+      "trackers": [
+        "udp://tracker.archlinux.org:6969",
+        "http://tracker.archlinux.org:6969/announce"
+      ]
     },
     {
       "name": "Debian",
@@ -223,7 +226,9 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": ["http://bttracker.debian.org:6969/announce"]
+      "trackers": [
+        "http://bttracker.debian.org:6969/announce"
+      ]
     },
     {
       "name": "Elementary",
@@ -262,7 +267,7 @@
           "desktop-environment": "Budgie",
           "magnet-url": "magnet:?xt=urn:btih:e59048f790574ff151dd21728e371beedb663c96&dn=Fedora-Budgie-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2146633728
         },
         {
           "arch": "amd64",
@@ -270,7 +275,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:1163dec7521a62381a79bac34dbc1ecf179d0195&dn=Fedora-Cinnamon-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2558238720
         },
         {
           "arch": "amd64",
@@ -278,7 +283,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:1021075bad21641897c85f1a4369569d93315f63&dn=Fedora-Workstation-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2295853056
         },
         {
           "arch": "amd64",
@@ -286,7 +291,7 @@
           "desktop-environment": "i3",
           "magnet-url": "magnet:?xt=urn:btih:674cdb8ad8f8ec4e5a124520e7bb50a06110ad56&dn=Fedora-i3-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-i3-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 1617053696
         },
         {
           "arch": "amd64",
@@ -294,7 +299,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:c9280c39a40a757a340a3aeace428ba638ca2f29&dn=Fedora-KDE-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2645645312
         },
         {
           "arch": "amd64",
@@ -302,7 +307,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:71fc7cfb975654a4c5ffc170802ad31bc25b2738&dn=Fedora-LXDE-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 1741191168
         },
         {
           "arch": "amd64",
@@ -310,7 +315,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:6ef5a794f42a2a67585e48ad95b4f8bc83158370&dn=Fedora-LXQt-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 1845794816
         },
         {
           "arch": "amd64",
@@ -318,7 +323,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:b20152d9aa2c2f4df1a2a30fb9b439dda35ae4d8&dn=Fedora-MATE_Compiz-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2454198272
         },
         {
           "arch": "amd64",
@@ -326,7 +331,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:3d99acf4d34032afcd89226c38195785cf0ee9f9&dn=Fedora-Server-dvd-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-dvd-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2612854784
         },
         {
           "arch": "arm",
@@ -334,7 +339,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:1b5d680875eb2138968886b016c83483a4087d83&dn=Fedora-Server-dvd-aarch64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/aarch64/iso/Fedora-Server-dvd-aarch64-40-1.14.iso",
-          "file-size": null
+          "file-size": 2535260160
         },
         {
           "arch": "amd64",
@@ -342,7 +347,7 @@
           "desktop-environment": "Sugar",
           "magnet-url": "magnet:?xt=urn:btih:0a3a284f8e4d87531a71177a0a1ec5a2d8c94d7f&dn=Fedora-SoaS-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 1440874496
         },
         {
           "arch": "amd64",
@@ -350,10 +355,12 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:37e809f2ed8cc36e5542b354acda9d9baf11e240&dn=Fedora-Xfce-Live-x86_64-40",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-40-1.14.iso",
-          "file-size": null
+          "file-size": 1889988608
         }
       ],
-      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
+      "trackers": [
+        "http://torrent.fedoraproject.org:6969/announce"
+      ]
     },
     {
       "name": "Kali",
@@ -390,7 +397,10 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
+      "trackers": [
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
+      ]
     },
     {
       "name": "Linux Mint",
@@ -562,7 +572,9 @@
           "file-size": 423855428
         }
       ],
-      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
     },
     {
       "name": "Rocky Linux",
@@ -740,7 +752,10 @@
           "file-size": 1034075988
         }
       ],
-      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
+      "trackers": [
+        "https://torrent.ubuntu.com/announce",
+        "https://ipv6.torrent.ubuntu.com/announce"
+      ]
     }
   ],
   "recommended-distro-index": 11,
