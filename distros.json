@@ -146,10 +146,7 @@
           "file-size": 1130704896
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1889988608
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -491,16 +481,16 @@
           "version": "22.04 (Intel/AMD)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/34/pop-os_22.04_amd64_intel_34.iso",
-          "file-size": 2542665728
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/40/pop-os_22.04_amd64_intel_40.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
           "version": "22.04 (Nvidia)",
           "desktop-environment": "Pop Shell",
           "magnet-url": null,
-          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/34/pop-os_22.04_amd64_nvidia_34.iso",
-          "file-size": 3036676096
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/40/pop-os_22.04_amd64_nvidia_40.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -572,9 +562,7 @@
           "file-size": 423855428
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -680,10 +668,7 @@
           "file-size": 2639042560
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
