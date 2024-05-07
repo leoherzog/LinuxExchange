@@ -146,10 +146,7 @@
           "file-size": 1130704896
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1889988608
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -451,27 +441,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "23.1.3",
+          "version": "23.1.4",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:187299603a26e615529e4f82fe831a285623962a&dn=manjaro-gnome-23.1.3-240113-linux66.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/23.1.3/manjaro-gnome-23.1.3-240113-linux66.iso",
-          "file-size": 4139102208
+          "magnet-url": "magnet:?xt=urn:btih:3381d9f9a2f52ff395d2054112b409d071d8445f&dn=manjaro-gnome-23.1.4-240406-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/23.1.4/manjaro-gnome-23.1.4-240406-linux66.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "23.1.3",
+          "version": "23.1.4",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:5e61d75b087872a98719c52265c2b286c22ead92&dn=manjaro-kde-23.1.3-240113-linux66.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/23.1.3/manjaro-kde-23.1.3-240113-linux66.iso",
-          "file-size": 3926231040
+          "magnet-url": "magnet:?xt=urn:btih:ef12024528c05368495e72598bd5305d8f7777f1&dn=manjaro-kde-23.1.4-240406-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/23.1.4/manjaro-kde-23.1.4-240406-linux66.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "23.1.3",
+          "version": "23.1.4",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:638d11270ac7a5926cf6f314d939664abdc459b9&dn=manjaro-xfce-23.1.3-240113-linux66.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/23.1.3/manjaro-xfce-23.1.3-240113-linux66.iso",
-          "file-size": 3784222720
+          "magnet-url": "magnet:?xt=urn:btih:9fcfc874701c7c350fd23d830d037b6cff63031e&dn=manjaro-xfce-23.1.4-240406-linux66.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/23.1.4/manjaro-xfce-23.1.4-240406-linux66.iso",
+          "file-size": null
         }
       ],
       "trackers": []
@@ -572,9 +562,7 @@
           "file-size": 423855428
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -680,10 +668,7 @@
           "file-size": 2639042560
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
