@@ -94,19 +94,19 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.8",
+          "version": "8.10",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:2d5e60577552b5f54566c481ffea177b64152ef9&dn=AlmaLinux-8.8-x86_64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/8.8/isos/x86_64/",
-          "file-size": 153
+          "magnet-url": "magnet:?xt=urn:btih:3a0e9229598866fc0b770149a9300605fdfaa2c6&dn=AlmaLinux-8.10-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.10/isos/x86_64/",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "8.8",
+          "version": "8.10",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:45b01cc0d2f79ad408d830b6280c3527bef7166f&dn=AlmaLinux-8.8-aarch64",
-          "direct-download-url": "https://repo.almalinux.org/almalinux/8.8/isos/aarch64/",
-          "file-size": 153
+          "magnet-url": "magnet:?xt=urn:btih:6d53245d6fc7be1c8c5547cfb9044666fcae5e6a&dn=AlmaLinux-8.10-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.10/isos/aarch64/",
+          "file-size": null
         },
         {
           "arch": "amd64",
@@ -146,10 +146,7 @@
           "file-size": 1130704896
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1889988608
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -572,9 +562,7 @@
           "file-size": 423855428
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -680,10 +668,7 @@
           "file-size": 2639042560
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
