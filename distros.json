@@ -146,7 +146,10 @@
           "file-size": 1130704896
         }
       ],
-      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
+      "trackers": [
+        "udp://tracker.archlinux.org:6969",
+        "http://tracker.archlinux.org:6969/announce"
+      ]
     },
     {
       "name": "Debian",
@@ -223,7 +226,9 @@
           "file-size": 3170893824
         }
       ],
-      "trackers": ["http://bttracker.debian.org:6969/announce"]
+      "trackers": [
+        "http://bttracker.debian.org:6969/announce"
+      ]
     },
     {
       "name": "Elementary",
@@ -353,7 +358,9 @@
           "file-size": 1889988608
         }
       ],
-      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
+      "trackers": [
+        "http://torrent.fedoraproject.org:6969/announce"
+      ]
     },
     {
       "name": "Kali",
@@ -390,7 +397,10 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
+      "trackers": [
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
+      ]
     },
     {
       "name": "Linux Mint",
@@ -562,7 +572,9 @@
           "file-size": 423855428
         }
       ],
-      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
     },
     {
       "name": "Rocky Linux",
@@ -668,7 +680,10 @@
           "file-size": 2639042560
         }
       ],
-      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
+      "trackers": [
+        "https://torrent.ubuntu.com/announce",
+        "https://ipv6.torrent.ubuntu.com/announce"
+      ]
     }
   ],
   "recommended-distro-index": 11,
