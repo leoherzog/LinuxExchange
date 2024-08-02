@@ -143,7 +143,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:cfc214278888c26cb1516399a304c4f74ff6a810&dn=archlinux-2024.08.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2024.08.01/archlinux-2024.08.01-x86_64.iso",
-          "file-size": null
+          "file-size": 1182826496
         }
       ],
       "trackers": [
