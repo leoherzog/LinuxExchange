@@ -146,10 +146,7 @@
           "file-size": 1182826496
         }
       ],
-      "trackers": [
-        "udp://tracker.archlinux.org:6969",
-        "http://tracker.archlinux.org:6969/announce"
-      ]
+      "trackers": ["udp://tracker.archlinux.org:6969", "http://tracker.archlinux.org:6969/announce"]
     },
     {
       "name": "Debian",
@@ -226,9 +223,7 @@
           "file-size": 3175219200
         }
       ],
-      "trackers": [
-        "http://bttracker.debian.org:6969/announce"
-      ]
+      "trackers": ["http://bttracker.debian.org:6969/announce"]
     },
     {
       "name": "Elementary",
@@ -358,9 +353,7 @@
           "file-size": 1889988608
         }
       ],
-      "trackers": [
-        "http://torrent.fedoraproject.org:6969/announce"
-      ]
+      "trackers": ["http://torrent.fedoraproject.org:6969/announce"]
     },
     {
       "name": "Kali",
@@ -397,10 +390,7 @@
           "file-size": 3442995200
         }
       ],
-      "trackers": [
-        "http://tracker.kali.org:6969/announce",
-        "udp://tracker.kali.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.kali.org:6969/announce", "udp://tracker.kali.org:6969/announce"]
     },
     {
       "name": "Linux Mint",
@@ -414,27 +404,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "21.3",
+          "version": "22",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:5aa5483aee76df2eae84ca4109adbc0d0702ab46&dn=linuxmint-21.3-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-cinnamon-64bit.iso",
-          "file-size": 3067232256
+          "magnet-url": "magnet:?xt=urn:btih:a9ae5333b345d9c66ed09e2f72eef639dec5ad1d&dn=linuxmint-22-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22/linuxmint-22-cinnamon-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.3",
+          "version": "22",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:d007d14df3ff7ee6cc8aad36771d9259ff2de166&dn=linuxmint-21.3-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-mate-64bit.iso",
-          "file-size": 3117514752
+          "magnet-url": "magnet:?xt=urn:btih:e0a4058e407dddad1cacf8c9cedb0b2721c07f92&dn=linuxmint-22-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22/linuxmint-22-mate-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "21.3",
+          "version": "22",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:9432cc017033d8eef8b49b1dca50fa16713a664f&dn=linuxmint-21.3-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/21.3/linuxmint-21.3-xfce-64bit.iso",
-          "file-size": 3033710592
+          "magnet-url": "magnet:?xt=urn:btih:affcd07474276825ad07b9f9c7b4d830152b6ec9&dn=linuxmint-22-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22/linuxmint-22-xfce-64bit.iso",
+          "file-size": null
         }
       ],
       "trackers": []
@@ -572,9 +562,7 @@
           "file-size": 423855428
         }
       ],
-      "trackers": [
-        "http://tracker.raspberrypi.org:6969/announce"
-      ]
+      "trackers": ["http://tracker.raspberrypi.org:6969/announce"]
     },
     {
       "name": "Rocky Linux",
@@ -680,21 +668,9 @@
           "file-size": 2639042560
         }
       ],
-      "trackers": [
-        "https://torrent.ubuntu.com/announce",
-        "https://ipv6.torrent.ubuntu.com/announce"
-      ]
+      "trackers": ["https://torrent.ubuntu.com/announce", "https://ipv6.torrent.ubuntu.com/announce"]
     }
   ],
   "recommended-distro-index": 11,
-  "trackers": [
-    "wss://tracker.openwebtorrent.com",
-    "wss://tracker.btorrent.xyz",
-    "wss://tracker.fastcast.nz",
-    "wss://tracker.files.fm:7073/announce",
-    "udp://fosstorrents.com:6969",
-    "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
-    "http://bt1.archive.org:6969/announce",
-    "http://bt2.archive.org:6969/announce"
-  ]
+  "trackers": ["wss://tracker.openwebtorrent.com", "wss://tracker.btorrent.xyz", "wss://tracker.fastcast.nz", "wss://tracker.files.fm:7073/announce", "udp://fosstorrents.com:6969", "http://linuxtracker.org:2710/00000000000000000000000000000000/announce", "http://bt1.archive.org:6969/announce", "http://bt2.archive.org:6969/announce"]
 }
