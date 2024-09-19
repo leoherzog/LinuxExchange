@@ -77,17 +77,14 @@ async function run() {
   // console.log(parsedTorrents.length);
 
   // turn those parsed torrent objects into the format we want to store in the distros.json file
-  let distroVersions = parsedTorrents.map(({ parsedTorrent, sourceUrl, version }) => {
+  let distroVersions = parsedTorrents.map(({ parsedTorrent, sourceUrl }) => {
     let name = parsedTorrent['name'];
-    let afterVersion = name
-      .replace('-live', '')
-      .replace('.torrent', '')
-      .split(version + '-')[1]
-      .split('-');
-    let arch = afterVersion[1].replace('.iso', '');
+    let nameParts = name.replace('.iso', '').split('-');
+    let version = nameParts.find(part => /^\d+\.\d+(\.\d+)?$/.test(part));
+    let arch = nameParts[nameParts.length - 1];
     let de = desktopEnvironments[Object.keys(desktopEnvironments).find((key) => name.includes(key))];
     let magnetUrl = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + name;
-    let directDownloadUrl = new URL(name.replace('.torrent', ''), sourceUrl).href;
+    let directDownloadUrl = new URL(name, sourceUrl).href;
     let fileSize = parsedTorrent['length'];
     return { arch, version, 'desktop-environment': de, 'magnet-url': magnetUrl, 'direct-download-url': directDownloadUrl, 'file-size': fileSize };
   });
@@ -97,9 +94,21 @@ async function run() {
   distros['distros'][distroIndex]['versions'] = distroVersions;
 
   let ltsVersion = calculateLtsVersion();
-  console.log(ltsVersion);
-  const ltsIndex = distroVersions.findIndex((v) => v.version === ltsVersion && v.arch === 'amd64' && v['desktop-environment'] === 'Gnome');
-  distros['distros'][distroIndex]['recommended-version-index'] = ltsIndex;
+  const ltsIndex = distroVersions.findIndex((v) => {
+    return v.version.startsWith(ltsVersion) && 
+           v.arch === 'amd64' && 
+           v['desktop-environment'] === 'Gnome' &&
+           !v.version.includes('daily');
+  });
+  if (ltsIndex === -1) {
+    console.warn(`Warning: Could not find LTS version ${ltsVersion} for amd64 with Gnome desktop. Using latest version instead.`);
+    const latestVersion = distroVersions
+      .filter(v => v.arch === 'amd64' && v['desktop-environment'] === 'Gnome' && !v.version.includes('daily'))
+      .sort((a, b) => parseFloat(b.version) - parseFloat(a.version))[0];
+    distros['distros'][distroIndex]['recommended-version-index'] = distroVersions.indexOf(latestVersion);
+  } else {
+    distros['distros'][distroIndex]['recommended-version-index'] = ltsIndex;
+  }
 
   fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 }
