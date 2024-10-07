@@ -378,7 +378,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:7b1490474e51536e1a7ac0dfec2467e86da232a4&dn=kali-linux-2024.3-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-amd64.iso",
-          "file-size": null
+          "file-size": 4330174464
         },
         {
           "arch": "x86",
@@ -386,7 +386,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2a80b0f44a71c6df5f4d7d034d2e4dbd0e31d930&dn=kali-linux-2024.3-installer-i386.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-i386.iso",
-          "file-size": null
+          "file-size": 3707764736
         },
         {
           "arch": "arm",
@@ -394,7 +394,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2024d5a1c347d4b4cc4f9b0cee1426c80afcad11&dn=kali-linux-2024.3-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-arm64.iso",
-          "file-size": null
+          "file-size": 3624185856
         }
       ],
       "trackers": [
