@@ -374,27 +374,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2024.1",
+          "version": "2024.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:f24f4f54df51118b03f99c74416e4554ab88d22b&dn=kali-linux-2024.1-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-amd64.iso",
-          "file-size": 4102389760
+          "magnet-url": "magnet:?xt=urn:btih:7b1490474e51536e1a7ac0dfec2467e86da232a4&dn=kali-linux-2024.3-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "x86",
-          "version": "2024.1",
+          "version": "2024.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:c4a09eb749cda4a8f7c11ef19f278c09215a3237&dn=kali-linux-2024.1-installer-i386.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-i386.iso",
-          "file-size": 3506438144
+          "magnet-url": "magnet:?xt=urn:btih:2a80b0f44a71c6df5f4d7d034d2e4dbd0e31d930&dn=kali-linux-2024.3-installer-i386.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-i386.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024.1 Apple Silicon",
+          "version": "2024.3 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e37b347cc7c9ec407a1ec32971ea321f0eb6e031&dn=kali-linux-2024.1-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2024.1/kali-linux-2024.1-installer-arm64.iso",
-          "file-size": 3442995200
+          "magnet-url": "magnet:?xt=urn:btih:2024d5a1c347d4b4cc4f9b0cee1426c80afcad11&dn=kali-linux-2024.3-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2024.3/kali-linux-2024.3-installer-arm64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
