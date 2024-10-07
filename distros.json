@@ -451,27 +451,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "24.0",
+          "version": "24.1.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:5875cd780b14f56b3c3f89c320748b4fa574383b&dn=manjaro-gnome-24.0-240513-linux69.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/24.0/manjaro-gnome-24.0-240513-linux69.iso",
-          "file-size": 3932430336
+          "magnet-url": "magnet:?xt=urn:btih:2c9159591d74e0b153d632ea1fbea682983cad1e&dn=manjaro-gnome-24.1.0-241001-linux610.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/24.1.0/manjaro-gnome-24.1.0-241001-linux610.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "24.0",
+          "version": "24.1.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:431a6bb557a41855b8b8ef4f36ecbb3bc2a8fe1d&dn=manjaro-kde-24.0-240513-linux69.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/24.0/manjaro-kde-24.0-240513-linux69.iso",
-          "file-size": 3770959872
+          "magnet-url": "magnet:?xt=urn:btih:97fce22a668600487bf8cf9003a5c58550cf1d60&dn=manjaro-kde-24.1.0-241001-linux610.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/24.1.0/manjaro-kde-24.1.0-241001-linux610.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "24.0",
+          "version": "24.1.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:e866ded4cf42ba25a4fc7ec4af90d3cf09ca50bb&dn=manjaro-xfce-24.0-240513-linux69.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/24.0/manjaro-xfce-24.0-240513-linux69.iso",
-          "file-size": 3579877376
+          "magnet-url": "magnet:?xt=urn:btih:c4b27477b24473ac7ff671e8481b81fa61be088f&dn=manjaro-xfce-24.1.0-241001-linux610.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/24.1.0/manjaro-xfce-24.1.0-241001-linux610.iso",
+          "file-size": null
         }
       ],
       "trackers": []
