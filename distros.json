@@ -641,6 +641,22 @@
         },
         {
           "arch": "amd64",
+          "version": "23.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:fc414693acad63ae0f912fdf134c93e7f227d51e&dn=ubuntu-23.10-beta-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/23.10/ubuntu-23.10-beta-desktop-amd64.iso",
+          "file-size": 5150797824
+        },
+        {
+          "arch": "amd64",
+          "version": "23.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:fbdec14bfa108525d78ba19c67202128532abe9c&dn=ubuntu-23.10-beta-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/23.10/ubuntu-23.10-beta-live-server-amd64.iso",
+          "file-size": 2660288512
+        },
+        {
+          "arch": "amd64",
           "version": "24.04.1",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:4dd9746bd114fd005166f29a63d46e028cd358ec&dn=kubuntu-24.04.1-desktop-amd64.iso",
