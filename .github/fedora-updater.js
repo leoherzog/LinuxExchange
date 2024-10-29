@@ -86,14 +86,18 @@ import * as parseTorrent from 'parse-torrent';
     }
   });
 
+  // Now, process the torrents
   for (let torrentInfo of torrentsToProcess) {
     try {
-      const parsedTorrent = await new Promise((resolve, reject) => {
-        parseTorrent.remote(torrentInfo.torrentUrl, (err, parsedTorrent) => {
-          if (err) reject(err);
-          else resolve(parsedTorrent);
-        });
-      });
+      // Fetch the torrent file
+      const torrentResponse = await fetch(torrentInfo.torrentUrl);
+      if (!torrentResponse.ok) {
+        throw new Error(`Failed to fetch torrent file: ${torrentResponse.statusText}`);
+      }
+      const torrentBuffer = await torrentResponse.arrayBuffer();
+
+      // Parse the torrent buffer
+      const parsedTorrent = parseTorrent(Buffer.from(torrentBuffer));
 
       await updateVersion(torrentInfo, parsedTorrent, distros['distros'][distroIndex]);
 
@@ -136,16 +140,23 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
     spinDir = 'Spins';
   }
 
-  // Use the filename from the torrent's files array
-  const isoFileName = parsedTorrent.files[0].name;
+  // Filter files to those ending with '.iso'
+  const isoFiles = parsedTorrent.files.filter(file => file.name.endsWith('.iso'));
 
-  const archDir = archStr;
+  if (isoFiles.length === 0) {
+    console.warn(`Warning: No ISO file found in the torrent for ${desktopEnvironment} ${arch}`);
+    return;
+  }
+
+  const isoFile = isoFiles.reduce((largest, file) => {
+    return file.length > largest.length ? file : largest;
+  }, isoFiles[0]);
 
   // Construct the direct download URL
-  const directDownloadUrl = `https://download.fedoraproject.org/pub/fedora/linux/releases/${version}/${spinDir}/${archDir}/iso/${encodeURIComponent(isoFileName)}`;
+  const directDownloadUrl = `https://download.fedoraproject.org/pub/fedora/linux/releases/${version}/${spinDir}/${archStr}/iso/${encodeURIComponent(isoFile.name)}`;
 
   correspondingVersion['direct-download-url'] = directDownloadUrl;
 
-  correspondingVersion['file-size'] = null;
+  correspondingVersion['file-size'] = isoFile.length;
 
 }
