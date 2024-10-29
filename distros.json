@@ -263,99 +263,99 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:e59048f790574ff151dd21728e371beedb663c96&dn=Fedora-Budgie-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-40-1.14.iso",
-          "file-size": 2146633728
+          "magnet-url": "magnet:?xt=urn:btih:1c0940b8d46ce9481d38df207f03fa4364cfa4ef&dn=Fedora-Budgie-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Budgie-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:1163dec7521a62381a79bac34dbc1ecf179d0195&dn=Fedora-Cinnamon-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-40-1.14.iso",
-          "file-size": 2558238720
+          "magnet-url": "magnet:?xt=urn:btih:f4994a99f8ab314e5b1c0f8baccac0298f44f51f&dn=Fedora-Cinnamon-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:1021075bad21641897c85f1a4369569d93315f63&dn=Fedora-Workstation-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-40-1.14.iso",
-          "file-size": 2295853056
+          "magnet-url": "magnet:?xt=urn:btih:53a03103d96f85a9d6fbab2620d6fdf0644aca15&dn=Fedora-Workstation-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "i3",
-          "magnet-url": "magnet:?xt=urn:btih:674cdb8ad8f8ec4e5a124520e7bb50a06110ad56&dn=Fedora-i3-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-i3-Live-x86_64-40-1.14.iso",
-          "file-size": 1617053696
+          "magnet-url": "magnet:?xt=urn:btih:c706aecf3162f431dfacc290016f8173441746d1&dn=Fedora-i3-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-i3-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:c9280c39a40a757a340a3aeace428ba638ca2f29&dn=Fedora-KDE-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-40-1.14.iso",
-          "file-size": 2645645312
+          "magnet-url": "magnet:?xt=urn:btih:b9e2a1ab3c3892b223715246e8223da664c24fb4&dn=Fedora-KDE-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "LXDE",
-          "magnet-url": "magnet:?xt=urn:btih:71fc7cfb975654a4c5ffc170802ad31bc25b2738&dn=Fedora-LXDE-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-40-1.14.iso",
-          "file-size": 1741191168
+          "magnet-url": "magnet:?xt=urn:btih:e2f8729e3dffbb93db05c2d57afcabaf1a7a8add&dn=Fedora-LXDE-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:6ef5a794f42a2a67585e48ad95b4f8bc83158370&dn=Fedora-LXQt-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-40-1.14.iso",
-          "file-size": 1845794816
+          "magnet-url": "magnet:?xt=urn:btih:fe6f86dc3ffc80197462047c9ec0ae0fabe26a4c&dn=Fedora-LXQt-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-LXQt-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:b20152d9aa2c2f4df1a2a30fb9b439dda35ae4d8&dn=Fedora-MATE_Compiz-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-40-1.14.iso",
-          "file-size": 2454198272
+          "magnet-url": "magnet:?xt=urn:btih:ee63d4b132983a4974c054dba1d7d9f27a1370bf&dn=Fedora-MATE_Compiz-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:3d99acf4d34032afcd89226c38195785cf0ee9f9&dn=Fedora-Server-dvd-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/x86_64/iso/Fedora-Server-dvd-x86_64-40-1.14.iso",
-          "file-size": 2612854784
+          "magnet-url": "magnet:?xt=urn:btih:4757a5a1fde7654a159591c2d34dcb6578e22b7d&dn=Fedora-Server-dvd-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Server/x86_64/iso/Fedora-Server-dvd-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "40",
+          "version": "41_Beta",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:1b5d680875eb2138968886b016c83483a4087d83&dn=Fedora-Server-dvd-aarch64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Server/aarch64/iso/Fedora-Server-dvd-aarch64-40-1.14.iso",
-          "file-size": 2535260160
+          "magnet-url": "magnet:?xt=urn:btih:5a1acd4a5554c37530d5a81bb7f7fdfc2c349da7&dn=Fedora-Server-dvd-aarch64-41_Beta",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41_Beta/Server/aarch64/iso/Fedora-Server-dvd-aarch64-41_Beta",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "Sugar",
-          "magnet-url": "magnet:?xt=urn:btih:0a3a284f8e4d87531a71177a0a1ec5a2d8c94d7f&dn=Fedora-SoaS-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-40-1.14.iso",
-          "file-size": 1440874496
+          "magnet-url": "magnet:?xt=urn:btih:00835139aba4aa3f6677d3e79d7872d996780137&dn=Fedora-SoaS-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-41",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "40",
+          "version": "41",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:37e809f2ed8cc36e5542b354acda9d9baf11e240&dn=Fedora-Xfce-Live-x86_64-40",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/40/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-40-1.14.iso",
-          "file-size": 1889988608
+          "magnet-url": "magnet:?xt=urn:btih:607e6284c9b690dd2fc7b34e09c97de49a8823e1&dn=Fedora-Xfce-Live-x86_64-41",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/41/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-41",
+          "file-size": null
         }
       ],
       "trackers": [
