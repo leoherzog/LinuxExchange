@@ -136,8 +136,8 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
     spinDir = 'Spins';
   }
 
-  // The iso name is parsedTorrent.name
-  const isoFileName = parsedTorrent.name;
+  // Use the filename from the torrent's files array
+  const isoFileName = parsedTorrent.files[0].name;
 
   const archDir = archStr;
 
