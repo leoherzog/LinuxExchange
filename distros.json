@@ -122,7 +122,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:8f51a5ff5a810e74a2dbf67e07a28c6dcdd57b77&dn=AlmaLinux-9.5-aarch64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/9.5/isos/aarch64/",
-          "file-size": null
+          "file-size": 1699
         }
       ],
       "trackers": []
