@@ -378,7 +378,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:b573e7a597f470fc35442cb7d2f96809a56e48d8&dn=kali-linux-2024.4-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2024.4/kali-linux-2024.4-installer-amd64.iso",
-          "file-size": null
+          "file-size": 4373655552
         },
         {
           "arch": "arm",
@@ -386,7 +386,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:2441e069efae50fe7c16ca720d4e5590d4b331d7&dn=kali-linux-2024.4-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2024.4/kali-linux-2024.4-installer-arm64.iso",
-          "file-size": null
+          "file-size": 3657740288
         }
       ],
       "trackers": [
