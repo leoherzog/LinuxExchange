@@ -141,7 +141,7 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
   }
 
   // Filter files to those ending with '.iso'
-  const isoFiles = parsedTorrent.files.filter(file => file.name.endsWith('.iso'));
+  const isoFiles = parsedTorrent.files.filter(file => file.name.endsWith('.iso') && !file.name.includes('beta'));
 
   if (isoFiles.length === 0) {
     console.warn(`Warning: No ISO file found in the torrent for ${desktopEnvironment} ${arch}`);
