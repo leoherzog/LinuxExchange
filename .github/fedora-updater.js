@@ -46,6 +46,8 @@ import * as parseTorrent from 'parse-torrent';
       const size = $(tds[2]).text().trim();
       const date = $(tds[4]).text().trim();
 
+      if (fileName.toLowerCase().includes('beta')) return;
+
       // Extract spin, arch, version from description
       const descriptionParts = description.split(' '); // e.g., ['Fedora', 'Cinnamon', 'Live', 'x86_64', '41']
 
@@ -141,7 +143,7 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
   }
 
   // Filter files to those ending with '.iso'
-  const isoFiles = parsedTorrent.files.filter(file => file.name.endsWith('.iso') && !file.name.includes('beta'));
+  const isoFiles = parsedTorrent.files.filter(file => file.name.endsWith('.iso'));
 
   if (isoFiles.length === 0) {
     console.warn(`Warning: No ISO file found in the torrent for ${desktopEnvironment} ${arch}`);
