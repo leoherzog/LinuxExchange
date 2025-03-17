@@ -399,7 +399,7 @@
       "full-name": "Linux Mint",
       "primary-color": "#87cf3e",
       "url": "https://linuxmint.com/",
-      "torrent-download-page-url": "https://linuxmint.com/torrents/",
+      "torrent-download-page-url": "https://linuxmint.com/download.php",
       "description": "An Ubuntu derivative, focused on ease of use and comfort for someone who is new to Linux",
       "font-logos-icon": "fl-linuxmint",
       "recommended-version-index": 0,
