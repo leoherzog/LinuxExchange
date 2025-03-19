@@ -242,11 +242,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "8.0",
+          "version": "8.0.1",
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:ca69606c5767ec131cc6d6618885b8920ca3f8e8&dn=elementaryos-8.0-stable.20250314rc.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-8.0-stable.20250314rc.iso",
-          "file-size": 3218079744
+          "file-size": null
         }
       ],
       "trackers": []
