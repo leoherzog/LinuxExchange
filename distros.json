@@ -744,7 +744,9 @@
   ],
   "recommended-distro-index": 11,
   "trackers": [
+    "https://tracker.webtorrent.dev/",
     "wss://tracker.openwebtorrent.com",
+    "https://tracker.novage.com.ua/",
     "wss://tracker.btorrent.xyz",
     "wss://tracker.fastcast.nz",
     "wss://tracker.files.fm:7073/announce",
