@@ -378,7 +378,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:9ba2973f0afd6c7cdd5356efed489e3fb0cdf20f&dn=kali-linux-2025.1a-installer-amd64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso",
-          "file-size": null
+          "file-size": 4439457792
         },
         {
           "arch": "arm",
@@ -386,7 +386,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:24d1937931eb8f48d6e8ae50fc31f0d932ed80c0&dn=kali-linux-2025.1a-installer-arm64.iso",
           "direct-download-url": "https://kali.download/base-images/kali-2025.1a/kali-linux-2025.1a-installer-arm64.iso",
-          "file-size": null
+          "file-size": 3758403584
         }
       ],
       "trackers": [
