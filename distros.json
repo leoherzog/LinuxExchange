@@ -609,131 +609,83 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:6e70405c2c3372c1df05f4631b2f77ac90323322&dn=ubuntu-budgie-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.10/release/ubuntu-budgie-24.10-desktop-amd64.iso",
-          "file-size": 3463921664
+          "magnet-url": "magnet:?xt=urn:btih:6ec240144287ba84064260f598d742f4314dd922&dn=ubuntu-budgie-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.2-desktop-amd64.iso",
+          "file-size": 4248414208
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "24.04.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:ff9170af75fb60997a875f402651fdb26603f74c&dn=ubuntu-23.04-beta-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-desktop-amd64.iso",
-          "file-size": 4847755264
+          "magnet-url": "magnet:?xt=urn:btih:611f70899d4e1d6a9c39cfc925f103dfef630328&dn=ubuntu-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.2-desktop-amd64.iso",
+          "file-size": 6343219200
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "24.04.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:e43fedadc0cae748c3c21d3a7ce485c816587a72&dn=ubuntu-23.04-beta-desktop-legacy-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-desktop-legacy-amd64.iso",
-          "file-size": 3837267968
+          "magnet-url": "magnet:?xt=urn:btih:af89ab583826696f9e77d4cc07826e65ed831bf4&dn=ubuntu-24.04.2-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.2-live-server-amd64.iso",
+          "file-size": 3213064192
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "25.04",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:b9c5c61454ec0acfd25501e5b865f2cb730c7167&dn=ubuntu-23.04-beta-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-live-server-amd64.iso",
-          "file-size": 2673633280
-        },
-        {
-          "arch": "arm64",
-          "version": "23.04",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:53526de7162725c300ad75df355524878803ab16&dn=ubuntu-23.04-beta-live-server-arm64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-live-server-arm64.iso",
-          "file-size": 2114236416
-        },
-        {
-          "arch": "ppc64el",
-          "version": "23.04",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:51fa8b41531437b96ae69c27af3a87361d72b085&dn=ubuntu-23.04-beta-live-server-ppc64el.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-live-server-ppc64el.iso",
-          "file-size": 1806524416
-        },
-        {
-          "arch": "s390x",
-          "version": "23.04",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:9e703a9d18a35eccee91782ce724c37d4de3603e&dn=ubuntu-23.04-beta-live-server-s390x.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-beta-live-server-s390x.iso",
-          "file-size": 1131223040
+          "magnet-url": "magnet:?xt=urn:btih:6413150f49f42d6d8a351727008d9ca8b267c46f&dn=ubuntu-25.04-beta-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso",
+          "file-size": 6339821568
         },
         {
           "arch": "amd64",
-          "version": "23.04",
+          "version": "25.04",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:443c7602b4fde83d1154d6d9da48808418b181b6&dn=ubuntu-23.04-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-desktop-amd64.iso",
-          "file-size": 4932407296
+          "magnet-url": "magnet:?xt=urn:btih:5fd77b1af847678ee7b62e8dca01bd66db18ff4f&dn=ubuntu-25.04-beta-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-live-server-amd64.iso",
+          "file-size": 2020927488
         },
         {
           "arch": "amd64",
-          "version": "23.04",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:d6b4535ba8f2b34012bc633569f113e77017e032&dn=ubuntu-23.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/23.04/ubuntu-23.04-live-server-amd64.iso",
-          "file-size": 2641264640
-        },
-        {
-          "arch": "amd64",
-          "version": "24.10",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:3f9aac158c7de8dfcab171ea58a17aabdf7fbc93&dn=ubuntu-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso",
-          "file-size": 5665497088
-        },
-        {
-          "arch": "amd64",
-          "version": "24.10",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:3f11b26c738a374acf78d3def4067e37d91d5f67&dn=ubuntu-24.10-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso",
-          "file-size": 2098460672
-        },
-        {
-          "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:5cb55474d41cad0279414aba9f1620a9ca0b09e1&dn=kubuntu-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/24.10/release/kubuntu-24.10-desktop-amd64.iso",
-          "file-size": 4678961152
+          "magnet-url": "magnet:?xt=urn:btih:1465e8fac183ab6b04384b83aeaddf58da33028b&dn=kubuntu-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.2-desktop-amd64.iso",
+          "file-size": 4527759360
         },
         {
           "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:8f18db62beb7790bf70ddb93453aa15576994ca9&dn=lubuntu-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/24.10/release/lubuntu-24.10-desktop-amd64.iso",
-          "file-size": 3513397248
+          "magnet-url": "magnet:?xt=urn:btih:4335da1d154210784e145b7485f9da55e883b2af&dn=lubuntu-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.2-desktop-amd64.iso",
+          "file-size": 3352426496
         },
         {
           "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "Mate",
-          "magnet-url": "magnet:?xt=urn:btih:bae16ce3d55349d55e41778b61c1890e21bf275b&dn=ubuntu-mate-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.10/release/ubuntu-mate-24.10-desktop-amd64.iso",
-          "file-size": 3521746944
+          "magnet-url": "magnet:?xt=urn:btih:d6663939e41a8ba70ea153a34a17f896e084fd58&dn=ubuntu-mate-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.2-desktop-amd64.iso",
+          "file-size": 4301398016
         },
         {
           "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:a161b9fd4ffd9af2ab0806e5a8087427c5e718e4&dn=xubuntu-24.10-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.10/release/xubuntu-24.10-desktop-amd64.iso",
-          "file-size": 4270448640
+          "magnet-url": "magnet:?xt=urn:btih:146bb67502c098047f846ef53d17b8c7fd0fa875&dn=xubuntu-24.04.2-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-desktop-amd64.iso",
+          "file-size": 4242739200
         },
         {
           "arch": "amd64",
-          "version": "24.10",
+          "version": "24.04.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:ed5d5caa8b9303fd56e27b7d63f8507fbd1e11bc&dn=xubuntu-24.10-minimal-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.10/release/xubuntu-24.10-minimal-amd64.iso",
-          "file-size": 2824382464
+          "magnet-url": "magnet:?xt=urn:btih:e79a7c61630940a12c2707327b13dd20ea002e2e&dn=xubuntu-24.04.2-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-minimal-amd64.iso",
+          "file-size": 2755758080
         }
       ],
       "trackers": [
