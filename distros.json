@@ -435,35 +435,35 @@
       "name": "Manjaro",
       "full-name": "Manjaro",
       "primary-color": "#34be5b",
-      "url": "https://manjaro.org/",
-      "torrent-download-page-url": "https://manjaro.org/download/",
+      "url": "https://manjaro.org",
+      "torrent-download-page-url": "https://manjaro.org/products",
       "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
       "font-logos-icon": "fl-manjaro",
       "recommended-version-index": 0,
       "versions": [
         {
           "arch": "amd64",
-          "version": "24.2.1",
+          "version": "25.0.0",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:7f2b8b07f8ba4968da1d74626ce18412a67cd5b7&dn=manjaro-gnome-24.2.1-241216-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso",
-          "file-size": 4148649984
+          "magnet-url": "magnet:?xt=urn:btih:df16c04fca35615cbaf3e278c687f46c5e0a4a2c&dn=manjaro-gnome-25.0.0-250414-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/25.0.0/manjaro-gnome-25.0.0-250414-linux612.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "24.2.1",
+          "version": "25.0.0",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:18a3a64c11af35933203a5e04b9bf43c747aefc4&dn=manjaro-kde-24.2.1-241216-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso",
-          "file-size": 4327022592
+          "magnet-url": "magnet:?xt=urn:btih:7f4bd6e31964312db55fba18991e36a00544fb71&dn=manjaro-kde-25.0.0-250414-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/25.0.0/manjaro-kde-25.0.0-250414-linux612.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "24.2.1",
+          "version": "25.0.0",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:d9a82facf9ed8bdb922115eb05b498549b3ea99f&dn=manjaro-xfce-24.2.1-241216-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso",
-          "file-size": 3903111168
+          "magnet-url": "magnet:?xt=urn:btih:f2c272ad7627354db7801d8fd90dd907772d652c&dn=manjaro-xfce-25.0.0-250414-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/25.0.0/manjaro-xfce-25.0.0-250414-linux612.iso",
+          "file-size": null
         }
       ],
       "trackers": []
