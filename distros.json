@@ -447,7 +447,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:df16c04fca35615cbaf3e278c687f46c5e0a4a2c&dn=manjaro-gnome-25.0.0-250414-linux612.iso",
           "direct-download-url": "https://download.manjaro.org/gnome/25.0.0/manjaro-gnome-25.0.0-250414-linux612.iso",
-          "file-size": null
+          "file-size": 4350218240
         },
         {
           "arch": "amd64",
@@ -455,7 +455,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:7f4bd6e31964312db55fba18991e36a00544fb71&dn=manjaro-kde-25.0.0-250414-linux612.iso",
           "direct-download-url": "https://download.manjaro.org/kde/25.0.0/manjaro-kde-25.0.0-250414-linux612.iso",
-          "file-size": null
+          "file-size": 4507607040
         },
         {
           "arch": "amd64",
@@ -463,7 +463,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:f2c272ad7627354db7801d8fd90dd907772d652c&dn=manjaro-xfce-25.0.0-250414-linux612.iso",
           "direct-download-url": "https://download.manjaro.org/xfce/25.0.0/manjaro-xfce-25.0.0-250414-linux612.iso",
-          "file-size": null
+          "file-size": 4072673280
         }
       ],
       "trackers": []
