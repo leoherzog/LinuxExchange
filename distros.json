@@ -605,7 +605,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 1,
+      "recommended-version-index": 2,
       "versions": [
         {
           "arch": "amd64",
@@ -614,6 +614,14 @@
           "magnet-url": "magnet:?xt=urn:btih:6ec240144287ba84064260f598d742f4314dd922&dn=ubuntu-budgie-24.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.2-desktop-amd64.iso",
           "file-size": 4248414208
+        },
+        {
+          "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:0872aa1591d1e922f25818e9c20e7fcdaf899082&dn=ubuntu-budgie-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso",
+          "file-size": 3530133504
         },
         {
           "arch": "amd64",
@@ -635,17 +643,17 @@
           "arch": "amd64",
           "version": "25.04",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:6413150f49f42d6d8a351727008d9ca8b267c46f&dn=ubuntu-25.04-beta-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-desktop-amd64.iso",
-          "file-size": 6339821568
+          "magnet-url": "magnet:?xt=urn:btih:8a19577fb5f690970ca43a57ff1011ae202244b8&dn=ubuntu-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso",
+          "file-size": 6278520832
         },
         {
           "arch": "amd64",
           "version": "25.04",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:5fd77b1af847678ee7b62e8dca01bd66db18ff4f&dn=ubuntu-25.04-beta-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-beta-live-server-amd64.iso",
-          "file-size": 2020927488
+          "magnet-url": "magnet:?xt=urn:btih:dd5600473d34ffa3bdbe0f25800ec3981752ac60&dn=ubuntu-25.04-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso",
+          "file-size": 2021750784
         },
         {
           "arch": "amd64",
@@ -657,6 +665,14 @@
         },
         {
           "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:0f9a0717e0a89cf283c3b7814ec67557960d7803&dn=kubuntu-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso",
+          "file-size": 4699852800
+        },
+        {
+          "arch": "amd64",
           "version": "24.04.2",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:4335da1d154210784e145b7485f9da55e883b2af&dn=lubuntu-24.04.2-desktop-amd64.iso",
@@ -665,11 +681,27 @@
         },
         {
           "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:21ea149c5be71398bffad9ef088ae665414b9037&dn=lubuntu-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso",
+          "file-size": 3344099328
+        },
+        {
+          "arch": "amd64",
           "version": "24.04.2",
           "desktop-environment": "Mate",
           "magnet-url": "magnet:?xt=urn:btih:d6663939e41a8ba70ea153a34a17f896e084fd58&dn=ubuntu-mate-24.04.2-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.2-desktop-amd64.iso",
           "file-size": 4301398016
+        },
+        {
+          "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "Mate",
+          "magnet-url": "magnet:?xt=urn:btih:f96ec24df9376129de9e7b0d842b187e0b8815a0&dn=ubuntu-mate-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso",
+          "file-size": 3724666880
         },
         {
           "arch": "amd64",
@@ -686,6 +718,22 @@
           "magnet-url": "magnet:?xt=urn:btih:e79a7c61630940a12c2707327b13dd20ea002e2e&dn=xubuntu-24.04.2-minimal-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.2-minimal-amd64.iso",
           "file-size": 2755758080
+        },
+        {
+          "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:bdc7850e20eddd59bc0530ce334ef4be167ce9af&dn=xubuntu-25.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso",
+          "file-size": 4557887488
+        },
+        {
+          "arch": "amd64",
+          "version": "25.04",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:9c1a455c70c6a878545e448d4927b7d8f9bbedff&dn=xubuntu-25.04-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-minimal-amd64.iso",
+          "file-size": 2993717248
         }
       ],
       "trackers": [
