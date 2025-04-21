@@ -28,7 +28,7 @@ function parseWebpage(url, body) {
   });
 
   for (var link of torrentLinks) {
-    parseTorrent.remote(link, updateVersion);
+    remote(link, updateVersion);
   }
 
   return;

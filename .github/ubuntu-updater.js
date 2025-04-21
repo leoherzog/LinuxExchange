@@ -59,7 +59,7 @@ async function run() {
     torrentFileLinks.map(
       (link) =>
         new Promise((resolve, reject) => {
-          parseTorrent.remote(link.torrentUrl, (err, parsedTorrent) => {
+          remote(link.torrentUrl, (err, parsedTorrent) => {
             if (err) {
               reject(err);
             } else {
