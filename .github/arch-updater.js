@@ -1,6 +1,6 @@
 import fs from 'fs'
 import Parser from 'rss-parser';
-import {remote} from 'parse-torrent';
+import parseTorrent, { remote } from 'parse-torrent';
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 

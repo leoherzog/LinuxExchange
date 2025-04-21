@@ -1,6 +1,6 @@
 import fs from 'fs';
 import * as cheerio from 'cheerio';
-import parseTorrent from 'parse-torrent';
+import parseTorrent, { remote } from 'parse-torrent';
 
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
