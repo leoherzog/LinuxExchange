@@ -513,55 +513,55 @@
       "torrent-download-page-url": "https://www.raspberrypi.com/software/operating-systems/",
       "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
       "font-logos-icon": "fl-raspberry-pi",
-      "recommended-version-index": 0,
+      "recommended-version-index": 3,
       "versions": [
         {
           "arch": "arm",
-          "version": "2024-11-19",
+          "version": "2025-05-06",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:bcb1304963fe81bca67451d12c1c1c1f6d6051d7&dn=2024-11-19-raspios-bookworm-armhf.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2024-11-19/2024-11-19-raspios-bookworm-armhf.img.xz",
-          "file-size": 1233753744
+          "magnet-url": "magnet:?xt=urn:btih:685442b465e0ad160eb230b177a67bd6882c85e1&dn=2025-05-06-raspios-bookworm-armhf.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2025-05-07/2025-05-06-raspios-bookworm-armhf.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024-11-19 with Recommended Software",
+          "version": "2025-05-06 with Recommended Software",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:adc3f1e0f26a0cd61b246ed4af1fa27a8f39f565&dn=2024-11-19-raspios-bookworm-armhf-full.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2024-11-19/2024-11-19-raspios-bookworm-armhf-full.img.xz",
-          "file-size": 2859320892
+          "magnet-url": "magnet:?xt=urn:btih:dfca6e5b7a198f02b4c052a28caff1072ed59fff&dn=2025-05-06-raspios-bookworm-armhf-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2025-05-07/2025-05-06-raspios-bookworm-armhf-full.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024-11-19",
+          "version": "2025-05-06",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:8af230682b9d8589adb4f42a56a09c6941cd4084&dn=2024-11-19-raspios-bookworm-armhf-lite.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2024-11-19/2024-11-19-raspios-bookworm-armhf-lite.img.xz",
-          "file-size": 532543404
+          "magnet-url": "magnet:?xt=urn:btih:a1f6711add9fc791dd3c81dc7c3142f335ccbdd6&dn=2025-05-06-raspios-bookworm-armhf-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2025-05-07/2025-05-06-raspios-bookworm-armhf-lite.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024-11-19 (64-Bit)",
+          "version": "2025-05-06 (64-Bit)",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:a2786c35fdd6955d87800360d6c8b6beda4cef8c&dn=2024-11-19-raspios-bookworm-arm64.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2024-11-19/2024-11-19-raspios-bookworm-arm64.img.xz",
-          "file-size": 1236435364
+          "magnet-url": "magnet:?xt=urn:btih:ddc4f85fcb3133495e51f47b1bd63077631ebad0&dn=2025-05-06-raspios-bookworm-arm64.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-05-07/2025-05-06-raspios-bookworm-arm64.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024-11-19 with Recommended Software (64-Bit)",
+          "version": "2025-05-06 with Recommended Software (64-Bit)",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:b55622bdabd98581f36e7e61a91e6efb516f3a6c&dn=2024-11-19-raspios-bookworm-arm64-full.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2024-11-19/2024-11-19-raspios-bookworm-arm64-full.img.xz",
-          "file-size": 3098494844
+          "magnet-url": "magnet:?xt=urn:btih:18bdc16625775ae34e804a8e060f2badac19b1fe&dn=2025-05-06-raspios-bookworm-arm64-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2025-05-07/2025-05-06-raspios-bookworm-arm64-full.img.xz",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2024-11-19 (64-Bit)",
+          "version": "2025-05-06 (64-Bit)",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:b8e3423a38abe825735f11c075401280bdf22952&dn=2024-11-19-raspios-bookworm-arm64-lite.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-11-19/2024-11-19-raspios-bookworm-arm64-lite.img.xz",
-          "file-size": 459000608
+          "magnet-url": "magnet:?xt=urn:btih:6f28ecc6ac997f24b0c027839d0273f24a289256&dn=2025-05-06-raspios-bookworm-arm64-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2025-05-07/2025-05-06-raspios-bookworm-arm64-lite.img.xz",
+          "file-size": null
         }
       ],
       "trackers": [
