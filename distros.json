@@ -114,7 +114,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:4a3965b262830e81389e769e5fe4589c49a49470&dn=AlmaLinux-9.5-x86_64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/9.5/isos/x86_64",
-          "file-size": null
+          "file-size": 153
         },
         {
           "arch": "arm",
