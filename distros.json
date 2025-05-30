@@ -98,7 +98,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e1b6e026965cc3bfcc0729dd9e2df73939e912b7&dn=AlmaLinux-10.0-x86_64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/10/isos/x86_64/",
-          "file-size": null
+          "file-size": 1695
         },
         {
           "arch": "arm",
@@ -114,7 +114,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9dd71c356ea7c1d3f0330f3725a290efeed83894&dn=AlmaLinux-9.6-x86_64",
           "direct-download-url": "https://repo.almalinux.org/almalinux/9.6/isos/x86_64/",
-          "file-size": null
+          "file-size": 1687
         },
         {
           "arch": "arm",
