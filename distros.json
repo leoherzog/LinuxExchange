@@ -600,7 +600,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:c4ba64904114cb73dd6f0b6548b0611c2af8e1f1&dn=Rocky-10.0-x86_64-dvd1",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.0-x86_64-dvd1.iso",
-          "file-size": null
+          "file-size": 7660371968
         },
         {
           "arch": "arm",
@@ -608,7 +608,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:9fda896dda6c431a13d0f3c7a4d8d34155ae2144&dn=Rocky-10.0-aarch64-dvd1",
           "direct-download-url": "https://download.rockylinux.org/pub/rocky/10/isos/aarch64/Rocky-10.0-aarch64-dvd1.iso",
-          "file-size": null
+          "file-size": 7135100928
         },
         {
           "arch": "amd64",
