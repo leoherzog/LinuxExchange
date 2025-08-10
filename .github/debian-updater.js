@@ -53,6 +53,12 @@ function updateVersion(err, parsedTorrent) {
   if (arch == 'x86') arch = 'i386';
   if (de == 'no desktop environment') de = 'standard';
 
+  // Skip if no corresponding version exists (e.g., new desktop environment variant)
+  if (!correspondingVersion) {
+    console.log(`Skipping ${parsedTorrent['name']}: No matching version found for arch=${arch}, de=${de}`);
+    return;
+  }
+
   if (correspondingVersion['version'] != versionNumber) {
 
     correspondingVersion['version'] = versionNumber;
