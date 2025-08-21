@@ -58,7 +58,7 @@ async function parseTorrentWithRetry(url, maxRetries = 3) {
 
 async function updateArch() {
   try {
-    const feed = await fetchWithRetry('https://www.archlinux.org/feeds/releases/');
+    const feed = await fetchWithRetry('https://archlinux.org/feeds/releases/');
     
     if (!feed || !feed.items || feed.items.length === 0) {
       console.log('No items found in RSS feed');
