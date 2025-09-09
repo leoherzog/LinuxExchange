@@ -426,7 +426,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:4a984ee35f1f09e95e50c224ab70b775a43e8e06&dn=linuxmint-22.2-cinnamon-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso",
-          "file-size": null
+          "file-size": 3055239168
         },
         {
           "arch": "amd64",
@@ -434,7 +434,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:762b53448c1e0725babbc5e334652dc3faf326e7&dn=linuxmint-22.2-mate-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-mate-64bit.iso",
-          "file-size": null
+          "file-size": 3117514752
         },
         {
           "arch": "amd64",
@@ -442,7 +442,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:510b36c9aeaf2becbfff5d46fcc2fe5d39d76f82&dn=linuxmint-22.2-xfce-64bit.iso",
           "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-xfce-64bit.iso",
-          "file-size": null
+          "file-size": 3019898880
         }
       ],
       "trackers": []
