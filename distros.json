@@ -422,27 +422,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "22.1",
+          "version": "22.2",
           "desktop-environment": "Cinnamon",
-          "magnet-url": "magnet:?xt=urn:btih:5d4d25e0e66647c7e289202d788075d6884ec002&dn=linuxmint-22.1-cinnamon-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-cinnamon-64bit.iso",
-          "file-size": 2980511744
+          "magnet-url": "magnet:?xt=urn:btih:4a984ee35f1f09e95e50c224ab70b775a43e8e06&dn=linuxmint-22.2-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-cinnamon-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "22.1",
+          "version": "22.2",
           "desktop-environment": "MATE",
-          "magnet-url": "magnet:?xt=urn:btih:768a426b12762ba31ed77db375cea42a4aefc75d&dn=linuxmint-22.1-mate-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-mate-64bit.iso",
-          "file-size": 2983428096
+          "magnet-url": "magnet:?xt=urn:btih:762b53448c1e0725babbc5e334652dc3faf326e7&dn=linuxmint-22.2-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-mate-64bit.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "22.1",
+          "version": "22.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:8d06a1e485ab01ac799cc56d1e7e88d747e26684&dn=linuxmint-22.1-xfce-64bit.iso",
-          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.1/linuxmint-22.1-xfce-64bit.iso",
-          "file-size": 2885681152
+          "magnet-url": "magnet:?xt=urn:btih:510b36c9aeaf2becbfff5d46fcc2fe5d39d76f82&dn=linuxmint-22.2-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.2/linuxmint-22.2-xfce-64bit.iso",
+          "file-size": null
         }
       ],
       "trackers": []
