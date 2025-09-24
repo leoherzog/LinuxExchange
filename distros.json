@@ -390,19 +390,19 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2025.1a",
+          "version": "2025.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:9ba2973f0afd6c7cdd5356efed489e3fb0cdf20f&dn=kali-linux-2025.1a-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2025.1a/kali-linux-2025.1a-installer-amd64.iso",
-          "file-size": 4439457792
+          "magnet-url": "magnet:?xt=urn:btih:920dcb9268b2e20fbe0f0bd9a4de82188ce28033&dn=kali-linux-2025.3-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2025.3/kali-linux-2025.3-installer-amd64.iso",
+          "file-size": null
         },
         {
           "arch": "arm",
-          "version": "2025.1a Apple Silicon",
+          "version": "2025.3 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:24d1937931eb8f48d6e8ae50fc31f0d932ed80c0&dn=kali-linux-2025.1a-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2025.1a/kali-linux-2025.1a-installer-arm64.iso",
-          "file-size": 3758403584
+          "magnet-url": "magnet:?xt=urn:btih:1ece73cdf27ed85cdfc0ca9d583ec996e2d5f26f&dn=kali-linux-2025.3-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2025.3/kali-linux-2025.3-installer-arm64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
