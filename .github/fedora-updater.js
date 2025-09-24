@@ -11,7 +11,7 @@ import parseTorrent, { remote } from 'parse-torrent';
     { name: 'Fedora Budgie Live', desktopEnvironment: 'Budgie', arch: 'amd64' },
     { name: 'Fedora Cinnamon Live', desktopEnvironment: 'Cinnamon', arch: 'amd64' },
     { name: 'Fedora i3 Live', desktopEnvironment: 'i3', arch: 'amd64' },
-    { name: 'Fedora KDE Live', desktopEnvironment: 'KDE', arch: 'amd64' },
+    { name: 'Fedora KDE Desktop Live', desktopEnvironment: 'KDE', arch: 'amd64' },
     { name: 'Fedora LXDE Live', desktopEnvironment: 'LXDE', arch: 'amd64' },
     { name: 'Fedora LXQt Live', desktopEnvironment: 'LXQt', arch: 'amd64' },
     { name: 'Fedora MATE_Compiz Live', desktopEnvironment: 'MATE', arch: 'amd64' },
@@ -88,9 +88,20 @@ import parseTorrent, { remote } from 'parse-torrent';
     }
   });
 
+  // Find the latest version number
+  const latestVersion = torrentsToProcess.reduce((maxVersion, torrent) => {
+    const version = parseInt(torrent.version);
+    return version > maxVersion ? version : maxVersion;
+  }, 0).toString();
+
+  // Filter to only process the latest version
+  const latestTorrents = torrentsToProcess.filter(t => t.version === latestVersion);
+
   // Now, process the torrents
-  for (let torrentInfo of torrentsToProcess) {
+  console.log(`Processing ${latestTorrents.length} torrents for version ${latestVersion}...`);
+  for (let torrentInfo of latestTorrents) {
     try {
+      console.log(`  Processing: ${torrentInfo.spinName} ${torrentInfo.arch} v${torrentInfo.version}`);
       // Fetch the torrent file
       const torrentResponse = await fetch(torrentInfo.torrentUrl);
       if (!torrentResponse.ok) {
@@ -129,6 +140,7 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
     return;
   }
 
+  console.log(`    Updating ${desktopEnvironment} ${arch} from v${correspondingVersion['version']} to v${version}`);
   correspondingVersion['version'] = version;
   correspondingVersion['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + encodeURIComponent(parsedTorrent['name']);
 
