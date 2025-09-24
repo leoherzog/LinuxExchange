@@ -459,27 +459,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "25.0.0",
+          "version": "25.0.8",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:df16c04fca35615cbaf3e278c687f46c5e0a4a2c&dn=manjaro-gnome-25.0.0-250414-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/25.0.0/manjaro-gnome-25.0.0-250414-linux612.iso",
-          "file-size": 4350218240
+          "magnet-url": "magnet:?xt=urn:btih:4f3e8e59ba8b1bc8793c8a6c41edc2bcfb7f5c1d&dn=manjaro-gnome-25.0.8-250902-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/25.0.8/manjaro-gnome-25.0.8-250902-linux612.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "25.0.0",
+          "version": "25.0.8",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:7f4bd6e31964312db55fba18991e36a00544fb71&dn=manjaro-kde-25.0.0-250414-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/25.0.0/manjaro-kde-25.0.0-250414-linux612.iso",
-          "file-size": 4507607040
+          "magnet-url": "magnet:?xt=urn:btih:0c5bad19ff44ec0c4de506aa4b053b7a7191f754&dn=manjaro-kde-25.0.8-250902-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/25.0.8/manjaro-kde-25.0.8-250902-linux612.iso",
+          "file-size": null
         },
         {
           "arch": "amd64",
-          "version": "25.0.0",
+          "version": "25.0.8",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:f2c272ad7627354db7801d8fd90dd907772d652c&dn=manjaro-xfce-25.0.0-250414-linux612.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/25.0.0/manjaro-xfce-25.0.0-250414-linux612.iso",
-          "file-size": 4072673280
+          "magnet-url": "magnet:?xt=urn:btih:1b0bc51d4dda46671317151581ba374ff3a1246b&dn=manjaro-xfce-25.0.8-250902-linux612.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/25.0.8/manjaro-xfce-25.0.8-250902-linux612.iso",
+          "file-size": null
         }
       ],
       "trackers": []
