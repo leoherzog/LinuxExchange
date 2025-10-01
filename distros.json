@@ -637,7 +637,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 2,
+      "recommended-version-index": 1,
       "versions": [
         {
           "arch": "amd64",
@@ -646,14 +646,6 @@
           "magnet-url": "magnet:?xt=urn:btih:30a58da32e6b65b5b79f155cc3871a5921175816&dn=ubuntu-budgie-24.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso",
           "file-size": 4317884416
-        },
-        {
-          "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "Budgie",
-          "magnet-url": "magnet:?xt=urn:btih:0872aa1591d1e922f25818e9c20e7fcdaf899082&dn=ubuntu-budgie-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.04/release/ubuntu-budgie-25.04-desktop-amd64.iso",
-          "file-size": 3530133504
         },
         {
           "arch": "amd64",
@@ -673,19 +665,67 @@
         },
         {
           "arch": "amd64",
-          "version": "25.04",
+          "version": "24.10",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:8a19577fb5f690970ca43a57ff1011ae202244b8&dn=ubuntu-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-desktop-amd64.iso",
-          "file-size": 6278520832
+          "magnet-url": "magnet:?xt=urn:btih:595f233d55555d95b4a69316f954689e08ee9c8f&dn=ubuntu-24.10-beta-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-desktop-amd64.iso",
+          "file-size": 6595856384
         },
         {
           "arch": "amd64",
-          "version": "25.04",
+          "version": "24.10",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:dd5600473d34ffa3bdbe0f25800ec3981752ac60&dn=ubuntu-25.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/25.04/ubuntu-25.04-live-server-amd64.iso",
-          "file-size": 2021750784
+          "magnet-url": "magnet:?xt=urn:btih:43cd48251a00fea4b50b47a37bbf59e7d7c7f954&dn=ubuntu-24.10-beta-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-live-server-amd64.iso",
+          "file-size": 2095644672
+        },
+        {
+          "arch": "arm64+largemem",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:5d8724af1b1f1a2d7822428527cfe734ee9d29f6&dn=ubuntu-24.10-beta-live-server-arm64+largemem.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-live-server-arm64+largemem.iso",
+          "file-size": 1897984000
+        },
+        {
+          "arch": "arm64",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:d22c9ca1da81f9c7acd4902751dc4dc8cef10347&dn=ubuntu-24.10-beta-live-server-arm64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-live-server-arm64.iso",
+          "file-size": 2116300800
+        },
+        {
+          "arch": "ppc64el",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:a2029f6e13a6b0488be37eb4017a68dd5fbbd087&dn=ubuntu-24.10-beta-live-server-ppc64el.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-live-server-ppc64el.iso",
+          "file-size": 1566242816
+        },
+        {
+          "arch": "s390x",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:8d66e4f7e02c64e42739d6ed3563a3d148191a86&dn=ubuntu-24.10-beta-live-server-s390x.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-beta-live-server-s390x.iso",
+          "file-size": 764657664
+        },
+        {
+          "arch": "amd64",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:3f9aac158c7de8dfcab171ea58a17aabdf7fbc93&dn=ubuntu-24.10-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-desktop-amd64.iso",
+          "file-size": 5665497088
+        },
+        {
+          "arch": "amd64",
+          "version": "24.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:3f11b26c738a374acf78d3def4067e37d91d5f67&dn=ubuntu-24.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso",
+          "file-size": 2098460672
         },
         {
           "arch": "amd64",
@@ -697,14 +737,6 @@
         },
         {
           "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:0f9a0717e0a89cf283c3b7814ec67557960d7803&dn=kubuntu-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/25.04/release/kubuntu-25.04-desktop-amd64.iso",
-          "file-size": 4699852800
-        },
-        {
-          "arch": "amd64",
           "version": "24.04.3",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:8fee4f29c900f23bb79beae5dbb1327ab0a13f4e&dn=lubuntu-24.04.3-desktop-amd64.iso",
@@ -713,27 +745,11 @@
         },
         {
           "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "LXQt",
-          "magnet-url": "magnet:?xt=urn:btih:21ea149c5be71398bffad9ef088ae665414b9037&dn=lubuntu-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/25.04/release/lubuntu-25.04-desktop-amd64.iso",
-          "file-size": 3344099328
-        },
-        {
-          "arch": "amd64",
           "version": "24.04.3",
           "desktop-environment": "Mate",
           "magnet-url": "magnet:?xt=urn:btih:d05715a53b0ae9afec3ebcbcc2a5d10c7c55e2f8&dn=ubuntu-mate-24.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso",
           "file-size": 4444039168
-        },
-        {
-          "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "Mate",
-          "magnet-url": "magnet:?xt=urn:btih:f96ec24df9376129de9e7b0d842b187e0b8815a0&dn=ubuntu-mate-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.04/release/ubuntu-mate-25.04-desktop-amd64.iso",
-          "file-size": 3724666880
         },
         {
           "arch": "amd64",
@@ -750,22 +766,6 @@
           "magnet-url": "magnet:?xt=urn:btih:9f2ee1bd9eacf0c372aabd3c8ea959e10b82452a&dn=xubuntu-24.04.3-minimal-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-minimal-amd64.iso",
           "file-size": 2837444608
-        },
-        {
-          "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:bdc7850e20eddd59bc0530ce334ef4be167ce9af&dn=xubuntu-25.04-desktop-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-desktop-amd64.iso",
-          "file-size": 4557887488
-        },
-        {
-          "arch": "amd64",
-          "version": "25.04",
-          "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:9c1a455c70c6a878545e448d4927b7d8f9bbedff&dn=xubuntu-25.04-minimal-amd64.iso",
-          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.04/release/xubuntu-25.04-minimal-amd64.iso",
-          "file-size": 2993717248
         }
       ],
       "trackers": [
