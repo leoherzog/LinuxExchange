@@ -127,7 +127,8 @@ function calculateLtsVersion() {
 function calculateNonLtsVersion() {
   let nonLtsYear = currentYear;
   let nonLtsMonth = currentMonth < 4 ? 10 : currentMonth < 10 ? 4 : 10;
-  nonLtsYear = (nonLtsYear - (nonLtsMonth === 10 ? 1 : 0)) % 100; // Adjust year for October releases
+  // Only adjust year down if we're before April and referring to last year's October
+  nonLtsYear = (nonLtsYear - (currentMonth < 4 ? 1 : 0)) % 100;
   return nonLtsYear + '.' + nonLtsMonth.toString().padStart(2, '0');
 }
 
