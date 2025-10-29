@@ -313,7 +313,7 @@
           "arch": "amd64",
           "version": "43",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:31cced2b6cca313b3d336e56eb4bd1cd6c107ec3&dn=Fedora-KDE-Desktop-Live-x86_64-43",
+          "magnet-url": "magnet:?xt=urn:btih:f079e7c793a6cef3ac1f439a9fd16a511253a785&dn=Fedora-KDE-Desktop-Live-x86_64-43",
           "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-KDE-Desktop-Live-x86_64-43-1.6.iso",
           "file-size": 3265843200
         },
