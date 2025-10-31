@@ -361,8 +361,8 @@
           "arch": "amd64",
           "version": "43",
           "desktop-environment": "Sugar",
-          "magnet-url": "magnet:?xt=urn:btih:0c10d3c4fd3b3cf4215eef5294b440061a9074b9&dn=Fedora-SoaS-Live-x86_64-43",
-          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-SoaS-Live-x86_64-43-1.6.iso",
+          "magnet-url": "magnet:?xt=urn:btih:8d32efd426d010742bde4f9d534e6beeeced548a&dn=Fedora-SoaS-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-SoaS-Live-43-1.6.x86_64.iso",
           "file-size": 2231660544
         },
         {
