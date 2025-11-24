@@ -533,51 +533,51 @@
       "versions": [
         {
           "arch": "arm",
-          "version": "2025-10-01",
+          "version": "2025-11-24",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:e20e62b320b75bdd54ecb8d7b618102e6b83ffce&dn=2025-10-01-raspios-trixie-arm64.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2025-10-02/2025-10-01-raspios-trixie-arm64.img.xz",
-          "file-size": 1331404452
+          "magnet-url": "magnet:?xt=urn:btih:cb9e241b43553b7d3d36f0045f79129fa318fe41&dn=2025-11-24-raspios-trixie-arm64.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-11-24/2025-11-24-raspios-trixie-arm64.img.xz",
+          "file-size": 1337044588
         },
         {
           "arch": "arm",
-          "version": "2025-10-01 with Recommended Software",
+          "version": "2025-11-24 with Recommended Software",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:c964d7ca5853fe8b061252022640e7d23025fc7d&dn=2025-10-01-raspios-trixie-arm64-full.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_full_arm64/images/raspios_full_arm64-2025-10-02/2025-10-01-raspios-trixie-arm64-full.img.xz",
-          "file-size": 2038329888
+          "magnet-url": "magnet:?xt=urn:btih:8f05a82a7540e4125a1638c339274d0602f6534f&dn=2025-11-24-raspios-trixie-arm64-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2025-11-24/2025-11-24-raspios-trixie-arm64-full.img.xz",
+          "file-size": 2023924396
         },
         {
           "arch": "arm",
-          "version": "2025-10-01",
+          "version": "2025-11-24",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:dcce63ddebdb073f96de0c066bb2d50d0774b21b&dn=2025-10-01-raspios-trixie-arm64-lite.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2025-10-02/2025-10-01-raspios-trixie-arm64-lite.img.xz",
-          "file-size": 498874192
+          "magnet-url": "magnet:?xt=urn:btih:626695470a3dd1b075ec75e891061de7a4a66d6c&dn=2025-11-24-raspios-trixie-arm64-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2025-11-24/2025-11-24-raspios-trixie-arm64-lite.img.xz",
+          "file-size": 517981172
         },
         {
           "arch": "arm",
-          "version": "2025-10-01 (32-Bit)",
+          "version": "2025-11-24 (32-Bit)",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:109fea5225d6fbdf6b9d2fe742e5bbcd73aa8755&dn=2025-10-01-raspios-trixie-armhf.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_armhf/images/raspios_armhf-2025-10-02/2025-10-01-raspios-trixie-armhf.img.xz",
-          "file-size": 1242822640
+          "magnet-url": "magnet:?xt=urn:btih:587cc65cf5d856b5d925e7f21f9293ffa4de09b1&dn=2025-11-24-raspios-trixie-armhf.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_armhf/images/raspios_armhf-2025-11-24/2025-11-24-raspios-trixie-armhf.img.xz",
+          "file-size": 1260060188
         },
         {
           "arch": "arm",
-          "version": "2025-10-01 with Recommended Software (32-Bit)",
+          "version": "2025-11-24 with Recommended Software (32-Bit)",
           "desktop-environment": "PIXEL",
-          "magnet-url": "magnet:?xt=urn:btih:b7a725de04bf37bcf832aecb6ea057568107c1d5&dn=2025-10-01-raspios-trixie-armhf-full.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_armhf/images/raspios_full_armhf-2025-10-02/2025-10-01-raspios-trixie-armhf-full.img.xz",
-          "file-size": 1973113884
+          "magnet-url": "magnet:?xt=urn:btih:a4c667b36bba49888fb865597b4d0457b09c241c&dn=2025-11-24-raspios-trixie-armhf-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_armhf/images/raspios_full_armhf-2025-11-24/2025-11-24-raspios-trixie-armhf-full.img.xz",
+          "file-size": 1981631684
         },
         {
           "arch": "arm",
-          "version": "2025-10-01 (32-Bit)",
+          "version": "2025-11-24 (32-Bit)",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:f333e2f82d7acbd577f6b321b1b5fc98188b2e8b&dn=2025-10-01-raspios-trixie-armhf-lite.img.xz",
-          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2025-10-02/2025-10-01-raspios-trixie-armhf-lite.img.xz",
-          "file-size": 523630040
+          "magnet-url": "magnet:?xt=urn:btih:c33e91a5e556dbd557b7f4c5228fa70fb218330c&dn=2025-11-24-raspios-trixie-armhf-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2025-11-24/2025-11-24-raspios-trixie-armhf-lite.img.xz",
+          "file-size": 529318396
         }
       ],
       "trackers": [
