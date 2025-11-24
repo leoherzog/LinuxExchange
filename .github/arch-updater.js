@@ -59,33 +59,33 @@ async function parseTorrentWithRetry(url, maxRetries = 3) {
 async function updateArch() {
   try {
     const feed = await fetchWithRetry('https://archlinux.org/feeds/releases/');
-    
+
     if (!feed || !feed.items || feed.items.length === 0) {
       console.log('No items found in RSS feed');
       return;
     }
 
     const latestItem = feed.items[0];
-    
+
     if (!latestItem.enclosure || !latestItem.enclosure.url) {
       console.log('No torrent URL found in latest release');
       return;
     }
 
     console.log(`Processing latest release: ${latestItem.title}`);
-    
+
     const parsedTorrent = await parseTorrentWithRetry(latestItem.enclosure.url);
-    
+
     var version = distros['distros'][distroIndex]['versions'][0];
 
     if (version['version'] != latestItem.title) {
       console.log(`Updating version from ${version['version']} to ${latestItem.title}`);
-      
+
       version['version'] = latestItem.title;
       version['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent.infoHash + '&dn=' + parsedTorrent.name;
       version['direct-download-url'] = 'https://mirrors.kernel.org/archlinux/iso/' + latestItem.title + '/' + parsedTorrent.name;
       version['file-size'] = null;
-      
+
       fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
       console.log('Successfully updated distros.json');
     } else {

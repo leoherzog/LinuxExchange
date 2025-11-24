@@ -1,7 +1,7 @@
-const fs = require('fs');
-const get = require('simple-get')
-const cheerio = require('cheerio');
-const parseTorrent = require('parse-torrent');
+import fs from 'fs';
+import get from 'simple-get';
+import cheerio from 'cheerio';
+import parseTorrent from 'parse-torrent';
 
 var distros = JSON.parse(fs.readFileSync('distros.json'));
 

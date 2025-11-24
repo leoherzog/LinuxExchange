@@ -20,12 +20,12 @@ var urls = [
 ];
 
 var desktopEnvironments = {
-  'ubuntu-budgie': 'Budgie',
-  kubuntu: 'KDE',
-  lubuntu: 'LXQt',
-  'ubuntu-mate': 'Mate',
-  xubuntu: 'Xfce',
-  ubuntu: 'Gnome',
+  "ubuntu-budgie": "Budgie",
+  "kubuntu": "KDE",
+  "lubuntu": "LXQt",
+  "ubuntu-mate": "Mate",
+  "xubuntu": "Xfce",
+  "ubuntu": "Gnome",
 };
 
 async function run() {
@@ -95,10 +95,10 @@ async function run() {
 
   let ltsVersion = calculateLtsVersion();
   const ltsIndex = distroVersions.findIndex((v) => {
-    return v.version.startsWith(ltsVersion) && 
-           v.arch === 'amd64' && 
-           v['desktop-environment'] === 'Gnome' &&
-           !v.version.includes('daily');
+    return v.version.startsWith(ltsVersion) &&
+      v.arch === 'amd64' &&
+      v['desktop-environment'] === 'Gnome' &&
+      !v.version.includes('daily');
   });
   if (ltsIndex === -1) {
     console.warn(`Warning: Could not find LTS version ${ltsVersion} for amd64 with Gnome desktop. Using latest version instead.`);

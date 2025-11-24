@@ -2,7 +2,7 @@ import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent, { remote } from 'parse-torrent';
 
-(async function() {
+(async function () {
   var distros = JSON.parse(fs.readFileSync('distros.json'));
 
   const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Fedora');
@@ -34,7 +34,7 @@ import parseTorrent, { remote } from 'parse-torrent';
 
   let currentVersionGroup = '';
 
-  torrentRows.each(function() {
+  torrentRows.each(function () {
     const tds = $(this).find('td');
     if (tds.length == 1 && $(tds[0]).hasClass('torrent')) {
       // This is a version group header

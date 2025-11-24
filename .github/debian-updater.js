@@ -21,7 +21,7 @@ function parseWebpage(url, body) {
   let $ = cheerio.load(body);
 
   let torrentLinks = [];
-  $('td > a').each(function(index, element) {
+  $('td > a').each(function (index, element) {
     if ($(this).text().includes('.torrent')) {
       torrentLinks.push(url + $(this).text());
     }
@@ -44,7 +44,7 @@ function updateVersion(err, parsedTorrent) {
   var arch = namepieces[3];
   var de = namepieces[4].replace('.iso', '');
 
-  let correspondingVersion = distros['distros'][distroIndex]['versions'].find(function(version) {
+  let correspondingVersion = distros['distros'][distroIndex]['versions'].find(function (version) {
     if (arch == "i386") arch = 'x86';
     if (de == "standard") de = 'no desktop environment';
     return version['arch'] == arch && version['desktop-environment'].toLowerCase() == de;

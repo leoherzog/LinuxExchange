@@ -35,6 +35,10 @@ jobs:
         run: node .github/ubuntu-updater.js
       - name: Add, Commit, and Push Ubuntu
         run: git add distros.json && git commit -m "Update Ubuntu" && git push || echo "No changes"
+      - name: Update Raspberry Pi OS
+        run: node .github/raspberry-pi-os-updater.js
+      - name: Add, Commit, and Push Raspberry Pi OS
+        run: git add distros.json && git commit -m "Update Raspberry Pi OS" && git push || echo "No changes"
     # - name: Update Elementary
     #   run: node .github/elementary-os-updater.js
     # - name: Add, Commit, and Push Elementary
