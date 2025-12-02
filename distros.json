@@ -159,7 +159,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:cdf37bb22c748fa8cb1594bdc39efed1bcd5cc31&dn=archlinux-2025.12.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso",
-          "file-size": null
+          "file-size": 1538670592
         }
       ],
       "trackers": [
