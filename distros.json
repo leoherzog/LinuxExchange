@@ -155,11 +155,11 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2025.12.01",
+          "version": "2026.01.01",
           "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:cdf37bb22c748fa8cb1594bdc39efed1bcd5cc31&dn=archlinux-2025.12.01-x86_64.iso",
-          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2025.12.01/archlinux-2025.12.01-x86_64.iso",
-          "file-size": 1538670592
+          "magnet-url": "magnet:?xt=urn:btih:1e873cd33f55737aaaefc0c282c428593c16e106&dn=archlinux-2026.01.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso",
+          "file-size": null
         }
       ],
       "trackers": [
