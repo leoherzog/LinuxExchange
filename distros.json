@@ -159,7 +159,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:1e873cd33f55737aaaefc0c282c428593c16e106&dn=archlinux-2026.01.01-x86_64.iso",
           "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2026.01.01/archlinux-2026.01.01-x86_64.iso",
-          "file-size": null
+          "file-size": 1538670592
         }
       ],
       "trackers": [
