@@ -16,6 +16,7 @@ var urls = [
   'https://cdimage.ubuntu.com/kubuntu/releases/{v}/release/',
   'https://cdimage.ubuntu.com/lubuntu/releases/{v}/release/',
   'https://cdimage.ubuntu.com/ubuntu-mate/releases/{v}/release/',
+  'https://cdimage.ubuntu.com/ubuntu-server/releases/{v}/release/',
   'https://cdimage.ubuntu.com/xubuntu/releases/{v}/release/',
 ];
 
@@ -25,6 +26,7 @@ var desktopEnvironments = {
   "lubuntu": "LXQt",
   "ubuntu-mate": "Mate",
   "xubuntu": "Xfce",
+  "live-server": "No Desktop Environment",
   "ubuntu": "Gnome",
 };
 
