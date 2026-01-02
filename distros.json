@@ -674,7 +674,7 @@
         {
           "arch": "amd64",
           "version": "24.04.3",
-          "desktop-environment": "Gnome",
+          "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:a1dfefec1a9dd7fa8a041ebeeea271db55126d2f&dn=ubuntu-24.04.3-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.3-live-server-amd64.iso",
           "file-size": 3303444480
@@ -690,7 +690,7 @@
         {
           "arch": "amd64",
           "version": "25.10",
-          "desktop-environment": "Gnome",
+          "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:ccbd47a30a5a13a5260295e4bd65c038244e9df0&dn=ubuntu-25.10-live-server-amd64.iso",
           "direct-download-url": "https://releases.ubuntu.com/25.10/ubuntu-25.10-live-server-amd64.iso",
           "file-size": 2283360256
