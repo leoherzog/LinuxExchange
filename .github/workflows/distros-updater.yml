@@ -39,6 +39,10 @@ jobs:
         run: node .github/raspberry-pi-os-updater.js
       - name: Add, Commit, and Push Raspberry Pi OS
         run: git add distros.json && git commit -m "Update Raspberry Pi OS" && git push || echo "No changes"
+      - name: Update Manjaro
+        run: node .github/manjaro-updater.js
+      - name: Add, Commit, and Push Manjaro
+        run: git add distros.json && git commit -m "Update Manjaro" && git push || echo "No changes"
     # - name: Update Elementary
     #   run: node .github/elementary-os-updater.js
     # - name: Add, Commit, and Push Elementary
