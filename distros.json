@@ -467,27 +467,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "26.0.1",
+          "version": "26.0.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:69beffb3859976dde38633abc785b53e06b27731&dn=manjaro-gnome-26.0.1-260114-linux618.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/26.0.1/manjaro-gnome-26.0.1-260114-linux618.iso",
-          "file-size": 5520138240
+          "magnet-url": "magnet:?xt=urn:btih:0c6969711a35a9abf43b48ba2255666e3b75858c&dn=manjaro-gnome-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/26.0.2/manjaro-gnome-26.0.2-260206-linux618.iso",
+          "file-size": 5557530624
         },
         {
           "arch": "amd64",
-          "version": "26.0.1",
+          "version": "26.0.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:ff13c03c763a45c83137b2a7155af741d7ac153d&dn=manjaro-kde-26.0.1-260114-linux618.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/26.0.1/manjaro-kde-26.0.1-260114-linux618.iso",
-          "file-size": 5674041344
+          "magnet-url": "magnet:?xt=urn:btih:a440efb9aea1a37fee785eb6dcfe9977e1e2b8d9&dn=manjaro-kde-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/26.0.2/manjaro-kde-26.0.2-260206-linux618.iso",
+          "file-size": 5706516480
         },
         {
           "arch": "amd64",
-          "version": "26.0.1",
+          "version": "26.0.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:1ccf87fb79f4865937f2592fb250de21dc3c8946&dn=manjaro-xfce-26.0.1-260114-linux618.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/26.0.1/manjaro-xfce-26.0.1-260114-linux618.iso",
-          "file-size": 5373202432
+          "magnet-url": "magnet:?xt=urn:btih:bfc1a4e8f932d8841673bf6dea6122301c6d1846&dn=manjaro-xfce-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/26.0.2/manjaro-xfce-26.0.2-260206-linux618.iso",
+          "file-size": 5405394944
         }
       ],
       "trackers": []
