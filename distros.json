@@ -645,7 +645,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 2,
+      "recommended-version-index": 3,
       "versions": [
         {
           "arch": "amd64",
@@ -654,6 +654,14 @@
           "magnet-url": "magnet:?xt=urn:btih:30a58da32e6b65b5b79f155cc3871a5921175816&dn=ubuntu-budgie-24.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso",
           "file-size": 4317884416
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:dae4b710b9dad11d21feb4c9c4b11584b7afb63d&dn=ubuntu-budgie-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.4-desktop-amd64.iso",
+          "file-size": 4402178048
         },
         {
           "arch": "amd64",
@@ -681,6 +689,22 @@
         },
         {
           "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:01c137287d6f0ed05a56742dae794f632c79ff3d&dn=ubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 6655619072
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:62a4d9e139f3315f8716bcccca0cc984a9809da1&dn=ubuntu-24.04.4-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-live-server-amd64.iso",
+          "file-size": 3405469696
+        },
+        {
+          "arch": "amd64",
           "version": "25.10",
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:c8295ce630f2064f08440db1534e4992cfe4862a&dn=ubuntu-25.10-desktop-amd64.iso",
@@ -705,6 +729,14 @@
         },
         {
           "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:299671d28121049a9265be9062d503c4d8402cfb&dn=kubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 4796542976
+        },
+        {
+          "arch": "amd64",
           "version": "25.10",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:92b187cdfc4d926a13e7620d44bd18695f0150fb&dn=kubuntu-25.10-desktop-amd64.iso",
@@ -721,6 +753,14 @@
         },
         {
           "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:c84b227d26b6c05f6ab92f5073d18a9cb84dacd6&dn=lubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 3452508160
+        },
+        {
+          "arch": "amd64",
           "version": "25.10",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:1235d8b8e4e0314c80ddd39c755d5582803c9609&dn=lubuntu-25.10-desktop-amd64.iso",
@@ -734,6 +774,14 @@
           "magnet-url": "magnet:?xt=urn:btih:d05715a53b0ae9afec3ebcbcc2a5d10c7c55e2f8&dn=ubuntu-mate-24.04.3-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso",
           "file-size": 4444039168
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Mate",
+          "magnet-url": "magnet:?xt=urn:btih:c761c94242082f8f45e85d5f470e9aa7ef848a55&dn=ubuntu-mate-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.4-desktop-amd64.iso",
+          "file-size": 4518877184
         },
         {
           "arch": "amd64",
@@ -758,6 +806,22 @@
           "magnet-url": "magnet:?xt=urn:btih:9f2ee1bd9eacf0c372aabd3c8ea959e10b82452a&dn=xubuntu-24.04.3-minimal-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-minimal-amd64.iso",
           "file-size": 2837444608
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3f5c78dcd67e54d3ce7bb31d8e77383b60142125&dn=xubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 4400175104
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3f0926f2f4a171d847cec6824781525be9e2d4d5&dn=xubuntu-24.04.4-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.4-minimal-amd64.iso",
+          "file-size": 2885177344
         },
         {
           "arch": "amd64",
