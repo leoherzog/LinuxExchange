@@ -262,7 +262,7 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:03148319face5909b193f1f980d0bcf9139a09ec&dn=elementaryos-8.1-stable-amd64.20260219.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-8.1-stable-amd64.20260219.iso",
-          "file-size": null
+          "file-size": 3335405568
         },
         {
           "arch": "arm",
@@ -270,7 +270,7 @@
           "desktop-environment": "Pantheon",
           "magnet-url": "magnet:?xt=urn:btih:90b3382caff769f4c7779ef90a5ab30eedda73d4&dn=elementaryos-8.1-stable-arm64.20260219.iso",
           "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-8.1-stable-arm64.20260219.iso",
-          "file-size": null
+          "file-size": 3191691264
         }
       ],
       "trackers": []
