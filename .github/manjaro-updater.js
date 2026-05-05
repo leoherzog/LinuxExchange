@@ -80,6 +80,11 @@ function parseFilename(title) {
     return null;
   }
 
+  // Skip pre-release versions (e.g. 26.1.0-pre, 26.1.0-rc1, -beta, -alpha)
+  if (/-(pre|rc|beta|alpha)/i.test(version)) {
+    return null;
+  }
+
   return { edition: edition.toLowerCase(), version, filename };
 }
 
