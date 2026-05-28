@@ -1,5 +1,5 @@
-import WebTorrent from 'https://cdn.jsdelivr.net/npm/webtorrent@2/dist/webtorrent.min.js';
-import {filesize} from 'https://cdn.jsdelivr.net/npm/filesize@10/dist/filesize.esm.min.js';
+import WebTorrent from 'https://cdn.jsdelivr.net/npm/webtorrent@3/dist/webtorrent.min.js';
+import {filesize} from 'https://cdn.jsdelivr.net/npm/filesize@11/dist/filesize.js';
 
 var client;
 var distros;
