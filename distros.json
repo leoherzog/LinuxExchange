@@ -666,14 +666,6 @@
         {
           "arch": "amd64",
           "version": "26.04",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e1fc140a6391357fa1cf08ddb70274f9c05eb88b&dn=ubuntu-26.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-live-server-amd64.iso",
-          "file-size": 2918598656
-        },
-        {
-          "arch": "amd64",
-          "version": "26.04",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:8c3e3376d945ec50487b2b49a690f4eb8af49cdf&dn=kubuntu-26.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04-desktop-amd64.iso",
