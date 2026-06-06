@@ -645,7 +645,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 1,
+      "recommended-version-index": -1,
       "versions": [
         {
           "arch": "amd64",
@@ -654,22 +654,6 @@
           "magnet-url": "magnet:?xt=urn:btih:f767f53c6c17aa80aaf8485683de4b765b62259b&dn=ubuntu-budgie-26.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.04/release/ubuntu-budgie-26.04-desktop-amd64.iso",
           "file-size": 4121487360
-        },
-        {
-          "arch": "amd64",
-          "version": "26.04",
-          "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:dafc8c076ca2f3ed376eeae7c76a0d6be2415c45&dn=ubuntu-26.04-desktop-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-desktop-amd64.iso",
-          "file-size": 6518974464
-        },
-        {
-          "arch": "amd64",
-          "version": "26.04",
-          "desktop-environment": "No Desktop Environment",
-          "magnet-url": "magnet:?xt=urn:btih:e1fc140a6391357fa1cf08ddb70274f9c05eb88b&dn=ubuntu-26.04-live-server-amd64.iso",
-          "direct-download-url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-live-server-amd64.iso",
-          "file-size": 2918598656
         },
         {
           "arch": "amd64",
