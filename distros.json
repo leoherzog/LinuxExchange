@@ -645,8 +645,16 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 0,
+      "recommended-version-index": 1,
       "versions": [
+        {
+          "arch": "amd64",
+          "version": "26.04",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:f767f53c6c17aa80aaf8485683de4b765b62259b&dn=ubuntu-budgie-26.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.04/release/ubuntu-budgie-26.04-desktop-amd64.iso",
+          "file-size": 4121487360
+        },
         {
           "arch": "amd64",
           "version": "26.04",
@@ -678,6 +686,22 @@
           "magnet-url": "magnet:?xt=urn:btih:e3fbc63821098e11d5be6230b737765980ac354d&dn=lubuntu-26.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/26.04/release/lubuntu-26.04-desktop-amd64.iso",
           "file-size": 3918290944
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:5030b3d1c3e802dd0f7b06833f7659c171a2449a&dn=xubuntu-26.04-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04-desktop-amd64.iso",
+          "file-size": 5183416320
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:08978342a032a9e7afd886075c9306a8573dff57&dn=xubuntu-26.04-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04-minimal-amd64.iso",
+          "file-size": 3225190400
         }
       ],
       "trackers": [
