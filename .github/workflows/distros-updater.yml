@@ -55,6 +55,10 @@ jobs:
         run: node .github/almalinux-updater.js
       - name: Add, Commit, and Push AlmaLinux
         run: git add distros.json && git commit -m "Update AlmaLinux" && git push || echo "No changes"
+      - name: Update Pop!_OS
+        run: node .github/pop-os-updater.js
+      - name: Add, Commit, and Push Pop!_OS
+        run: git add distros.json && git commit -m "Update Pop!_OS" && git push || echo "No changes"
     # - name: Update Elementary
     #   run: node .github/elementary-os-updater.js
     # - name: Add, Commit, and Push Elementary
