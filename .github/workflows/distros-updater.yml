@@ -51,6 +51,10 @@ jobs:
         run: node .github/kali-updater.js
       - name: Add, Commit, and Push Kali
         run: git add distros.json && git commit -m "Update Kali" && git push || echo "No changes"
+      - name: Update AlmaLinux
+        run: node .github/almalinux-updater.js
+      - name: Add, Commit, and Push AlmaLinux
+        run: git add distros.json && git commit -m "Update AlmaLinux" && git push || echo "No changes"
     # - name: Update Elementary
     #   run: node .github/elementary-os-updater.js
     # - name: Add, Commit, and Push Elementary
