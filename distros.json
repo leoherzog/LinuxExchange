@@ -645,7 +645,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 1,
+      "recommended-version-index": 2,
       "versions": [
         {
           "arch": "amd64",
@@ -654,6 +654,14 @@
           "magnet-url": "magnet:?xt=urn:btih:f767f53c6c17aa80aaf8485683de4b765b62259b&dn=ubuntu-budgie-26.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.04/release/ubuntu-budgie-26.04-desktop-amd64.iso",
           "file-size": 4121487360
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:5a3971c963393a0d6a93106fa16c645843fc554d&dn=ubuntu-budgie-26.04.1-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.04/release/ubuntu-budgie-26.04.1-desktop-amd64.iso",
+          "file-size": 4127838208
         },
         {
           "arch": "amd64",
@@ -681,11 +689,27 @@
         },
         {
           "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:7751f52345b9a0b4bc03782611b9e676d63ce294&dn=kubuntu-26.04.1-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/26.04/release/kubuntu-26.04.1-desktop-amd64.iso",
+          "file-size": 5072990208
+        },
+        {
+          "arch": "amd64",
           "version": "26.04",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:e3fbc63821098e11d5be6230b737765980ac354d&dn=lubuntu-26.04-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/26.04/release/lubuntu-26.04-desktop-amd64.iso",
           "file-size": 3918290944
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:aabb2304138444112c2189a5916067b8791d37d5&dn=lubuntu-26.04.1-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/26.04/release/lubuntu-26.04.1-desktop-amd64.iso",
+          "file-size": 3927552000
         },
         {
           "arch": "amd64",
@@ -702,6 +726,30 @@
           "magnet-url": "magnet:?xt=urn:btih:08978342a032a9e7afd886075c9306a8573dff57&dn=xubuntu-26.04-minimal-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04-minimal-amd64.iso",
           "file-size": 3225190400
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:f27a4e4455123e71d411b3941a7d68dfb098354f&dn=xubuntu-26.04.1-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04.1-desktop-amd64.iso",
+          "file-size": 5186390016
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:564961ad9297d5689ba94dd4e6d5ad258d9cc1ff&dn=xubuntu-26.04.1-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04.1-minimal-amd64.iso",
+          "file-size": 3232614400
+        },
+        {
+          "arch": "riscv64",
+          "version": "26.04.1",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:e09bc7b2862904908b03e9695762deeaaa056105&dn=xubuntu-26.04.1-minimal-riscv64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04.1-minimal-riscv64.iso",
+          "file-size": 3102081024
         }
       ],
       "trackers": [
