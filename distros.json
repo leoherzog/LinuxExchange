@@ -681,6 +681,22 @@
         },
         {
           "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:5b1e0d988fc7a0c9e99bd852071681a59974b39f&dn=ubuntu-26.04.1-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/26.04/ubuntu-26.04.1-desktop-amd64.iso",
+          "file-size": 6482409472
+        },
+        {
+          "arch": "amd64",
+          "version": "26.04.1",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:e4f19cf636409b72571766c2ae89c98fc21a109d&dn=ubuntu-26.04.1-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/26.04/ubuntu-26.04.1-live-server-amd64.iso",
+          "file-size": 2927861760
+        },
+        {
+          "arch": "amd64",
           "version": "26.04",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:8c3e3376d945ec50487b2b49a690f4eb8af49cdf&dn=kubuntu-26.04-desktop-amd64.iso",
