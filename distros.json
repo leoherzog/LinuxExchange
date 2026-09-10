@@ -467,27 +467,27 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "26.1.1",
+          "version": "26.1.2",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:01ff1c4c2206bd2560fd7fc95c436fb8cf87cb45&dn=manjaro-gnome-26.1.1-260825-linux71.iso",
-          "direct-download-url": "https://download.manjaro.org/gnome/26.1.1/manjaro-gnome-26.1.1-260825-linux71.iso",
-          "file-size": 5308901376
+          "magnet-url": "magnet:?xt=urn:btih:e88fedb1dc10c62670e90bc5fe586a8ce605df1a&dn=manjaro-gnome-26.1.2-260910-linux71.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/26.1.2/manjaro-gnome-26.1.2-260910-linux71.iso",
+          "file-size": 5327650816
         },
         {
           "arch": "amd64",
-          "version": "26.1.1",
+          "version": "26.1.2",
           "desktop-environment": "KDE",
-          "magnet-url": "magnet:?xt=urn:btih:eeb4ddb7be6fdaa7859d868c0169cfe4883a28cd&dn=manjaro-kde-26.1.1-260825-linux71.iso",
-          "direct-download-url": "https://download.manjaro.org/kde/26.1.1/manjaro-kde-26.1.1-260825-linux71.iso",
-          "file-size": 5535119360
+          "magnet-url": "magnet:?xt=urn:btih:e10343d5c47e7fbab1d743cd6ca06ea76524f641&dn=manjaro-kde-26.1.2-260910-linux71.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/26.1.2/manjaro-kde-26.1.2-260910-linux71.iso",
+          "file-size": 5550184448
         },
         {
           "arch": "amd64",
-          "version": "26.1.1",
+          "version": "26.1.2",
           "desktop-environment": "Xfce",
-          "magnet-url": "magnet:?xt=urn:btih:44abb498500f44d9f2eae1f2f45f332a19e5a5e4&dn=manjaro-xfce-26.1.1-260825-linux71.iso",
-          "direct-download-url": "https://download.manjaro.org/xfce/26.1.1/manjaro-xfce-26.1.1-260825-linux71.iso",
-          "file-size": 5151119360
+          "magnet-url": "magnet:?xt=urn:btih:4a36a95d8eb1c212104552a42b57f74cf79d1751&dn=manjaro-xfce-26.1.2-260910-linux71.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/26.1.2/manjaro-xfce-26.1.2-260910-linux71.iso",
+          "file-size": 5171830784
         }
       ],
       "trackers": []
