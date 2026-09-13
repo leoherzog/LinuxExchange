@@ -183,7 +183,7 @@
           "desktop-environment": "Cinnamon",
           "magnet-url": "magnet:?xt=urn:btih:c9aadecd13fbd99d7ffbfdc44c1a6448c0213088&dn=debian-live-13.7.0-amd64-cinnamon.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-cinnamon.iso",
-          "file-size": null
+          "file-size": 4115103744
         },
         {
           "arch": "amd64",
@@ -191,7 +191,7 @@
           "desktop-environment": "Gnome",
           "magnet-url": "magnet:?xt=urn:btih:0697aa4c78e1237966925f250c2189eac36020f2&dn=debian-live-13.7.0-amd64-gnome.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-gnome.iso",
-          "file-size": null
+          "file-size": 3804708864
         },
         {
           "arch": "amd64",
@@ -199,7 +199,7 @@
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:b3c432c4c2c85a0c41659a4cc2f165703fcc53fe&dn=debian-live-13.7.0-amd64-kde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-kde.iso",
-          "file-size": null
+          "file-size": 4186112000
         },
         {
           "arch": "amd64",
@@ -207,7 +207,7 @@
           "desktop-environment": "LXDE",
           "magnet-url": "magnet:?xt=urn:btih:78fb2a1b08069f2dd415302b7ab517bb82eb3619&dn=debian-live-13.7.0-amd64-lxde.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-lxde.iso",
-          "file-size": null
+          "file-size": 3800989696
         },
         {
           "arch": "amd64",
@@ -215,7 +215,7 @@
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:6261faad35da019e2a44d6e354034dc52ce53d0d&dn=debian-live-13.7.0-amd64-lxqt.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-lxqt.iso",
-          "file-size": null
+          "file-size": 3994091520
         },
         {
           "arch": "amd64",
@@ -223,7 +223,7 @@
           "desktop-environment": "MATE",
           "magnet-url": "magnet:?xt=urn:btih:124ebf9b7d7e2881dec9f91d8bd8b2c62cc2b945&dn=debian-live-13.7.0-amd64-mate.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-mate.iso",
-          "file-size": null
+          "file-size": 3964551168
         },
         {
           "arch": "amd64",
@@ -231,7 +231,7 @@
           "desktop-environment": "No Desktop Environment",
           "magnet-url": "magnet:?xt=urn:btih:e3da5bd17fb26f462e1d3e01247f38d3df2c4fd0&dn=debian-live-13.7.0-amd64-standard.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-standard.iso",
-          "file-size": null
+          "file-size": 2020130816
         },
         {
           "arch": "amd64",
@@ -239,7 +239,7 @@
           "desktop-environment": "Xfce",
           "magnet-url": "magnet:?xt=urn:btih:8b3b328db6514130fe3401f029b4076837eedb13&dn=debian-live-13.7.0-amd64-xfce.iso",
           "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.7.0-amd64-xfce.iso",
-          "file-size": null
+          "file-size": 3826974720
         }
       ],
       "trackers": [
