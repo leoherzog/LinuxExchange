@@ -645,7 +645,7 @@
       "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
       "description": "One of the most popular choices. A stable and widely-supported distro.",
       "font-logos-icon": "fl-ubuntu",
-      "recommended-version-index": 2,
+      "recommended-version-index": 3,
       "versions": [
         {
           "arch": "amd64",
@@ -662,6 +662,14 @@
           "magnet-url": "magnet:?xt=urn:btih:5a3971c963393a0d6a93106fa16c645843fc554d&dn=ubuntu-budgie-26.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.04/release/ubuntu-budgie-26.04.1-desktop-amd64.iso",
           "file-size": 4127838208
+        },
+        {
+          "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:8f5425cc22bfa39a0e20d4812717a688f8762534&dn=ubuntu-budgie-26.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/26.10/release/ubuntu-budgie-26.10-desktop-amd64.iso",
+          "file-size": 4188016640
         },
         {
           "arch": "amd64",
@@ -713,6 +721,22 @@
         },
         {
           "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:def7006974f228ca39c44c806a0fb839a0469c97&dn=ubuntu-26.10-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/26.10/ubuntu-26.10-desktop-amd64.iso",
+          "file-size": 6615449600
+        },
+        {
+          "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:d38bff48ae4427cc596c56ceb713947e1e502220&dn=ubuntu-26.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/26.10/ubuntu-26.10-live-server-amd64.iso",
+          "file-size": 2897321984
+        },
+        {
+          "arch": "amd64",
           "version": "26.04",
           "desktop-environment": "KDE",
           "magnet-url": "magnet:?xt=urn:btih:8c3e3376d945ec50487b2b49a690f4eb8af49cdf&dn=kubuntu-26.04-desktop-amd64.iso",
@@ -729,6 +753,14 @@
         },
         {
           "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:51ebf7e13fcc32b10ea27f64d3bfa98283b26d5f&dn=kubuntu-26.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/26.10/release/kubuntu-26.10-desktop-amd64.iso",
+          "file-size": 5141966848
+        },
+        {
+          "arch": "amd64",
           "version": "26.04",
           "desktop-environment": "LXQt",
           "magnet-url": "magnet:?xt=urn:btih:e3fbc63821098e11d5be6230b737765980ac354d&dn=lubuntu-26.04-desktop-amd64.iso",
@@ -742,6 +774,14 @@
           "magnet-url": "magnet:?xt=urn:btih:aabb2304138444112c2189a5916067b8791d37d5&dn=lubuntu-26.04.1-desktop-amd64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/26.04/release/lubuntu-26.04.1-desktop-amd64.iso",
           "file-size": 3927552000
+        },
+        {
+          "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:0b2052eba244f5bdc9086d0f519eb169b1e32e13&dn=lubuntu-26.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/26.10/release/lubuntu-26.10-desktop-amd64.iso",
+          "file-size": 3996559360
         },
         {
           "arch": "amd64",
@@ -782,6 +822,30 @@
           "magnet-url": "magnet:?xt=urn:btih:e09bc7b2862904908b03e9695762deeaaa056105&dn=xubuntu-26.04.1-minimal-riscv64.iso",
           "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.04/release/xubuntu-26.04.1-minimal-riscv64.iso",
           "file-size": 3102081024
+        },
+        {
+          "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:543c7712b8188b06bffa72f780307f5a3cb4e200&dn=xubuntu-26.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.10/release/xubuntu-26.10-desktop-amd64.iso",
+          "file-size": 5282123776
+        },
+        {
+          "arch": "amd64",
+          "version": "26.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:5825487183291e22ad66a286e8570158b691b1a4&dn=xubuntu-26.10-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.10/release/xubuntu-26.10-minimal-amd64.iso",
+          "file-size": 3314157568
+        },
+        {
+          "arch": "riscv64",
+          "version": "26.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:40ef7c7dfe8e7dcfcc3e1293331653cbdc9d055b&dn=xubuntu-26.10-minimal-riscv64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/26.10/release/xubuntu-26.10-minimal-riscv64.iso",
+          "file-size": 3183869952
         }
       ],
       "trackers": [
