@@ -96,8 +96,11 @@ function onDistroChange() {
   version.selectedIndex = selectedDistro['recommended-version-index'];
 
   let textColor = isDark(selectedDistro['primary-color']) ? '#fff' : '#0D191F';
-  header.setAttribute('style', 'color: ' + textColor + ';background:' + selectedDistro['primary-color']);
-  source.setAttribute('style', 'color: ' + textColor + ';');
+  header.removeAttribute('style');
+  header.style.color = textColor;
+  header.style.background = selectedDistro['primary-color'];
+  source.removeAttribute('style');
+  source.style.color = textColor;
 
   onVersionChange();
 
@@ -118,24 +121,18 @@ function onVersionChange() {
 
   let selectedDesktopEnvironment = distros['desktop-environments'][selectedVersion['desktop-environment']];
   
-  versionNumber.innerHTML = selectedDistro['full-name'] + ' ' + selectedVersion['version'];
+  versionNumber.textContent = selectedDistro['full-name'] + ' ' + selectedVersion['version'];
   if (selectedDistro['font-logos-icon']) {
-    versionNumber.innerHTML = '<span class="' + selectedDistro['font-logos-icon'] +'"></span> ' + versionNumber.innerHTML;
+    let icon = document.createElement('span');
+    icon.className = selectedDistro['font-logos-icon'];
+    versionNumber.prepend(icon, ' ');
   }
   versionNumber.setAttribute('title', selectedDistro['description']);
-  if (selectedDistro['url']) {
-    versionNumber.setAttribute('onclick', 'window.open("' + selectedDistro['url'] + '", "_blank")');
-  } else {
-    versionNumber.setAttribute('onclick', '');
-  }
+  versionNumber.onclick = selectedDistro['url'] ? () => window.open(selectedDistro['url'], '_blank') : null;
 
-  desktopEnvironment.innerHTML = selectedVersion['desktop-environment'];
+  desktopEnvironment.textContent = selectedVersion['desktop-environment'];
   desktopEnvironment.setAttribute('title', selectedDesktopEnvironment['description']);
-  if (selectedDesktopEnvironment['url']) {
-    desktopEnvironment.setAttribute('onclick', 'window.open("' + selectedDesktopEnvironment['url'] + '", "_blank")');
-  } else {
-    desktopEnvironment.setAttribute('onclick', '');
-  }
+  desktopEnvironment.onclick = selectedDesktopEnvironment['url'] ? () => window.open(selectedDesktopEnvironment['url'], '_blank') : null;
 
   arch.innerHTML = selectedVersion['arch'];
   arch.setAttribute('title', distros['architectures'][selectedVersion['arch']]);
