@@ -398,19 +398,19 @@
       "versions": [
         {
           "arch": "amd64",
-          "version": "2026.2",
+          "version": "2026.3",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:83f92aecfa3d92d3df79a5661ad8efb57282b48b&dn=kali-linux-2026.2-installer-amd64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2026.2/kali-linux-2026.2-installer-amd64.iso",
-          "file-size": 4802531328
+          "magnet-url": "magnet:?xt=urn:btih:cc15c0be1a8732fedcc0c1ccd42e27246a14854b&dn=kali-linux-2026.3-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2026.3/kali-linux-2026.3-installer-amd64.iso",
+          "file-size": 5047031808
         },
         {
           "arch": "arm",
-          "version": "2026.2 Apple Silicon",
+          "version": "2026.3 Apple Silicon",
           "desktop-environment": "Gnome",
-          "magnet-url": "magnet:?xt=urn:btih:930a5a1733f83de1663750700abb34be9d37805e&dn=kali-linux-2026.2-installer-arm64.iso",
-          "direct-download-url": "https://kali.download/base-images/kali-2026.2/kali-linux-2026.2-installer-arm64.iso",
-          "file-size": 3972624384
+          "magnet-url": "magnet:?xt=urn:btih:259b879dab7d86e25a583e2b0991e0faac26190f&dn=kali-linux-2026.3-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2026.3/kali-linux-2026.3-installer-arm64.iso",
+          "file-size": 4051513344
         }
       ],
       "trackers": [
