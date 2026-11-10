@@ -24,10 +24,7 @@ import parseTorrent, { remote } from 'parse-torrent';
 
   // Fetch the torrent directory listing
   const listingUrl = 'https://torrent.fedoraproject.org/torrents/';
-  const response = await fetch(listingUrl);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch ${listingUrl}: ${response.status} ${response.statusText}`);
-  }
+  const response = await fetchWithRetry(listingUrl);
   const body = await response.text();
 
   const $ = cheerio.load(body);
@@ -88,10 +85,7 @@ import parseTorrent, { remote } from 'parse-torrent';
     try {
       console.log(`  Processing: ${torrentInfo.spinName} ${torrentInfo.arch} v${torrentInfo.version}`);
       // Fetch the torrent file
-      const torrentResponse = await fetch(torrentInfo.torrentUrl);
-      if (!torrentResponse.ok) {
-        throw new Error(`Failed to fetch torrent file: ${torrentResponse.statusText}`);
-      }
+      const torrentResponse = await fetchWithRetry(torrentInfo.torrentUrl);
       const torrentBuffer = await torrentResponse.arrayBuffer();
 
       // Parse the torrent buffer
@@ -108,6 +102,20 @@ import parseTorrent, { remote } from 'parse-torrent';
   fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 
 })();
+
+async function fetchWithRetry(url, maxRetries = 3) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
+      return response;
+    } catch (error) {
+      console.error(`Attempt ${i + 1} to fetch ${url} failed:`, error.message);
+      if (i === maxRetries - 1) throw error;
+      await new Promise(resolve => setTimeout(resolve, 1000 * 2 ** i));
+    }
+  }
+}
 
 async function updateVersion(torrentInfo, parsedTorrent, distro) {
 
