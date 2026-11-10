@@ -1,6 +1,6 @@
 import fs from 'fs';
 import * as cheerio from 'cheerio';
-import { remote } from 'parse-torrent';
+import parseTorrent from 'parse-torrent';
 
 const DISTRO_NAME = 'Kali';
 const LISTING_URL = 'https://cdimage.kali.org/current/';
@@ -14,19 +14,41 @@ const targets = [
   { arch: 'arm', isoArch: 'arm64', versionSuffix: ' Apple Silicon' },
 ];
 
-async function fetchPage(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'Wget/' } });
-  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
-  return res.text();
+async function fetchWithRetry(url, maxRetries = 3) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': 'Wget/' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      return res;
+    } catch (error) {
+      console.error(`Attempt ${i + 1} to fetch ${url} failed:`, error.message);
+      if (i === maxRetries - 1) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** i));
+    }
+  }
 }
 
-function parseTorrentRemote(url) {
-  return new Promise((resolve, reject) => {
-    remote(url, (err, parsedTorrent) => {
-      if (err) reject(err);
-      else resolve(parsedTorrent);
-    });
-  });
+async function fetchPage(url) {
+  return (await fetchWithRetry(url)).text();
+}
+
+// Fetch from kali.download rather than cdimage.kali.org, which redirects to a random
+// mirror that occasionally serves a non-torrent response. Retry if the body isn't bencoded.
+async function fetchTorrent(url, maxRetries = 3) {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      const res = await fetchWithRetry(url);
+      const buffer = Buffer.from(await res.arrayBuffer());
+      if (buffer[0] !== 0x64 /* 'd' */) {
+        throw new Error(`Response from ${res.url} is not a torrent (content-type: ${res.headers.get('content-type')})`);
+      }
+      return await parseTorrent(buffer);
+    } catch (error) {
+      console.error(`Attempt ${i + 1} to parse torrent ${url} failed:`, error.message);
+      if (i === maxRetries - 1) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** i));
+    }
+  }
 }
 
 async function run() {
@@ -61,7 +83,7 @@ async function run() {
       continue;
     }
 
-    const parsedTorrent = await parseTorrentRemote(new URL(torrentName, LISTING_URL).href);
+    const parsedTorrent = await fetchTorrent(BASE_DOWNLOAD_URL.replace('{v}', version) + torrentName);
     const isoName = parsedTorrent.name;
 
     entry.version = version + target.versionSuffix;
