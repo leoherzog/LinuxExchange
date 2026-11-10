@@ -22,71 +22,56 @@ import parseTorrent, { remote } from 'parse-torrent';
     { name: 'Fedora Xfce Live', desktopEnvironment: 'Xfce', arch: 'amd64' },
   ];
 
-  // Fetch the webpage
-  const response = await fetch('https://torrent.fedoraproject.org/');
+  // Fetch the torrent directory listing
+  const listingUrl = 'https://torrent.fedoraproject.org/torrents/';
+  const response = await fetch(listingUrl);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${listingUrl}: ${response.status} ${response.statusText}`);
+  }
   const body = await response.text();
 
   const $ = cheerio.load(body);
 
-  const torrentRows = $('table tr');
+  // Map archStr to 'amd64' or 'arm'
+  const archMap = {
+    'x86_64': 'amd64',
+    'aarch64': 'arm',
+  };
 
   let torrentsToProcess = [];
 
-  let currentVersionGroup = '';
+  $('a[href$=".torrent"]').each(function () {
+    const fileName = $(this).attr('href');
 
-  torrentRows.each(function () {
-    const tds = $(this).find('td');
-    if (tds.length == 1 && $(tds[0]).hasClass('torrent')) {
-      // This is a version group header
-      currentVersionGroup = $(tds[0]).text().trim();
-    } else if (tds.length == 5) {
-      const link = $(tds[0]).find('a').attr('href');
-      const fileName = $(tds[0]).text().trim();
-      const description = $(tds[1]).text().trim();
-      const size = $(tds[2]).text().trim();
-      const date = $(tds[4]).text().trim();
+    // e.g., Fedora-KDE-Desktop-Live-x86_64-45.torrent (skips Beta and other non-numeric versions)
+    const match = fileName.match(/^Fedora-(.+)-(x86_64|aarch64)-(\d+)\.torrent$/);
+    if (!match) return;
 
-      if (fileName.toLowerCase().includes('beta')) return;
+    const [, spinSlug, archStr, version] = match;
 
-      // Extract spin, arch, version from description
-      const descriptionParts = description.split(' '); // e.g., ['Fedora', 'Cinnamon', 'Live', 'x86_64', '41']
+    // Build a spinName, e.g., 'Fedora KDE Desktop Live'
+    const spinName = 'Fedora ' + spinSlug.replaceAll('-', ' ');
+    const arch = archMap[archStr];
 
-      // Build a spinName, e.g., 'Fedora Cinnamon Live'
-      const spinName = descriptionParts.slice(0, -2).join(' '); // Remove last two elements (arch and version)
+    // Now, see if spinName and arch match any of our desiredSpins
+    const matchingSpin = desiredSpins.find(spin => spin.name === spinName && spin.arch === arch);
 
-      const archStr = descriptionParts[descriptionParts.length - 2]; // e.g., 'x86_64' or 'aarch64' or 'ppc64le', etc.
-      const version = descriptionParts[descriptionParts.length - 1]; // e.g., '41' or '41_Beta'
-
-      // Map archStr to 'amd64' or 'arm'
-      const archMap = {
-        'x86_64': 'amd64',
-        'aarch64': 'arm',
-      };
-
-      const arch = archMap[archStr] || archStr;
-
-      // Now, see if spinName and arch match any of our desiredSpins
-      const matchingSpin = desiredSpins.find(spin => spin.name === spinName && spin.arch === arch);
-
-      if (matchingSpin) {
-        // Get the torrent URL
-        const torrentUrl = link.startsWith('http') ? link : 'https://torrent.fedoraproject.org/' + link;
-
-        // Save this info to process later
-        torrentsToProcess.push({
-          desktopEnvironment: matchingSpin.desktopEnvironment,
-          arch,
-          version: version,
-          torrentUrl,
-          date,
-          description,
-          fileName,
-          archStr, // original arch string (e.g., x86_64, aarch64)
-          spinName,
-        });
-      }
+    if (matchingSpin) {
+      torrentsToProcess.push({
+        desktopEnvironment: matchingSpin.desktopEnvironment,
+        arch,
+        version,
+        torrentUrl: new URL(fileName, listingUrl).href,
+        fileName,
+        archStr, // original arch string (e.g., x86_64, aarch64)
+        spinName,
+      });
     }
   });
+
+  if (torrentsToProcess.length === 0) {
+    throw new Error(`No matching Fedora torrents found at ${listingUrl}; the page format may have changed.`);
+  }
 
   // Find the latest version number
   const latestVersion = torrentsToProcess.reduce((maxVersion, torrent) => {
@@ -148,6 +133,8 @@ async function updateVersion(torrentInfo, parsedTorrent, distro) {
   let spinDir;
   if (desktopEnvironment === 'Gnome') {
     spinDir = 'Workstation';
+  } else if (desktopEnvironment === 'KDE') {
+    spinDir = 'KDE';
   } else if (desktopEnvironment === 'No Desktop Environment') {
     spinDir = 'Server';
   } else {
