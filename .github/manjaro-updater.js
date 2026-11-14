@@ -52,7 +52,7 @@ async function fetchTorrentWithRetry(url, maxRetries = 3) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
       const torrentBuffer = await response.arrayBuffer();
-      const parsedTorrent = parseTorrent(Buffer.from(torrentBuffer));
+      const parsedTorrent = await parseTorrent(Buffer.from(torrentBuffer));
       console.log('  Successfully parsed torrent');
       return parsedTorrent;
     } catch (error) {

@@ -84,7 +84,7 @@ async function fetchTorrent(version, edition) {
 
   const response = await fetchWithRetry(torrentUrl);
   const torrentBuffer = await response.arrayBuffer();
-  const parsed = parseTorrent(Buffer.from(torrentBuffer));
+  const parsed = await parseTorrent(Buffer.from(torrentBuffer));
 
   console.log(`  Successfully parsed torrent: ${parsed.name}`);
 

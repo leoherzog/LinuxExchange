@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "cheerio": "^1.1.2",
-    "parse-torrent": "^10.0.2",
+    "cheerio": "^1.2.0",
+    "parse-torrent": "^11.0.24",
     "rss-parser": "^3.13.0"
   },
   "type": "module"

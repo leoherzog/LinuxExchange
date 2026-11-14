@@ -7,12 +7,12 @@ var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Elementary');
 
-get.concat('https://elementary.io/', (err, res, body) => {
+get.concat('https://elementary.io/', async (err, res, body) => {
 
   if (err) throw err;
 
   let $ = cheerio.load(body);
-  let parsed = parseTorrent($('.magnet')[0].attribs['href']);
+  let parsed = await parseTorrent($('.magnet')[0].attribs['href']);
   let version = distros.distros[distroIndex]['versions'][0];
 
   if (parsed['name'] !== version['magnet-url'].split('&dn=')[1]) {

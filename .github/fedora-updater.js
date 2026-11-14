@@ -89,7 +89,7 @@ import { readCatalog, writeCatalog } from './catalog.js';
       const torrentBuffer = await torrentResponse.arrayBuffer();
 
       // Parse the torrent buffer
-      const parsedTorrent = parseTorrent(Buffer.from(torrentBuffer));
+      const parsedTorrent = await parseTorrent(Buffer.from(torrentBuffer));
 
       await updateVersion(torrentInfo, parsedTorrent, distros['distros'][distroIndex]);
 
