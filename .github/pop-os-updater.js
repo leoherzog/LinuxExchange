@@ -1,4 +1,4 @@
-import fs from 'fs';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 const DISTRO_NAME = 'Pop!_OS';
 // System76 publishes builds through a small JSON API; there are no torrents, so
@@ -23,9 +23,9 @@ async function fetchBuild(url) {
 };
 
 async function run() {
-  const distros = JSON.parse(fs.readFileSync('distros.json'));
+  const distros = readCatalog();
   const distroIndex = distros.distros.findIndex((d) => d.name === DISTRO_NAME);
-  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in distros.json`);
+  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in the catalog`);
 
   for (const entry of distros.distros[distroIndex].versions) {
     const baseVersion = (entry.version.match(/^(\d+\.\d+)/) || [])[1];
@@ -53,7 +53,7 @@ async function run() {
     entry['file-size'] = build.size || null;
   }
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update Pop!_OS');
 }
 
 run().catch((err) => {

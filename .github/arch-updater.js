@@ -1,8 +1,8 @@
-import fs from 'fs'
 import Parser from 'rss-parser';
 import parseTorrent, { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
-var distros = JSON.parse(fs.readFileSync('distros.json'));
+var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Arch');
 
@@ -86,8 +86,8 @@ async function updateArch() {
       version['direct-download-url'] = 'https://mirrors.kernel.org/archlinux/iso/' + latestItem.title + '/' + parsedTorrent.name;
       version['file-size'] = null;
 
-      fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
-      console.log('Successfully updated distros.json');
+      writeCatalog(distros, 'Update Arch');
+      console.log('Successfully updated the catalog');
     } else {
       console.log('Version is already up to date');
     }

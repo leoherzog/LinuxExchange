@@ -1,12 +1,12 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent, { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
 const currentMonth = currentDate.getMonth() + 1;
 
-var distros = JSON.parse(fs.readFileSync('distros.json'));
+var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex((distro) => distro['name'] == 'Ubuntu');
 
@@ -134,7 +134,7 @@ async function run() {
 
   // console.log(parsedTorrents.length);
 
-  // turn those parsed torrent objects into the format we want to store in the distros.json file
+  // turn those parsed torrent objects into the format we want to store in the catalog
   let distroVersions = parsedTorrents.map(({ parsedTorrent, sourceUrl }) => {
     let name = parsedTorrent['name'];
     let nameParts = name.replace('.iso', '').split('-');
@@ -151,7 +151,7 @@ async function run() {
 
   // bail out rather than overwrite good data with an empty list if every mirror/torrent failed
   if (distroVersions.length === 0) {
-    throw new Error('No Ubuntu versions could be retrieved; leaving distros.json unchanged.');
+    throw new Error('No Ubuntu versions could be retrieved; leaving the catalog unchanged.');
   }
 
   distros['distros'][distroIndex]['versions'] = distroVersions;
@@ -173,7 +173,7 @@ async function run() {
     distros['distros'][distroIndex]['recommended-version-index'] = ltsIndex;
   }
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update Ubuntu');
 }
 
 function calculateCurrentVersions() {

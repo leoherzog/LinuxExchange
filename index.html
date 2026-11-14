@@ -35,6 +35,9 @@
     <link href="lx.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/font-logos@0/assets/font-logos.min.css" rel="stylesheet">
+    <!-- Fetches SQLite early. Both URLs must carry the same version as the import in db.js, or each file downloads twice. -->
+    <link href="https://cdn.jsdelivr.net/npm/@sqlite.org/sqlite-wasm@3.54.1-build1/dist/index.min.mjs" rel="modulepreload" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/@sqlite.org/sqlite-wasm@3.54.1-build1/dist/sqlite3.wasm" rel="preload" as="fetch" crossorigin>
 
     <script defer src="https://kit.fontawesome.com/3150158421.js" crossorigin="anonymous"></script>
 

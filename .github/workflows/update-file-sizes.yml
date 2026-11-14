@@ -3,8 +3,15 @@ name: File Sizes Updater
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
   schedule:
     - cron: '0 0 * * *'
+
+# Shared with distros-updater.yml so only one job writes distros.db at a time.
+concurrency:
+  group: catalog-db
+  queue: max
 
 jobs:
 
@@ -12,9 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v7
+      with:
+        # A queued run would otherwise check out the commit that triggered it and fail to push.
+        ref: ${{ github.ref }}
     - name: Get Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v7
       with:
         node-version: latest
     - name: Configure Git
@@ -22,4 +32,4 @@ jobs:
     - name: Add missing file sizes
       run: node .github/update-file-sizes.js
     - name: Add, Commit, and Push
-      run: git add distros.json && git commit -m "Add Missing File Sizes" && git push || echo "No changes"
+      run: git add distros.db && git commit -m "Add Missing File Sizes" && git push || echo "No changes"

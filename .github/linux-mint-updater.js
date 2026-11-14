@@ -1,8 +1,8 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
-var distros = JSON.parse(fs.readFileSync('distros.json'));
+var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Linux Mint');
 
@@ -140,9 +140,8 @@ async function updateLinuxMint() {
       }
     }
 
-    // Write updated distros.json
-    fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
-    console.log('\nSuccessfully updated distros.json');
+    writeCatalog(distros, 'Update Linux Mint');
+    console.log('\nSuccessfully updated the catalog');
 
   } catch (error) {
     console.error('Failed to update Linux Mint information:', error);

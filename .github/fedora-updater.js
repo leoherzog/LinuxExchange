@@ -1,9 +1,9 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent, { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 (async function () {
-  var distros = JSON.parse(fs.readFileSync('distros.json'));
+  var distros = readCatalog();
 
   const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Fedora');
 
@@ -98,8 +98,7 @@ import parseTorrent, { remote } from 'parse-torrent';
     }
   }
 
-  // Write the updated distros.json
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update Fedora');
 
 })();
 

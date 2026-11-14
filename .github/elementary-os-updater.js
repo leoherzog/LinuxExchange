@@ -1,9 +1,9 @@
-import fs from 'fs';
 import get from 'simple-get';
 import cheerio from 'cheerio';
 import parseTorrent from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
-var distros = JSON.parse(fs.readFileSync('distros.json'));
+var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Elementary');
 
@@ -24,7 +24,7 @@ get.concat('https://elementary.io/', (err, res, body) => {
     version['direct-download-url'] = 'https:' + url.join('/');
     version['file-size'] = null;
 
-    fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+    writeCatalog(distros, 'Update Elementary OS');
 
   }
 

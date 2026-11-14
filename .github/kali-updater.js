@@ -1,6 +1,6 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 const DISTRO_NAME = 'Kali';
 const LISTING_URL = 'https://cdimage.kali.org/current/';
@@ -52,9 +52,9 @@ async function fetchTorrent(url, maxRetries = 3) {
 }
 
 async function run() {
-  const distros = JSON.parse(fs.readFileSync('distros.json'));
+  const distros = readCatalog();
   const distroIndex = distros.distros.findIndex((d) => d.name === DISTRO_NAME);
-  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in distros.json`);
+  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in the catalog`);
 
   const body = await fetchPage(LISTING_URL);
   const $ = cheerio.load(body);
@@ -79,7 +79,7 @@ async function run() {
 
     const entry = distros.distros[distroIndex].versions.find((v) => v.arch === target.arch);
     if (!entry) {
-      console.warn(`Skipping ${target.arch}: no matching version entry in distros.json.`);
+      console.warn(`Skipping ${target.arch}: no matching version entry in the catalog.`);
       continue;
     }
 
@@ -92,7 +92,7 @@ async function run() {
     entry['file-size'] = parsedTorrent.length || null;
   }
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update Kali');
 }
 
 run().catch((err) => {

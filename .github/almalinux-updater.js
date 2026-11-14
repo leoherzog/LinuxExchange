@@ -1,6 +1,6 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 const DISTRO_NAME = 'AlmaLinux';
 // The /<major>/ directory is a symlink to the latest point release, and holds a
@@ -22,9 +22,9 @@ function parseTorrentRemote(url) {
 }
 
 async function run() {
-  const distros = JSON.parse(fs.readFileSync('distros.json'));
+  const distros = readCatalog();
   const distroIndex = distros.distros.findIndex((d) => d.name === DISTRO_NAME);
-  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in distros.json`);
+  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in the catalog`);
 
   for (const entry of distros.distros[distroIndex].versions) {
     const major = parseInt(entry.version, 10);
@@ -61,7 +61,7 @@ async function run() {
     entry['file-size'] = parsedTorrent.length || null;
   }
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update AlmaLinux');
 }
 
 run().catch((err) => {

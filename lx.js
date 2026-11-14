@@ -1,5 +1,6 @@
 import WebTorrent from 'https://cdn.jsdelivr.net/npm/webtorrent@3/dist/webtorrent.min.js';
 import {filesize} from 'https://cdn.jsdelivr.net/npm/filesize@11/dist/filesize.js';
+import {loadCatalog} from './db.js';
 
 var client;
 var distros;
@@ -24,8 +25,7 @@ async function load() {
   updateNodeStatus('loading', 'Fetching info about Distros...');
 
   try {
-    let res = await fetch('distros.json');
-    distros = await res.json();
+    distros = await loadCatalog();
   }
   catch(e) {
     updateNodeStatus('error', 'Problem loading Distros information. ' + e.toString());

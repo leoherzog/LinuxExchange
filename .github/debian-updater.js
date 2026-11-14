@@ -1,8 +1,8 @@
-import fs from 'fs';
 import * as cheerio from 'cheerio';
 import parseTorrent, { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
-var distros = JSON.parse(fs.readFileSync('distros.json'));
+var distros = readCatalog();
 
 const distroIndex = distros['distros'].findIndex(distro => distro['name'] == 'Debian');
 
@@ -12,8 +12,9 @@ var urls = ["https://cdimage.debian.org/debian-cd/current-live/amd64/bt-hybrid/"
 async function run() {
   for (var url of urls) {
     let body = await fetch(url).then(x => x.text());
-    parseWebpage(url, body);
+    await parseWebpage(url, body);
   }
+  writeCatalog(distros, 'Update Debian');
 }
 
 function parseWebpage(url, body) {
@@ -27,17 +28,14 @@ function parseWebpage(url, body) {
     }
   });
 
-  for (var link of torrentLinks) {
-    remote(link, updateVersion);
-  }
-
-  return;
+  // Versions change only once every torrent has parsed, so one failure writes nothing.
+  return Promise.all(torrentLinks.map(link => new Promise((resolve, reject) => {
+    remote(link, (err, parsedTorrent) => err ? reject(err) : resolve(parsedTorrent));
+  }))).then(parsedTorrents => parsedTorrents.forEach(updateVersion));
 
 }
 
-function updateVersion(err, parsedTorrent) {
-
-  if (err) throw err;
+function updateVersion(parsedTorrent) {
 
   var namepieces = parsedTorrent['name'].split("-");
   var versionNumber = namepieces[2];
@@ -65,8 +63,6 @@ function updateVersion(err, parsedTorrent) {
     correspondingVersion['magnet-url'] = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + parsedTorrent['name'];
     correspondingVersion['direct-download-url'] = 'https://cdimage.debian.org/debian-cd/current-live/' + arch + '/iso-hybrid/' + parsedTorrent['name'];
     correspondingVersion['file-size'] = null;
-
-    fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
 
   }
 

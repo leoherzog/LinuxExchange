@@ -1,5 +1,5 @@
-import fs from 'fs';
 import parseTorrent, { remote } from 'parse-torrent';
+import { readCatalog, writeCatalog } from './catalog.js';
 
 const DISTRO_NAME = 'Raspberry Pi OS';
 const SOURCE_URL = 'https://downloads.raspberrypi.org/operating-systems-categories.json';
@@ -10,10 +10,6 @@ async function fetchJson(url) {
     throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
   }
   return res.json();
-}
-
-function loadDistros() {
-  return JSON.parse(fs.readFileSync('distros.json'));
 }
 
 function isVersion32bit(versionObj) {
@@ -62,9 +58,9 @@ async function torrentToMagnet(url) {
 }
 
 async function run() {
-  const distros = loadDistros();
+  const distros = readCatalog();
   const distroIndex = distros.distros.findIndex((d) => d.name === DISTRO_NAME);
-  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in distros.json`);
+  if (distroIndex === -1) throw new Error(`${DISTRO_NAME} not found in the catalog`);
 
   const data = await fetchJson(SOURCE_URL);
   const images = data
@@ -101,7 +97,7 @@ async function run() {
     distros.distros[distroIndex]['recommended-version-index'] = recommended;
   }
 
-  fs.writeFileSync('distros.json', JSON.stringify(distros, null, 2));
+  writeCatalog(distros, 'Update Raspberry Pi OS');
 }
 
 run().catch((err) => {
