@@ -6,7 +6,6 @@ import { DatabaseSync } from 'node:sqlite';
 import { fileURLToPath } from 'node:url';
 import { isDeepStrictEqual } from 'node:util';
 
-const schema = readFileSync(new URL('schema.sql', import.meta.url), 'utf8');
 const base32 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
 
 /**
@@ -52,7 +51,7 @@ export function readCatalog() {
 
 /**
  * Makes the database's current state equal to `catalog`, recording one revision if anything changed.
- * Throws when distros.db is missing, since only import-history.js may create it.
+ * Throws when distros.db is missing.
  * @param {object} catalog in the shape readCatalog returns
  * @param {string} subject what made the change, such as "Update Arch"
  * @returns {boolean} whether anything changed; when false the file is left untouched
@@ -62,49 +61,31 @@ export function writeCatalog(catalog, subject) {
   // The round trip unwraps values such as new Number(...) and drops undefined before comparing.
   const normalized = JSON.parse(JSON.stringify(catalog));
   assertCatalog(normalized);
-  return recordRevisions([{ catalog: normalized, subject, recordedAt: Math.floor(Date.now() / 1000) }]) > 0;
-}
-
-/**
- * Applies catalogs in order, recording a revision for each one that changes the database.
- * Only import-history.js calls this directly; it does not validate the catalogs.
- * @param {{catalog: object, subject: string, recordedAt: number, commitSha?: string}[]} revisions
- * @param {{fresh?: boolean}} options fresh builds from an empty database and replaces the file; nothing else creates it
- * @returns {number} how many revisions were recorded; the file is untouched when this is 0
- */
-export function recordRevisions(revisions, { fresh = false } = {}) {
   const target = databasePath();
-  const exists = existsSync(target);
-  if (!fresh && !exists) throw missing(target);
-  if (fresh && exists) assertNoDirectWrites(target);
+  if (!existsSync(target)) throw missing(target);
+  // The write runs on a copy that replaces the file only on success, so a crash never leaves a partial database.
   const work = `${target}.tmp`;
   const discard = () => ['', '-journal'].forEach(suffix => rmSync(work + suffix, { force: true }));
   discard();
-  if (!fresh) copyFileSync(target, work);
+  copyFileSync(target, work);
   let db;
-  let recorded = 0;
+  let changed = false;
   try {
     db = new DatabaseSync(work);
     // The page opens the file with sqlite3_deserialize, which cannot read a WAL-mode database.
     db.exec('PRAGMA journal_mode = DELETE');
     db.exec('BEGIN');
-    if (fresh) db.exec(schema);
-    const statements = prepare(db);
-    for (const revision of revisions) {
-      if (record(db, statements, revision)) recorded++;
-    }
-    db.exec(recorded ? 'COMMIT' : 'ROLLBACK');
-    // Only a fresh build is vacuumed, because vacuuming every write roughly doubles the pages each git commit rewrites.
-    if (recorded && fresh) db.exec('VACUUM');
+    changed = record(db, prepare(db), normalized, subject);
+    db.exec(changed ? 'COMMIT' : 'ROLLBACK');
     db.close();
   } catch (error) {
     if (db?.isOpen) db.close();
     discard();
     throw error;
   }
-  if (recorded) renameSync(work, target);
+  if (changed) renameSync(work, target);
   else discard();
-  return recorded;
+  return changed;
 }
 
 /**
@@ -130,7 +111,7 @@ function openForReading() {
  * @returns {Error} the error for a database file that does not exist
  */
 function missing(path) {
-  return new Error(`${path} does not exist. Check CATALOG_DB and the working directory; only import-history.js creates the file.`);
+  return new Error(`${path} does not exist. Check CATALOG_DB and the working directory; nothing creates the file.`);
 }
 
 /**
@@ -187,13 +168,14 @@ function assertCatalog(catalog) {
  * Applies one catalog as a revision inside a savepoint, rolling it back when no row changed.
  * @param {DatabaseSync} db open inside a transaction
  * @param {Record<string, import('node:sqlite').StatementSync>} s prepared statements
- * @param {{catalog: object, subject: string, recordedAt: number, commitSha?: string}} revision
+ * @param {object} catalog
+ * @param {string} subject
  * @returns {boolean} whether the revision was kept
  */
-function record(db, s, { catalog, subject, recordedAt, commitSha = null }) {
+function record(db, s, catalog, subject) {
   db.exec('SAVEPOINT revision');
   const before = s.totalChanges.get().n;
-  const rev = Number(s.revision.run(recordedAt, subject, commitSha).lastInsertRowid);
+  const rev = Number(s.revision.run(Math.floor(Date.now() / 1000), subject).lastInsertRowid);
   apply(s, rev, catalog);
   // The revision insert is one change; every statement in apply skips rows it would not alter.
   const changed = s.totalChanges.get().n - before > 1;
@@ -210,7 +192,7 @@ function record(db, s, { catalog, subject, recordedAt, commitSha = null }) {
 function prepare(db) {
   const sql = {
     totalChanges: 'SELECT total_changes() AS n',
-    revision: 'INSERT INTO revision (recorded_at, subject, commit_sha) VALUES (?, ?, ?)',
+    revision: 'INSERT INTO revision (recorded_at, subject) VALUES (?, ?)',
     architecture: `INSERT INTO architecture (name, description) VALUES (?, ?)
       ON CONFLICT (name) DO UPDATE SET description = excluded.description WHERE description IS NOT excluded.description`,
     desktopEnvironment: `INSERT INTO desktop_environment (key, name, description, url) VALUES (?, ?, ?, ?)

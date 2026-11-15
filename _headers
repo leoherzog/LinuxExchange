@@ -1,0 +1,3 @@
+# Cloudflare compresses only an allowlist of content types, which has no SQLite type. This label is on it.
+/distros.db
+  Content-Type: application/x-protobuf

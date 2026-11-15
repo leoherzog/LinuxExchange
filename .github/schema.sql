@@ -1,5 +1,5 @@
 -- Linux Exchange catalog: the images the site offers now, and every image it has listed and when.
--- catalog.js applies this file to an empty database. The page reads the current_* views and the architecture, desktop_environment, and tracker tables.
+-- This file documents the schema of distros.db, which catalog.js writes. The page reads the current_* views and the architecture, desktop_environment, and tracker tables.
 
 PRAGMA user_version = 1;
 
