@@ -5,13 +5,60 @@ on:
   schedule:
     - cron: '0 */4 * * *'
 
-# Shared with update-file-sizes.yml so only one job writes distros.db at a time.
+# Shared with update-file-sizes.yml so only one run writes distros.db at a time.
 concurrency:
   group: catalog-db
   queue: max
 
 jobs:
-  update-distros:
+  update:
+    name: Update ${{ matrix.distro }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { distro: Arch, script: arch-updater.js }
+          - { distro: Debian, script: debian-updater.js }
+          - { distro: Fedora, script: fedora-updater.js }
+          - { distro: Ubuntu, script: ubuntu-updater.js }
+          - { distro: Raspberry Pi OS, script: raspberry-pi-os-updater.js }
+          - { distro: Manjaro, script: manjaro-updater.js }
+          - { distro: Linux Mint, script: linux-mint-updater.js }
+          - { distro: Kali, script: kali-updater.js }
+          - { distro: AlmaLinux, script: almalinux-updater.js }
+          - { distro: Pop!_OS, script: pop-os-updater.js }
+          - { distro: Rocky Linux, script: rocky-linux-updater.js }
+          # - { distro: Elementary, script: elementary-os-updater.js }
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+        with:
+          # A queued run would otherwise check out the commit that triggered it.
+          ref: ${{ github.ref }}
+      - name: Get Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: latest
+      - name: Install libraries
+        run: npm install rss-parser cheerio parse-torrent
+      - name: Update ${{ matrix.distro }}
+        run: node .github/${{ matrix.script }}
+      # Every job edits the same binary database, so each hands only its distro's entry to the commit job.
+      - name: Save ${{ matrix.distro }} entry
+        run: git diff --quiet distros.db || node .github/distro-entry.js save "${{ matrix.distro }}" "entry-${{ strategy.job-index }}.json"
+      - name: Upload ${{ matrix.distro }} entry
+        uses: actions/upload-artifact@v7
+        with:
+          name: entry-${{ strategy.job-index }}
+          path: entry-${{ strategy.job-index }}.json
+          if-no-files-found: ignore
+          retention-days: 1
+
+  commit:
+    needs: update
+    # Runs after a failed updater so the distros that did update still get committed.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -23,75 +70,20 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: latest
-      - name: Install libraries
-        run: npm install rss-parser cheerio parse-torrent
       - name: Configure Git
         run: git config --global user.name "Leo Herzog" && git config --global user.email "xd1936@gmail.com"
-      - name: Update Arch
-        run: node .github/arch-updater.js
-      - name: Add, Commit, and Push Arch
-        run: git add distros.db && git commit -m "Update Arch" && git push || echo "No changes"
-      - name: Update Debian
-        if: ${{ !cancelled() }}
-        run: node .github/debian-updater.js
-      - name: Add, Commit, and Push Debian
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Debian" && git push || echo "No changes"
-      - name: Update Fedora
-        if: ${{ !cancelled() }}
-        run: node .github/fedora-updater.js
-      - name: Add, Commit, and Push Fedora
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Fedora" && git push || echo "No changes"
-      - name: Update Ubuntu
-        if: ${{ !cancelled() }}
-        run: node .github/ubuntu-updater.js
-      - name: Add, Commit, and Push Ubuntu
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Ubuntu" && git push || echo "No changes"
-      - name: Update Raspberry Pi OS
-        if: ${{ !cancelled() }}
-        run: node .github/raspberry-pi-os-updater.js
-      - name: Add, Commit, and Push Raspberry Pi OS
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Raspberry Pi OS" && git push || echo "No changes"
-      - name: Update Manjaro
-        if: ${{ !cancelled() }}
-        run: node .github/manjaro-updater.js
-      - name: Add, Commit, and Push Manjaro
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Manjaro" && git push || echo "No changes"
-      - name: Update Linux Mint
-        if: ${{ !cancelled() }}
-        run: node .github/linux-mint-updater.js
-      - name: Add, Commit, and Push Linux Mint
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Linux Mint" && git push || echo "No changes"
-      - name: Update Kali
-        if: ${{ !cancelled() }}
-        run: node .github/kali-updater.js
-      - name: Add, Commit, and Push Kali
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Kali" && git push || echo "No changes"
-      - name: Update AlmaLinux
-        if: ${{ !cancelled() }}
-        run: node .github/almalinux-updater.js
-      - name: Add, Commit, and Push AlmaLinux
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update AlmaLinux" && git push || echo "No changes"
-      - name: Update Pop!_OS
-        if: ${{ !cancelled() }}
-        run: node .github/pop-os-updater.js
-      - name: Add, Commit, and Push Pop!_OS
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Pop!_OS" && git push || echo "No changes"
-      - name: Update Rocky Linux
-        if: ${{ !cancelled() }}
-        run: node .github/rocky-linux-updater.js
-      - name: Add, Commit, and Push Rocky Linux
-        if: ${{ !cancelled() }}
-        run: git add distros.db && git commit -m "Update Rocky Linux" && git push || echo "No changes"
-    # - name: Update Elementary
-    #   run: node .github/elementary-os-updater.js
-    # - name: Add, Commit, and Push Elementary
-    #   run: git add distros.db && git commit -m "Update Elementary OS" && git push || echo "No changes"
+      - name: Download entries
+        uses: actions/download-artifact@v8
+        with:
+          pattern: entry-*
+          path: entries
+          merge-multiple: true
+      - name: Commit and Push
+        run: |
+          for entry in entries/*.json; do
+            [ -e "$entry" ] || continue
+            subject=$(node .github/distro-entry.js apply "$entry") || { failed=1; continue; }
+            git add distros.db && git commit -m "$subject" || echo "No changes"
+          done
+          git push
+          exit ${failed:-0}
