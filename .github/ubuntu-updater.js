@@ -35,6 +35,33 @@ const REQUEST_TIMEOUT_MS = 30000;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+// Ubuntu builds are numbered like 26.04, 26.04.1 or the respin 24.04.5.1.
+const buildPattern = /^\d+(\.\d+)+$/;
+const prereleasePattern = /^(beta|rc|snapshot\d*)$/;
+
+/**
+ * Keeps the newest build of each image, since release directories also hold superseded point releases and betas.
+ * @param {Array<{torrentUrl: string, version: string}>} links torrent links tagged with their release series
+ * @returns {Array} the links no newer build of the same image in the same series replaces, in their original order
+ */
+function newestBuilds(links) {
+  let builds = links.map((link) => {
+    let parts = new URL(link.torrentUrl).pathname.split('/').pop().replace(/\.iso\.torrent$/, '').split('-');
+    return {
+      link,
+      image: [link.version, ...parts.filter((part) => !buildPattern.test(part) && !prereleasePattern.test(part))].join('-'),
+      number: parts.find((part) => buildPattern.test(part)) ?? '',
+      final: !parts.some((part) => prereleasePattern.test(part)),
+    };
+  });
+  let isNewer = (a, b) => (a.number.localeCompare(b.number, 'en', { numeric: true }) || a.final - b.final) > 0;
+  let newest = new Map();
+  for (let build of builds) {
+    if (!newest.has(build.image) || isNewer(build, newest.get(build.image))) newest.set(build.image, build);
+  }
+  return builds.filter((build) => newest.get(build.image) === build).map((build) => build.link);
+}
+
 async function withRetry(label, fn) {
   let lastError;
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
@@ -111,6 +138,8 @@ async function run() {
     }
   }
 
+  torrentFileLinks = newestBuilds(torrentFileLinks);
+
   // console.log(torrentFileLinks.map((link) => link.torrentUrl));
 
   // turn those torrent file urls into parsed torrent objects; a single torrent
@@ -138,7 +167,7 @@ async function run() {
   let distroVersions = parsedTorrents.map(({ parsedTorrent, sourceUrl }) => {
     let name = parsedTorrent['name'];
     let nameParts = name.replace('.iso', '').split('-');
-    let version = nameParts.find(part => /^\d+\.\d+(\.\d+)?$/.test(part));
+    let version = nameParts.find(part => buildPattern.test(part));
     let arch = nameParts[nameParts.length - 1];
     let de = desktopEnvironments[Object.keys(desktopEnvironments).find((key) => name.includes(key))];
     let magnetUrl = 'magnet:?xt=urn:btih:' + parsedTorrent['infoHash'] + '&dn=' + name;
